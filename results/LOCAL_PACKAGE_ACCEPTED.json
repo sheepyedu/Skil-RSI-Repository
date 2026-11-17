@@ -1,0 +1,11 @@
+{
+  "time": 1794848037.246663,
+  "payload_files": 50720,
+  "archive_entries": 50721,
+  "archive_bytes": 905688718,
+  "sha256": "560fe301ba065ecb6a1e1cc63f3ecf911a51b86db0596cc66ba1f73145bf2509",
+  "payload_sha_crc_verified": true,
+  "local_verified_time": 1794848590.989127,
+  "local_all_payloads_sha_crc_verified": true,
+  "local_archive_path": "/Users/mac/Desktop/work agent skill rsi/runtime/clbench-continuous-context-100x2-20261116/ROLLOUTS_200.zip"
+}

@@ -1,0 +1,151 @@
+{
+  "time": 1794846999.1147723,
+  "arms": {
+    "grouped": {
+      "tasks": 100,
+      "passed": 43,
+      "complete": true,
+      "responses": 656,
+      "tool_calls": 546,
+      "local_file_calls": 155,
+      "notes_target_calls": 153,
+      "notes_target_nonerror_calls": 149,
+      "memory_tool_distribution": {
+        "Write": 6,
+        "Read": 17,
+        "Edit": 129,
+        "Glob": 3
+      },
+      "compact_boundaries": 9,
+      "hook_events": 18,
+      "context_event_distribution": {
+        "compact_boundary": 9
+      },
+      "summary_requests": 9,
+      "unavailable_tool_attempts": 1,
+      "bridge_rejected_requests": 9,
+      "family": {
+        "blind_spectrum_monitoring": {
+          "tasks": 30,
+          "passed": 0,
+          "mean_reward": 0.42107666666666665
+        },
+        "codebase_adaptation": {
+          "tasks": 7,
+          "passed": 7,
+          "mean_reward": 0.8464285714285714
+        },
+        "cohort_studies": {
+          "tasks": 6,
+          "passed": 4,
+          "mean_reward": 0.0281545
+        },
+        "database_exploration": {
+          "tasks": 13,
+          "passed": 11,
+          "mean_reward": 0.5179461538461538
+        },
+        "exploitable_poker": {
+          "tasks": 40,
+          "passed": 17,
+          "mean_reward": 0.3125
+        },
+        "sales_prediction": {
+          "tasks": 4,
+          "passed": 4,
+          "mean_reward": 0.7701
+        }
+      },
+      "input_tokens": 55264093,
+      "output_tokens": 1067730,
+      "unknown_input_usage_requests": 0,
+      "unknown_output_usage_requests": 0,
+      "finish_distribution": {
+        "tool_calls": 546,
+        "stop": 109,
+        "length": 1
+      },
+      "native_context_window": 200000,
+      "max_input_tokens": 166840,
+      "session_id": "5789cfa5-1636-492c-8884-cfa05eda9a88",
+      "billing_money": null
+    },
+    "shuffled": {
+      "tasks": 100,
+      "passed": 41,
+      "complete": true,
+      "responses": 777,
+      "tool_calls": 669,
+      "local_file_calls": 180,
+      "notes_target_calls": 177,
+      "notes_target_nonerror_calls": 162,
+      "memory_tool_distribution": {
+        "Write": 23,
+        "Read": 51,
+        "Edit": 101,
+        "Glob": 3,
+        "Grep": 2
+      },
+      "compact_boundaries": 10,
+      "hook_events": 20,
+      "context_event_distribution": {
+        "compact_boundary": 10
+      },
+      "summary_requests": 10,
+      "unavailable_tool_attempts": 0,
+      "bridge_rejected_requests": 28,
+      "family": {
+        "blind_spectrum_monitoring": {
+          "tasks": 30,
+          "passed": 0,
+          "mean_reward": 0.21731333333333333
+        },
+        "codebase_adaptation": {
+          "tasks": 7,
+          "passed": 7,
+          "mean_reward": 0.7
+        },
+        "cohort_studies": {
+          "tasks": 6,
+          "passed": 5,
+          "mean_reward": 0.014966
+        },
+        "database_exploration": {
+          "tasks": 13,
+          "passed": 11,
+          "mean_reward": 0.5128230769230769
+        },
+        "exploitable_poker": {
+          "tasks": 40,
+          "passed": 17,
+          "mean_reward": 0.1125
+        },
+        "sales_prediction": {
+          "tasks": 4,
+          "passed": 1,
+          "mean_reward": 0.473275
+        }
+      },
+      "input_tokens": 71096751,
+      "output_tokens": 943340,
+      "unknown_input_usage_requests": 0,
+      "unknown_output_usage_requests": 0,
+      "finish_distribution": {
+        "tool_calls": 666,
+        "stop": 110,
+        "length": 1
+      },
+      "native_context_window": 200000,
+      "max_input_tokens": 167914,
+      "session_id": "f5cc8bb4-e777-4cfc-853c-d2e274acf644",
+      "billing_money": null
+    }
+  },
+  "source_files_verified": 39,
+  "paired_initial_inputs": {
+    "compared": 100,
+    "equal": 100,
+    "different": []
+  },
+  "complete": true
+}

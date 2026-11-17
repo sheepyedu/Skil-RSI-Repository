@@ -1,0 +1,121 @@
+{
+  "archive_name": "ROLLOUTS_200.zip",
+  "archive_bytes": 905688718,
+  "archive_sha256": "560fe301ba065ecb6a1e1cc63f3ecf911a51b86db0596cc66ba1f73145bf2509",
+  "payload_files": 50720,
+  "archive_entries": 50721,
+  "part_bytes": 50331648,
+  "parts": [
+    {
+      "path": "parts/ROLLOUTS_200.zip.part001",
+      "bytes": 50331648,
+      "sha256": "edb700dfc1f5e9cb4a2f7d1b074d7b5099cc4e9661ead04cd69bebb915e096bb",
+      "git_blob_sha1": "e57b1d643d9b831dadf7df1b8a4a201c69bef8b6"
+    },
+    {
+      "path": "parts/ROLLOUTS_200.zip.part002",
+      "bytes": 50331648,
+      "sha256": "43b3ebf014d20f4796c3703d41ce536535087018d8f3ff2761c88902e26266d0",
+      "git_blob_sha1": "bca815b341d62da3fcd30efea1147f795f9862ed"
+    },
+    {
+      "path": "parts/ROLLOUTS_200.zip.part003",
+      "bytes": 50331648,
+      "sha256": "1f6b4768ccd84159cc966dd9f81d34d4d2085ee5ed3fbb2fd1ff8bf5b68becf1",
+      "git_blob_sha1": "c3112a3360437959c9752f9f36a2e47f65c5a73c"
+    },
+    {
+      "path": "parts/ROLLOUTS_200.zip.part004",
+      "bytes": 50331648,
+      "sha256": "4c08294823f875f1c773c21b8f0cdfcf1b0d28a5e0575ac45f7601a95c615549",
+      "git_blob_sha1": "c34aaf88b493b2ce2f757ac8649b6db81a75a1da"
+    },
+    {
+      "path": "parts/ROLLOUTS_200.zip.part005",
+      "bytes": 50331648,
+      "sha256": "8bf8a48a04b9c8f9cdc94ecaa263781e3aefc515b6eec53a6fbedf40c04dacb0",
+      "git_blob_sha1": "6ddc9cb4679c07c015a326acceb7e956f7464197"
+    },
+    {
+      "path": "parts/ROLLOUTS_200.zip.part006",
+      "bytes": 50331648,
+      "sha256": "7f48fcb54979a65793ff23172fa36db2ac93b17ae56d61ab7ede2cd03a9bb6b3",
+      "git_blob_sha1": "e0bc3b6108de32a1ed456015865574e399f59773"
+    },
+    {
+      "path": "parts/ROLLOUTS_200.zip.part007",
+      "bytes": 50331648,
+      "sha256": "8fa5f794dbc57988145e7c5a5edbb9b0d948ffe8d9609d991c04934d0130004a",
+      "git_blob_sha1": "053f8cd296eeb6b71a3b2ab530efe3d974507bd2"
+    },
+    {
+      "path": "parts/ROLLOUTS_200.zip.part008",
+      "bytes": 50331648,
+      "sha256": "ebfd71221331adae2bcbae5d9544fd6b6b60056a28ac7ca77a945d6d1ccfc3a1",
+      "git_blob_sha1": "b6b1bf1e5715949e3290929ac739a0816d5f7b08"
+    },
+    {
+      "path": "parts/ROLLOUTS_200.zip.part009",
+      "bytes": 50331648,
+      "sha256": "6e4be624639c9bcf583da3ee50c2e8f33bde27364ddd550af5174790df35d058",
+      "git_blob_sha1": "eb10e7b5a2f9a019d6987d295600734fcbf68a71"
+    },
+    {
+      "path": "parts/ROLLOUTS_200.zip.part010",
+      "bytes": 50331648,
+      "sha256": "1fc4f1a1cf468abca42114e7652eb5bf3c88f763f11509e03230e0cbb30dd6bb",
+      "git_blob_sha1": "a688b42981eb9fd57e64e82c031d9c83c6d99656"
+    },
+    {
+      "path": "parts/ROLLOUTS_200.zip.part011",
+      "bytes": 50331648,
+      "sha256": "2126175c43b5ec3eccd53b904cc6258c329284704e5f0646120ed8653bc9c119",
+      "git_blob_sha1": "7af7c0451a863c8821f698c4f6a0f4957a27cd69"
+    },
+    {
+      "path": "parts/ROLLOUTS_200.zip.part012",
+      "bytes": 50331648,
+      "sha256": "9bafdca2b9b69ea61bdb5ad32512c701ebac67544e225fe3c8bdcc225819521c",
+      "git_blob_sha1": "3ccce75120275607c805274ffd5a66d6c1d8a7fe"
+    },
+    {
+      "path": "parts/ROLLOUTS_200.zip.part013",
+      "bytes": 50331648,
+      "sha256": "a60713b1836a80666b40a9718e7f7d57cf1d5562e701ae13b235a0609547e557",
+      "git_blob_sha1": "e66bca083de51a31f15dd8e7288d81e65e29cc08"
+    },
+    {
+      "path": "parts/ROLLOUTS_200.zip.part014",
+      "bytes": 50331648,
+      "sha256": "029cdd3a90012c828a81234a4eb81a77f38bcbd68cecfe6eaeae4b3a033aad5d",
+      "git_blob_sha1": "d61f431172b2ae46328089b1a3bf45734874b0b4"
+    },
+    {
+      "path": "parts/ROLLOUTS_200.zip.part015",
+      "bytes": 50331648,
+      "sha256": "352471ea98bf182f7f009d6c88b1247cfb1983f3dc07e609b2716d1dc0522658",
+      "git_blob_sha1": "490d2a17aa93e8a7677a15edf07860cf900e1f24"
+    },
+    {
+      "path": "parts/ROLLOUTS_200.zip.part016",
+      "bytes": 50331648,
+      "sha256": "aec054e395e91fc2bb338073532871f0f73d087b9046f159420667287024b5ed",
+      "git_blob_sha1": "df6d50f98b2a843142177fe8bd44fe78b797bcf5"
+    },
+    {
+      "path": "parts/ROLLOUTS_200.zip.part017",
+      "bytes": 50331648,
+      "sha256": "589213ee9f347822299225ff670b18c0a5d6f25f1703264aa2930688ae7218e0",
+      "git_blob_sha1": "4fe40cac1e6d2a31c84fb20c144bb8bec422e1c2"
+    },
+    {
+      "path": "parts/ROLLOUTS_200.zip.part018",
+      "bytes": 50050702,
+      "sha256": "3ea3324feda7c3436fc3b7505284df334fb54c1ed0c3f31a7acdecf950876efe",
+      "git_blob_sha1": "0f26699856293287b52a5fa09cd99207ff7dd959"
+    }
+  ],
+  "source_report_sha256": "2dba63538837a895c0c60d4033b022ac54013ac0278088a87278e5851117624a",
+  "science_commit": "2f02798",
+  "official_benchmark_commit": "5f8c50eb1e84b2eda2ef4faff757dfc812a0ea26"
+}

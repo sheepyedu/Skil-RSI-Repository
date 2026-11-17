@@ -1,0 +1,25 @@
+{
+  "time": 1794847434.454804,
+  "arm": "shuffled",
+  "summary_request": 601,
+  "following_request": 602,
+  "task": "exploitable_poker-114",
+  "source_summary_sha256": "8e490e9cadf3aea9767e08e3267a63a54eaa228706c81e4b298ea1edc6ddec7f",
+  "source_summary_characters": 13513,
+  "literal_pattern_codepoints": [
+    36,
+    96
+  ],
+  "literal_pattern_occurrences": 1,
+  "observed_replacement_codepoints": [
+    10,
+    10
+  ],
+  "all_remaining_characters_exact": true,
+  "transformed_summary_exact_in_following_request": true,
+  "source_excerpt": "crosecond); added nested `convert_time(val)` in read_cell parsing duration regex (`^P(?:(\\d+)Y)?(?:(\\d+)M)?(?:(\\d+)D)?(?:T(?:(\\d+)H)?(?:(\\d+)M)?(?:([\\d.]+)S)?)?$`) with legacy `\"%H:%M:%S\"` fallback; time import branch calls convert_time. Verified: 6 ODS tests pass, edge cases OK, full suite 159 passed (task 61 checkout",
+  "actual_excerpt": "crosecond); added nested `convert_time(val)` in read_cell parsing duration regex (`^P(?:(\\d+)Y)?(?:(\\d+)M)?(?:(\\d+)D)?(?:T(?:(\\d+)H)?(?:(\\d+)M)?(?:([\\d.]+)S)?)?\n\n) with legacy `\"%H:%M:%S\"` fallback; time import branch calls convert_time. Verified: 6 ODS tests pass, edge cases OK, full suite 159 passed (task 61 checkout",
+  "following_request_sha256": "448995ec708a992457af3c1d8d66c6c058319ea524e7fb1ed8af58ae12f9fcdc",
+  "attribution": "Change occurs between complete delivered native response and next native Messages input; compatible with JavaScript replacement-string expansion. Exact CLI source call site not located.",
+  "training_quality_flag": "native summary assembly character change"
+}

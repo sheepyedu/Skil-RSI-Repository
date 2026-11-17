@@ -1,0 +1,47 @@
+{
+  "scope": "100 same official tasks in two persistent native sessions, grouped and shuffled, 200 executions",
+  "science_commit": "2f02798",
+  "science_source_files": 39,
+  "official_commit": "5f8c50eb1e84b2eda2ef4faff757dfc812a0ea26",
+  "report_sha256": "2dba63538837a895c0c60d4033b022ac54013ac0278088a87278e5851117624a",
+  "archive": {
+    "time": 1794848037.246663,
+    "payload_files": 50720,
+    "archive_entries": 50721,
+    "archive_bytes": 905688718,
+    "sha256": "560fe301ba065ecb6a1e1cc63f3ecf911a51b86db0596cc66ba1f73145bf2509",
+    "payload_sha_crc_verified": true,
+    "local_verified_time": 1794848590.989127,
+    "local_all_payloads_sha_crc_verified": true,
+    "local_archive_path": "/Users/mac/Desktop/work agent skill rsi/runtime/clbench-continuous-context-100x2-20261116/ROLLOUTS_200.zip"
+  },
+  "results": {
+    "grouped": {
+      "complete": 100,
+      "passed": 43,
+      "responses": 656,
+      "compactions": 9,
+      "local_file_attempts": 155
+    },
+    "shuffled": {
+      "complete": 100,
+      "passed": 41,
+      "responses": 777,
+      "compactions": 10,
+      "local_file_attempts": 180
+    }
+  },
+  "cpu_rounds_each_host": 10,
+  "cpu_checks_each_host": 480,
+  "known_limitations": [
+    "One native summary assembly changed a dollar sign followed by a backtick into two line feeds, original retained",
+    "Two complete length responses used 32000 output tokens entirely for thinking, original sessions continued",
+    "37 local auxiliary count_tokens 404 entries, no model generation",
+    "One pair only, fixed 200000 token window, task sandboxes switch while native context and notes persist",
+    "Parent wait for root owner and grouped rm integer receipt unavailable, exact process/container absence separately accepted",
+    "Training adoption not approved"
+  ],
+  "remote_root": "/mount-data/yangyang-h20-2gpu-train-20261107/runs/clbench-continuous-context-100x2-20261116",
+  "local_root": "/Users/mac/Desktop/work agent skill rsi/runtime/clbench-continuous-context-100x2-20261116",
+  "delivery_prepared_time": 1794848626.3568661
+}

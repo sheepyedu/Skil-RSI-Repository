@@ -1,0 +1,46 @@
+{
+  "time": 1794847549.59609,
+  "owner": {
+    "pid": 3096549,
+    "proc_exists": false,
+    "child_integer_waits": {
+      "grouped": 0,
+      "shuffled": 0
+    },
+    "root_integer_wait": null
+  },
+  "arms": {
+    "grouped": {
+      "observed_at": 1794847122.3592358,
+      "worker_pid": 3099868,
+      "worker_exactgone": true,
+      "native_processes_gone": 100,
+      "native_integer_wait": 0,
+      "container_id": "bba58f1ee6bb6a495af9d3995ff94745d3314df8dfde5be7859d5b9b4c6ead32",
+      "container_was_stopped": true,
+      "extra_model_written_files": [],
+      "reused_native_pids": [],
+      "current_worker_pid_reused_identity": null,
+      "final_native_binary_sha256": "2b84cc2e04633619eab02b9f77ed00a56b64682b4fa7b3267149ee9eb1fecfc7",
+      "container_remove_exit": null,
+      "container_exact_absent": true,
+      "reconciliation": "Original retire intent and precise absence; wait receipt unavailable"
+    },
+    "shuffled": {
+      "observed_at": 1794847550.131636,
+      "worker_pid": 3099869,
+      "worker_exactgone": true,
+      "native_processes_gone": 100,
+      "native_integer_wait": 0,
+      "container_id": "ca8ebb8c317504c18ae9da30e54a763876d769872fab78caebba4b40179109e4",
+      "container_was_stopped": true,
+      "extra_model_written_files": [],
+      "reused_native_pids": [],
+      "current_worker_pid_reused_identity": null,
+      "final_native_binary_sha256": "2b84cc2e04633619eab02b9f77ed00a56b64682b4fa7b3267149ee9eb1fecfc7",
+      "container_remove_exit": 0,
+      "container_exact_absent": true
+    }
+  },
+  "accepted": true
+}
