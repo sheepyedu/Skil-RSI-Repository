@@ -1,9 +1,0 @@
-{
-  "scored_tasks": 100,
-  "passed": 53,
-  "complete_responses": 591,
-  "accepted_edits": 19,
-  "native_app_server_trace": true,
-  "session_jsonl_count": 1,
-  "source_plan_sha256": "2cfc987dacf1a2810e34a8e72a006cbe06b978d2099f53908833aa7a3e9a471e"
-}
