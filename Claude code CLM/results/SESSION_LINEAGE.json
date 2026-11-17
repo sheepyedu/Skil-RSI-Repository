@@ -1,0 +1,33 @@
+[
+  {
+    "phase": "chain",
+    "session_id": "e12809a3-550a-4159-8336-cedea2604ccc",
+    "transcript_file": "native-home/.claude/projects/-workspace/e12809a3-550a-4159-8336-cedea2604ccc.jsonl",
+    "transcript_sha256": "29c75289ff71a2869e4164138ef661ba4d57a385d3b851ed5b59fd7dfa8b1aa4",
+    "transcript_bytes": 1489637
+  },
+  {
+    "phase": "rescue/chain",
+    "session_id": "e12809a3-550a-4159-8336-cedea2604ccc",
+    "transcript_file": "native-home/.claude/projects/-workspace/e12809a3-550a-4159-8336-cedea2604ccc.jsonl",
+    "transcript_sha256": "775eac3490986c685d2b194a18d03a9ea11b513652a6c849f5be8e1cc239b3ad",
+    "transcript_bytes": 2155298,
+    "previous_bytes_preserved": true
+  },
+  {
+    "phase": "maintenance-v2/chain",
+    "session_id": "e12809a3-550a-4159-8336-cedea2604ccc",
+    "transcript_file": "native-home/.claude/projects/-workspace/e12809a3-550a-4159-8336-cedea2604ccc.jsonl",
+    "transcript_sha256": "d81ae0d95a6417b6dbe245ebfdfbf0045b775f149c45f36ac5e9230a3ce7c3ec",
+    "transcript_bytes": 2237529,
+    "previous_bytes_preserved": true
+  },
+  {
+    "phase": "memory-mcp/chain",
+    "session_id": "e12809a3-550a-4159-8336-cedea2604ccc",
+    "transcript_file": "native-home/.claude/projects/-workspace/e12809a3-550a-4159-8336-cedea2604ccc.jsonl",
+    "transcript_sha256": "8b44b6092c1d9cc0f6f8437bd9a8ef5885dd2efa9e45798cdbe4a4bc9be51d6b",
+    "transcript_bytes": 6529839,
+    "previous_bytes_preserved": true
+  }
+]

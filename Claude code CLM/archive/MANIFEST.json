@@ -1,0 +1,74 @@
+{
+  "archive": "CLAUDE_CODE_CLM_ROLLOUTS.tar.zst",
+  "bytes": 29554887,
+  "sha256": "e3a88a0f92605b0df6b9ebb6b8ce5f65a23688e9466679e77385a6c97278b022",
+  "archived_files": 23944,
+  "excluded_symlinks": [
+    "chain/cases/035-codebase_adaptation-009/workspace-final/README.rst",
+    "chain/cases/036-codebase_adaptation-013/workspace-final/README.rst",
+    "chain/cases/037-codebase_adaptation-014/workspace-final/README.rst"
+  ],
+  "credential_matches": 0,
+  "trace_inventory": {
+    "chain": {
+      "deepseek_requests": 142,
+      "complete_http200": 142,
+      "missing_request_files": [],
+      "cli_bridge_requests": {
+        "200:/v1/messages": 142
+      },
+      "case_attempts": 39,
+      "case_attempts_without_native_trace": [],
+      "case_attempts_without_result": [],
+      "native_transcript_files": 1
+    },
+    "rescue/chain": {
+      "deepseek_requests": 29,
+      "complete_http200": 29,
+      "missing_request_files": [],
+      "cli_bridge_requests": {
+        "200:/v1/messages": 29
+      },
+      "case_attempts": 4,
+      "case_attempts_without_native_trace": [],
+      "case_attempts_without_result": [],
+      "native_transcript_files": 1
+    },
+    "maintenance/chain": {
+      "deepseek_requests": 0,
+      "complete_http200": 0,
+      "missing_request_files": [],
+      "cli_bridge_requests": {},
+      "case_attempts": 0,
+      "case_attempts_without_native_trace": [],
+      "case_attempts_without_result": [],
+      "native_transcript_files": 0
+    },
+    "maintenance-v2/chain": {
+      "deepseek_requests": 24,
+      "complete_http200": 24,
+      "missing_request_files": [],
+      "cli_bridge_requests": {
+        "200:/v1/messages": 24
+      },
+      "case_attempts": 1,
+      "case_attempts_without_native_trace": [],
+      "case_attempts_without_result": [
+        "043-cohort_studies-015"
+      ],
+      "native_transcript_files": 1
+    },
+    "memory-mcp/chain": {
+      "deepseek_requests": 485,
+      "complete_http200": 485,
+      "missing_request_files": [],
+      "cli_bridge_requests": {
+        "200:/v1/messages": 485
+      },
+      "case_attempts": 58,
+      "case_attempts_without_native_trace": [],
+      "case_attempts_without_result": [],
+      "native_transcript_files": 1
+    }
+  }
+}

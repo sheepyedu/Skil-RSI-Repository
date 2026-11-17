@@ -1,0 +1,26 @@
+{
+  "cli_containers": [
+    {
+      "phase": "chain",
+      "container_id": "5c4ac362b27b490a214964ee131057f2bcc7a7560dc074f2e2162b826352c149",
+      "retired": true
+    },
+    {
+      "phase": "rescue/chain",
+      "container_id": "454b6118c60496d0dba0045e75f0516baabaf705a1cfd9e33a652b33d3dd9e8f",
+      "retired": true
+    },
+    {
+      "phase": "maintenance-v2/chain",
+      "container_id": "e1a2d57d01754af782457552a9cf047b95e30dfc13a48e5eb00a44663d7ddc40",
+      "retired": true
+    },
+    {
+      "phase": "memory-mcp/chain",
+      "container_id": "3413c73bdb92d410d639292d994711cb535585eb05c48be6ae611c7dba0d2383",
+      "retired": true
+    }
+  ],
+  "plan_sha256": "2cfc987dacf1a2810e34a8e72a006cbe06b978d2099f53908833aa7a3e9a471e",
+  "cli_sha256": "2b84cc2e04633619eab02b9f77ed00a56b64682b4fa7b3267149ee9eb1fecfc7"
+}
