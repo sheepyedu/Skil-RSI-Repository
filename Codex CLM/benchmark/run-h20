@@ -1,0 +1,10 @@
+#!/bin/bash
+set -euo pipefail
+umask 077
+root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+project=/mount-data/yangyang-h20-2gpu-train-20261107
+export PATH="$project/env/skill100-20261110/runtime/usr/bin:$PATH"
+export DOCKER_HOST=unix:///var/docker/proxy/docker-proxy.sock
+export PYTHONPATH="$root/framework"
+export PYTHONDONTWRITEBYTECODE=1
+exec "$project/env/clbench-opus55-20261112/bin/python" "$root/run_chain.py" "$@"
