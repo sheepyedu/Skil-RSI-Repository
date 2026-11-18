@@ -34,6 +34,8 @@
 
 第 6 题 CLM 恢复覆盖 [第三次恢复运行器](src/serial-recovery-03/)。工具裁剪达到极限时，归档没有保留调用相依关系的旧推理块。离线探针逐字核对历史 benchmark 用户题面与全部可见助手文本。复核先看 CLI 与真实 DeepSeek 出入，然后检查 GPT 评分 SSE 终态。控制器接收的原始比分和评分服务异常一并保留。 [小时复核](CHECKPOINTS.md)
 
+正式请求量从作答调用、外部评分和维护的原始记录核对，另计补评请求。重复带入恢复目录的原始试验按线次和启动时间去重。评分审计通过原请求 SHA-256 将同请求的失败和重试关联，同时查验官方评分项是否判为 API 异常。 [请求计数脚本](src/count_model_requests.py) · [评分状态脚本](src/audit_web_judges.py)
+
 ## 证据路径
 
 有权限的协作者可在 H20 CPFS 查找 `/mount-data/Claude-code-CLM/experiments/workbuddy-20261118`。运行根的 `formal-02` 按 `native` 和 `clm` 分组：
