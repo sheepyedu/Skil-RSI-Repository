@@ -4,6 +4,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import subprocess
 from datetime import datetime
 from pathlib import Path
@@ -50,6 +51,9 @@ def probe(output):
     else:
         error = result.stderr.lower()
         record["timed_out"] = b"timed out" in error or b"timeout" in error
+        error_kind = re.search(rb"network error ([A-Za-z]+)\b", result.stderr)
+        if error_kind:
+            record["error_kind"] = error_kind[1].decode("ascii")
     text = json.dumps(record, indent=2) + "\n"
     (output / "receipt.json").write_text(text)
     print(text, end="")

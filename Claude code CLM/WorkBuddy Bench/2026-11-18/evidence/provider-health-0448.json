@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-11-19T04:48:31+08:00",
+  "finished_at": "2026-11-19T04:49:16+08:00",
+  "requested_model": "deepseek-v4-1-flash-261017",
+  "exit_code": 2,
+  "response_bytes": 0,
+  "request_sha256": "1300aa7c3728ed10748c896035e7cc12433808eba6ee76b2122649e4daaffa49",
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "timed_out": false,
+  "error_kind": "URLError",
+  "outcome": "unknown_before_response"
+}
