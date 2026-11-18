@@ -76,3 +76,5 @@ CLM 在 17 次完整调用及成功终态后等待后台递归搜索。确认搜
 03:55 第二次同模型最小请求仍超时。模型目录检查显示原入口在 25 秒内未返回数据，备用入口返回 HTTP 401，当前模型仍绑定原入口。封存的中断批次有 26,119 个轨迹文件，约 3.46 GB。 [第二次探针](evidence/provider-health-0355.json) · [模型目录检查](evidence/provider-catalog-0356.json) · [原始轨迹清单指纹](evidence/retained-trajectory-inventories.json)
 
 04:05 第三次最小请求仍为响应前超时。H20 已知本地端口没有 DeepSeek 服务监听，八张 H20 均在使用。已验收的同模型续跑入口保持准备状态。 [第三次探针](evidence/provider-health-0404.json) · [H20 现有服务只读核对](evidence/h20-existing-deepseek-service-0405.json)
+
+04:15 第四次最小请求再次在响应前超时。至 04:16，第六次恢复目录已完成 52 条已验收试验、两组第 26 题会话、冻结题单的复制与逐字节核对。程序等待原模型的有效健康回执后再发送第 27 题，当前仅完成本地准备。 [第四次探针](evidence/provider-health-0414.json) · [恢复准备验收](evidence/formal-02-recovery-06-staged.json) · [恢复入口](src/serial-recovery-06/)

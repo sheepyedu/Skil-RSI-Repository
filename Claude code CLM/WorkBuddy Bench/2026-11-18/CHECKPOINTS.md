@@ -65,3 +65,7 @@
 完成 26/60 道配对。第 27 题原生组在初始成功终态后清理后台搜索，随后 2 次实际发往 DeepSeek 的请求在响应前超时，CLI 最终退出，原工作区快照已保存。CLM 组维护请求也在响应前超时，控制器停止发题。单独发出的最小同模型检查同样在响应前超时。评分审计对已完成题目无新增待补评项。
 
 实际向模型发送的正式请求为 1,500 次，另有补评 5 次。第 27 题还有 9 个本地重试意图被请求网关拦住，留档备查。 [进度](evidence/hourly/2026-11-19-0349.json) · [计数](evidence/hourly/2026-11-19-0349-request-counts.json) · [评分](evidence/hourly/2026-11-19-0349-web-judge-health.json) · [逐请求核验](evidence/hourly/2026-11-19-0349-input-output.json) · [故障诊断](evidence/task-027-transport-stop.json) · [产物校验](evidence/task-027-native-staged-output.json)
+
+## 2026-11-19 04:19
+
+恢复批次已核对 52 条逐字节一致的验收记录、两组第 26 题会话与同一冻结题单。第 27 题等待原模型恢复，第四次最小请求到 04:15 仍以零响应字节超时。26/60 道配对，实际正式及补评仍合计 1,505 次，四次诊断请求另计。已完成任务无待补评项。 [准备验收](evidence/formal-02-recovery-06-staged.json) · [第四次服务探针](evidence/provider-health-0414.json) · [进度](evidence/hourly/2026-11-19-0419.json) · [计数](evidence/hourly/2026-11-19-0419-request-counts.json) · [评分](evidence/hourly/2026-11-19-0419-web-judge-health.json)

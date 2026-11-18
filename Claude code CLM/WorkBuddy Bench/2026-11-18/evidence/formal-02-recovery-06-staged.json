@@ -1,0 +1,46 @@
+{
+  "observed_at": "2026-11-19T04:16:09+08:00",
+  "run": "formal-02-resume-06",
+  "stage": "awaiting_same_model_health",
+  "start_gate_open": false,
+  "target_task_dispatched": false,
+  "byte_equal_accepted_trial_receipts": 52,
+  "plan_equal": true,
+  "same_session_ids": true,
+  "recovery": {
+    "source": "formal-02-resume-05",
+    "position": 27,
+    "retried_arms": [
+      "native",
+      "clm"
+    ],
+    "plan_sha256": "514a0e3a17b59db24b3990bbff1f1fd202c0379ad8f5571880f3ddf84b4de316",
+    "accepted_trials_retained": 52,
+    "original_native_receipt": "80716302f9fc44e5730e304efebaba01b4d61d72925d5590ff4b2004b6c453f1",
+    "last_accepted_clm_receipt": "4871868942cc4f66e5aa70cc037cace5654b1ed776e295d0b1456c8946db1df5",
+    "original_clm_maintenance_timeout": {
+      "request_sha256": "aa8baffd034c983fc402812230fc13b7c0d2d4799ec60e30f5fafc4ec6a6a772"
+    },
+    "response_free_timeouts": [
+      {
+        "attempt": "0031",
+        "receipt_sha256": "705b0f506f43fb06f959c1dc96b8895881d34209704c6e970d7ecf33fff02ea5"
+      },
+      {
+        "attempt": "0032",
+        "receipt_sha256": "0bfa036f6cf8201bbbaf52656f5a58903376d3298090bdd4face250353ffd442"
+      }
+    ],
+    "lane_checkpoints": {
+      "native": {
+        "position": 26,
+        "session_sha256": "1137f7e06337378133675cd6b18b69a37dcb25b5ca063a0412f7d2e9703f0da6"
+      },
+      "clm": {
+        "position": 26,
+        "session_sha256": "2a8d71077b0d9f3a7a61c2aca490ebb07a98feb2eb33f865f1eaccde3da0d8cf"
+      }
+    },
+    "configuration_changed": false
+  }
+}

@@ -13,7 +13,8 @@ test ! -e "$target"
 status=0
 "$runner/deploy-env.sh" "$runner/retry_transport_pair.py" "$source" \
     --position 27 --target "$target" --inspector "$runner/inspect_run.py" \
-    --maintenance-log "$experiment/formal-recovery-05.controller.log" || status=$?
+    --maintenance-log "$experiment/formal-recovery-05.controller.log" \
+    --start-gate "$experiment/operator-supervision/allow-formal-06.json" || status=$?
 if [[ -d "$target" ]]; then
     printf '%s\n' "$status" > "$target/exit-status.txt"
     "$runner/deploy-env.sh" "$runner/audit_run.py" "$target" --save "$target/final-audit.json" \

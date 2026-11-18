@@ -34,7 +34,8 @@ def count(experiment):
     trials_seen = set()
     maintenance_seen = set()
     deepseek, judge, maintenance, regrade = (Counter() for _ in range(4))
-    for run in sorted(experiment.glob("formal-*"), reverse=True):
+    # Prefer the originating record if a later restart is still copying its prefix.
+    for run in sorted(experiment.glob("formal-*")):
         if not (run / "plan.json").is_file() or not (run / "sessions.json").is_file():
             continue
         judge_model = read(run / "sessions.json")["judge_model"]

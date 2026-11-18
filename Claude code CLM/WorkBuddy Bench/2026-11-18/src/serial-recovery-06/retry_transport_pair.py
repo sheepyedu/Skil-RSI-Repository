@@ -79,7 +79,7 @@ def failed_prefix(source, position, maintenance_log):
     return plan, launch, ready, failed, failed_responses, maintenance_timeout
 
 
-async def resume(source, target, position, inspector, maintenance_log):
+async def resume(source, target, position, inspector, maintenance_log, start_gate):
     plan, launch, ready, failed, response_failures, maintenance_timeout = failed_prefix(
         source, position, maintenance_log,
     )
@@ -96,6 +96,22 @@ async def resume(source, target, position, inspector, maintenance_log):
         "response_free_timeouts": response_failures, "lane_checkpoints": checkpoint,
         "configuration_changed": False,
     })
+    if start_gate is not None:
+        print("Frozen trail is staged; waiting for a successful same-model health response.", flush=True)
+        while not start_gate.is_file():
+            await asyncio.sleep(5)
+        health = read(start_gate)
+        if (
+            health["exit_code"] != 0 or not health["verified_ok"]
+            or health["requested_model"] != launch["model"] or health["actual_model"] != launch["model"]
+        ):
+            raise ValueError("The generation health receipt does not match the frozen model")
+        write_json(target / "start-gate.json", {
+            "verified_model": launch["model"],
+            "health_receipt_sha256": sha(start_gate),
+            "health_response_sha256": health["response_sha256"],
+            "health_observed_at": health["finished_at"],
+        })
 
     def verify_pair(run):
         raw = subprocess.check_output([sys.executable, str(inspector), str(run), "--count", str(position)])
@@ -118,6 +134,7 @@ if __name__ == "__main__":
     parser.add_argument("--position", type=int, required=True)
     parser.add_argument("--inspector", type=Path, required=True)
     parser.add_argument("--maintenance-log", type=Path, required=True)
+    parser.add_argument("--start-gate", type=Path)
     args = parser.parse_args()
     os.umask(0o077)
-    asyncio.run(resume(args.source, args.target, args.position, args.inspector, args.maintenance_log))
+    asyncio.run(resume(args.source, args.target, args.position, args.inspector, args.maintenance_log, args.start_gate))
