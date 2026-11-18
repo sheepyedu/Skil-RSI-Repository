@@ -1,0 +1,47 @@
+{
+  "root": "/mount-data/Claude-code-CLM/experiments/workbuddy-20261118",
+  "scope": "Terminal run directories with an existing complete runner file inventory",
+  "note": "Restarts may reuse exact data files and trial records, count repeated bytes once in scientific analysis.",
+  "inventories": [
+    {
+      "run": "pilot-05",
+      "inventory_path": "pilot-05/trajectory-sha256.json",
+      "inventory_sha256": "19d861a112332815d1c3b2e2f77ec4e12c46062e7f9ce3e47d0e80e9eb07e781",
+      "inventory_bytes": 1064564,
+      "listed_files": 5193,
+      "archived_bytes": 809402610,
+      "final_audit_sha256": null,
+      "exit_status": null
+    },
+    {
+      "run": "formal-01",
+      "inventory_path": "formal-01/trajectory-sha256.json",
+      "inventory_sha256": "3e44e5328a2ef844e080be652825b00435b68ae00902dc3c6939e7f013a3af18",
+      "inventory_bytes": 3035,
+      "listed_files": 16,
+      "archived_bytes": 43150,
+      "final_audit_sha256": "eebf2572e0bb6656f8898f6a63e6a1240591cbd8675e49778c2e848b839be407",
+      "exit_status": null
+    },
+    {
+      "run": "formal-02",
+      "inventory_path": "formal-02/trajectory-sha256.json",
+      "inventory_sha256": "c304b699bca63745ded62163ee977d774ef2dd313b27df5ace2f25e51d1db38b",
+      "inventory_bytes": 680453,
+      "listed_files": 3189,
+      "archived_bytes": 620851299,
+      "final_audit_sha256": "45eb9edcd9f334e160e143e5c2a9dbf1254c827724a826073cdbebeb81440084",
+      "exit_status": 1
+    },
+    {
+      "run": "formal-02-resume-01",
+      "inventory_path": "formal-02-resume-01/trajectory-sha256.json",
+      "inventory_sha256": "79743f565fdb9e407a726d9139cb2adbb71e1f60b49262ceaa42721cd6f4d942",
+      "inventory_bytes": 1026467,
+      "listed_files": 4758,
+      "archived_bytes": 750430823,
+      "final_audit_sha256": "171d447720aa64547dfed5241b9ef5e2084811eb6c50907bc45e760924cf058b",
+      "exit_status": 1
+    }
+  ]
+}

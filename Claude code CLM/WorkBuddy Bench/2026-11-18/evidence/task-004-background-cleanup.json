@@ -1,0 +1,17 @@
+{
+  "observed_at": "2026-11-18T22:17:59+08:00",
+  "run": "formal-02-resume-02",
+  "position": 4,
+  "arm": "clm",
+  "project": "004-code-refactor-medium-config_validation_errors__env",
+  "ready_result_type": "success",
+  "cli_stream_sha256_at_intervention": "aa0ca0fa8ad506b6aeab7d01dd6bcfbc67f82cc07dc52189dfac2303488a64eb",
+  "complete_model_requests_before_intervention": 34,
+  "action": "SIGTERM sent only to the lingering recursive search after the CLI success event",
+  "target": {
+    "process": "grep",
+    "recursive_root": true,
+    "descendant_of_the_agent": true
+  },
+  "exit_code": 0
+}
