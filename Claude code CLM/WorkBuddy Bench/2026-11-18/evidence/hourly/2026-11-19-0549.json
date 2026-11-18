@@ -1,0 +1,834 @@
+{
+  "observed_at": "2026-11-19T05:49:40+08:00",
+  "run": "formal-02-resume-06",
+  "plan_sha256": "514a0e3a17b59db24b3990bbff1f1fd202c0379ad8f5571880f3ddf84b4de316",
+  "model": "deepseek-v4-1-flash-261017",
+  "judge_model": "gpt-6.1-sol",
+  "controller_alive": true,
+  "exit_status": null,
+  "accepted_pairs": 26,
+  "total_pairs": 60,
+  "in_progress_or_first_unaccepted_pair": {
+    "position": 27,
+    "domain": "code",
+    "task": "data_quality-hard-label_conflicts",
+    "arms": {
+      "native": {
+        "state": "pending",
+        "last_event": null
+      },
+      "clm": {
+        "state": "pending",
+        "last_event": null
+      }
+    }
+  },
+  "closed_trials": [
+    {
+      "position": 1,
+      "domain": "sec",
+      "task": "linux-ld-preload-investigation",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 0.7613,
+          "deepseek_requests": 20,
+          "deepseek_completed": 20,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "bf5c14d0806bbdf46292babe9faed79862bdda71a6f5eec9a9dd072e014e4a8b",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 0.8283,
+          "deepseek_requests": 27,
+          "deepseek_completed": 27,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "d34e45968c5597f857009c8f48bde6e09e7c6c9a70b9e29079c88b4c3cc5fabb",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 2,
+      "domain": "web",
+      "task": "dense-saas-visual-refactor-L3-046",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 0.2,
+          "deepseek_requests": 43,
+          "deepseek_completed": 43,
+          "web_grade_requests": 15,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "1ad6ed6cb0ebfc90a33503913b7824ec213644b82679d39127b653ba0eae05ea",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 0.0,
+          "deepseek_requests": 37,
+          "deepseek_completed": 37,
+          "web_grade_requests": 15,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "aaf6eef5b35c74babe4bcf53fe41cebd5f53e0aa06f9645cf22f27e71b6fe231",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 3,
+      "domain": "web",
+      "task": "security-privacy-permission-review-L4-020",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 0.7,
+          "deepseek_requests": 29,
+          "deepseek_completed": 29,
+          "web_grade_requests": 16,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 1,
+          "receipt_sha256": "e3617841c918912c0fb3219abf0490417f39117e5b939a20c30b2ac2cc9033c4",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 27,
+          "deepseek_completed": 27,
+          "web_grade_requests": 16,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "7f0679fc9fa278b1bbce4175984cfb1beaf7a39b47484b082f67df055d3f73e7",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 4,
+      "domain": "code",
+      "task": "refactor-medium-config_validation_errors",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 0.0,
+          "deepseek_requests": 52,
+          "deepseek_completed": 52,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "10e5f981493ba1571876a6896eb8b8af49fe9f76f031d951173cc8f472925e25",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 0.0,
+          "deepseek_requests": 36,
+          "deepseek_completed": 36,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "d8ba84033c6b3341a374e16530c0b8d922c1d9a40b90b25c2f51bdf2e0571788",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 5,
+      "domain": "web",
+      "task": "markdown-release-editor-L4-038",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 0.8,
+          "deepseek_requests": 29,
+          "deepseek_completed": 29,
+          "web_grade_requests": 8,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "7495a6ed3bcd0440efd3f50759e7f763bb45f22db5b53e239123e56ec8404344",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 0.5,
+          "deepseek_requests": 47,
+          "deepseek_completed": 47,
+          "web_grade_requests": 12,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "99f81bece3ebeae3f7ddd5e71cebc7dde4e77898f209873f9ee1b76859bbc4d6",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 6,
+      "domain": "code",
+      "task": "feature-medium-envless_file_load",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 0.25,
+          "deepseek_requests": 35,
+          "deepseek_completed": 35,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 1,
+          "receipt_sha256": "8364e54599fb0061d0957d120c9595f20b9abdf2204f73f4c8c26ae5b3d79267",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 42,
+          "deepseek_completed": 42,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "49ab528c3c10b4d22fa4980f4bb6b8d57e74b90ba1fbd4dee9635aeddee74c2d",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 7,
+      "domain": "code",
+      "task": "reliability-hard-stream_release",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 0.75,
+          "deepseek_requests": 25,
+          "deepseek_completed": 25,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "8ad0379c60e70358cc1781debf2118bad410604113abb33127724808fce53602",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 0.75,
+          "deepseek_requests": 11,
+          "deepseek_completed": 11,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "8d2d378dc551ee7300895e08a538acfec741f2f100460119495df96778477e69",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 8,
+      "domain": "office",
+      "task": "warranty-recovery-allocation-L5-033",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 0.883,
+          "deepseek_requests": 29,
+          "deepseek_completed": 29,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "e0a738ea71230919f71282a4b836f3c11f5ab855e86748b0a411f9fcfab63e6a",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 0.829,
+          "deepseek_requests": 16,
+          "deepseek_completed": 16,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "bf2f4550076a3e5f486022728d7bf26725afbfad3716097553a7ceccd4ebaec5",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 9,
+      "domain": "code",
+      "task": "schema_behavior-medium-datakey_errors",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 10,
+          "deepseek_completed": 10,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "35d68e3eb7c210d41cf9dc61a8fcd73a3db16d31af3666906362564d2779b066",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 10,
+          "deepseek_completed": 10,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "0b90e789bce4a5beacf23293ce2602bc9ea7d646e34d73363c3f4f7f4211e2e6",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 10,
+      "domain": "web",
+      "task": "root-cause-localization-L3-015",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 13,
+          "deepseek_completed": 13,
+          "web_grade_requests": 14,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "ee0a9b06d47a73b6d3844a33d33bb88d01fa890d2abaa07b3e78b2846ebbe6b7",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 17,
+          "deepseek_completed": 17,
+          "web_grade_requests": 18,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "602d4ba76f27908135abe6fe5e991c3b4f62a4c77740639c1f13df880da55b41",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 11,
+      "domain": "code",
+      "task": "reliability-medium-pool_release",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 0.0,
+          "deepseek_requests": 10,
+          "deepseek_completed": 10,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 1,
+          "receipt_sha256": "991ca07493dbde7bba40869a2be5734a01ba13af93302176e0716b934ce68f3f",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 0.0,
+          "deepseek_requests": 11,
+          "deepseek_completed": 11,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "e4542ceded92a07870a6669bc7fb6477c5020016bf137744ec54ae1c218db99e",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 12,
+      "domain": "web",
+      "task": "root-cause-localization-L3-013",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 0.0,
+          "deepseek_requests": 6,
+          "deepseek_completed": 6,
+          "web_grade_requests": 13,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "de6c69b8dca26f541012f764127d9283a07cc6d4618ce70961e361c221dea0b7",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 0.4,
+          "deepseek_requests": 8,
+          "deepseek_completed": 8,
+          "web_grade_requests": 11,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "47181acd3f3c9f4363f0b4685bc5908cd6f3c4aa2278d0582fe00b92fc10e04c",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 13,
+      "domain": "code",
+      "task": "bug_fix-medium-matching_absolute_paths",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 24,
+          "deepseek_completed": 23,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "7c3d7252fe3cda9910fcf0d57dd395dae81ff690ca68fe39bffd0717fa1b3af6",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 28,
+          "deepseek_completed": 28,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "6dfdd1c93b8874aad9e154eea4b5a824e64b6913a6672b9357a5b3276a261fe1",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 14,
+      "domain": "sec",
+      "task": "yara-detect-cryptominer",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 17,
+          "deepseek_completed": 17,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "ba2a3fd2e7c6d6b3d8808aea78000ef292af9ace0db158dd8dfa4d8c7afe6ebe",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 12,
+          "deepseek_completed": 12,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "62e82c64cfe90f97a9533affebf58f185b1f64de8a79b58a423fcded16a67634",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 15,
+      "domain": "office",
+      "task": "wechat-tech-topic-package-hardened",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 0.809,
+          "deepseek_requests": 16,
+          "deepseek_completed": 16,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "4fd30fac60dfd65f58a5acb709331ad39ad98d151303785cb4c7720920416dcd",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 0.8876,
+          "deepseek_requests": 20,
+          "deepseek_completed": 20,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "bae20b09aa9f1b7c03760b8b084bb6a58bdfe94a14a7885f48c3bde333ae9020",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 16,
+      "domain": "sec",
+      "task": "false-positive-trap-bind-hard-multistep",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 0.5,
+          "deepseek_requests": 3,
+          "deepseek_completed": 3,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "1e14e0ae24335b95f6fc433d8e21d117255deaa4564d9649a118f6df7c165d79",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 0.5,
+          "deepseek_requests": 4,
+          "deepseek_completed": 4,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "e77f5ec02b72753b4fe0ba9587f8afd456865b0a0ee04a4da5cb1b5dc08a7db1",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 17,
+      "domain": "code",
+      "task": "api_contract-hard-openapi_params",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 0.0,
+          "deepseek_requests": 37,
+          "deepseek_completed": 37,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 1,
+          "receipt_sha256": "f50403c0906dc4b4bd77eaa6b1554c0cc8e94d7537b5bd81e718b25f0029cef2",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 0.0,
+          "deepseek_requests": 9,
+          "deepseek_completed": 9,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "b033d321f599a2ef33e6474f27f9c9a722388c73e3d2ef44ee57ea7faf193707",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 18,
+      "domain": "sec",
+      "task": "apt-multi-source-correlation-hard-multistep",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 21,
+          "deepseek_completed": 21,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "daa89c0d084e1be83400e3f2c418ed15124361bca63eca9992b59f43fd70276d",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 18,
+          "deepseek_completed": 18,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "672d69592f1d2cd813ab5ed31bf7531a1e122f33848188fcf73ee2c232f60d0d",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 19,
+      "domain": "code",
+      "task": "feature-medium-validation_to_eliminate_uriref",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 48,
+          "deepseek_completed": 48,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "536716d53d2e8642e0a3023a54f9ae618babbefefb9b2aec6505a86c679c6c92",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 28,
+          "deepseek_completed": 28,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "2220001ea799f19bd37dc8d811c3b5c88a43ea622cec512a743a98b42c5c95a4",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 20,
+      "domain": "office",
+      "task": "rank-ic-topn-L4-001",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 0.8269,
+          "deepseek_requests": 47,
+          "deepseek_completed": 47,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 1,
+          "receipt_sha256": "06f9e5b55f3a5a822523b7784e9255cba77f7acec7f0feb72aa76a773714e537",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 0.7968,
+          "deepseek_requests": 19,
+          "deepseek_completed": 19,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "c5331874a038909f969cc601e8ac1f931e292500acf01846c1b83a7a35ed5a77",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 21,
+      "domain": "code",
+      "task": "data_reporting-medium-customer_health_export",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 18,
+          "deepseek_completed": 18,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "c591e887d993c89a9c4e9a1b1705454f187805ca3702dab1040746d8c0b1544e",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 10,
+          "deepseek_completed": 10,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "135fa474ce60a98e56fac74317dec7ed64722312276a5a768b3255bdce12b461",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 22,
+      "domain": "office",
+      "task": "drug-inventory-split-L2-006",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 14,
+          "deepseek_completed": 14,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "68dbf026252aa85252e5890bbd3d2de03164d0053120645fa59bc06370fc0331",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 11,
+          "deepseek_completed": 11,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "05cb9776d69c8d367f5407cd451048590e62ef58a363d805ec8e1cd33d773c46",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 23,
+      "domain": "code",
+      "task": "python_port-medium-header_dimensions",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 0.0,
+          "deepseek_requests": 28,
+          "deepseek_completed": 28,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 1,
+          "receipt_sha256": "ac1b716396962f1f2c8011b6b49616225ee7222c47234e239ea54e220b60fdf1",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 0.0,
+          "deepseek_requests": 16,
+          "deepseek_completed": 16,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "2b15a7b3172ce40dbb2a0f03693eb38d678295805dc0b4caa7ca0f556301f66c",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 24,
+      "domain": "sec",
+      "task": "windows-dll-proxy-investigation",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 0.8792,
+          "deepseek_requests": 34,
+          "deepseek_completed": 34,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "ed1300512beb9f998974b404095ffc66404deec5f682767627177bdd170d7fae",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 0.861,
+          "deepseek_requests": 18,
+          "deepseek_completed": 18,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "a73727609132c00c50485fe50771aa39c349cbaf4dd59d6078b767ad88dcad8d",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 25,
+      "domain": "web",
+      "task": "workflow-backoffice-L4-002",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 26,
+          "deepseek_completed": 26,
+          "web_grade_requests": 7,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 1,
+          "receipt_sha256": "ff8805bd5defe4b4ed9341a0e0a3d587c4e401b2aa551de0f1e3ad5189ae613c",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 1.0,
+          "deepseek_requests": 23,
+          "deepseek_completed": 23,
+          "web_grade_requests": 7,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "1b9617ad4ea442eda3297c701adc8c6954972339d4d3a90cce4b8c8d99f587ac",
+          "exception_type": null
+        }
+      }
+    },
+    {
+      "position": 26,
+      "domain": "sec",
+      "task": "windows-dll-proxy-rule-gen",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "reward": 0.9462,
+          "deepseek_requests": 89,
+          "deepseek_completed": 89,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "0a1174641ff7ae6814420a4c33df6ba1459cd230c8bd11c066da4500c398f5f7",
+          "exception_type": null
+        },
+        "clm": {
+          "state": "accepted",
+          "reward": 0.6399,
+          "deepseek_requests": 39,
+          "deepseek_completed": 39,
+          "web_grade_requests": 0,
+          "original_instruction_verified": true,
+          "session_verified": true,
+          "native_compactions": 0,
+          "receipt_sha256": "4871868942cc4f66e5aa70cc037cace5654b1ed776e295d0b1456c8946db1df5",
+          "exception_type": null
+        }
+      }
+    }
+  ]
+}
