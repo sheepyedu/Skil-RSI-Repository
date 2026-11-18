@@ -1,0 +1,121 @@
+[
+  {
+    "name": "formal-01",
+    "terminal_acceptance": false,
+    "ended_exit": null,
+    "trial_receipts": 2,
+    "completed_pair_counter": 1
+  },
+  {
+    "name": "formal-02",
+    "terminal_acceptance": false,
+    "ended_exit": null,
+    "trial_receipts": 2,
+    "completed_pair_counter": 1
+  },
+  {
+    "name": "pilot-01",
+    "terminal_acceptance": false,
+    "ended_exit": null,
+    "trial_receipts": 0,
+    "completed_pair_counter": null
+  },
+  {
+    "name": "pilot-02",
+    "terminal_acceptance": false,
+    "ended_exit": null,
+    "trial_receipts": 2,
+    "completed_pair_counter": 1
+  },
+  {
+    "name": "pilot-03",
+    "terminal_acceptance": false,
+    "ended_exit": null,
+    "trial_receipts": 8,
+    "completed_pair_counter": 4
+  },
+  {
+    "name": "pilot-04",
+    "terminal_acceptance": false,
+    "ended_exit": null,
+    "trial_receipts": 8,
+    "completed_pair_counter": 4
+  },
+  {
+    "name": "pilot-05",
+    "terminal_acceptance": true,
+    "ended_exit": null,
+    "trial_receipts": 8,
+    "completed_pair_counter": 4
+  },
+  {
+    "name": "pilot-06",
+    "terminal_acceptance": false,
+    "ended_exit": null,
+    "trial_receipts": 4,
+    "completed_pair_counter": 2
+  },
+  {
+    "name": "pilot-07",
+    "terminal_acceptance": false,
+    "ended_exit": null,
+    "trial_receipts": 6,
+    "completed_pair_counter": 3
+  },
+  {
+    "name": "pilot-08",
+    "terminal_acceptance": true,
+    "ended_exit": null,
+    "trial_receipts": 8,
+    "completed_pair_counter": 4
+  },
+  {
+    "name": "plumbing-01",
+    "terminal_acceptance": false,
+    "ended_exit": null,
+    "trial_receipts": 0,
+    "completed_pair_counter": null
+  },
+  {
+    "name": "plumbing-02",
+    "terminal_acceptance": false,
+    "ended_exit": null,
+    "trial_receipts": 0,
+    "completed_pair_counter": null
+  },
+  {
+    "name": "plumbing-03",
+    "terminal_acceptance": true,
+    "ended_exit": null,
+    "trial_receipts": 4,
+    "completed_pair_counter": 2
+  },
+  {
+    "name": "plumbing-deepseek-01",
+    "terminal_acceptance": true,
+    "ended_exit": null,
+    "trial_receipts": 4,
+    "completed_pair_counter": 2
+  },
+  {
+    "name": "plumbing-edit-01",
+    "terminal_acceptance": true,
+    "ended_exit": null,
+    "trial_receipts": 4,
+    "completed_pair_counter": 2
+  },
+  {
+    "name": "plumbing-live-sync-01",
+    "terminal_acceptance": true,
+    "ended_exit": null,
+    "trial_receipts": 4,
+    "completed_pair_counter": 2
+  },
+  {
+    "name": "sync-probes",
+    "terminal_acceptance": false,
+    "ended_exit": null,
+    "trial_receipts": 0,
+    "completed_pair_counter": null
+  }
+]

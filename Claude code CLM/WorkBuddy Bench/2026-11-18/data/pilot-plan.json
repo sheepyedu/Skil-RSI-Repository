@@ -1,0 +1,57 @@
+{
+  "stage": "pilot",
+  "seed": "workbuddy-clm-v1.0-20261118",
+  "declared_formal_quota": {
+    "code": 20,
+    "office": 12,
+    "sec": 10,
+    "web": 18
+  },
+  "formal_scope": "60 matched tasks, including 10 approved defensive Security tasks; separate 4-task pilot",
+  "source_totals": {
+    "code": 80,
+    "office": 50,
+    "sec": 60,
+    "web": 70
+  },
+  "chosen_totals": {
+    "code": 1,
+    "office": 1,
+    "sec": 1,
+    "web": 1
+  },
+  "tasks": [
+    {
+      "position": 1,
+      "domain": "code",
+      "task": "bug_fix-easy-a_crash_in_local",
+      "instruction_sha256": "5ac35cb9c2f9d9d3d117d3668701397909981fe7b87302cd6a98fd2e7b00bf27",
+      "dockerfile_sha256": "95bf60ee8408ddccef85f5476d9f413ab9fac2454e2b145f53a86fa625d1e08c",
+      "marker": "WB_SERIAL_TASK_93E3C93AA459936D343D"
+    },
+    {
+      "position": 2,
+      "domain": "office",
+      "task": "calendar-dida-sync-state",
+      "instruction_sha256": "0e1d55600c11d49efbf1f67e7fc92906e357901c5d338fba0781a3ed8c87c4da",
+      "dockerfile_sha256": "7c1d92a4ce1d6ab9341aad39fd74e6e4559687c2976c919f2a8f6e0d43a25394",
+      "marker": "WB_SERIAL_TASK_DB65FB2C718A625CB280"
+    },
+    {
+      "position": 3,
+      "domain": "sec",
+      "task": "linux-ld-preload-rule-gen",
+      "instruction_sha256": "95d3726b9f92b7253adbbf5bf341ebcebabd8a5e7e6af88e952f5b7d0676c6c6",
+      "dockerfile_sha256": "228ee87583efd87045b37868e4211b1158ec8f82259dbab85637f3ac231a49cc",
+      "marker": "WB_SERIAL_TASK_1A9A9F6C8DB96978147F"
+    },
+    {
+      "position": 4,
+      "domain": "web",
+      "task": "chart-generation-L2-025",
+      "instruction_sha256": "d0b76d431867a809c2dabd45427e96bfee876d6eb0a41bb4eacdae982ee7a98c",
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "marker": "WB_SERIAL_TASK_4C61A8FB6AE60BDCDD22"
+    }
+  ]
+}

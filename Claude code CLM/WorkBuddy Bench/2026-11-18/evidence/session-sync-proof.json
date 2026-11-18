@@ -1,0 +1,34 @@
+{
+  "run": "/mount-data/Claude-code-CLM/experiments/workbuddy-20261118/plumbing-live-sync-01",
+  "commit": {
+    "deleted_events": 2,
+    "generation": 1,
+    "native_after_sha256": "0fae3967a7d863a3dd0ee496b014139979b737c41e03333108524ab3adbc5a0b",
+    "native_before_sha256": "7201ccf8f04a3bc1142fe4ed6caf3858d6b187957806220fe92faf23cd67924a",
+    "native_writer_exit": 143,
+    "session_id": "5b506a3d-bed7-4177-b73d-8cf82e71e939"
+  },
+  "resume": {
+    "catalog_revision": 9,
+    "continued": true,
+    "deleted_tool_ids": [
+      "call_00_97p58hymqt2vl2wr1456yf0p"
+    ],
+    "preserved_original_prompts": 1,
+    "session_id": "5b506a3d-bed7-4177-b73d-8cf82e71e939"
+  },
+  "synced_request": {
+    "route": "/v1/messages?beta=true",
+    "http_status": 200,
+    "context": {
+      "edit": "accepted",
+      "removed_this_request": 0,
+      "synchronized_native": true,
+      "dropped_ids": [
+        "71ed9a1c73bafadad5c8bc7c"
+      ]
+    }
+  },
+  "two_task_smoke_accepted": true,
+  "backend_model": "deepseek-v4-1-flash-261017"
+}

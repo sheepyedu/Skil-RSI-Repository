@@ -1,0 +1,505 @@
+{
+  "stage": "formal",
+  "seed": "workbuddy-clm-v1.0-20261118",
+  "declared_formal_quota": {
+    "code": 20,
+    "office": 12,
+    "sec": 10,
+    "web": 18
+  },
+  "formal_scope": "60 matched tasks, including 10 approved defensive Security tasks; separate 4-task pilot",
+  "source_totals": {
+    "code": 80,
+    "office": 50,
+    "sec": 60,
+    "web": 70
+  },
+  "chosen_totals": {
+    "code": 20,
+    "office": 12,
+    "sec": 10,
+    "web": 18
+  },
+  "tasks": [
+    {
+      "position": 1,
+      "domain": "sec",
+      "task": "linux-ld-preload-investigation",
+      "instruction_sha256": "06dd528314705c7be4f9d9bcdcacb9596fadcaa581320dec8dd4d80f2c91cbf7",
+      "dockerfile_sha256": "228ee87583efd87045b37868e4211b1158ec8f82259dbab85637f3ac231a49cc",
+      "marker": "WB_SERIAL_TASK_284D1497FC947A446C52"
+    },
+    {
+      "position": 2,
+      "domain": "web",
+      "task": "dense-saas-visual-refactor-L3-046",
+      "instruction_sha256": "2befa16cc16a49c59fcaefbaa1a707e5d61730b4c9b3e6686c72260f5de7a321",
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "marker": "WB_SERIAL_TASK_24B93A86E7BF19BFB13C"
+    },
+    {
+      "position": 3,
+      "domain": "web",
+      "task": "security-privacy-permission-review-L4-020",
+      "instruction_sha256": "b6f3e162175d92e92057efb082a626d04523479244e970d7e613bc8c0a67b7cf",
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "marker": "WB_SERIAL_TASK_FD035F4EAD5C66B0E651"
+    },
+    {
+      "position": 4,
+      "domain": "code",
+      "task": "refactor-medium-config_validation_errors",
+      "instruction_sha256": "c84f20765083208b20554c42a679c71c46f4ecd61a9a5aa9f8ce07e56ef54193",
+      "dockerfile_sha256": "05281e8747f567af0e04f5b702c5b8eaa6b22d41ab5726342f709ca7c72dbfca",
+      "marker": "WB_SERIAL_TASK_7D2A7CDEA8AAE0098D02"
+    },
+    {
+      "position": 5,
+      "domain": "web",
+      "task": "markdown-release-editor-L4-038",
+      "instruction_sha256": "29f14ad53c2502f3dc197bf5b62303c1d90d381e67fbe9703821a9271131811a",
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "marker": "WB_SERIAL_TASK_723B147A275C18F85822"
+    },
+    {
+      "position": 6,
+      "domain": "code",
+      "task": "feature-medium-envless_file_load",
+      "instruction_sha256": "a3069dbbb02b22e28ed29adeb9bf54bd5f9cf21faa78b2ba2b56f435382e4796",
+      "dockerfile_sha256": "5a2c842c30f316a1b44ffa3a6c33cd3ac754fe95cd0c904ac240ed7bf41f67fd",
+      "marker": "WB_SERIAL_TASK_558FA6C49F36B69AE745"
+    },
+    {
+      "position": 7,
+      "domain": "code",
+      "task": "reliability-hard-stream_release",
+      "instruction_sha256": "b72f7ba14745644eaa4acbf7d24d740256645d6810cdfc2607e3bc22a663f97c",
+      "dockerfile_sha256": "7193979a24ea1b30934535c5efc6bb1562c05b8d9c566a36ac40d934b588cfa2",
+      "marker": "WB_SERIAL_TASK_B4646E657A55DEE19D43"
+    },
+    {
+      "position": 8,
+      "domain": "office",
+      "task": "warranty-recovery-allocation-L5-033",
+      "instruction_sha256": "700a5b01bc0fa316df4c7729ab5dadc15ad713b4db9a667fa0ea4a30ac6c3bde",
+      "dockerfile_sha256": "c013ae9c6bcd7b2342b96118e63ead903b95fc9f8c07c4401d3ed7e1e2c74ce5",
+      "marker": "WB_SERIAL_TASK_9C3FBAD8639A77E3BCE0"
+    },
+    {
+      "position": 9,
+      "domain": "code",
+      "task": "schema_behavior-medium-datakey_errors",
+      "instruction_sha256": "c2c1d6e461c8c70767fdef943dcb8d71389566ffe78e76053103fbdbe034389a",
+      "dockerfile_sha256": "05281e8747f567af0e04f5b702c5b8eaa6b22d41ab5726342f709ca7c72dbfca",
+      "marker": "WB_SERIAL_TASK_FF7560FCFD46464BE9AC"
+    },
+    {
+      "position": 10,
+      "domain": "web",
+      "task": "root-cause-localization-L3-015",
+      "instruction_sha256": "3a8be4219b860e6d10e22313e61f5d2a34bd795f9485165066fdf21b9c2b891c",
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "marker": "WB_SERIAL_TASK_D99A4BE00A49D8D8DAA2"
+    },
+    {
+      "position": 11,
+      "domain": "code",
+      "task": "reliability-medium-pool_release",
+      "instruction_sha256": "b8a9734747163e1a48daddef8e7545345a3d39142cc1dd2143728e87877a2361",
+      "dockerfile_sha256": "7193979a24ea1b30934535c5efc6bb1562c05b8d9c566a36ac40d934b588cfa2",
+      "marker": "WB_SERIAL_TASK_5BB61FF1D3E12B2E5399"
+    },
+    {
+      "position": 12,
+      "domain": "web",
+      "task": "root-cause-localization-L3-013",
+      "instruction_sha256": "f470f423738972243f103bf59d8dd62bf328bd33bf962d8cb5120caba5ed42f4",
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "marker": "WB_SERIAL_TASK_FBF53B129A2E67B55383"
+    },
+    {
+      "position": 13,
+      "domain": "code",
+      "task": "bug_fix-medium-matching_absolute_paths",
+      "instruction_sha256": "455cec3578a386e3842dcecaa676cb50f7795c2667552e5e2b2c0627d115e92a",
+      "dockerfile_sha256": "d8d358a5700fec9fc98e9ef51a1b5de8c227650aa7b447e9de5d9b19d4f12147",
+      "marker": "WB_SERIAL_TASK_484A12CC1EA567E2918F"
+    },
+    {
+      "position": 14,
+      "domain": "sec",
+      "task": "yara-detect-cryptominer",
+      "instruction_sha256": "e69d6bbbf841f72cad668cec4030c4637886665d41750709f8e04b6eb10601d3",
+      "dockerfile_sha256": "d91a7d87d666a2d7aa04835457ff547c9776e46cd1880e8477494849df26ce0e",
+      "marker": "WB_SERIAL_TASK_79898DBCB1D518416337"
+    },
+    {
+      "position": 15,
+      "domain": "office",
+      "task": "wechat-tech-topic-package-hardened",
+      "instruction_sha256": "2e4b6d7f378b041d1e4f0249e6a7c7e67aea90bd340b5eed97713b04c25693d9",
+      "dockerfile_sha256": "a988f48943a27d7c410950a63399eb8c0ef027894473fc54ed7a44b9d3135338",
+      "marker": "WB_SERIAL_TASK_0FAD180F95F1B4A7A330"
+    },
+    {
+      "position": 16,
+      "domain": "sec",
+      "task": "false-positive-trap-bind-hard-multistep",
+      "instruction_sha256": "dd0a64231e8d1a0472003a38a5ff04a48021719bf27d64e78128a9554308c761",
+      "dockerfile_sha256": "54da0607632ed6b25f2b3623f24dff698ee29da2490e0476955e9a53dbec4f5a",
+      "marker": "WB_SERIAL_TASK_9FF4BD3AEDB85615C9F5"
+    },
+    {
+      "position": 17,
+      "domain": "code",
+      "task": "api_contract-hard-openapi_params",
+      "instruction_sha256": "93c8ab45fe02ce06268304159d3daaefe136a73e0b41826365e38ef5e8eefbb5",
+      "dockerfile_sha256": "7193979a24ea1b30934535c5efc6bb1562c05b8d9c566a36ac40d934b588cfa2",
+      "marker": "WB_SERIAL_TASK_0544BABF48C655B5396C"
+    },
+    {
+      "position": 18,
+      "domain": "sec",
+      "task": "apt-multi-source-correlation-hard-multistep",
+      "instruction_sha256": "9d30c40ce677e76483fcc669611c0034d84cc7de07b9f49a04878d6e5ac9365c",
+      "dockerfile_sha256": "1e7e78d834567aa24feb95708f1b83818ba497018047d68e5bb12624dba165db",
+      "marker": "WB_SERIAL_TASK_74E30C87A02CA49D7CB3"
+    },
+    {
+      "position": 19,
+      "domain": "code",
+      "task": "feature-medium-validation_to_eliminate_uriref",
+      "instruction_sha256": "5c1e845ac5be9c54d9ee8e08ae56cca34b1e8c69c46bc2b3df4d60b10e960a20",
+      "dockerfile_sha256": "d7ec26315528c8722bcfaba21ff0c289c301d1a550a947bf07d0d615566ca1e5",
+      "marker": "WB_SERIAL_TASK_4533D52364F481097F9C"
+    },
+    {
+      "position": 20,
+      "domain": "office",
+      "task": "rank-ic-topn-L4-001",
+      "instruction_sha256": "0154c5c9c96e1a7f54173a868c79da7d846959622cb7d9760d3791a41151fb8f",
+      "dockerfile_sha256": "c6bbbb58b5293f0b0d38ac87a28a81981a1b62a381517f6f4ed907a6df17b689",
+      "marker": "WB_SERIAL_TASK_34708B4C724CAD2869C6"
+    },
+    {
+      "position": 21,
+      "domain": "code",
+      "task": "data_reporting-medium-customer_health_export",
+      "instruction_sha256": "9fcfa7ba4aecb24e4da4683d0c31d5a90e01bce2d04f285f81d754e30ced1792",
+      "dockerfile_sha256": "4afb95757f78cd2fb49a0c90039d9513e4e0c661c4988a700c033f1d617b420d",
+      "marker": "WB_SERIAL_TASK_4FB0412B12F6EF36DD70"
+    },
+    {
+      "position": 22,
+      "domain": "office",
+      "task": "drug-inventory-split-L2-006",
+      "instruction_sha256": "e3cea9e6a25f0dc0799171211e83986eb93b0d09bb31b3e568a7eb818a9c0fb0",
+      "dockerfile_sha256": "c6bbbb58b5293f0b0d38ac87a28a81981a1b62a381517f6f4ed907a6df17b689",
+      "marker": "WB_SERIAL_TASK_40F47E78FAD1AD148BA2"
+    },
+    {
+      "position": 23,
+      "domain": "code",
+      "task": "python_port-medium-header_dimensions",
+      "instruction_sha256": "b6e1845c09443ac0decc0ee646aa2876423085fa3688ac1c7e6b0c476444518f",
+      "dockerfile_sha256": "05281e8747f567af0e04f5b702c5b8eaa6b22d41ab5726342f709ca7c72dbfca",
+      "marker": "WB_SERIAL_TASK_49CF41931CB7F37318D1"
+    },
+    {
+      "position": 24,
+      "domain": "sec",
+      "task": "windows-dll-proxy-investigation",
+      "instruction_sha256": "84192a4271105deb2dfea3e64f576284e66302785ad2e49791f63829a1a7c231",
+      "dockerfile_sha256": "228ee87583efd87045b37868e4211b1158ec8f82259dbab85637f3ac231a49cc",
+      "marker": "WB_SERIAL_TASK_FBD45B2F5A81826027D0"
+    },
+    {
+      "position": 25,
+      "domain": "web",
+      "task": "workflow-backoffice-L4-002",
+      "instruction_sha256": "19e08c351b1893b7f069762114e09848fd957987526ec326b5ee89aabec28cb5",
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "marker": "WB_SERIAL_TASK_750194A597273CDA04D8"
+    },
+    {
+      "position": 26,
+      "domain": "sec",
+      "task": "windows-dll-proxy-rule-gen",
+      "instruction_sha256": "cac589596d645a43832ad8e2af17a1067b75b5cfd0b01c0d73c8461b68c2410d",
+      "dockerfile_sha256": "228ee87583efd87045b37868e4211b1158ec8f82259dbab85637f3ac231a49cc",
+      "marker": "WB_SERIAL_TASK_3DE2645F8004C990EF23"
+    },
+    {
+      "position": 27,
+      "domain": "code",
+      "task": "data_quality-hard-label_conflicts",
+      "instruction_sha256": "dde2cc3ce71f4839d96330966145750470673c072bc0a657b4c174d883a18f7f",
+      "dockerfile_sha256": "4afb95757f78cd2fb49a0c90039d9513e4e0c661c4988a700c033f1d617b420d",
+      "marker": "WB_SERIAL_TASK_A3FD1EA24CD0BB6B492F"
+    },
+    {
+      "position": 28,
+      "domain": "code",
+      "task": "feature-hard-fallback_signers_and_switch",
+      "instruction_sha256": "fd6272df41d9d2c4d17e387e8fc2b3409e124efd6f91b3f5e3ce8bbf000e1cf6",
+      "dockerfile_sha256": "762f88ac3382e20494e27f80e57442e5a3d016a5b8be062dc1ba6a369650d2e5",
+      "marker": "WB_SERIAL_TASK_E02320915346335D4F6C"
+    },
+    {
+      "position": 29,
+      "domain": "code",
+      "task": "feature-medium-etag_header_for_static",
+      "instruction_sha256": "18e9166ed8fc87bf6788e5cbd45091021fea204b79f52f2a9070917638a1dfcf",
+      "dockerfile_sha256": "f5191fa35cb976a1b9d24eecdf063e779ecda77e83a274c23249d750cd06cd02",
+      "marker": "WB_SERIAL_TASK_1F0B4824D9220DEB5CFC"
+    },
+    {
+      "position": 30,
+      "domain": "web",
+      "task": "review-card-queue-persistence-L4-063",
+      "instruction_sha256": "fa88273447fb4eb7dd8e2050c823659b5dd43c67e6eb5ac9f7aea6cfd8499379",
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "marker": "WB_SERIAL_TASK_4C73BA01043BE7DB5423"
+    },
+    {
+      "position": 31,
+      "domain": "office",
+      "task": "rule-based-stock-exclusion-L4-011",
+      "instruction_sha256": "db161c5f5fe329d922b1ea666b03dcec35f6cb49ce45e0f63c5a870022eeff7c",
+      "dockerfile_sha256": "c6bbbb58b5293f0b0d38ac87a28a81981a1b62a381517f6f4ed907a6df17b689",
+      "marker": "WB_SERIAL_TASK_734565F80C3E8A997DA9"
+    },
+    {
+      "position": 32,
+      "domain": "office",
+      "task": "procurement-reconcile-L3-015",
+      "instruction_sha256": "1e1d20b7b4e8af5297b7a230ef9cfb23e89aaea0fc0927dc36b7ecdbf6a1fb7c",
+      "dockerfile_sha256": "c6bbbb58b5293f0b0d38ac87a28a81981a1b62a381517f6f4ed907a6df17b689",
+      "marker": "WB_SERIAL_TASK_22E0B590FDDD31EE2921"
+    },
+    {
+      "position": 33,
+      "domain": "sec",
+      "task": "windows-dll-sideload-investigation",
+      "instruction_sha256": "5452f1054b08bc7a9eeace5e95545425c070c3003038982888698206fe8ff099",
+      "dockerfile_sha256": "228ee87583efd87045b37868e4211b1158ec8f82259dbab85637f3ac231a49cc",
+      "marker": "WB_SERIAL_TASK_514DC9E51CA52FFD83AF"
+    },
+    {
+      "position": 34,
+      "domain": "code",
+      "task": "testing-medium-format_errors",
+      "instruction_sha256": "69b28ebe549490f314b3fc5959c5599c60a8e207c9a5490059987efd419e4be2",
+      "dockerfile_sha256": "05281e8747f567af0e04f5b702c5b8eaa6b22d41ab5726342f709ca7c72dbfca",
+      "marker": "WB_SERIAL_TASK_6702677F64BAD22B2B4A"
+    },
+    {
+      "position": 35,
+      "domain": "web",
+      "task": "release-readiness-review-L4-019",
+      "instruction_sha256": "8710ff6b9c88137b4c170fe833bb977a7dd6435c2c1b1367b016fa74a9bb025a",
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "marker": "WB_SERIAL_TASK_ADBAB6647C076DB929E8"
+    },
+    {
+      "position": 36,
+      "domain": "code",
+      "task": "python_port-medium-blog_tags",
+      "instruction_sha256": "8ab286e96f45a63edc15215664d216cfc76b9bb517273bcfccfd894fb48e6ac9",
+      "dockerfile_sha256": "05281e8747f567af0e04f5b702c5b8eaa6b22d41ab5726342f709ca7c72dbfca",
+      "marker": "WB_SERIAL_TASK_E8A90BB77F90279E85E6"
+    },
+    {
+      "position": 37,
+      "domain": "sec",
+      "task": "ntfs-ads-extractor",
+      "instruction_sha256": "47a534801f5ee468da4371c0b1a87d056af4e6780bd58c4cd80fe65bb2fbecb9",
+      "dockerfile_sha256": "dd574a174cb320e47faaed2c95fc60bb8f9f0f6b5d43310bd979bf544f27707c",
+      "marker": "WB_SERIAL_TASK_6F3F39286548513EB293"
+    },
+    {
+      "position": 38,
+      "domain": "web",
+      "task": "firmware-card-interaction-tests-L3-074",
+      "instruction_sha256": "0d6ce3df7f67cd7792b6d52c14e5df34b101f8ba532270c8ef8007276bde6bef",
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "marker": "WB_SERIAL_TASK_1F3FB6350E32793456B6"
+    },
+    {
+      "position": 39,
+      "domain": "web",
+      "task": "file-manager-workflow-L3-044",
+      "instruction_sha256": "4b7cc8701b69cb96cccb925a69bc03f2cf703fa618db30876687530bc732abdc",
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "marker": "WB_SERIAL_TASK_8490A2BC2C7C500C1432"
+    },
+    {
+      "position": 40,
+      "domain": "web",
+      "task": "miniprogram-source-structure-L2-041",
+      "instruction_sha256": "c7c0d9e24d547b66c2a99ee64ac17f95b58e432ee65bbefe7973123b01320ebb",
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "marker": "WB_SERIAL_TASK_11EEF656AD828DCC8AA2"
+    },
+    {
+      "position": 41,
+      "domain": "office",
+      "task": "health-quote-L2-003",
+      "instruction_sha256": "5396de46ddef3e67d5d289e62136418394d87939fee591dc060d10f63b2ba21a",
+      "dockerfile_sha256": "c6bbbb58b5293f0b0d38ac87a28a81981a1b62a381517f6f4ed907a6df17b689",
+      "marker": "WB_SERIAL_TASK_4C325C33928E69547FBA"
+    },
+    {
+      "position": 42,
+      "domain": "web",
+      "task": "ui-state-rebuild-L3-007",
+      "instruction_sha256": "3d4dd3d8a4a5d2ded1d10e165a8b2f35c67f0824d97ab5c8bc666c20a4f2766f",
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "marker": "WB_SERIAL_TASK_B6CD084134773BB6EB69"
+    },
+    {
+      "position": 43,
+      "domain": "web",
+      "task": "misleading-chart-repair-L3-055",
+      "instruction_sha256": "964c7c0c0f098c0c019c3b7ed9f356c2816cb7153b57d510552a9c9c32988f9a",
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "marker": "WB_SERIAL_TASK_B01DAD100FEE9C371479"
+    },
+    {
+      "position": 44,
+      "domain": "office",
+      "task": "effective-control-state-L5-036",
+      "instruction_sha256": "6ad8211361b4ff8d1057fb7608695604ab2f8434824b0e1bc6759573fa87c0df",
+      "dockerfile_sha256": "de6ae7341d76aa0ec74be14810716e3a52061d27b1451fcc48e58072f6a83719",
+      "marker": "WB_SERIAL_TASK_F60335798989F3B4B3D3"
+    },
+    {
+      "position": 45,
+      "domain": "code",
+      "task": "feature-medium-humanize_metric_for_converting",
+      "instruction_sha256": "a5bf2a1cd46f956b003bf6f150e1cf7b50bbbaf5ca78c68b6964e735041c8237",
+      "dockerfile_sha256": "4944883d8acd19267f0137552d324bf600f20bcd8e5e747456e51f15537c7089",
+      "marker": "WB_SERIAL_TASK_21B963738F456817FBF2"
+    },
+    {
+      "position": 46,
+      "domain": "sec",
+      "task": "yara-rust-loader-family",
+      "instruction_sha256": "a58250dec3f77bbf8ae61c28f961202f4f92827cda4827b28410ea6c7b5bdfa6",
+      "dockerfile_sha256": "d91a7d87d666a2d7aa04835457ff547c9776e46cd1880e8477494849df26ce0e",
+      "marker": "WB_SERIAL_TASK_3E0D143A2FDFBC5C4488"
+    },
+    {
+      "position": 47,
+      "domain": "code",
+      "task": "model_evaluation-hard-threshold_slices",
+      "instruction_sha256": "9b6de68dcce298a4eb6bae36feb4f800d0925e83c9a2db2ba104407a20ef9e40",
+      "dockerfile_sha256": "4afb95757f78cd2fb49a0c90039d9513e4e0c661c4988a700c033f1d617b420d",
+      "marker": "WB_SERIAL_TASK_F2ED447B7C708ABB997C"
+    },
+    {
+      "position": 48,
+      "domain": "sec",
+      "task": "windows-dll-sideload-rule-gen",
+      "instruction_sha256": "cd065964a67c621b5cb6afe8d1ce66e7f6179c95ec41ce0a917f660816cfd7e7",
+      "dockerfile_sha256": "228ee87583efd87045b37868e4211b1158ec8f82259dbab85637f3ac231a49cc",
+      "marker": "WB_SERIAL_TASK_86DEF747D880CA40F159"
+    },
+    {
+      "position": 49,
+      "domain": "office",
+      "task": "recruiting-search-skill-mock-mcp-hardened",
+      "instruction_sha256": "24f322c96c200fdf89a6f835e1f2df7d3e8b76746c34cf740684a041bed6786e",
+      "dockerfile_sha256": "ac95f94bf0b4daac94cccecc879f7cb8d5018560c9444e5ebf26cc09885bf92d",
+      "marker": "WB_SERIAL_TASK_33EC697DC1D1A9CD4A3D"
+    },
+    {
+      "position": 50,
+      "domain": "code",
+      "task": "tool_behavior-easy-diagnostics_and_observability",
+      "instruction_sha256": "e53be530f4eae60063ef9c7747ddb8031088dfb532ab041a44569613585d4871",
+      "dockerfile_sha256": "256621162c7a0c03ad98a3eddf7bcf6197e68b5cd60ff1d9a27df21fdf680993",
+      "marker": "WB_SERIAL_TASK_150D436CF04ECF67F08F"
+    },
+    {
+      "position": 51,
+      "domain": "web",
+      "task": "cohort-retention-dashboard-L4-054",
+      "instruction_sha256": "c09fab3cd010f368c83d57da900276c086760fb9ec8b2dbbbb02cb3c67c259df",
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "marker": "WB_SERIAL_TASK_1EC793726BFF8F30CAB8"
+    },
+    {
+      "position": 52,
+      "domain": "web",
+      "task": "blog-editor-draft-recovery-L4-059",
+      "instruction_sha256": "06c680cb7f60563de46eb9a90cb72d1b06fb8cf7ab75caf4ab2f677bbf977606",
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "marker": "WB_SERIAL_TASK_B02DCBEEC57E6D1EF6E6"
+    },
+    {
+      "position": 53,
+      "domain": "web",
+      "task": "kanban-drag-state-L3-042",
+      "instruction_sha256": "d1d8836477efe88579d4638659544940a7329765dd722f2c351ba8f7ea87fcb7",
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "marker": "WB_SERIAL_TASK_9ABE01FD211890291944"
+    },
+    {
+      "position": 54,
+      "domain": "office",
+      "task": "crypto-backtest-chain-L4-002",
+      "instruction_sha256": "e17decf36943082e01a6c3a1e78dba0fd0e23bf925d00fdb517da22e5545f2cf",
+      "dockerfile_sha256": "c6bbbb58b5293f0b0d38ac87a28a81981a1b62a381517f6f4ed907a6df17b689",
+      "marker": "WB_SERIAL_TASK_0B1DC3DD6C3D71150C2D"
+    },
+    {
+      "position": 55,
+      "domain": "office",
+      "task": "research-factor-table-extract-L3-016",
+      "instruction_sha256": "e739f4d8e21c2a8dfb7bf658cf93aefb2bf189c181bda342cd52c480ace25661",
+      "dockerfile_sha256": "afbe19caa5b959ea8245e1cd6850cdc48fd908f2b1d399827d03defb71c1572f",
+      "marker": "WB_SERIAL_TASK_CBE4C97BDFE299A6EE7B"
+    },
+    {
+      "position": 56,
+      "domain": "web",
+      "task": "svg-chart-diagram-refactor-L4-024",
+      "instruction_sha256": "477a393a6e5c013531910af4c645f62b0c1a5df4b7b9e4d7d3842923404a596f",
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "marker": "WB_SERIAL_TASK_16A64E7AF0E18549D547"
+    },
+    {
+      "position": 57,
+      "domain": "code",
+      "task": "feature_pipeline-hard-text_hashing",
+      "instruction_sha256": "4202db8b832b3109ddbe4b18e04afa94f5d70c39d3ebb10f79af12f96d6edba0",
+      "dockerfile_sha256": "4afb95757f78cd2fb49a0c90039d9513e4e0c661c4988a700c033f1d617b420d",
+      "marker": "WB_SERIAL_TASK_72373CBBF1D64AFA29CB"
+    },
+    {
+      "position": 58,
+      "domain": "web",
+      "task": "research-homepage-visual-repair-L3-064",
+      "instruction_sha256": "d22bb3327e06940e5252c40a04861e30e7df2fcff1d079b7905cbe7dee4da562",
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "marker": "WB_SERIAL_TASK_FBAE9936BB8E15D67269"
+    },
+    {
+      "position": 59,
+      "domain": "code",
+      "task": "api_contract-hard-validation_errors",
+      "instruction_sha256": "5ef37b1874773dc66921f27daee274c7dc8268d5cab46a8d5b03febb6c7819af",
+      "dockerfile_sha256": "7193979a24ea1b30934535c5efc6bb1562c05b8d9c566a36ac40d934b588cfa2",
+      "marker": "WB_SERIAL_TASK_57DA801B812CEDBAC6AA"
+    },
+    {
+      "position": 60,
+      "domain": "office",
+      "task": "service-channel-ticket-daily",
+      "instruction_sha256": "d4d8ffb5049a6a77d37ec2a21cc0cbc0b2675bc3da303fe0662a4554d7513177",
+      "dockerfile_sha256": "a988f48943a27d7c410950a63399eb8c0ef027894473fc54ed7a44b9d3135338",
+      "marker": "WB_SERIAL_TASK_F9E65505618ADA531D86"
+    }
+  ]
+}

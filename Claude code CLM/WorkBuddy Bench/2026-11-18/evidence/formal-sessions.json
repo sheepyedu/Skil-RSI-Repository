@@ -1,0 +1,9 @@
+{
+  "sessions": {
+    "native": "db39fdfa-895e-4dc5-bbe8-433c16b69634",
+    "clm": "ff0503a8-dbdb-4a4d-9085-f78265eb554b"
+  },
+  "model": "deepseek-v4-1-flash-261017",
+  "judge_model": "gpt-6.1-sol",
+  "judge_service": "gpt"
+}

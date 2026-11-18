@@ -1,0 +1,247 @@
+{
+  "stage": "pilot",
+  "total_pairs": 4,
+  "sessions": {
+    "sessions": {
+      "native": "d54f98ec-6272-4126-aa78-2c38f760f9dd",
+      "clm": "a2a5a994-0cc1-4835-98c4-4e73cb8a6544"
+    },
+    "model": "deepseek-v4-1-flash-261017",
+    "judge_model": "gpt-6.1-sol",
+    "judge_service": "gpt"
+  },
+  "complete_pairs": 4,
+  "accepted_pairs": 4,
+  "by_domain": {
+    "code": {
+      "paired": 1,
+      "native_mean_reward": 1.0,
+      "clm_mean_reward": 0.3333,
+      "mean_paired_difference": -0.6667000000000001
+    },
+    "office": {
+      "paired": 1,
+      "native_mean_reward": 0.8257,
+      "clm_mean_reward": 0.7523,
+      "mean_paired_difference": -0.07340000000000002
+    },
+    "sec": {
+      "paired": 1,
+      "native_mean_reward": 0.2,
+      "clm_mean_reward": 0.9911,
+      "mean_paired_difference": 0.7910999999999999
+    },
+    "web": {
+      "paired": 1,
+      "native_mean_reward": 0.8,
+      "clm_mean_reward": 0.7,
+      "mean_paired_difference": -0.10000000000000009
+    }
+  },
+  "arm": {
+    "native": {
+      "completed_trials": 4,
+      "accepted_trials": 4,
+      "launches_with_native_session": 4,
+      "native_stdout_logs": 4,
+      "atif_trajectories": 4,
+      "native_compactions": 1,
+      "exact_instruction_trials": 4,
+      "backend_requests": 92,
+      "backend_complete": 92,
+      "recorded_http_requests": 104,
+      "accepted_context_edits": 0,
+      "context_applied_requests": 0,
+      "prompt_tokens": 6167444,
+      "completion_tokens": 169881,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 0
+    },
+    "clm": {
+      "completed_trials": 4,
+      "accepted_trials": 4,
+      "launches_with_native_session": 4,
+      "native_stdout_logs": 4,
+      "atif_trajectories": 4,
+      "native_compactions": 0,
+      "exact_instruction_trials": 4,
+      "backend_requests": 103,
+      "backend_complete": 103,
+      "recorded_http_requests": 111,
+      "accepted_context_edits": 0,
+      "context_applied_requests": 0,
+      "prompt_tokens": 5069318,
+      "completion_tokens": 108165,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 0
+    }
+  },
+  "rows": [
+    {
+      "row": {
+        "position": 1,
+        "domain": "code",
+        "task": "bug_fix-easy-a_crash_in_local",
+        "instruction_sha256": "5ac35cb9c2f9d9d3d117d3668701397909981fe7b87302cd6a98fd2e7b00bf27",
+        "dockerfile_sha256": "95bf60ee8408ddccef85f5476d9f413ab9fac2454e2b145f53a86fa625d1e08c",
+        "marker": "WB_SERIAL_TASK_93E3C93AA459936D343D"
+      },
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "official_rewards": {
+            "reward": 1.0,
+            "tests_passed": 3,
+            "tests_total": 3
+          },
+          "exception": null,
+          "session_match": true,
+          "previous_marker": false,
+          "official_instruction_exact": true,
+          "backend_complete": 16,
+          "backend_requests": 16
+        },
+        "clm": {
+          "state": "accepted",
+          "official_rewards": {
+            "reward": 0.3333,
+            "tests_passed": 1,
+            "tests_total": 3
+          },
+          "exception": null,
+          "session_match": true,
+          "previous_marker": false,
+          "official_instruction_exact": true,
+          "backend_complete": 23,
+          "backend_requests": 23
+        }
+      }
+    },
+    {
+      "row": {
+        "position": 2,
+        "domain": "office",
+        "task": "calendar-dida-sync-state",
+        "instruction_sha256": "0e1d55600c11d49efbf1f67e7fc92906e357901c5d338fba0781a3ed8c87c4da",
+        "dockerfile_sha256": "7c1d92a4ce1d6ab9341aad39fd74e6e4559687c2976c919f2a8f6e0d43a25394",
+        "marker": "WB_SERIAL_TASK_DB65FB2C718A625CB280"
+      },
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "official_rewards": {
+            "test_pass_rate": 0.8257,
+            "overall": 0.8257,
+            "reward": 0.8257,
+            "tests_passed": 90,
+            "tests_total": 109
+          },
+          "exception": null,
+          "session_match": true,
+          "previous_marker": true,
+          "official_instruction_exact": true,
+          "backend_complete": 21,
+          "backend_requests": 21
+        },
+        "clm": {
+          "state": "accepted",
+          "official_rewards": {
+            "test_pass_rate": 0.7523,
+            "overall": 0.7523,
+            "reward": 0.7523,
+            "tests_passed": 82,
+            "tests_total": 109
+          },
+          "exception": null,
+          "session_match": true,
+          "previous_marker": true,
+          "official_instruction_exact": true,
+          "backend_complete": 21,
+          "backend_requests": 21
+        }
+      }
+    },
+    {
+      "row": {
+        "position": 3,
+        "domain": "sec",
+        "task": "linux-ld-preload-rule-gen",
+        "instruction_sha256": "95d3726b9f92b7253adbbf5bf341ebcebabd8a5e7e6af88e952f5b7d0676c6c6",
+        "dockerfile_sha256": "228ee87583efd87045b37868e4211b1158ec8f82259dbab85637f3ac231a49cc",
+        "marker": "WB_SERIAL_TASK_1A9A9F6C8DB96978147F"
+      },
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "official_rewards": {
+            "reward": 0.2
+          },
+          "exception": null,
+          "session_match": true,
+          "previous_marker": true,
+          "official_instruction_exact": true,
+          "backend_complete": 27,
+          "backend_requests": 27
+        },
+        "clm": {
+          "state": "accepted",
+          "official_rewards": {
+            "reward": 0.9911
+          },
+          "exception": null,
+          "session_match": true,
+          "previous_marker": true,
+          "official_instruction_exact": true,
+          "backend_complete": 23,
+          "backend_requests": 23
+        }
+      }
+    },
+    {
+      "row": {
+        "position": 4,
+        "domain": "web",
+        "task": "chart-generation-L2-025",
+        "instruction_sha256": "d0b76d431867a809c2dabd45427e96bfee876d6eb0a41bb4eacdae982ee7a98c",
+        "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+        "marker": "WB_SERIAL_TASK_4C61A8FB6AE60BDCDD22"
+      },
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "official_rewards": {
+            "test_pass_rate": 0.8,
+            "overall": 0.8,
+            "wall_time_sec": 93.58,
+            "reward": 0.8,
+            "tests_passed": 12,
+            "tests_total": 13
+          },
+          "exception": null,
+          "session_match": true,
+          "previous_marker": true,
+          "official_instruction_exact": true,
+          "backend_complete": 28,
+          "backend_requests": 28
+        },
+        "clm": {
+          "state": "accepted",
+          "official_rewards": {
+            "test_pass_rate": 0.7,
+            "overall": 0.7,
+            "wall_time_sec": 108.0,
+            "reward": 0.7,
+            "tests_passed": 12,
+            "tests_total": 13
+          },
+          "exception": null,
+          "session_match": true,
+          "previous_marker": true,
+          "official_instruction_exact": true,
+          "backend_complete": 36,
+          "backend_requests": 36
+        }
+      }
+    }
+  ]
+}

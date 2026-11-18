@@ -1,0 +1,10 @@
+{
+  "includeCoAuthoredBy": false,
+  "cleanupPeriodDays": 3650,
+  "skipDangerousModePermissionPrompt": true,
+  "hasCompletedOnboarding": true,
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "deny": ["WebSearch", "AskUserQuestion", "WebFetch"]
+  }
+}
