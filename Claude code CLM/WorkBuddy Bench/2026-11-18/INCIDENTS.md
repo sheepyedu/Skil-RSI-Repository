@@ -58,3 +58,7 @@ CLM 组的第 5 题有 47 次正常 DeepSeek 作答。GPT 外部评分有 12 次
 DeepSeek 真实探针以同一模型接受 `max_tokens=16384` 并正常停止。恢复批次对两组均采用 16,384，回到各自第 14 题已验收的原生会话、会话附件与笔记。第 15 题两组同预算重跑，前 14 对沿用原始记录。批次核对实际请求中的输出限制，后续分析把第 15 题起标为变更后的预算，并保留旧预算下两条尝试供单独复核。
 
 [原始尝试回执](evidence/task-015-original-output-cap.json) · [恢复前快照](evidence/observation-0106-formal-02-resume-04-stop.json) · [API 探针](evidence/output-budget-16384-probe.json) · [恢复运行器](src/serial-recovery-05/)
+
+## 第 17 题原生组残留后台搜索
+
+原生 Claude Code 在 35 次已闭合作答后写出成功终态。它仍等待容器内后台递归搜索，评分尚未开始。按试验标签、进程谱系、原会话、CLI 终态和失活时间核验后，只终止该搜索。随后两次作答调用闭合，CLI 正常退出，官方评分为 0.0，CLM 组按原顺序开始。最终汇总单列第 4 题 CLM 和第 17 题原生两次人工干预。 [处理回执](evidence/task-017-native-background-cleanup.json) · [处理脚本](src/release_stale_search.py)

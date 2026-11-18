@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-11-19T01:36:44+08:00",
+  "run": "formal-02-resume-05",
+  "position": 17,
+  "arm": "native",
+  "project": "017-code-api_contract-hard-openapi_params__env",
+  "complete_model_requests_before_intervention": 35,
+  "cli_stream_sha256_at_intervention": "f00021179f4e84c0e63166e3a30eee1c01c02a71db55af87428f4fdc35efcc0b",
+  "ready_result_type": "success",
+  "process_signal": "SIGTERM",
+  "process_target": "one confirmed recursive grep under the trial Claude Code process"
+}
