@@ -4,7 +4,7 @@
 
 以 [SOURCES.json](data/SOURCES.json) 中的提交、数据修订、镜像 ID 和 SHA-256 为准。官方数据卡列出四个数据包、目录布局和许可证。依据仓库与数据包条款获取公开原件，验证其 SHA-256，再对照冻结题单核验任务指令和 Dockerfile。工作区内部保留官方测试、测试产物和原始任务文件。Security 仅启用冻结的防御性任务。 [官方数据卡](https://huggingface.co/datasets/tencent/workbuddy-bench/tree/3e8ad839685c589d83a1dd60fe2d15eabb75f27a)
 
-正式运行依赖 Harbor 0.18.0 和 WorkBuddy 官方评测器。Claude Code 固定为 2.1.160，实验层通过只读挂载从隔离工作区启动。仓库中的部署入口记录原 H20 目录约定，复现者按实际环境配置 Docker、凭据入口与依赖。模型请求在宿主适配器由 Claude Messages 转为 DeepSeek Chat Completions。可以从相邻 [Claude Code CLM 的 CL-Bench 归档](../archive/) 获取上一次使用的适配器，对照固定 SHA。正式版真实题面已按原文传入，记录中同时归档上下文投影前后的请求。
+正式运行依赖 Harbor 0.18.0 和 WorkBuddy 官方评测器。Claude Code 固定为 2.1.160，实验层通过只读挂载从隔离工作区启动。仓库中的部署入口记录原 H20 目录约定，复现者按实际环境配置 Docker、凭据入口与依赖。模型请求在宿主适配器由 Claude Messages 转为 DeepSeek Chat Completions。正式版真实题面已按原文传入，记录中同时归档上下文投影前后的请求。 [本次 CLM 核心代码与适配器](src/clm-core/) · [Claude Code CLM 的 CL-Bench 归档](../../archive/)
 
 | 条件 | 原生组 | CLM 组 |
 |---|---|---|
@@ -28,7 +28,7 @@
 
 ## 第 3 题恢复
 
-`formal-02-resume-01` 使用 [恢复运行器](src/serial-recovery-01/) 和同一冻结题单。执行前核对 `formal-02` 终态、五条有效试验、预留会话快照和维护响应。该运行器首次只补发第 3 题 CLM 组，首三题通过逐请求验收才继续第 4 题。试跑和第 1、2 题采用原始的已冻结运行器，第 3 题 CLM 起才启用容量降级路径。汇总时以恢复目录的有效记录为准，同一条已通过的旧试验只计一次，保留原始失败维护尝试。
+`formal-02-resume-01` 使用同一冻结题单。将 `src/serial` 复制到独立目录，再覆盖 `src/serial-recovery-01` 的四个文件并放入 `src/inspect_run.py`。执行前核对 `formal-02` 终态、五条有效试验、预留会话快照和维护响应。该运行器首次只补发第 3 题 CLM 组，首三题通过逐请求验收才继续第 4 题。试跑和第 1、2 题采用原始的已冻结运行器，第 3 题 CLM 起才启用容量降级路径。汇总时以恢复目录的有效记录为准，同一条已通过的旧试验只计一次，保留原始失败维护尝试。 [恢复运行器](src/serial-recovery-01/)
 
 ## 证据路径
 
