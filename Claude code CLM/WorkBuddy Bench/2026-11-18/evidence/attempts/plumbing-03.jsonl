@@ -1,0 +1,4 @@
+{"run":"plumbing-03","position":1,"domain":"code","task":"plumbing-1","arm":"clm","accepted":true,"exceptions":null,"native_terminal":true,"reward":{"reward":1.0},"accepted_context_edits":0,"actual_prompt_exact":null,"attempts":[]}
+{"run":"plumbing-03","position":2,"domain":"code","task":"plumbing-2","arm":"clm","accepted":true,"exceptions":null,"native_terminal":true,"reward":{"reward":1.0},"accepted_context_edits":0,"actual_prompt_exact":null,"attempts":[]}
+{"run":"plumbing-03","position":1,"domain":"code","task":"plumbing-1","arm":"native","accepted":true,"exceptions":null,"native_terminal":true,"reward":{"reward":1.0},"accepted_context_edits":0,"actual_prompt_exact":null,"attempts":[]}
+{"run":"plumbing-03","position":2,"domain":"code","task":"plumbing-2","arm":"native","accepted":true,"exceptions":null,"native_terminal":true,"reward":{"reward":1.0},"accepted_context_edits":0,"actual_prompt_exact":null,"attempts":[]}
