@@ -1,0 +1,64 @@
+{
+  "run": "formal-02-resume-02",
+  "position": 5,
+  "arm": "clm",
+  "criterion": "risk_level_derivation",
+  "status": "degraded_official_grade",
+  "official_reward": 0.5,
+  "evaluator_action": "empty result scored as a failed criterion",
+  "expected_llm_criteria": 8,
+  "fully_closed_llm_criteria": 7,
+  "verifier_log_sha256": "4afe56fe792e6dab9bd43fc3b6ad216d3663cf22405a9341e06602c604f964ad",
+  "failed_attempts": [
+    {
+      "id": "00051",
+      "http_status": 200,
+      "transport": "eof",
+      "errors": [
+        "upstream_error"
+      ],
+      "request_sha256": "5e21fe596a38255fcb642cbb93d0f4ac7ae169666ae9a7202c20c0cf7c61ebd5",
+      "response_sha256": "947233f9c51e1e80c9a877621e32107203f55d2224decc8d4c61a6a8dd8ff44e"
+    },
+    {
+      "id": "00052",
+      "http_status": 200,
+      "transport": "eof",
+      "errors": [
+        "upstream_error"
+      ],
+      "request_sha256": "5e21fe596a38255fcb642cbb93d0f4ac7ae169666ae9a7202c20c0cf7c61ebd5",
+      "response_sha256": "d9fcad8d30965db1fe38cbf7ff4b976a01a744c3373bd806e807e10e34ba9fe4"
+    },
+    {
+      "id": "00053",
+      "http_status": 200,
+      "transport": "eof",
+      "errors": [
+        "upstream_error"
+      ],
+      "request_sha256": "5e21fe596a38255fcb642cbb93d0f4ac7ae169666ae9a7202c20c0cf7c61ebd5",
+      "response_sha256": "fd570d1d0c1e6695ef2c2b9ce1fa03a559b67fdc08590f74d0879c895a4950b8"
+    },
+    {
+      "id": "00054",
+      "http_status": 200,
+      "transport": "eof",
+      "errors": [
+        "upstream_error"
+      ],
+      "request_sha256": "5e21fe596a38255fcb642cbb93d0f4ac7ae169666ae9a7202c20c0cf7c61ebd5",
+      "response_sha256": "56cb6b23109cf2aff3b22e9a0cf60ef829e3c80a3739422c5d9bf457da5b649c"
+    },
+    {
+      "id": "00055",
+      "http_status": 200,
+      "transport": "eof",
+      "errors": [
+        "upstream_error"
+      ],
+      "request_sha256": "5e21fe596a38255fcb642cbb93d0f4ac7ae169666ae9a7202c20c0cf7c61ebd5",
+      "response_sha256": "bea6354c1fe3de2623b7ca42e4221a669c81c26c52bc5f1871163da6a3f40815"
+    }
+  ]
+}
