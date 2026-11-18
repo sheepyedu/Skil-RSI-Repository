@@ -78,3 +78,5 @@ CLM 在 17 次完整调用及成功终态后等待后台递归搜索。确认搜
 04:05 第三次最小请求仍为响应前超时。H20 已知本地端口没有 DeepSeek 服务监听，八张 H20 均在使用。已验收的同模型续跑入口保持准备状态。 [第三次探针](evidence/provider-health-0404.json) · [H20 现有服务只读核对](evidence/h20-existing-deepseek-service-0405.json)
 
 04:15 第四次最小请求再次在响应前超时。至 04:16，第六次恢复目录已完成 52 条已验收试验、两组第 26 题会话、冻结题单的复制与逐字节核对。程序等待原模型的有效健康回执后再发送第 27 题，当前仅完成本地准备。 [第四次探针](evidence/provider-health-0414.json) · [恢复准备验收](evidence/formal-02-recovery-06-staged.json) · [恢复入口](src/serial-recovery-06/)
+
+04:26 第五次最小请求仍为 45 秒、零响应字节超时。已完成题目和第 27 题原始记录保持封存，后续重跑使用已核验的第 26 题检查点。 [第五次探针](evidence/provider-health-0425.json)

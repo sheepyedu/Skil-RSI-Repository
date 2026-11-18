@@ -38,6 +38,8 @@
 
 前 14 题两组的输出上限均为每请求 8,192 token。自第 15 题重跑起，同一上限提高到 16,384 token。第五次恢复从两组上一道已验收的会话和笔记重新启动，使用相同的冻结任务输入和评分规则。原第 15 题与重跑均保留，汇总按选定的同预算配对使用结果。 [配对重跑代码](src/serial-recovery-05/) · [输出上限原始回执](evidence/task-015-original-output-cap.json)
 
+最终对照以冻结题单逐题配对，原始分和生效分同时保留。汇总代码要求完整的 60 对，计算全样本、子集、共享输出上限各阶段的计数与配对差，并单列剔除人工清理或末次响应不完整的配对后的结果。连续会话中的题目之间可能相互影响，汇总使用描述统计。 [最终汇总代码](src/summarize_paired_scores.py) · [版本与异常标记](analysis/run-qualification-annotations.json)
+
 ## 证据路径
 
 有权限的协作者可在 H20 CPFS 查找 `/mount-data/Claude-code-CLM/experiments/workbuddy-20261118`。运行根的 `formal-02` 按 `native` 和 `clm` 分组：

@@ -1,0 +1,13 @@
+{
+  "plan_sha256": "514a0e3a17b59db24b3990bbff1f1fd202c0379ad8f5571880f3ddf84b4de316",
+  "shared_output_budget_phases": [
+    {"from_position": 1, "tokens": 8192},
+    {"from_position": 15, "tokens": 16384}
+  ],
+  "flags": [
+    {"position": 4, "arm": "clm", "kind": "operator_cleanup", "evidence": "../evidence/task-004-background-cleanup.json"},
+    {"position": 13, "arm": "native", "kind": "unclosed_final_agent_response", "evidence": "../evidence/task-013-native-transport.json"},
+    {"position": 17, "arm": "native", "kind": "operator_cleanup", "evidence": "../evidence/task-017-native-background-cleanup.json"},
+    {"position": 18, "arm": "clm", "kind": "operator_cleanup", "evidence": "../evidence/task-018-clm-background-cleanup.json"}
+  ]
+}
