@@ -1,0 +1,23 @@
+{
+  "source": "formal-02-resume-01",
+  "plan_sha256": "514a0e3a17b59db24b3990bbff1f1fd202c0379ad8f5571880f3ddf84b4de316",
+  "first_unstarted_arm": "clm",
+  "first_unstarted_position": 4,
+  "accepted_native_positions": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "accepted_clm_positions": [
+    1,
+    2,
+    3
+  ],
+  "original_maintenance_response_sha256": "4eb20897603a474bf07093917474dfb742528a9ffe25de624364b7fc18c5ceb0",
+  "runtime_sha256": {
+    "resume_formal.py": "13ab7ac8f6982f89d5ef5e7143949265937d7b75f58094459771c8bb1d1a6e5a",
+    "resume_projection.py": "b23e7b67216b70bf355ebc0d5a84f48b08b551a395640b9865c2895535d6cd6a",
+    "run_pair.py": "d4602deb7c3cbbf84a7748816ff0d4a9c4ba44f5108fbe14fd25db2d3c8d1839"
+  }
+}

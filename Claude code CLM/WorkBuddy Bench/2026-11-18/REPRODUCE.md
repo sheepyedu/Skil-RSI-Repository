@@ -30,6 +30,8 @@
 
 `formal-02-resume-01` 使用同一冻结题单。将 `src/serial` 复制到独立目录，再覆盖 `src/serial-recovery-01` 的四个文件并放入 `src/inspect_run.py`。执行前核对 `formal-02` 终态、五条有效试验、预留会话快照和维护响应。该运行器首次只补发第 3 题 CLM 组，首三题通过逐请求验收才继续第 4 题。试跑和第 1、2 题采用原始的已冻结运行器，第 3 题 CLM 起才启用容量降级路径。汇总时以恢复目录的有效记录为准，同一条已通过的旧试验只计一次，保留原始失败维护尝试。 [恢复运行器](src/serial-recovery-01/)
 
+第 4 题 CLM 恢复需要覆盖 [第二次恢复运行器](src/serial-recovery-02/)。入口读取先前的退出状态、七条成功试验和原始维护响应，沿用两条会话，修复后核验完整的四题前缀。实时状态及各题已结束回执可用 [只读进度脚本](src/checkpoint_run.py) 读取。
+
 ## 证据路径
 
 有权限的协作者可在 H20 CPFS 查找 `/mount-data/Claude-code-CLM/experiments/workbuddy-20261118`。运行根的 `formal-02` 按 `native` 和 `clm` 分组：
