@@ -36,6 +36,8 @@
 
 正式请求量从作答调用、外部评分和维护的原始记录核对，另计补评请求。重复带入恢复目录的原始试验按线次和启动时间去重。评分审计通过原请求 SHA-256 将同请求的失败和重试关联，同时查验官方评分项是否判为 API 异常。 [请求计数脚本](src/count_model_requests.py) · [评分状态脚本](src/audit_web_judges.py)
 
+前 14 题两组的输出上限均为每请求 8,192 token。自第 15 题重跑起，同一上限提高到 16,384 token。第五次恢复从两组上一道已验收的会话和笔记重新启动，使用相同的冻结任务输入和评分规则。原第 15 题与重跑均保留，汇总按选定的同预算配对使用结果。 [配对重跑代码](src/serial-recovery-05/) · [输出上限原始回执](evidence/task-015-original-output-cap.json)
+
 ## 证据路径
 
 有权限的协作者可在 H20 CPFS 查找 `/mount-data/Claude-code-CLM/experiments/workbuddy-20261118`。运行根的 `formal-02` 按 `native` 和 `clm` 分组：

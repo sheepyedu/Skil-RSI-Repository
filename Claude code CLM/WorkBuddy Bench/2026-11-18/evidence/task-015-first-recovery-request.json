@@ -1,0 +1,13 @@
+{
+  "run": "formal-02-resume-05",
+  "position": 15,
+  "arm": "native",
+  "attempt": "0000",
+  "actual_model": "deepseek-v4-1-flash-261017",
+  "actual_max_tokens": 16384,
+  "prior_marker_retained": true,
+  "complete": true,
+  "finish": "tool_calls",
+  "request_sha256": "02ae31382df4251af20504a0c2b8e240c60e628ee71272c4e0597abc245e252b",
+  "response_sha256": "0e0e412793ebc584d9beff12822d6e510ba4d42db99a0ca75865b2c6f05755fa"
+}

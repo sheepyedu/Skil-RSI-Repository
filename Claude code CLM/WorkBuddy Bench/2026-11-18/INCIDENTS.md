@@ -50,3 +50,11 @@ CLM 组的第 5 题有 47 次正常 DeepSeek 作答。GPT 外部评分有 12 次
 ## 第 7 题记忆笔记超限
 
 第 7 题原生组 25 次调用完整，得分 0.75。第 7 题 CLM 的模型维护笔记为 2,377 字节，超出 2,000 字节上限。原校验器在发题前拒绝。第四次恢复按 UTF-8 字符边界截取，在接近上限的句界或换行结束，原始笔记保存在未经修改的维护响应中。复验留存 1,889 字节笔记，回放预估 163,012 字节，前六道真实用户题面与可见助手文本保持逐字一致。 [停止回执](evidence/observation-2309-formal-02-resume-03-stop.json) · [第四次恢复复验](evidence/formal-02-recovery-04-probe.json) · [恢复代码](src/serial-recovery-04/)
+
+## 第 15 题每请求输出上限
+
+原生组第 15 题已送出 10 次 DeepSeek 请求。最后 3 次在 8,192 token 输出上限下全部返回 `finish_reason=length`，8192 token 全为模型推理。CLI 报输出上限并退出，官方评分未启动。原 CLM 组结束于 0.8989，80/89 项，两个原始尝试分别保留。
+
+DeepSeek 真实探针以同一模型接受 `max_tokens=16384` 并正常停止。恢复批次对两组均采用 16,384，回到各自第 14 题已验收的原生会话、会话附件与笔记。第 15 题两组同预算重跑，前 14 对沿用原始记录。批次核对实际请求中的输出限制，后续分析把第 15 题起标为变更后的预算，并保留旧预算下两条尝试供单独复核。
+
+[原始尝试回执](evidence/task-015-original-output-cap.json) · [恢复前快照](evidence/observation-0106-formal-02-resume-04-stop.json) · [API 探针](evidence/output-budget-16384-probe.json) · [恢复运行器](src/serial-recovery-05/)

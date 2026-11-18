@@ -1,0 +1,41 @@
+{
+  "source": "formal-02-resume-04",
+  "position": 15,
+  "plan_sha256": "514a0e3a17b59db24b3990bbff1f1fd202c0379ad8f5571880f3ddf84b4de316",
+  "shared_output_budget_before": 8192,
+  "shared_output_budget_after": 16384,
+  "original_trial_receipt_sha256": {
+    "native": "be839fc94f000d5008cc2fd1fa6f619afb9b17bf7fab710966d05909c8e05691",
+    "clm": "8ed520e45ce43a3f05a9a3dea2c7b9bb1ad13e4d0bc799cfbebe383db1da5372"
+  },
+  "original_trial_accepted": {
+    "native": false,
+    "clm": true
+  },
+  "original_native_exhausted_requests": [
+    {
+      "request": "0007",
+      "request_sha256": "8a78fe4b25c1d9fc20828129f6966090d00b8754682678b859338db554c7bb59"
+    },
+    {
+      "request": "0008",
+      "request_sha256": "ad469908e722abf67e3dd8942176b64fed440fcd8829808c9cc1f34136067ac3"
+    },
+    {
+      "request": "0009",
+      "request_sha256": "b1c5051500aee4c81afbfdff54733a8c83a5ba31912ea7ff23b051b45b1a7642"
+    }
+  ],
+  "prior_checkpoints": {
+    "native": {
+      "position": 14,
+      "session_sha256": "5180769a6e1f608775effaf6e977d3d1634fbaadee60a90842aaebbcfb9a0282"
+    },
+    "clm": {
+      "position": 14,
+      "session_sha256": "738cc833efa1353d0e883fc0afb82332883acdafb199aa71af0a12ab920979ff"
+    }
+  },
+  "serial_agent_sha256": "1a203771abe63f5fafe21232b6f7f013daee6e82e329ad2d8fc2391251792076",
+  "accepted_trials_retained": 28
+}

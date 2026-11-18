@@ -1,0 +1,85 @@
+{
+  "run": "formal-02-resume-04",
+  "position": 15,
+  "original_cli_max_output_tokens": 8192,
+  "terminal_error": "Claude Code response exceeded configured output token maximum",
+  "three_exhausted_model_calls": [
+    {
+      "attempt": "0007",
+      "model": "deepseek-v4-1-flash-261017",
+      "max_tokens": 8192,
+      "finish_reason": "length",
+      "usage": {
+        "completion_tokens": 8192,
+        "prompt_tokens": 130415,
+        "total_tokens": 138607,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 8192
+        }
+      },
+      "request_sha256": "8a78fe4b25c1d9fc20828129f6966090d00b8754682678b859338db554c7bb59",
+      "response_sha256": "c8852670e608b0d6407fd50c265f8bb996606c55eedaf57d2e7540c817b59d3e"
+    },
+    {
+      "attempt": "0008",
+      "model": "deepseek-v4-1-flash-261017",
+      "max_tokens": 8192,
+      "finish_reason": "length",
+      "usage": {
+        "completion_tokens": 8192,
+        "prompt_tokens": 130453,
+        "total_tokens": 138645,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 8192
+        }
+      },
+      "request_sha256": "ad469908e722abf67e3dd8942176b64fed440fcd8829808c9cc1f34136067ac3",
+      "response_sha256": "81c34ec642ee8b5f1317d5a97f3f0a029e6b9abedb83b2642b6139d63088ea25"
+    },
+    {
+      "attempt": "0009",
+      "model": "deepseek-v4-1-flash-261017",
+      "max_tokens": 8192,
+      "finish_reason": "length",
+      "usage": {
+        "completion_tokens": 8192,
+        "prompt_tokens": 130492,
+        "total_tokens": 138684,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 8192
+        }
+      },
+      "request_sha256": "b1c5051500aee4c81afbfdff54733a8c83a5ba31912ea7ff23b051b45b1a7642",
+      "response_sha256": "d74424b5c95df9d0aaef467204467e1d1a32da0aa58254d5e3e2744a64d7a682"
+    }
+  ],
+  "original_pair": {
+    "native": {
+      "accepted": false,
+      "score": null,
+      "backend_requests": 10,
+      "receipt_sha256": "be839fc94f000d5008cc2fd1fa6f619afb9b17bf7fab710966d05909c8e05691"
+    },
+    "clm": {
+      "accepted": true,
+      "score": {
+        "test_pass_rate": 0.8989,
+        "overall": 0.8989,
+        "reward": 0.8989,
+        "tests_passed": 80,
+        "tests_total": 89
+      },
+      "backend_requests": 24,
+      "receipt_sha256": "8ed520e45ce43a3f05a9a3dea2c7b9bb1ad13e4d0bc799cfbebe383db1da5372"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "requested_model": "deepseek-v4-1-flash-261017",
+  "reported_model": "deepseek-v4-1-flash-261017",
+  "max_tokens": 16384,
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 11,
+    "prompt_tokens": 35,
+    "total_tokens": 46,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 9
+    }
+  },
+  "request_sha256": "4f6593a3760c4258625bcb98c39978955a3f994ab55ef7aedd8a84ddf15b90ee",
+  "response_sha256": "6d3018c152df79bb48599863d9fe7fc5042584453fffd04eff9d6e98d6dafe10"
+}
