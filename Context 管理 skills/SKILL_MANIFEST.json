@@ -1,0 +1,177 @@
+[
+  {
+    "platform": "Claude Code",
+    "name": "cc-resume-state",
+    "title": "恢复时对齐摘要与最新状态",
+    "path": "Claude Code/cc-resume-state/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code",
+    "name": "cc-verify-memory-write",
+    "title": "记忆写入必须核验成功",
+    "path": "Claude Code/cc-verify-memory-write/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code",
+    "name": "cc-semantic-memory-address",
+    "title": "按语义定位而非历史行号检索",
+    "path": "Claude Code/cc-semantic-memory-address/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code",
+    "name": "cc-evidence-hypothesis",
+    "title": "把观察假设规则分层并保留反例",
+    "path": "Claude Code/cc-evidence-hypothesis/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code",
+    "name": "cc-scope-and-version",
+    "title": "为实体与环境建立记忆作用域",
+    "path": "Claude Code/cc-scope-and-version/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code",
+    "name": "cc-feedback-scope",
+    "title": "反馈必须带指标范围且不反演唯一原因",
+    "path": "Claude Code/cc-feedback-scope/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code",
+    "name": "cc-active-memory-index",
+    "title": "分离简短活跃记忆和证据日志",
+    "path": "Claude Code/cc-active-memory-index/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex CLM",
+    "name": "cxclm-transactional-edit",
+    "title": "事务式压缩与回读",
+    "path": "Codex CLM/cxclm-transactional-edit/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex CLM",
+    "name": "cxclm-structured-state",
+    "title": "结构化状态与证据分层",
+    "path": "Codex CLM/cxclm-structured-state/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex CLM",
+    "name": "cxclm-conflict-recheck",
+    "title": "冲突保留与条件化复查",
+    "path": "Codex CLM/cxclm-conflict-recheck/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex CLM",
+    "name": "cxclm-scoped-retrieval",
+    "title": "语义检索与记忆作用域",
+    "path": "Codex CLM/cxclm-scoped-retrieval/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex CLM",
+    "name": "cxclm-note-lifecycle",
+    "title": "活动索引生命周期",
+    "path": "Codex CLM/cxclm-note-lifecycle/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex CLM",
+    "name": "cxclm-measure-edit-effect",
+    "title": "压缩效果与任务结果分开验证",
+    "path": "Codex CLM/cxclm-measure-edit-effect/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code CLM",
+    "name": "ccclm-save-before-prune",
+    "title": "先核验保存，再剪枝",
+    "path": "Claude Code CLM/ccclm-save-before-prune/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code CLM",
+    "name": "ccclm-confirm-action-receipts",
+    "title": "完成状态只接受工具回执",
+    "path": "Claude Code CLM/ccclm-confirm-action-receipts/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code CLM",
+    "name": "ccclm-current-policy",
+    "title": "冲突记忆的当前规则索引",
+    "path": "Claude Code CLM/ccclm-current-policy/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code CLM",
+    "name": "ccclm-metric-feedback",
+    "title": "不把跨题分数当策略消融",
+    "path": "Claude Code CLM/ccclm-metric-feedback/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code CLM",
+    "name": "ccclm-workspace-protocol",
+    "title": "区分持久工作区与官方任务环境",
+    "path": "Claude Code CLM/ccclm-workspace-protocol/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code CLM",
+    "name": "ccclm-capacity-maintenance",
+    "title": "有余量且有进展的容量维护",
+    "path": "Claude Code CLM/ccclm-capacity-maintenance/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex",
+    "name": "cx-verify-persistence",
+    "title": "验证记忆生命周期",
+    "path": "Codex/cx-verify-persistence/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex",
+    "name": "cx-resume-checkpoint",
+    "title": "原生压缩恢复契约",
+    "path": "Codex/cx-resume-checkpoint/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex",
+    "name": "cx-evidence-state",
+    "title": "原始证据与聚合状态分离",
+    "path": "Codex/cx-evidence-state/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex",
+    "name": "cx-scoped-retrieval",
+    "title": "实体和版本约束检索",
+    "path": "Codex/cx-scoped-retrieval/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex",
+    "name": "cx-feedback-change",
+    "title": "反馈驱动的规则变更单",
+    "path": "Codex/cx-feedback-change/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex",
+    "name": "cx-progressive-memory-read",
+    "title": "面向决策的渐进读取",
+    "path": "Codex/cx-progressive-memory-read/SKILL.md",
+    "status": "candidate_unvalidated"
+  }
+]
