@@ -84,3 +84,5 @@ CLM 在 17 次完整调用及成功终态后等待后台递归搜索。确认搜
 至 04:49，原入口仍无成功生成。04:37 的请求超时，04:48 的请求在 45 秒后以客户端 `URLError` 结束，均无响应字节。服务恢复准备保持就绪。 [04:37 探针](evidence/provider-health-0437.json) · [04:48 探针](evidence/provider-health-0448.json)
 
 05:03 主路仍返回零字节及 `URLError`。H20 单个 TCP 连接诊断也超时。Mac 默认路由经 TUN，TCP 建连较快，但对同一原服务的独立 SSH 回环转发中，两次应用请求均被远端断开。第二次使用原 Host 头。Mac 绑定 Wi-Fi 接口的直连诊断也超时。临时转发已关闭，正式服务配置继续指向原入口。 [H20 TCP](evidence/provider-transport-0504.json) · [Mac 默认路由 TCP](evidence/provider-transport-mac-0505.json) · [转发诊断](evidence/provider-health-loopback-0506.json) · [原 Host 头诊断](evidence/provider-health-loopback-host-0507.json) · [Wi-Fi 直连](evidence/provider-transport-mac-direct-0508.json)
+
+06:20 通过已有 Node01 管理入口只读核对了同一原服务端口，8 秒 TCP 诊断超时。当前多条路径均未取得成功生成。 [额外路径检查](evidence/provider-transport-node01-0620.json)

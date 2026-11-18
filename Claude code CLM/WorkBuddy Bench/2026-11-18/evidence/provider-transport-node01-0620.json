@@ -1,0 +1,9 @@
+{
+  "observed_at": "2026-11-19T06:20:24+08:00",
+  "vantage": "Node01",
+  "error_kind": "TimeoutError",
+  "seconds": 8.009,
+  "authenticated_node_verified": true,
+  "diagnostic_exit": 0,
+  "operation": "read_only_single_configured_port"
+}
