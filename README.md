@@ -43,3 +43,10 @@ unzip ROLLOUTS_200.zip -d trajectories
 一份摘要在原生CLI重组时出现两字符变化，两次响应达到32k thinking输出上限后在原会话继续。原始输出、实际后续输入、辅助计数404及管理回执缺口均已保留并在报告说明。压缩事件与文件操作分别统计，数据训练采纳需另行筛选。
 
 采集日期为北京时间2026年11月16日至17日，模型配置及回执标识为`deepseek-v4-1-flash-261017`，Claude Code版本2.1.160。官方数据版本为`5f8c50eb1e84b2eda2ef4faff757dfc812a0ea26`，运行源码提交为`2f02798`。
+
+## Context-management skills / 上下文管理技能
+
+- [English skills (default)](skill/README.md)
+- [中文技能](skill_zh/README.md)
+
+35项候选技能及其来源说明、研究证据和验证协议已统一归档；原始实验数据保持原位。

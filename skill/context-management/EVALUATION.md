@@ -1,0 +1,11 @@
+# Validation protocol: generate, use, obtain feedback, revise
+
+1. Freeze the package version and preregister the target mechanism. Do not treat 500 executions as 500 independent samples or reuse discovery data as independent validation.
+2. First replay edit boundaries: reconstruct the pre-edit environment, budget, visible context, and persistent files; compare no skill, the previous skill, and the candidate. Validate state recovery, provenance, scope, recovery from mistaken deletion, and actual use before optimizing scores.
+3. Then run complete long sequences with fixed model, reasoning settings, window, maintenance threshold, retry/recovery policy, and tool version. Compare same-order, shuffled, held-out tasks/seeds through multiple independent repetitions. The long sequence is the experimental unit; 100 dependent tasks are not independent repetitions.
+4. The primary metric is the official result. Separately record fact retention, false claims of unsubmitted completion, duplicate actions, conflict withdrawal, cross-task rereading, tool overhead, total/cached/uncached input, output, and maintenance time. State how immediate visible feedback differs from audited reward.
+5. For CLM record queued/accepted/rejected states, revision, actual next-request projection, and recoverability. Raw minus projected size is cumulative and must not be summed as per-edit savings. Bytes are not tokens; without implemented SCR, do not discuss KV-reuse gains.
+6. Prevent evaluation shortcuts: runtime skills must not contain this batch's answers, future git fixes, pre-injected hidden tests, or hidden scoring state. Physically separate research evidence from tested skills.
+7. Turn feedback into change records: rule version, trigger, old/new conditions, counterexamples, and validation results. Move from candidate to limited validation to broader use. On failure, suspend/narrow the rule and restore the last effective version instead of endlessly appending contradictory instructions.
+
+This package ran no new paid tests and did not install or alter the user's existing runners. A Markdown skill is not an implemented harness gate. New tests require prior agreement on computing resources, cost limits, and permitted experimental actions.

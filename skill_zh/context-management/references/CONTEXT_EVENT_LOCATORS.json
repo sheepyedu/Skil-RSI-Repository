@@ -1,0 +1,6629 @@
+[
+  {
+    "group": "claude_native",
+    "attempt_id": "claude_native/grouped/cases/032-codebase_adaptation-005",
+    "task_id": "codebase_adaptation-005",
+    "source": "claude_native/grouped/cases/032-codebase_adaptation-005/context-events.json",
+    "json_index": 0,
+    "kind": "case_context_event",
+    "index": 0,
+    "event_summary": {
+      "type": "system",
+      "subtype": "compact_boundary"
+    }
+  },
+  {
+    "group": "claude_native",
+    "attempt_id": "claude_native/grouped/cases/038-cohort_studies-000",
+    "task_id": "cohort_studies-000",
+    "source": "claude_native/grouped/cases/038-cohort_studies-000/context-events.json",
+    "json_index": 0,
+    "kind": "case_context_event",
+    "index": 1,
+    "event_summary": {
+      "type": "system",
+      "subtype": "compact_boundary"
+    }
+  },
+  {
+    "group": "claude_native",
+    "attempt_id": "claude_native/grouped/cases/039-cohort_studies-003",
+    "task_id": "cohort_studies-003",
+    "source": "claude_native/grouped/cases/039-cohort_studies-003/context-events.json",
+    "json_index": 0,
+    "kind": "case_context_event",
+    "index": 2,
+    "event_summary": {
+      "type": "system",
+      "subtype": "compact_boundary"
+    }
+  },
+  {
+    "group": "claude_native",
+    "attempt_id": "claude_native/grouped/cases/042-cohort_studies-012",
+    "task_id": "cohort_studies-012",
+    "source": "claude_native/grouped/cases/042-cohort_studies-012/context-events.json",
+    "json_index": 0,
+    "kind": "case_context_event",
+    "index": 3,
+    "event_summary": {
+      "type": "system",
+      "subtype": "compact_boundary"
+    }
+  },
+  {
+    "group": "claude_native",
+    "attempt_id": "claude_native/grouped/cases/044-database_exploration-005",
+    "task_id": "database_exploration-005",
+    "source": "claude_native/grouped/cases/044-database_exploration-005/context-events.json",
+    "json_index": 0,
+    "kind": "case_context_event",
+    "index": 4,
+    "event_summary": {
+      "type": "system",
+      "subtype": "compact_boundary"
+    }
+  },
+  {
+    "group": "claude_native",
+    "attempt_id": "claude_native/grouped/cases/051-database_exploration-025",
+    "task_id": "database_exploration-025",
+    "source": "claude_native/grouped/cases/051-database_exploration-025/context-events.json",
+    "json_index": 0,
+    "kind": "case_context_event",
+    "index": 5,
+    "event_summary": {
+      "type": "system",
+      "subtype": "compact_boundary"
+    }
+  },
+  {
+    "group": "claude_native",
+    "attempt_id": "claude_native/grouped/cases/061-exploitable_poker-008",
+    "task_id": "exploitable_poker-008",
+    "source": "claude_native/grouped/cases/061-exploitable_poker-008/context-events.json",
+    "json_index": 0,
+    "kind": "case_context_event",
+    "index": 6,
+    "event_summary": {
+      "type": "system",
+      "subtype": "compact_boundary"
+    }
+  },
+  {
+    "group": "claude_native",
+    "attempt_id": "claude_native/grouped/cases/084-exploitable_poker-089",
+    "task_id": "exploitable_poker-089",
+    "source": "claude_native/grouped/cases/084-exploitable_poker-089/context-events.json",
+    "json_index": 0,
+    "kind": "case_context_event",
+    "index": 7,
+    "event_summary": {
+      "type": "system",
+      "subtype": "compact_boundary"
+    }
+  },
+  {
+    "group": "claude_native",
+    "attempt_id": "claude_native/grouped/cases/098-sales_prediction-006",
+    "task_id": "sales_prediction-006",
+    "source": "claude_native/grouped/cases/098-sales_prediction-006/context-events.json",
+    "json_index": 0,
+    "kind": "case_context_event",
+    "index": 8,
+    "event_summary": {
+      "type": "system",
+      "subtype": "compact_boundary"
+    }
+  },
+  {
+    "group": "claude_native",
+    "attempt_id": "claude_native/shuffled/cases/003-blind_spectrum_monitoring-026",
+    "task_id": "blind_spectrum_monitoring-026",
+    "source": "claude_native/shuffled/cases/003-blind_spectrum_monitoring-026/context-events.json",
+    "json_index": 0,
+    "kind": "case_context_event",
+    "index": 9,
+    "event_summary": {
+      "type": "system",
+      "subtype": "compact_boundary"
+    }
+  },
+  {
+    "group": "claude_native",
+    "attempt_id": "claude_native/shuffled/cases/017-cohort_studies-012",
+    "task_id": "cohort_studies-012",
+    "source": "claude_native/shuffled/cases/017-cohort_studies-012/context-events.json",
+    "json_index": 0,
+    "kind": "case_context_event",
+    "index": 10,
+    "event_summary": {
+      "type": "system",
+      "subtype": "compact_boundary"
+    }
+  },
+  {
+    "group": "claude_native",
+    "attempt_id": "claude_native/shuffled/cases/030-blind_spectrum_monitoring-086",
+    "task_id": "blind_spectrum_monitoring-086",
+    "source": "claude_native/shuffled/cases/030-blind_spectrum_monitoring-086/context-events.json",
+    "json_index": 0,
+    "kind": "case_context_event",
+    "index": 11,
+    "event_summary": {
+      "type": "system",
+      "subtype": "compact_boundary"
+    }
+  },
+  {
+    "group": "claude_native",
+    "attempt_id": "claude_native/shuffled/cases/036-sales_prediction-000",
+    "task_id": "sales_prediction-000",
+    "source": "claude_native/shuffled/cases/036-sales_prediction-000/context-events.json",
+    "json_index": 0,
+    "kind": "case_context_event",
+    "index": 12,
+    "event_summary": {
+      "type": "system",
+      "subtype": "compact_boundary"
+    }
+  },
+  {
+    "group": "claude_native",
+    "attempt_id": "claude_native/shuffled/cases/040-codebase_adaptation-005",
+    "task_id": "codebase_adaptation-005",
+    "source": "claude_native/shuffled/cases/040-codebase_adaptation-005/context-events.json",
+    "json_index": 0,
+    "kind": "case_context_event",
+    "index": 13,
+    "event_summary": {
+      "type": "system",
+      "subtype": "compact_boundary"
+    }
+  },
+  {
+    "group": "claude_native",
+    "attempt_id": "claude_native/shuffled/cases/050-exploitable_poker-045",
+    "task_id": "exploitable_poker-045",
+    "source": "claude_native/shuffled/cases/050-exploitable_poker-045/context-events.json",
+    "json_index": 0,
+    "kind": "case_context_event",
+    "index": 14,
+    "event_summary": {
+      "type": "system",
+      "subtype": "compact_boundary"
+    }
+  },
+  {
+    "group": "claude_native",
+    "attempt_id": "claude_native/shuffled/cases/057-sales_prediction-010",
+    "task_id": "sales_prediction-010",
+    "source": "claude_native/shuffled/cases/057-sales_prediction-010/context-events.json",
+    "json_index": 0,
+    "kind": "case_context_event",
+    "index": 15,
+    "event_summary": {
+      "type": "system",
+      "subtype": "compact_boundary"
+    }
+  },
+  {
+    "group": "claude_native",
+    "attempt_id": "claude_native/shuffled/cases/078-exploitable_poker-114",
+    "task_id": "exploitable_poker-114",
+    "source": "claude_native/shuffled/cases/078-exploitable_poker-114/context-events.json",
+    "json_index": 0,
+    "kind": "case_context_event",
+    "index": 16,
+    "event_summary": {
+      "type": "system",
+      "subtype": "compact_boundary"
+    }
+  },
+  {
+    "group": "claude_native",
+    "attempt_id": "claude_native/shuffled/cases/087-cohort_studies-000",
+    "task_id": "cohort_studies-000",
+    "source": "claude_native/shuffled/cases/087-cohort_studies-000/context-events.json",
+    "json_index": 0,
+    "kind": "case_context_event",
+    "index": 17,
+    "event_summary": {
+      "type": "system",
+      "subtype": "compact_boundary"
+    }
+  },
+  {
+    "group": "claude_native",
+    "attempt_id": "claude_native/shuffled/cases/094-cohort_studies-003",
+    "task_id": "cohort_studies-003",
+    "source": "claude_native/shuffled/cases/094-cohort_studies-003/context-events.json",
+    "json_index": 0,
+    "kind": "case_context_event",
+    "index": 18,
+    "event_summary": {
+      "type": "system",
+      "subtype": "compact_boundary"
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0000/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 19,
+    "event_summary": {
+      "revision": 1
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0001/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 20,
+    "event_summary": {
+      "revision": 2
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0002/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 21,
+    "event_summary": {
+      "revision": 3
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0003/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 22,
+    "event_summary": {
+      "revision": 4
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0004/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 23,
+    "event_summary": {
+      "revision": 5
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0005/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 24,
+    "event_summary": {
+      "revision": 6
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0006/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 25,
+    "event_summary": {
+      "revision": 7
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0007/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 26,
+    "event_summary": {
+      "revision": 8
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0008/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 27,
+    "event_summary": {
+      "revision": 9
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0009/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 28,
+    "event_summary": {
+      "revision": 10
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0010/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 29,
+    "event_summary": {
+      "revision": 11
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0011/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 30,
+    "event_summary": {
+      "revision": 12
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0012/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 31,
+    "event_summary": {
+      "revision": 13
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0013/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 32,
+    "event_summary": {
+      "revision": 14
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0014/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 33,
+    "event_summary": {
+      "revision": 15
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0015/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 34,
+    "event_summary": {
+      "revision": 16
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0016/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 35,
+    "event_summary": {
+      "revision": 17
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0017/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 36,
+    "event_summary": {
+      "revision": 18
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0018/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 37,
+    "event_summary": {
+      "revision": 19
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0019/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 38,
+    "event_summary": {
+      "revision": 20
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0020/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 39,
+    "event_summary": {
+      "revision": 21
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0021/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 40,
+    "event_summary": {
+      "revision": 22
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0022/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 41,
+    "event_summary": {
+      "revision": 23
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0023/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 42,
+    "event_summary": {
+      "revision": 24
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0024/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 43,
+    "event_summary": {
+      "revision": 25
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0025/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 44,
+    "event_summary": {
+      "revision": 26
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0026/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 45,
+    "event_summary": {
+      "revision": 27
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0027/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 46,
+    "event_summary": {
+      "revision": 28
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0028/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 47,
+    "event_summary": {
+      "revision": 29
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0029/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 48,
+    "event_summary": {
+      "revision": 30
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0030/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 49,
+    "event_summary": {
+      "revision": 31
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0031/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 50,
+    "event_summary": {
+      "revision": 32
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0032/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 51,
+    "event_summary": {
+      "revision": 33
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0033/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 52,
+    "event_summary": {
+      "revision": 34
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0034/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 53,
+    "event_summary": {
+      "revision": 35
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0035/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 54,
+    "event_summary": {
+      "revision": 36
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0036/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 55,
+    "event_summary": {
+      "revision": 37
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0037/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 56,
+    "event_summary": {
+      "revision": 38
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0038/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 57,
+    "event_summary": {
+      "revision": 39
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0039/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 58,
+    "event_summary": {
+      "revision": 40
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0040/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 59,
+    "event_summary": {
+      "revision": 41
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0041/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 60,
+    "event_summary": {
+      "revision": 42
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0042/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 61,
+    "event_summary": {
+      "revision": 43
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0043/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 62,
+    "event_summary": {
+      "revision": 44
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0044/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 63,
+    "event_summary": {
+      "revision": 45
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0045/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 64,
+    "event_summary": {
+      "revision": 46
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0046/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 65,
+    "event_summary": {
+      "revision": 47
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0047/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 66,
+    "event_summary": {
+      "revision": 48
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0048/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 67,
+    "event_summary": {
+      "revision": 49
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0049/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 68,
+    "event_summary": {
+      "revision": 50
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0050/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 69,
+    "event_summary": {
+      "revision": 51
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0051/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 70,
+    "event_summary": {
+      "revision": 52
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0052/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 71,
+    "event_summary": {
+      "revision": 53
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0053/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 72,
+    "event_summary": {
+      "revision": 54
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0054/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 73,
+    "event_summary": {
+      "revision": 55
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0055/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 74,
+    "event_summary": {
+      "revision": 56
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0056/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 75,
+    "event_summary": {
+      "revision": 57
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0057/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 76,
+    "event_summary": {
+      "revision": 58
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0058/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 77,
+    "event_summary": {
+      "revision": 59
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0059/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 78,
+    "event_summary": {
+      "revision": 60
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0060/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 79,
+    "event_summary": {
+      "revision": 61
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0061/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 80,
+    "event_summary": {
+      "revision": 62
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0062/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 81,
+    "event_summary": {
+      "revision": 63
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0063/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 82,
+    "event_summary": {
+      "revision": 64
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0064/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 83,
+    "event_summary": {
+      "revision": 65
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0065/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 84,
+    "event_summary": {
+      "revision": 66
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0066/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 85,
+    "event_summary": {
+      "revision": 67
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0067/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 86,
+    "event_summary": {
+      "revision": 68
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0068/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 87,
+    "event_summary": {
+      "revision": 69
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0069/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 88,
+    "event_summary": {
+      "revision": 70
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0070/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 89,
+    "event_summary": {
+      "revision": 71
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0071/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 90,
+    "event_summary": {
+      "revision": 72
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0072/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 91,
+    "event_summary": {
+      "revision": 73
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0073/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 92,
+    "event_summary": {
+      "revision": 74
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0074/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 93,
+    "event_summary": {
+      "revision": 75
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0075/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 94,
+    "event_summary": {
+      "revision": 76
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0076/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 95,
+    "event_summary": {
+      "revision": 77
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0077/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 96,
+    "event_summary": {
+      "revision": 78
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0078/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 97,
+    "event_summary": {
+      "revision": 79
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0079/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 98,
+    "event_summary": {
+      "revision": 80
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0080/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 99,
+    "event_summary": {
+      "revision": 81
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0081/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 100,
+    "event_summary": {
+      "revision": 82
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0082/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 101,
+    "event_summary": {
+      "revision": 83
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0083/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 102,
+    "event_summary": {
+      "revision": 84
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0084/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 103,
+    "event_summary": {
+      "revision": 85
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0085/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 104,
+    "event_summary": {
+      "revision": 86
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0086/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 105,
+    "event_summary": {
+      "revision": 87
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0087/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 106,
+    "event_summary": {
+      "revision": 88
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0088/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 107,
+    "event_summary": {
+      "revision": 89
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0089/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 108,
+    "event_summary": {
+      "revision": 90
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0090/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 109,
+    "event_summary": {
+      "revision": 91
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0091/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 110,
+    "event_summary": {
+      "revision": 92
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0092/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 111,
+    "event_summary": {
+      "revision": 93
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0093/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 112,
+    "event_summary": {
+      "revision": 94
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0094/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 113,
+    "event_summary": {
+      "revision": 95
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0095/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 114,
+    "event_summary": {
+      "revision": 96
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0096/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 115,
+    "event_summary": {
+      "revision": 97
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0097/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 116,
+    "event_summary": {
+      "revision": 98
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0098/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 117,
+    "event_summary": {
+      "revision": 99
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0099/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 118,
+    "event_summary": {
+      "revision": 100
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0100/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 119,
+    "event_summary": {
+      "revision": 101
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0101/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 120,
+    "event_summary": {
+      "revision": 102
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0102/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 121,
+    "event_summary": {
+      "revision": 103
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0103/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 122,
+    "event_summary": {
+      "revision": 104
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0104/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 123,
+    "event_summary": {
+      "revision": 105
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0105/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 124,
+    "event_summary": {
+      "revision": 106
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0106/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 125,
+    "event_summary": {
+      "revision": 107
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0107/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 126,
+    "event_summary": {
+      "revision": 108
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0108/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 127,
+    "event_summary": {
+      "revision": 109
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0109/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 128,
+    "event_summary": {
+      "revision": 110
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0110/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 129,
+    "event_summary": {
+      "revision": 111
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0111/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 130,
+    "event_summary": {
+      "revision": 112
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0112/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 131,
+    "event_summary": {
+      "revision": 113
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0113/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 132,
+    "event_summary": {
+      "revision": 114
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0114/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 133,
+    "event_summary": {
+      "revision": 115
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0115/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 134,
+    "event_summary": {
+      "revision": 116
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0116/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 135,
+    "event_summary": {
+      "revision": 117
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0117/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 136,
+    "event_summary": {
+      "revision": 118
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0118/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 137,
+    "event_summary": {
+      "revision": 119
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0119/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 138,
+    "event_summary": {
+      "revision": 120
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0120/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 139,
+    "event_summary": {
+      "revision": 121
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0121/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 140,
+    "event_summary": {
+      "revision": 122
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0122/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 141,
+    "event_summary": {
+      "revision": 123
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0123/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 142,
+    "event_summary": {
+      "revision": 124
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0124/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 143,
+    "event_summary": {
+      "revision": 125
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0125/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 144,
+    "event_summary": {
+      "revision": 126
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0126/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 145,
+    "event_summary": {
+      "revision": 127
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0127/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 146,
+    "event_summary": {
+      "revision": 128
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0128/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 147,
+    "event_summary": {
+      "revision": 129
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0129/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 148,
+    "event_summary": {
+      "revision": 130
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0130/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 149,
+    "event_summary": {
+      "revision": 131
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0131/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 150,
+    "event_summary": {
+      "revision": 132
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0132/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 151,
+    "event_summary": {
+      "revision": 133
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0133/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 152,
+    "event_summary": {
+      "revision": 134
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0134/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 153,
+    "event_summary": {
+      "revision": 135
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0135/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 154,
+    "event_summary": {
+      "revision": 136
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0136/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 155,
+    "event_summary": {
+      "revision": 137
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0137/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 156,
+    "event_summary": {
+      "revision": 138
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0138/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 157,
+    "event_summary": {
+      "revision": 139
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0139/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 158,
+    "event_summary": {
+      "revision": 140
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0140/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 159,
+    "event_summary": {
+      "revision": 141
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/chain/upstream/0141/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 160,
+    "event_summary": {
+      "revision": 142
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0000/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 161,
+    "event_summary": {
+      "revision": 30
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0001/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 162,
+    "event_summary": {
+      "revision": 31
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0002/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 163,
+    "event_summary": {
+      "revision": 32
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0003/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 164,
+    "event_summary": {
+      "revision": 33
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0004/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 165,
+    "event_summary": {
+      "revision": 34
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0005/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 166,
+    "event_summary": {
+      "revision": 35
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0006/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 167,
+    "event_summary": {
+      "revision": 36
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0007/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 168,
+    "event_summary": {
+      "revision": 37
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0008/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 169,
+    "event_summary": {
+      "revision": 38
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0009/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 170,
+    "event_summary": {
+      "revision": 39
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0010/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 171,
+    "event_summary": {
+      "revision": 40
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0011/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 172,
+    "event_summary": {
+      "revision": 41
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0012/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 173,
+    "event_summary": {
+      "revision": 42
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0013/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 174,
+    "event_summary": {
+      "revision": 43
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0014/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 175,
+    "event_summary": {
+      "revision": 44
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0015/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 176,
+    "event_summary": {
+      "revision": 45
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0016/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 177,
+    "event_summary": {
+      "revision": 46
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0017/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 178,
+    "event_summary": {
+      "revision": 47
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0018/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 179,
+    "event_summary": {
+      "revision": 48
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0019/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 180,
+    "event_summary": {
+      "revision": 49
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0020/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 181,
+    "event_summary": {
+      "revision": 50
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0021/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 182,
+    "event_summary": {
+      "revision": 51
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0022/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 183,
+    "event_summary": {
+      "revision": 52
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/maintenance-v2/chain/upstream/0023/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 184,
+    "event_summary": {
+      "revision": 53
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0000/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 185,
+    "event_summary": {
+      "revision": 54
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0001/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 186,
+    "event_summary": {
+      "revision": 55
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0002/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 187,
+    "event_summary": {
+      "revision": 56
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0003/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 188,
+    "event_summary": {
+      "revision": 57
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0004/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 189,
+    "event_summary": {
+      "revision": 58
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0005/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 190,
+    "event_summary": {
+      "revision": 59
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0006/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 191,
+    "event_summary": {
+      "revision": 60
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0007/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 192,
+    "event_summary": {
+      "revision": 61
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0008/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 193,
+    "event_summary": {
+      "revision": 62
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0009/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 194,
+    "event_summary": {
+      "revision": 63
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0010/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 195,
+    "event_summary": {
+      "revision": 64
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0011/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 196,
+    "event_summary": {
+      "revision": 65
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0012/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 197,
+    "event_summary": {
+      "revision": 66
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0013/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 198,
+    "event_summary": {
+      "revision": 67
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0014/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 199,
+    "event_summary": {
+      "revision": 68
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0015/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 200,
+    "event_summary": {
+      "revision": 69
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0016/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 201,
+    "event_summary": {
+      "revision": 70
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0017/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 202,
+    "event_summary": {
+      "revision": 71
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0018/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 203,
+    "event_summary": {
+      "revision": 72
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0019/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 204,
+    "event_summary": {
+      "revision": 73
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0020/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 205,
+    "event_summary": {
+      "revision": 74
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0021/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 206,
+    "event_summary": {
+      "revision": 75
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0022/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 207,
+    "event_summary": {
+      "revision": 76
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0023/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 208,
+    "event_summary": {
+      "revision": 77
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0024/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 209,
+    "event_summary": {
+      "revision": 78
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0025/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 210,
+    "event_summary": {
+      "revision": 79
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0026/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 211,
+    "event_summary": {
+      "revision": 80
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0027/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 212,
+    "event_summary": {
+      "revision": 81
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0028/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 213,
+    "event_summary": {
+      "revision": 82
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0029/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 214,
+    "event_summary": {
+      "revision": 83
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0030/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 215,
+    "event_summary": {
+      "revision": 84
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0031/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 216,
+    "event_summary": {
+      "revision": 85
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0032/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 217,
+    "event_summary": {
+      "revision": 86
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0033/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 218,
+    "event_summary": {
+      "revision": 87
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0034/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 219,
+    "event_summary": {
+      "revision": 88
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0035/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 220,
+    "event_summary": {
+      "revision": 89
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0036/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 221,
+    "event_summary": {
+      "revision": 90
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0037/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 222,
+    "event_summary": {
+      "revision": 91
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0038/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 223,
+    "event_summary": {
+      "revision": 92
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0039/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 224,
+    "event_summary": {
+      "revision": 93
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0040/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 225,
+    "event_summary": {
+      "revision": 94
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0041/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 226,
+    "event_summary": {
+      "revision": 95
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0042/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 227,
+    "event_summary": {
+      "revision": 96
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0043/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 228,
+    "event_summary": {
+      "revision": 97
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0044/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 229,
+    "event_summary": {
+      "revision": 98
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0045/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 230,
+    "event_summary": {
+      "revision": 99
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0046/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 231,
+    "event_summary": {
+      "revision": 100
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0047/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 232,
+    "event_summary": {
+      "revision": 101
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0048/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 233,
+    "event_summary": {
+      "revision": 102
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0049/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 234,
+    "event_summary": {
+      "revision": 103
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0050/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 235,
+    "event_summary": {
+      "revision": 104
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0051/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 236,
+    "event_summary": {
+      "revision": 105
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0052/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 237,
+    "event_summary": {
+      "revision": 106
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0053/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 238,
+    "event_summary": {
+      "revision": 107
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0054/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 239,
+    "event_summary": {
+      "revision": 108
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0055/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 240,
+    "event_summary": {
+      "revision": 109
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0056/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 241,
+    "event_summary": {
+      "revision": 110
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0057/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 242,
+    "event_summary": {
+      "revision": 111
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0058/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 243,
+    "event_summary": {
+      "revision": 112
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0059/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 244,
+    "event_summary": {
+      "revision": 113
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0060/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 245,
+    "event_summary": {
+      "revision": 114
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0061/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 246,
+    "event_summary": {
+      "revision": 115
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0062/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 247,
+    "event_summary": {
+      "revision": 116
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0063/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 248,
+    "event_summary": {
+      "revision": 117
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0064/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 249,
+    "event_summary": {
+      "revision": 118
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0065/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 250,
+    "event_summary": {
+      "revision": 119
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0066/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 251,
+    "event_summary": {
+      "revision": 120
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0067/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 252,
+    "event_summary": {
+      "revision": 121
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0068/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 253,
+    "event_summary": {
+      "revision": 122
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0069/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 254,
+    "event_summary": {
+      "revision": 123
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0070/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 255,
+    "event_summary": {
+      "revision": 124
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0071/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 256,
+    "event_summary": {
+      "revision": 125
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0072/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 257,
+    "event_summary": {
+      "revision": 126
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0073/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 258,
+    "event_summary": {
+      "revision": 127
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0074/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 259,
+    "event_summary": {
+      "revision": 128
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0075/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 260,
+    "event_summary": {
+      "revision": 129
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0076/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 261,
+    "event_summary": {
+      "revision": 130
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0077/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 262,
+    "event_summary": {
+      "revision": 131
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0078/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 263,
+    "event_summary": {
+      "revision": 132
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0079/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 264,
+    "event_summary": {
+      "revision": 133
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0080/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 265,
+    "event_summary": {
+      "revision": 134
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0081/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 266,
+    "event_summary": {
+      "revision": 135
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0082/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 267,
+    "event_summary": {
+      "revision": 136
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0083/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 268,
+    "event_summary": {
+      "revision": 137
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0084/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 269,
+    "event_summary": {
+      "revision": 138
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0085/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 270,
+    "event_summary": {
+      "revision": 139
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0086/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 271,
+    "event_summary": {
+      "revision": 140
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0087/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 272,
+    "event_summary": {
+      "revision": 141
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0088/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 273,
+    "event_summary": {
+      "revision": 142
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0089/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 274,
+    "event_summary": {
+      "revision": 143
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0090/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 275,
+    "event_summary": {
+      "revision": 144
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0091/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 276,
+    "event_summary": {
+      "revision": 145
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0092/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 277,
+    "event_summary": {
+      "revision": 146
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0093/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 278,
+    "event_summary": {
+      "revision": 147
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0094/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 279,
+    "event_summary": {
+      "revision": 148
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0095/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 280,
+    "event_summary": {
+      "revision": 149
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0096/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 281,
+    "event_summary": {
+      "revision": 150
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0097/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 282,
+    "event_summary": {
+      "revision": 151
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0098/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 283,
+    "event_summary": {
+      "revision": 152
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0099/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 284,
+    "event_summary": {
+      "revision": 153
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0100/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 285,
+    "event_summary": {
+      "revision": 154
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0101/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 286,
+    "event_summary": {
+      "revision": 155
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0102/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 287,
+    "event_summary": {
+      "revision": 156
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0103/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 288,
+    "event_summary": {
+      "revision": 157
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0104/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 289,
+    "event_summary": {
+      "revision": 158
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0105/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 290,
+    "event_summary": {
+      "revision": 159
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0106/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 291,
+    "event_summary": {
+      "revision": 160
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0107/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 292,
+    "event_summary": {
+      "revision": 161
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0108/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 293,
+    "event_summary": {
+      "revision": 162
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0109/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 294,
+    "event_summary": {
+      "revision": 163
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0110/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 295,
+    "event_summary": {
+      "revision": 164
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0111/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 296,
+    "event_summary": {
+      "revision": 165
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0112/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 297,
+    "event_summary": {
+      "revision": 166
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0113/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 298,
+    "event_summary": {
+      "revision": 167
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0114/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 299,
+    "event_summary": {
+      "revision": 168
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0115/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 300,
+    "event_summary": {
+      "revision": 169
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0116/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 301,
+    "event_summary": {
+      "revision": 170
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0117/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 302,
+    "event_summary": {
+      "revision": 171
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0118/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 303,
+    "event_summary": {
+      "revision": 172
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0119/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 304,
+    "event_summary": {
+      "revision": 173
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0120/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 305,
+    "event_summary": {
+      "revision": 174
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0121/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 306,
+    "event_summary": {
+      "revision": 175
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0122/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 307,
+    "event_summary": {
+      "revision": 176
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0123/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 308,
+    "event_summary": {
+      "revision": 177
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0124/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 309,
+    "event_summary": {
+      "revision": 178
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0125/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 310,
+    "event_summary": {
+      "revision": 179
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0126/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 311,
+    "event_summary": {
+      "revision": 180
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0127/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 312,
+    "event_summary": {
+      "revision": 181
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0128/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 313,
+    "event_summary": {
+      "revision": 182
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0129/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 314,
+    "event_summary": {
+      "revision": 183
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0130/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 315,
+    "event_summary": {
+      "revision": 184
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0131/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 316,
+    "event_summary": {
+      "revision": 185
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0132/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 317,
+    "event_summary": {
+      "revision": 186
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0133/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 318,
+    "event_summary": {
+      "revision": 187
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0134/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 319,
+    "event_summary": {
+      "revision": 188
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0135/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 320,
+    "event_summary": {
+      "revision": 189
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0136/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 321,
+    "event_summary": {
+      "revision": 190
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0137/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 322,
+    "event_summary": {
+      "revision": 191
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0138/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 323,
+    "event_summary": {
+      "revision": 192
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0139/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 324,
+    "event_summary": {
+      "revision": 193
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0140/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 325,
+    "event_summary": {
+      "revision": 194
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0141/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 326,
+    "event_summary": {
+      "revision": 195
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0142/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 327,
+    "event_summary": {
+      "revision": 196
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0143/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 328,
+    "event_summary": {
+      "revision": 197
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0144/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 329,
+    "event_summary": {
+      "revision": 198
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0145/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 330,
+    "event_summary": {
+      "revision": 199
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0146/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 331,
+    "event_summary": {
+      "revision": 200
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0147/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 332,
+    "event_summary": {
+      "revision": 201
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0148/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 333,
+    "event_summary": {
+      "revision": 202
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0149/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 334,
+    "event_summary": {
+      "revision": 203
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0150/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 335,
+    "event_summary": {
+      "revision": 204
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0151/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 336,
+    "event_summary": {
+      "revision": 205
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0152/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 337,
+    "event_summary": {
+      "revision": 206
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0153/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 338,
+    "event_summary": {
+      "revision": 207
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0154/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 339,
+    "event_summary": {
+      "revision": 208
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0155/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 340,
+    "event_summary": {
+      "revision": 209
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0156/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 341,
+    "event_summary": {
+      "revision": 210
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0157/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 342,
+    "event_summary": {
+      "revision": 211
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0158/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 343,
+    "event_summary": {
+      "revision": 212
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0159/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 344,
+    "event_summary": {
+      "revision": 213
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0160/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 345,
+    "event_summary": {
+      "revision": 214
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0161/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 346,
+    "event_summary": {
+      "revision": 215
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0162/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 347,
+    "event_summary": {
+      "revision": 216
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0163/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 348,
+    "event_summary": {
+      "revision": 217
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0164/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 349,
+    "event_summary": {
+      "revision": 218
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0165/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 350,
+    "event_summary": {
+      "revision": 219
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0166/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 351,
+    "event_summary": {
+      "revision": 220
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0167/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 352,
+    "event_summary": {
+      "revision": 221
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0168/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 353,
+    "event_summary": {
+      "revision": 222
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0169/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 354,
+    "event_summary": {
+      "revision": 223
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0170/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 355,
+    "event_summary": {
+      "revision": 224
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0171/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 356,
+    "event_summary": {
+      "revision": 225
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0172/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 357,
+    "event_summary": {
+      "revision": 226
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0173/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 358,
+    "event_summary": {
+      "revision": 227
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0174/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 359,
+    "event_summary": {
+      "revision": 228
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0175/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 360,
+    "event_summary": {
+      "revision": 229
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0176/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 361,
+    "event_summary": {
+      "revision": 230
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0177/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 362,
+    "event_summary": {
+      "revision": 231
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0178/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 363,
+    "event_summary": {
+      "revision": 232
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0179/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 364,
+    "event_summary": {
+      "revision": 233
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0180/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 365,
+    "event_summary": {
+      "revision": 234
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0181/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 366,
+    "event_summary": {
+      "revision": 235
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0182/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 367,
+    "event_summary": {
+      "revision": 236
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0183/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 368,
+    "event_summary": {
+      "revision": 237
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0184/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 369,
+    "event_summary": {
+      "revision": 238
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0185/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 370,
+    "event_summary": {
+      "revision": 239
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0186/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 371,
+    "event_summary": {
+      "revision": 240
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0187/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 372,
+    "event_summary": {
+      "revision": 241
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0188/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 373,
+    "event_summary": {
+      "revision": 242
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0189/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 374,
+    "event_summary": {
+      "revision": 243
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0190/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 375,
+    "event_summary": {
+      "revision": 244
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0191/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 376,
+    "event_summary": {
+      "revision": 245
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0192/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 377,
+    "event_summary": {
+      "revision": 246
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0193/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 378,
+    "event_summary": {
+      "revision": 247
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0194/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 379,
+    "event_summary": {
+      "revision": 248
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0195/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 380,
+    "event_summary": {
+      "revision": 249
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0196/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 381,
+    "event_summary": {
+      "revision": 250
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0197/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 382,
+    "event_summary": {
+      "revision": 251
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0198/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 383,
+    "event_summary": {
+      "revision": 252
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0199/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 384,
+    "event_summary": {
+      "revision": 253
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0200/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 385,
+    "event_summary": {
+      "revision": 254
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0201/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 386,
+    "event_summary": {
+      "revision": 255
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0202/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 387,
+    "event_summary": {
+      "revision": 256
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0203/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 388,
+    "event_summary": {
+      "revision": 257
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0204/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 389,
+    "event_summary": {
+      "revision": 258
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0205/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 390,
+    "event_summary": {
+      "revision": 259
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0206/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 391,
+    "event_summary": {
+      "revision": 260
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0207/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 392,
+    "event_summary": {
+      "revision": 261
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0208/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 393,
+    "event_summary": {
+      "revision": 262
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0209/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 394,
+    "event_summary": {
+      "revision": 263
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0210/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 395,
+    "event_summary": {
+      "revision": 264
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0211/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 396,
+    "event_summary": {
+      "revision": 265
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0212/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 397,
+    "event_summary": {
+      "revision": 266
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0213/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 398,
+    "event_summary": {
+      "revision": 267
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0214/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 399,
+    "event_summary": {
+      "revision": 268
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0215/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 400,
+    "event_summary": {
+      "revision": 269
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0216/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 401,
+    "event_summary": {
+      "revision": 270
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0217/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 402,
+    "event_summary": {
+      "revision": 271
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0218/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 403,
+    "event_summary": {
+      "revision": 272
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0219/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 404,
+    "event_summary": {
+      "revision": 273
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0220/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 405,
+    "event_summary": {
+      "revision": 274
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0221/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 406,
+    "event_summary": {
+      "revision": 275
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0222/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 407,
+    "event_summary": {
+      "revision": 276
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0223/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 408,
+    "event_summary": {
+      "revision": 277
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0224/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 409,
+    "event_summary": {
+      "revision": 278
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0225/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 410,
+    "event_summary": {
+      "revision": 279
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0226/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 411,
+    "event_summary": {
+      "revision": 280
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0227/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 412,
+    "event_summary": {
+      "revision": 281
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0228/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 413,
+    "event_summary": {
+      "revision": 282
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0229/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 414,
+    "event_summary": {
+      "revision": 283
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0230/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 415,
+    "event_summary": {
+      "revision": 284
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0231/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 416,
+    "event_summary": {
+      "revision": 285
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0232/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 417,
+    "event_summary": {
+      "revision": 286
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0233/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 418,
+    "event_summary": {
+      "revision": 287
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0234/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 419,
+    "event_summary": {
+      "revision": 288
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0235/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 420,
+    "event_summary": {
+      "revision": 289
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0236/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 421,
+    "event_summary": {
+      "revision": 290
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0237/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 422,
+    "event_summary": {
+      "revision": 291
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0238/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 423,
+    "event_summary": {
+      "revision": 292
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0239/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 424,
+    "event_summary": {
+      "revision": 293
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0240/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 425,
+    "event_summary": {
+      "revision": 294
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0241/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 426,
+    "event_summary": {
+      "revision": 295
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0242/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 427,
+    "event_summary": {
+      "revision": 296
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0243/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 428,
+    "event_summary": {
+      "revision": 297
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0244/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 429,
+    "event_summary": {
+      "revision": 298
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0245/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 430,
+    "event_summary": {
+      "revision": 299
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0246/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 431,
+    "event_summary": {
+      "revision": 300
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0247/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 432,
+    "event_summary": {
+      "revision": 301
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0248/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 433,
+    "event_summary": {
+      "revision": 302
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0249/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 434,
+    "event_summary": {
+      "revision": 303
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0250/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 435,
+    "event_summary": {
+      "revision": 304
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0251/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 436,
+    "event_summary": {
+      "revision": 305
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0252/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 437,
+    "event_summary": {
+      "revision": 306
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0253/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 438,
+    "event_summary": {
+      "revision": 307
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0254/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 439,
+    "event_summary": {
+      "revision": 308
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0255/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 440,
+    "event_summary": {
+      "revision": 309
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0256/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 441,
+    "event_summary": {
+      "revision": 310
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0257/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 442,
+    "event_summary": {
+      "revision": 311
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0258/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 443,
+    "event_summary": {
+      "revision": 312
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0259/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 444,
+    "event_summary": {
+      "revision": 313
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0260/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 445,
+    "event_summary": {
+      "revision": 314
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0261/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 446,
+    "event_summary": {
+      "revision": 315
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0262/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 447,
+    "event_summary": {
+      "revision": 316
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0263/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 448,
+    "event_summary": {
+      "revision": 317
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0264/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 449,
+    "event_summary": {
+      "revision": 318
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0265/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 450,
+    "event_summary": {
+      "revision": 319
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0266/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 451,
+    "event_summary": {
+      "revision": 320
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0267/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 452,
+    "event_summary": {
+      "revision": 321
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0268/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 453,
+    "event_summary": {
+      "revision": 322
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0269/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 454,
+    "event_summary": {
+      "revision": 323
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0270/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 455,
+    "event_summary": {
+      "revision": 324
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0271/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 456,
+    "event_summary": {
+      "revision": 325
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0272/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 457,
+    "event_summary": {
+      "revision": 326
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0273/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 458,
+    "event_summary": {
+      "revision": 327
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0274/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 459,
+    "event_summary": {
+      "revision": 328
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0275/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 460,
+    "event_summary": {
+      "revision": 329
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0276/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 461,
+    "event_summary": {
+      "revision": 330
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0277/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 462,
+    "event_summary": {
+      "revision": 331
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0278/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 463,
+    "event_summary": {
+      "revision": 332
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0279/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 464,
+    "event_summary": {
+      "revision": 333
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0280/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 465,
+    "event_summary": {
+      "revision": 334
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0281/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 466,
+    "event_summary": {
+      "revision": 335
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0282/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 467,
+    "event_summary": {
+      "revision": 336
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0283/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 468,
+    "event_summary": {
+      "revision": 337
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0284/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 469,
+    "event_summary": {
+      "revision": 338
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0285/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 470,
+    "event_summary": {
+      "revision": 339
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0286/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 471,
+    "event_summary": {
+      "revision": 340
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0287/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 472,
+    "event_summary": {
+      "revision": 341
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0288/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 473,
+    "event_summary": {
+      "revision": 342
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0289/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 474,
+    "event_summary": {
+      "revision": 343
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0290/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 475,
+    "event_summary": {
+      "revision": 344
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0291/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 476,
+    "event_summary": {
+      "revision": 345
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0292/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 477,
+    "event_summary": {
+      "revision": 346
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0293/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 478,
+    "event_summary": {
+      "revision": 347
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0294/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 479,
+    "event_summary": {
+      "revision": 348
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0295/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 480,
+    "event_summary": {
+      "revision": 349
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0296/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 481,
+    "event_summary": {
+      "revision": 350
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0297/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 482,
+    "event_summary": {
+      "revision": 351
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0298/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 483,
+    "event_summary": {
+      "revision": 352
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0299/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 484,
+    "event_summary": {
+      "revision": 353
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0300/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 485,
+    "event_summary": {
+      "revision": 354
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0301/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 486,
+    "event_summary": {
+      "revision": 355
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0302/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 487,
+    "event_summary": {
+      "revision": 356
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0303/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 488,
+    "event_summary": {
+      "revision": 357
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0304/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 489,
+    "event_summary": {
+      "revision": 358
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0305/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 490,
+    "event_summary": {
+      "revision": 359
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0306/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 491,
+    "event_summary": {
+      "revision": 360
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0307/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 492,
+    "event_summary": {
+      "revision": 361
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0308/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 493,
+    "event_summary": {
+      "revision": 362
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0309/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 494,
+    "event_summary": {
+      "revision": 363
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0310/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 495,
+    "event_summary": {
+      "revision": 364
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0311/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 496,
+    "event_summary": {
+      "revision": 365
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0312/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 497,
+    "event_summary": {
+      "revision": 366
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0313/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 498,
+    "event_summary": {
+      "revision": 367
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0314/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 499,
+    "event_summary": {
+      "revision": 368
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0315/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 500,
+    "event_summary": {
+      "revision": 369
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0316/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 501,
+    "event_summary": {
+      "revision": 370
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0317/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 502,
+    "event_summary": {
+      "revision": 371
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0318/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 503,
+    "event_summary": {
+      "revision": 372
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0319/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 504,
+    "event_summary": {
+      "revision": 373
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0320/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 505,
+    "event_summary": {
+      "revision": 374
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0321/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 506,
+    "event_summary": {
+      "revision": 375
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0322/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 507,
+    "event_summary": {
+      "revision": 376
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0323/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 508,
+    "event_summary": {
+      "revision": 377
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0324/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 509,
+    "event_summary": {
+      "revision": 378
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0325/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 510,
+    "event_summary": {
+      "revision": 379
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0326/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 511,
+    "event_summary": {
+      "revision": 380
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0327/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 512,
+    "event_summary": {
+      "revision": 381
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0328/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 513,
+    "event_summary": {
+      "revision": 382
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0329/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 514,
+    "event_summary": {
+      "revision": 383
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0330/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 515,
+    "event_summary": {
+      "revision": 384
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0331/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 516,
+    "event_summary": {
+      "revision": 385
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0332/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 517,
+    "event_summary": {
+      "revision": 386
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0333/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 518,
+    "event_summary": {
+      "revision": 387
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0334/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 519,
+    "event_summary": {
+      "revision": 388
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0335/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 520,
+    "event_summary": {
+      "revision": 389
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0336/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 521,
+    "event_summary": {
+      "revision": 390
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0337/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 522,
+    "event_summary": {
+      "revision": 391
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0338/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 523,
+    "event_summary": {
+      "revision": 392
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0339/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 524,
+    "event_summary": {
+      "revision": 393
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0340/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 525,
+    "event_summary": {
+      "revision": 394
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0341/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 526,
+    "event_summary": {
+      "revision": 395
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0342/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 527,
+    "event_summary": {
+      "revision": 396
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0343/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 528,
+    "event_summary": {
+      "revision": 397
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0344/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 529,
+    "event_summary": {
+      "revision": 398
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0345/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 530,
+    "event_summary": {
+      "revision": 399
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0346/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 531,
+    "event_summary": {
+      "revision": 400
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0347/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 532,
+    "event_summary": {
+      "revision": 401
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0348/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 533,
+    "event_summary": {
+      "revision": 402
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0349/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 534,
+    "event_summary": {
+      "revision": 403
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0350/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 535,
+    "event_summary": {
+      "revision": 404
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0351/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 536,
+    "event_summary": {
+      "revision": 405
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0352/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 537,
+    "event_summary": {
+      "revision": 406
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0353/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 538,
+    "event_summary": {
+      "revision": 407
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0354/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 539,
+    "event_summary": {
+      "revision": 408
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0355/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 540,
+    "event_summary": {
+      "revision": 409
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0356/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 541,
+    "event_summary": {
+      "revision": 410
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0357/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 542,
+    "event_summary": {
+      "revision": 411
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0358/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 543,
+    "event_summary": {
+      "revision": 412
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0359/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 544,
+    "event_summary": {
+      "revision": 413
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0360/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 545,
+    "event_summary": {
+      "revision": 414
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0361/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 546,
+    "event_summary": {
+      "revision": 415
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0362/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 547,
+    "event_summary": {
+      "revision": 416
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0363/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 548,
+    "event_summary": {
+      "revision": 417
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0364/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 549,
+    "event_summary": {
+      "revision": 418
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0365/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 550,
+    "event_summary": {
+      "revision": 419
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0366/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 551,
+    "event_summary": {
+      "revision": 420
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0367/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 552,
+    "event_summary": {
+      "revision": 421
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0368/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 553,
+    "event_summary": {
+      "revision": 422
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0369/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 554,
+    "event_summary": {
+      "revision": 423
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0370/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 555,
+    "event_summary": {
+      "revision": 424
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0371/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 556,
+    "event_summary": {
+      "revision": 425
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0372/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 557,
+    "event_summary": {
+      "revision": 426
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0373/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 558,
+    "event_summary": {
+      "revision": 427
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0374/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 559,
+    "event_summary": {
+      "revision": 428
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0375/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 560,
+    "event_summary": {
+      "revision": 429
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0376/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 561,
+    "event_summary": {
+      "revision": 430
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0377/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 562,
+    "event_summary": {
+      "revision": 431
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0378/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 563,
+    "event_summary": {
+      "revision": 432
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0379/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 564,
+    "event_summary": {
+      "revision": 433
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0380/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 565,
+    "event_summary": {
+      "revision": 434
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0381/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 566,
+    "event_summary": {
+      "revision": 435
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0382/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 567,
+    "event_summary": {
+      "revision": 436
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0383/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 568,
+    "event_summary": {
+      "revision": 437
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0384/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 569,
+    "event_summary": {
+      "revision": 438
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0385/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 570,
+    "event_summary": {
+      "revision": 439
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0386/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 571,
+    "event_summary": {
+      "revision": 440
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0387/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 572,
+    "event_summary": {
+      "revision": 441
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0388/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 573,
+    "event_summary": {
+      "revision": 442
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0389/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 574,
+    "event_summary": {
+      "revision": 443
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0390/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 575,
+    "event_summary": {
+      "revision": 444
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0391/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 576,
+    "event_summary": {
+      "revision": 445
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0392/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 577,
+    "event_summary": {
+      "revision": 446
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0393/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 578,
+    "event_summary": {
+      "revision": 447
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0394/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 579,
+    "event_summary": {
+      "revision": 448
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0395/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 580,
+    "event_summary": {
+      "revision": 449
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0396/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 581,
+    "event_summary": {
+      "revision": 450
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0397/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 582,
+    "event_summary": {
+      "revision": 451
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0398/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 583,
+    "event_summary": {
+      "revision": 452
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0399/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 584,
+    "event_summary": {
+      "revision": 453
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0400/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 585,
+    "event_summary": {
+      "revision": 454
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0401/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 586,
+    "event_summary": {
+      "revision": 455
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0402/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 587,
+    "event_summary": {
+      "revision": 456
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0403/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 588,
+    "event_summary": {
+      "revision": 457
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0404/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 589,
+    "event_summary": {
+      "revision": 458
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0405/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 590,
+    "event_summary": {
+      "revision": 459
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0406/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 591,
+    "event_summary": {
+      "revision": 460
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0407/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 592,
+    "event_summary": {
+      "revision": 461
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0408/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 593,
+    "event_summary": {
+      "revision": 462
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0409/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 594,
+    "event_summary": {
+      "revision": 463
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0410/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 595,
+    "event_summary": {
+      "revision": 464
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0411/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 596,
+    "event_summary": {
+      "revision": 465
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0412/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 597,
+    "event_summary": {
+      "revision": 466
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0413/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 598,
+    "event_summary": {
+      "revision": 467
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0414/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 599,
+    "event_summary": {
+      "revision": 468
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0415/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 600,
+    "event_summary": {
+      "revision": 469
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0416/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 601,
+    "event_summary": {
+      "revision": 470
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0417/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 602,
+    "event_summary": {
+      "revision": 471
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0418/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 603,
+    "event_summary": {
+      "revision": 472
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0419/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 604,
+    "event_summary": {
+      "revision": 473
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0420/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 605,
+    "event_summary": {
+      "revision": 474
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0421/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 606,
+    "event_summary": {
+      "revision": 475
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0422/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 607,
+    "event_summary": {
+      "revision": 476
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0423/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 608,
+    "event_summary": {
+      "revision": 477
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0424/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 609,
+    "event_summary": {
+      "revision": 478
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0425/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 610,
+    "event_summary": {
+      "revision": 479
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0426/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 611,
+    "event_summary": {
+      "revision": 480
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0427/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 612,
+    "event_summary": {
+      "revision": 481
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0428/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 613,
+    "event_summary": {
+      "revision": 482
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0429/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 614,
+    "event_summary": {
+      "revision": 483
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0430/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 615,
+    "event_summary": {
+      "revision": 484
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0431/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 616,
+    "event_summary": {
+      "revision": 485
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0432/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 617,
+    "event_summary": {
+      "revision": 486
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0433/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 618,
+    "event_summary": {
+      "revision": 487
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0434/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 619,
+    "event_summary": {
+      "revision": 488
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0435/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 620,
+    "event_summary": {
+      "revision": 489
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0436/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 621,
+    "event_summary": {
+      "revision": 490
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0437/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 622,
+    "event_summary": {
+      "revision": 491
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0438/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 623,
+    "event_summary": {
+      "revision": 492
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0439/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 624,
+    "event_summary": {
+      "revision": 493
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0440/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 625,
+    "event_summary": {
+      "revision": 494
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0441/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 626,
+    "event_summary": {
+      "revision": 495
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0442/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 627,
+    "event_summary": {
+      "revision": 496
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0443/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 628,
+    "event_summary": {
+      "revision": 497
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0444/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 629,
+    "event_summary": {
+      "revision": 498
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0445/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 630,
+    "event_summary": {
+      "revision": 499
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0446/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 631,
+    "event_summary": {
+      "revision": 500
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0447/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 632,
+    "event_summary": {
+      "revision": 501
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0448/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 633,
+    "event_summary": {
+      "revision": 502
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0449/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 634,
+    "event_summary": {
+      "revision": 503
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0450/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 635,
+    "event_summary": {
+      "revision": 504
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0451/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 636,
+    "event_summary": {
+      "revision": 505
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0452/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 637,
+    "event_summary": {
+      "revision": 506
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0453/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 638,
+    "event_summary": {
+      "revision": 507
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0454/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 639,
+    "event_summary": {
+      "revision": 508
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0455/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 640,
+    "event_summary": {
+      "revision": 509
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0456/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 641,
+    "event_summary": {
+      "revision": 510
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0457/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 642,
+    "event_summary": {
+      "revision": 511
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0458/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 643,
+    "event_summary": {
+      "revision": 512
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0459/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 644,
+    "event_summary": {
+      "revision": 513
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0460/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 645,
+    "event_summary": {
+      "revision": 514
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0461/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 646,
+    "event_summary": {
+      "revision": 515
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0462/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 647,
+    "event_summary": {
+      "revision": 516
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0463/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 648,
+    "event_summary": {
+      "revision": 517
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0464/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 649,
+    "event_summary": {
+      "revision": 518
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0465/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 650,
+    "event_summary": {
+      "revision": 519
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0466/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 651,
+    "event_summary": {
+      "revision": 520
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0467/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 652,
+    "event_summary": {
+      "revision": 521
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0468/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 653,
+    "event_summary": {
+      "revision": 522
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0469/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 654,
+    "event_summary": {
+      "revision": 523
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0470/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 655,
+    "event_summary": {
+      "revision": 524
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0471/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 656,
+    "event_summary": {
+      "revision": 525
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0472/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 657,
+    "event_summary": {
+      "revision": 526
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0473/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 658,
+    "event_summary": {
+      "revision": 527
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0474/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 659,
+    "event_summary": {
+      "revision": 528
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0475/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 660,
+    "event_summary": {
+      "revision": 529
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0476/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 661,
+    "event_summary": {
+      "revision": 530
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0477/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 662,
+    "event_summary": {
+      "revision": 531
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0478/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 663,
+    "event_summary": {
+      "revision": 532
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0479/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 664,
+    "event_summary": {
+      "revision": 533
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0480/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 665,
+    "event_summary": {
+      "revision": 534
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0481/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 666,
+    "event_summary": {
+      "revision": 535
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0482/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 667,
+    "event_summary": {
+      "revision": 536
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0483/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 668,
+    "event_summary": {
+      "revision": 537
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/memory-mcp/chain/upstream/0484/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 669,
+    "event_summary": {
+      "revision": 538
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0000/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 670,
+    "event_summary": {
+      "revision": 1
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0001/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 671,
+    "event_summary": {
+      "revision": 2
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0002/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 672,
+    "event_summary": {
+      "revision": 3
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0003/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 673,
+    "event_summary": {
+      "revision": 4
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0004/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 674,
+    "event_summary": {
+      "revision": 5
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0005/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 675,
+    "event_summary": {
+      "revision": 6
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0006/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 676,
+    "event_summary": {
+      "revision": 7
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0007/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 677,
+    "event_summary": {
+      "revision": 8
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0008/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 678,
+    "event_summary": {
+      "revision": 9
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0009/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 679,
+    "event_summary": {
+      "revision": 10
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0010/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 680,
+    "event_summary": {
+      "revision": 11
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0011/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 681,
+    "event_summary": {
+      "revision": 12
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0012/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 682,
+    "event_summary": {
+      "revision": 13
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0013/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 683,
+    "event_summary": {
+      "revision": 14
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0014/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 684,
+    "event_summary": {
+      "revision": 15
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0015/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 685,
+    "event_summary": {
+      "revision": 16
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0016/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 686,
+    "event_summary": {
+      "revision": 17
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0017/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 687,
+    "event_summary": {
+      "revision": 18
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0018/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 688,
+    "event_summary": {
+      "revision": 19
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0019/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 689,
+    "event_summary": {
+      "revision": 20
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0020/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 690,
+    "event_summary": {
+      "revision": 21
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0021/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 691,
+    "event_summary": {
+      "revision": 22
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0022/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 692,
+    "event_summary": {
+      "revision": 23
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0023/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 693,
+    "event_summary": {
+      "revision": 24
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0024/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 694,
+    "event_summary": {
+      "revision": 25
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0025/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 695,
+    "event_summary": {
+      "revision": 26
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0026/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 696,
+    "event_summary": {
+      "revision": 27
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0027/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 697,
+    "event_summary": {
+      "revision": 28
+    }
+  },
+  {
+    "group": "claude_clm",
+    "source": "claude_clm/rescue/chain/upstream/0028/clm-edit.json",
+    "kind": "clm_edit_raw",
+    "index": 698,
+    "event_summary": {
+      "revision": 29
+    }
+  },
+  {
+    "group": "codex_native",
+    "source": "codex_native/native.jsonl",
+    "line": 3622,
+    "kind": "native_compact_method",
+    "index": 699,
+    "event_summary": {}
+  },
+  {
+    "group": "codex_native",
+    "source": "codex_native/native.jsonl",
+    "line": 3629,
+    "kind": "native_compact_method",
+    "index": 700,
+    "event_summary": {}
+  },
+  {
+    "group": "codex_native",
+    "source": "codex_native/native.jsonl",
+    "line": 7369,
+    "kind": "native_compact_method",
+    "index": 701,
+    "event_summary": {}
+  },
+  {
+    "group": "codex_native",
+    "source": "codex_native/native.jsonl",
+    "line": 7376,
+    "kind": "native_compact_method",
+    "index": 702,
+    "event_summary": {}
+  },
+  {
+    "group": "codex_clm",
+    "source": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/responses.jsonl",
+    "line": 6,
+    "kind": "response_edit",
+    "wire_candidate": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/wire/00006",
+    "wire_candidate_mapping": "line-position only; verify input hash before relying",
+    "index": 703,
+    "event_summary": {
+      "revision": 6
+    }
+  },
+  {
+    "group": "codex_clm",
+    "source": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/responses.jsonl",
+    "line": 10,
+    "kind": "response_edit",
+    "wire_candidate": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/wire/00010",
+    "wire_candidate_mapping": "line-position only; verify input hash before relying",
+    "index": 704,
+    "event_summary": {
+      "revision": 10
+    }
+  },
+  {
+    "group": "codex_clm",
+    "source": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/responses.jsonl",
+    "line": 15,
+    "kind": "response_edit",
+    "wire_candidate": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/wire/00015",
+    "wire_candidate_mapping": "line-position only; verify input hash before relying",
+    "index": 705,
+    "event_summary": {
+      "revision": 15
+    }
+  },
+  {
+    "group": "codex_clm",
+    "source": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/responses.jsonl",
+    "line": 23,
+    "kind": "response_edit",
+    "wire_candidate": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/wire/00023",
+    "wire_candidate_mapping": "line-position only; verify input hash before relying",
+    "index": 706,
+    "event_summary": {
+      "revision": 23
+    }
+  },
+  {
+    "group": "codex_clm",
+    "source": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/responses.jsonl",
+    "line": 28,
+    "kind": "response_edit",
+    "wire_candidate": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/wire/00028",
+    "wire_candidate_mapping": "line-position only; verify input hash before relying",
+    "index": 707,
+    "event_summary": {
+      "revision": 28
+    }
+  },
+  {
+    "group": "codex_clm",
+    "source": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/responses.jsonl",
+    "line": 33,
+    "kind": "response_edit",
+    "wire_candidate": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/wire/00033",
+    "wire_candidate_mapping": "line-position only; verify input hash before relying",
+    "index": 708,
+    "event_summary": {
+      "revision": 33
+    }
+  },
+  {
+    "group": "codex_clm",
+    "source": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/responses.jsonl",
+    "line": 38,
+    "kind": "response_edit",
+    "wire_candidate": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/wire/00038",
+    "wire_candidate_mapping": "line-position only; verify input hash before relying",
+    "index": 709,
+    "event_summary": {
+      "revision": 38
+    }
+  },
+  {
+    "group": "codex_clm",
+    "source": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/responses.jsonl",
+    "line": 43,
+    "kind": "response_edit",
+    "wire_candidate": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/wire/00043",
+    "wire_candidate_mapping": "line-position only; verify input hash before relying",
+    "index": 710,
+    "event_summary": {
+      "revision": 43
+    }
+  },
+  {
+    "group": "codex_clm",
+    "source": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/responses.jsonl",
+    "line": 51,
+    "kind": "response_edit",
+    "wire_candidate": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/wire/00051",
+    "wire_candidate_mapping": "line-position only; verify input hash before relying",
+    "index": 711,
+    "event_summary": {
+      "revision": 51
+    }
+  },
+  {
+    "group": "codex_clm",
+    "source": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/responses.jsonl",
+    "line": 68,
+    "kind": "response_edit",
+    "wire_candidate": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/wire/00068",
+    "wire_candidate_mapping": "line-position only; verify input hash before relying",
+    "index": 712,
+    "event_summary": {
+      "revision": 68
+    }
+  },
+  {
+    "group": "codex_clm",
+    "source": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/responses.jsonl",
+    "line": 79,
+    "kind": "response_edit",
+    "wire_candidate": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/wire/00079",
+    "wire_candidate_mapping": "line-position only; verify input hash before relying",
+    "index": 713,
+    "event_summary": {
+      "revision": 79
+    }
+  },
+  {
+    "group": "codex_clm",
+    "source": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/responses.jsonl",
+    "line": 95,
+    "kind": "response_edit",
+    "wire_candidate": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/wire/00095",
+    "wire_candidate_mapping": "line-position only; verify input hash before relying",
+    "index": 714,
+    "event_summary": {
+      "revision": 95
+    }
+  },
+  {
+    "group": "codex_clm",
+    "source": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/responses.jsonl",
+    "line": 115,
+    "kind": "response_edit",
+    "wire_candidate": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/wire/00115",
+    "wire_candidate_mapping": "line-position only; verify input hash before relying",
+    "index": 715,
+    "event_summary": {
+      "revision": 115
+    }
+  },
+  {
+    "group": "codex_clm",
+    "source": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/responses.jsonl",
+    "line": 178,
+    "kind": "response_edit",
+    "wire_candidate": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/wire/00178",
+    "wire_candidate_mapping": "line-position only; verify input hash before relying",
+    "index": 716,
+    "event_summary": {
+      "revision": 178
+    }
+  },
+  {
+    "group": "codex_clm",
+    "source": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/responses.jsonl",
+    "line": 229,
+    "kind": "response_edit",
+    "wire_candidate": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/wire/00229",
+    "wire_candidate_mapping": "line-position only; verify input hash before relying",
+    "index": 717,
+    "event_summary": {
+      "revision": 229
+    }
+  },
+  {
+    "group": "codex_clm",
+    "source": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/responses.jsonl",
+    "line": 300,
+    "kind": "response_edit",
+    "wire_candidate": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/wire/00300",
+    "wire_candidate_mapping": "line-position only; verify input hash before relying",
+    "index": 718,
+    "event_summary": {
+      "revision": 300
+    }
+  },
+  {
+    "group": "codex_clm",
+    "source": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/responses.jsonl",
+    "line": 425,
+    "kind": "response_edit",
+    "wire_candidate": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/wire/00425",
+    "wire_candidate_mapping": "line-position only; verify input hash before relying",
+    "index": 719,
+    "event_summary": {
+      "revision": 425
+    }
+  },
+  {
+    "group": "codex_clm",
+    "source": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/responses.jsonl",
+    "line": 529,
+    "kind": "response_edit",
+    "wire_candidate": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/wire/00529",
+    "wire_candidate_mapping": "line-position only; verify input hash before relying",
+    "index": 720,
+    "event_summary": {
+      "revision": 529
+    }
+  },
+  {
+    "group": "codex_clm",
+    "source": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/responses.jsonl",
+    "line": 575,
+    "kind": "response_edit",
+    "wire_candidate": "codex_clm/runs/codex-clm-87a302cc479846d59f7b8a5889ee512f/wire/00575",
+    "wire_candidate_mapping": "line-position only; verify input hash before relying",
+    "index": 721,
+    "event_summary": {
+      "revision": 575
+    }
+  }
+]

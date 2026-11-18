@@ -1,0 +1,177 @@
+[
+  {
+    "platform": "Claude Code",
+    "name": "cc-resume-state",
+    "title": "Reconcile summaries with the latest state when resuming",
+    "path": "Claude Code/cc-resume-state/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code",
+    "name": "cc-verify-memory-write",
+    "title": "Verify that memory writes succeed",
+    "path": "Claude Code/cc-verify-memory-write/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code",
+    "name": "cc-semantic-memory-address",
+    "title": "Retrieve by semantic anchors, not historical line numbers",
+    "path": "Claude Code/cc-semantic-memory-address/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code",
+    "name": "cc-evidence-hypothesis",
+    "title": "Separate observations, hypotheses, and rules while preserving counterexamples",
+    "path": "Claude Code/cc-evidence-hypothesis/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code",
+    "name": "cc-scope-and-version",
+    "title": "Scope memories by entity and environment",
+    "path": "Claude Code/cc-scope-and-version/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code",
+    "name": "cc-feedback-scope",
+    "title": "Attach metric scope to feedback; do not infer a unique cause",
+    "path": "Claude Code/cc-feedback-scope/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code",
+    "name": "cc-active-memory-index",
+    "title": "Separate a short active-memory index from evidence logs",
+    "path": "Claude Code/cc-active-memory-index/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex CLM",
+    "name": "cxclm-transactional-edit",
+    "title": "Compress transactionally and verify by reading back",
+    "path": "Codex CLM/cxclm-transactional-edit/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex CLM",
+    "name": "cxclm-structured-state",
+    "title": "Structure state and separate evidence layers",
+    "path": "Codex CLM/cxclm-structured-state/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex CLM",
+    "name": "cxclm-conflict-recheck",
+    "title": "Preserve conflicts and recheck conditionally",
+    "path": "Codex CLM/cxclm-conflict-recheck/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex CLM",
+    "name": "cxclm-scoped-retrieval",
+    "title": "Use semantic retrieval and scoped memory",
+    "path": "Codex CLM/cxclm-scoped-retrieval/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex CLM",
+    "name": "cxclm-note-lifecycle",
+    "title": "Manage the active index lifecycle",
+    "path": "Codex CLM/cxclm-note-lifecycle/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex CLM",
+    "name": "cxclm-measure-edit-effect",
+    "title": "Validate compression effects separately from task outcomes",
+    "path": "Codex CLM/cxclm-measure-edit-effect/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code CLM",
+    "name": "ccclm-save-before-prune",
+    "title": "Verify saved state before pruning",
+    "path": "Claude Code CLM/ccclm-save-before-prune/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code CLM",
+    "name": "ccclm-confirm-action-receipts",
+    "title": "Accept only tool receipts as evidence of completion",
+    "path": "Claude Code CLM/ccclm-confirm-action-receipts/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code CLM",
+    "name": "ccclm-current-policy",
+    "title": "Maintain a current-rule index for conflicting memories",
+    "path": "Claude Code CLM/ccclm-current-policy/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code CLM",
+    "name": "ccclm-metric-feedback",
+    "title": "Do not treat score differences across tasks as strategy ablations",
+    "path": "Claude Code CLM/ccclm-metric-feedback/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code CLM",
+    "name": "ccclm-workspace-protocol",
+    "title": "Distinguish the persistent workspace from the official task environment",
+    "path": "Claude Code CLM/ccclm-workspace-protocol/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Claude Code CLM",
+    "name": "ccclm-capacity-maintenance",
+    "title": "Maintain capacity with headroom and measurable progress",
+    "path": "Claude Code CLM/ccclm-capacity-maintenance/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex",
+    "name": "cx-verify-persistence",
+    "title": "Verify the memory lifecycle",
+    "path": "Codex/cx-verify-persistence/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex",
+    "name": "cx-resume-checkpoint",
+    "title": "Define a native-compaction recovery contract",
+    "path": "Codex/cx-resume-checkpoint/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex",
+    "name": "cx-evidence-state",
+    "title": "Separate raw evidence from aggregate state",
+    "path": "Codex/cx-evidence-state/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex",
+    "name": "cx-scoped-retrieval",
+    "title": "Constrain retrieval by entity and version",
+    "path": "Codex/cx-scoped-retrieval/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex",
+    "name": "cx-feedback-change",
+    "title": "Maintain feedback-driven rule change records",
+    "path": "Codex/cx-feedback-change/SKILL.md",
+    "status": "candidate_unvalidated"
+  },
+  {
+    "platform": "Codex",
+    "name": "cx-progressive-memory-read",
+    "title": "Read progressively for the current decision",
+    "path": "Codex/cx-progressive-memory-read/SKILL.md",
+    "status": "candidate_unvalidated"
+  }
+]

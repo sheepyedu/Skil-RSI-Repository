@@ -1,0 +1,3014 @@
+[
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "001-blind_spectrum_monitoring-000",
+    "source": "claude_native/grouped/cases/001-blind_spectrum_monitoring-000"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "002-blind_spectrum_monitoring-001",
+    "source": "claude_native/grouped/cases/002-blind_spectrum_monitoring-001"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "003-blind_spectrum_monitoring-004",
+    "source": "claude_native/grouped/cases/003-blind_spectrum_monitoring-004"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "004-blind_spectrum_monitoring-007",
+    "source": "claude_native/grouped/cases/004-blind_spectrum_monitoring-007"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "005-blind_spectrum_monitoring-024",
+    "source": "claude_native/grouped/cases/005-blind_spectrum_monitoring-024"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "006-blind_spectrum_monitoring-026",
+    "source": "claude_native/grouped/cases/006-blind_spectrum_monitoring-026"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "007-blind_spectrum_monitoring-027",
+    "source": "claude_native/grouped/cases/007-blind_spectrum_monitoring-027"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "008-blind_spectrum_monitoring-028",
+    "source": "claude_native/grouped/cases/008-blind_spectrum_monitoring-028"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "009-blind_spectrum_monitoring-029",
+    "source": "claude_native/grouped/cases/009-blind_spectrum_monitoring-029"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "010-blind_spectrum_monitoring-031",
+    "source": "claude_native/grouped/cases/010-blind_spectrum_monitoring-031"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "011-blind_spectrum_monitoring-032",
+    "source": "claude_native/grouped/cases/011-blind_spectrum_monitoring-032"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "012-blind_spectrum_monitoring-041",
+    "source": "claude_native/grouped/cases/012-blind_spectrum_monitoring-041"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "013-blind_spectrum_monitoring-043",
+    "source": "claude_native/grouped/cases/013-blind_spectrum_monitoring-043"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "014-blind_spectrum_monitoring-045",
+    "source": "claude_native/grouped/cases/014-blind_spectrum_monitoring-045"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "015-blind_spectrum_monitoring-046",
+    "source": "claude_native/grouped/cases/015-blind_spectrum_monitoring-046"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "016-blind_spectrum_monitoring-051",
+    "source": "claude_native/grouped/cases/016-blind_spectrum_monitoring-051"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "017-blind_spectrum_monitoring-055",
+    "source": "claude_native/grouped/cases/017-blind_spectrum_monitoring-055"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "018-blind_spectrum_monitoring-064",
+    "source": "claude_native/grouped/cases/018-blind_spectrum_monitoring-064"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "019-blind_spectrum_monitoring-066",
+    "source": "claude_native/grouped/cases/019-blind_spectrum_monitoring-066"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "020-blind_spectrum_monitoring-069",
+    "source": "claude_native/grouped/cases/020-blind_spectrum_monitoring-069"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "021-blind_spectrum_monitoring-073",
+    "source": "claude_native/grouped/cases/021-blind_spectrum_monitoring-073"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "022-blind_spectrum_monitoring-075",
+    "source": "claude_native/grouped/cases/022-blind_spectrum_monitoring-075"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "023-blind_spectrum_monitoring-076",
+    "source": "claude_native/grouped/cases/023-blind_spectrum_monitoring-076"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "024-blind_spectrum_monitoring-079",
+    "source": "claude_native/grouped/cases/024-blind_spectrum_monitoring-079"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "025-blind_spectrum_monitoring-081",
+    "source": "claude_native/grouped/cases/025-blind_spectrum_monitoring-081"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "026-blind_spectrum_monitoring-082",
+    "source": "claude_native/grouped/cases/026-blind_spectrum_monitoring-082"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "027-blind_spectrum_monitoring-083",
+    "source": "claude_native/grouped/cases/027-blind_spectrum_monitoring-083"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "028-blind_spectrum_monitoring-084",
+    "source": "claude_native/grouped/cases/028-blind_spectrum_monitoring-084"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "029-blind_spectrum_monitoring-086",
+    "source": "claude_native/grouped/cases/029-blind_spectrum_monitoring-086"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "030-blind_spectrum_monitoring-087",
+    "source": "claude_native/grouped/cases/030-blind_spectrum_monitoring-087"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "031-codebase_adaptation-000",
+    "source": "claude_native/grouped/cases/031-codebase_adaptation-000"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "032-codebase_adaptation-005",
+    "source": "claude_native/grouped/cases/032-codebase_adaptation-005"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "033-codebase_adaptation-006",
+    "source": "claude_native/grouped/cases/033-codebase_adaptation-006"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "034-codebase_adaptation-007",
+    "source": "claude_native/grouped/cases/034-codebase_adaptation-007"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "035-codebase_adaptation-009",
+    "source": "claude_native/grouped/cases/035-codebase_adaptation-009"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "036-codebase_adaptation-013",
+    "source": "claude_native/grouped/cases/036-codebase_adaptation-013"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "037-codebase_adaptation-014",
+    "source": "claude_native/grouped/cases/037-codebase_adaptation-014"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "038-cohort_studies-000",
+    "source": "claude_native/grouped/cases/038-cohort_studies-000"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "039-cohort_studies-003",
+    "source": "claude_native/grouped/cases/039-cohort_studies-003"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "040-cohort_studies-005",
+    "source": "claude_native/grouped/cases/040-cohort_studies-005"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "041-cohort_studies-006",
+    "source": "claude_native/grouped/cases/041-cohort_studies-006"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "042-cohort_studies-012",
+    "source": "claude_native/grouped/cases/042-cohort_studies-012"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "043-cohort_studies-015",
+    "source": "claude_native/grouped/cases/043-cohort_studies-015"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "044-database_exploration-005",
+    "source": "claude_native/grouped/cases/044-database_exploration-005"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "045-database_exploration-006",
+    "source": "claude_native/grouped/cases/045-database_exploration-006"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "046-database_exploration-007",
+    "source": "claude_native/grouped/cases/046-database_exploration-007"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "047-database_exploration-008",
+    "source": "claude_native/grouped/cases/047-database_exploration-008"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "048-database_exploration-010",
+    "source": "claude_native/grouped/cases/048-database_exploration-010"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "049-database_exploration-014",
+    "source": "claude_native/grouped/cases/049-database_exploration-014"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "050-database_exploration-015",
+    "source": "claude_native/grouped/cases/050-database_exploration-015"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "051-database_exploration-025",
+    "source": "claude_native/grouped/cases/051-database_exploration-025"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "052-database_exploration-030",
+    "source": "claude_native/grouped/cases/052-database_exploration-030"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "053-database_exploration-034",
+    "source": "claude_native/grouped/cases/053-database_exploration-034"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "054-database_exploration-035",
+    "source": "claude_native/grouped/cases/054-database_exploration-035"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "055-database_exploration-036",
+    "source": "claude_native/grouped/cases/055-database_exploration-036"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "056-database_exploration-038",
+    "source": "claude_native/grouped/cases/056-database_exploration-038"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "057-exploitable_poker-000",
+    "source": "claude_native/grouped/cases/057-exploitable_poker-000"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "058-exploitable_poker-001",
+    "source": "claude_native/grouped/cases/058-exploitable_poker-001"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "059-exploitable_poker-003",
+    "source": "claude_native/grouped/cases/059-exploitable_poker-003"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "060-exploitable_poker-007",
+    "source": "claude_native/grouped/cases/060-exploitable_poker-007"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "061-exploitable_poker-008",
+    "source": "claude_native/grouped/cases/061-exploitable_poker-008"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "062-exploitable_poker-014",
+    "source": "claude_native/grouped/cases/062-exploitable_poker-014"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "063-exploitable_poker-015",
+    "source": "claude_native/grouped/cases/063-exploitable_poker-015"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "064-exploitable_poker-023",
+    "source": "claude_native/grouped/cases/064-exploitable_poker-023"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "065-exploitable_poker-027",
+    "source": "claude_native/grouped/cases/065-exploitable_poker-027"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "066-exploitable_poker-032",
+    "source": "claude_native/grouped/cases/066-exploitable_poker-032"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "067-exploitable_poker-033",
+    "source": "claude_native/grouped/cases/067-exploitable_poker-033"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "068-exploitable_poker-036",
+    "source": "claude_native/grouped/cases/068-exploitable_poker-036"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "069-exploitable_poker-042",
+    "source": "claude_native/grouped/cases/069-exploitable_poker-042"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "070-exploitable_poker-043",
+    "source": "claude_native/grouped/cases/070-exploitable_poker-043"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "071-exploitable_poker-045",
+    "source": "claude_native/grouped/cases/071-exploitable_poker-045"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "072-exploitable_poker-046",
+    "source": "claude_native/grouped/cases/072-exploitable_poker-046"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "073-exploitable_poker-051",
+    "source": "claude_native/grouped/cases/073-exploitable_poker-051"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "074-exploitable_poker-054",
+    "source": "claude_native/grouped/cases/074-exploitable_poker-054"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "075-exploitable_poker-056",
+    "source": "claude_native/grouped/cases/075-exploitable_poker-056"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "076-exploitable_poker-058",
+    "source": "claude_native/grouped/cases/076-exploitable_poker-058"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "077-exploitable_poker-059",
+    "source": "claude_native/grouped/cases/077-exploitable_poker-059"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "078-exploitable_poker-066",
+    "source": "claude_native/grouped/cases/078-exploitable_poker-066"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "079-exploitable_poker-069",
+    "source": "claude_native/grouped/cases/079-exploitable_poker-069"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "080-exploitable_poker-075",
+    "source": "claude_native/grouped/cases/080-exploitable_poker-075"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "081-exploitable_poker-079",
+    "source": "claude_native/grouped/cases/081-exploitable_poker-079"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "082-exploitable_poker-080",
+    "source": "claude_native/grouped/cases/082-exploitable_poker-080"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "083-exploitable_poker-087",
+    "source": "claude_native/grouped/cases/083-exploitable_poker-087"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "084-exploitable_poker-089",
+    "source": "claude_native/grouped/cases/084-exploitable_poker-089"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "085-exploitable_poker-091",
+    "source": "claude_native/grouped/cases/085-exploitable_poker-091"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "086-exploitable_poker-092",
+    "source": "claude_native/grouped/cases/086-exploitable_poker-092"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "087-exploitable_poker-093",
+    "source": "claude_native/grouped/cases/087-exploitable_poker-093"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "088-exploitable_poker-099",
+    "source": "claude_native/grouped/cases/088-exploitable_poker-099"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "089-exploitable_poker-104",
+    "source": "claude_native/grouped/cases/089-exploitable_poker-104"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "090-exploitable_poker-105",
+    "source": "claude_native/grouped/cases/090-exploitable_poker-105"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "091-exploitable_poker-111",
+    "source": "claude_native/grouped/cases/091-exploitable_poker-111"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "092-exploitable_poker-112",
+    "source": "claude_native/grouped/cases/092-exploitable_poker-112"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "093-exploitable_poker-113",
+    "source": "claude_native/grouped/cases/093-exploitable_poker-113"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "094-exploitable_poker-114",
+    "source": "claude_native/grouped/cases/094-exploitable_poker-114"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "095-exploitable_poker-115",
+    "source": "claude_native/grouped/cases/095-exploitable_poker-115"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "096-exploitable_poker-119",
+    "source": "claude_native/grouped/cases/096-exploitable_poker-119"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "097-sales_prediction-000",
+    "source": "claude_native/grouped/cases/097-sales_prediction-000"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "098-sales_prediction-006",
+    "source": "claude_native/grouped/cases/098-sales_prediction-006"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "099-sales_prediction-009",
+    "source": "claude_native/grouped/cases/099-sales_prediction-009"
+  },
+  {
+    "group": "claude_native",
+    "chain": "grouped",
+    "case": "100-sales_prediction-010",
+    "source": "claude_native/grouped/cases/100-sales_prediction-010"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "001-sales_prediction-006",
+    "source": "claude_native/shuffled/cases/001-sales_prediction-006"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "002-sales_prediction-009",
+    "source": "claude_native/shuffled/cases/002-sales_prediction-009"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "003-blind_spectrum_monitoring-026",
+    "source": "claude_native/shuffled/cases/003-blind_spectrum_monitoring-026"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "004-exploitable_poker-113",
+    "source": "claude_native/shuffled/cases/004-exploitable_poker-113"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "005-codebase_adaptation-007",
+    "source": "claude_native/shuffled/cases/005-codebase_adaptation-007"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "006-exploitable_poker-051",
+    "source": "claude_native/shuffled/cases/006-exploitable_poker-051"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "007-blind_spectrum_monitoring-079",
+    "source": "claude_native/shuffled/cases/007-blind_spectrum_monitoring-079"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "008-database_exploration-010",
+    "source": "claude_native/shuffled/cases/008-database_exploration-010"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "009-exploitable_poker-104",
+    "source": "claude_native/shuffled/cases/009-exploitable_poker-104"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "010-blind_spectrum_monitoring-073",
+    "source": "claude_native/shuffled/cases/010-blind_spectrum_monitoring-073"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "011-exploitable_poker-089",
+    "source": "claude_native/shuffled/cases/011-exploitable_poker-089"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "012-exploitable_poker-115",
+    "source": "claude_native/shuffled/cases/012-exploitable_poker-115"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "013-blind_spectrum_monitoring-004",
+    "source": "claude_native/shuffled/cases/013-blind_spectrum_monitoring-004"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "014-database_exploration-035",
+    "source": "claude_native/shuffled/cases/014-database_exploration-035"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "015-database_exploration-015",
+    "source": "claude_native/shuffled/cases/015-database_exploration-015"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "016-exploitable_poker-091",
+    "source": "claude_native/shuffled/cases/016-exploitable_poker-091"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "017-cohort_studies-012",
+    "source": "claude_native/shuffled/cases/017-cohort_studies-012"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "018-exploitable_poker-093",
+    "source": "claude_native/shuffled/cases/018-exploitable_poker-093"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "019-blind_spectrum_monitoring-083",
+    "source": "claude_native/shuffled/cases/019-blind_spectrum_monitoring-083"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "020-blind_spectrum_monitoring-046",
+    "source": "claude_native/shuffled/cases/020-blind_spectrum_monitoring-046"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "021-cohort_studies-015",
+    "source": "claude_native/shuffled/cases/021-cohort_studies-015"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "022-exploitable_poker-066",
+    "source": "claude_native/shuffled/cases/022-exploitable_poker-066"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "023-codebase_adaptation-009",
+    "source": "claude_native/shuffled/cases/023-codebase_adaptation-009"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "024-blind_spectrum_monitoring-027",
+    "source": "claude_native/shuffled/cases/024-blind_spectrum_monitoring-027"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "025-exploitable_poker-111",
+    "source": "claude_native/shuffled/cases/025-exploitable_poker-111"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "026-exploitable_poker-036",
+    "source": "claude_native/shuffled/cases/026-exploitable_poker-036"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "027-blind_spectrum_monitoring-000",
+    "source": "claude_native/shuffled/cases/027-blind_spectrum_monitoring-000"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "028-exploitable_poker-000",
+    "source": "claude_native/shuffled/cases/028-exploitable_poker-000"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "029-exploitable_poker-054",
+    "source": "claude_native/shuffled/cases/029-exploitable_poker-054"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "030-blind_spectrum_monitoring-086",
+    "source": "claude_native/shuffled/cases/030-blind_spectrum_monitoring-086"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "031-database_exploration-008",
+    "source": "claude_native/shuffled/cases/031-database_exploration-008"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "032-blind_spectrum_monitoring-045",
+    "source": "claude_native/shuffled/cases/032-blind_spectrum_monitoring-045"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "033-cohort_studies-005",
+    "source": "claude_native/shuffled/cases/033-cohort_studies-005"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "034-database_exploration-025",
+    "source": "claude_native/shuffled/cases/034-database_exploration-025"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "035-exploitable_poker-079",
+    "source": "claude_native/shuffled/cases/035-exploitable_poker-079"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "036-sales_prediction-000",
+    "source": "claude_native/shuffled/cases/036-sales_prediction-000"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "037-database_exploration-038",
+    "source": "claude_native/shuffled/cases/037-database_exploration-038"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "038-exploitable_poker-003",
+    "source": "claude_native/shuffled/cases/038-exploitable_poker-003"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "039-exploitable_poker-058",
+    "source": "claude_native/shuffled/cases/039-exploitable_poker-058"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "040-codebase_adaptation-005",
+    "source": "claude_native/shuffled/cases/040-codebase_adaptation-005"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "041-exploitable_poker-033",
+    "source": "claude_native/shuffled/cases/041-exploitable_poker-033"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "042-exploitable_poker-027",
+    "source": "claude_native/shuffled/cases/042-exploitable_poker-027"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "043-database_exploration-034",
+    "source": "claude_native/shuffled/cases/043-database_exploration-034"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "044-cohort_studies-006",
+    "source": "claude_native/shuffled/cases/044-cohort_studies-006"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "045-exploitable_poker-075",
+    "source": "claude_native/shuffled/cases/045-exploitable_poker-075"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "046-exploitable_poker-080",
+    "source": "claude_native/shuffled/cases/046-exploitable_poker-080"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "047-exploitable_poker-001",
+    "source": "claude_native/shuffled/cases/047-exploitable_poker-001"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "048-database_exploration-036",
+    "source": "claude_native/shuffled/cases/048-database_exploration-036"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "049-blind_spectrum_monitoring-024",
+    "source": "claude_native/shuffled/cases/049-blind_spectrum_monitoring-024"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "050-exploitable_poker-045",
+    "source": "claude_native/shuffled/cases/050-exploitable_poker-045"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "051-blind_spectrum_monitoring-069",
+    "source": "claude_native/shuffled/cases/051-blind_spectrum_monitoring-069"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "052-blind_spectrum_monitoring-032",
+    "source": "claude_native/shuffled/cases/052-blind_spectrum_monitoring-032"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "053-exploitable_poker-112",
+    "source": "claude_native/shuffled/cases/053-exploitable_poker-112"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "054-codebase_adaptation-013",
+    "source": "claude_native/shuffled/cases/054-codebase_adaptation-013"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "055-database_exploration-014",
+    "source": "claude_native/shuffled/cases/055-database_exploration-014"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "056-exploitable_poker-099",
+    "source": "claude_native/shuffled/cases/056-exploitable_poker-099"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "057-sales_prediction-010",
+    "source": "claude_native/shuffled/cases/057-sales_prediction-010"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "058-exploitable_poker-092",
+    "source": "claude_native/shuffled/cases/058-exploitable_poker-092"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "059-exploitable_poker-015",
+    "source": "claude_native/shuffled/cases/059-exploitable_poker-015"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "060-exploitable_poker-023",
+    "source": "claude_native/shuffled/cases/060-exploitable_poker-023"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "061-codebase_adaptation-006",
+    "source": "claude_native/shuffled/cases/061-codebase_adaptation-006"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "062-blind_spectrum_monitoring-029",
+    "source": "claude_native/shuffled/cases/062-blind_spectrum_monitoring-029"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "063-exploitable_poker-105",
+    "source": "claude_native/shuffled/cases/063-exploitable_poker-105"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "064-blind_spectrum_monitoring-041",
+    "source": "claude_native/shuffled/cases/064-blind_spectrum_monitoring-041"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "065-exploitable_poker-087",
+    "source": "claude_native/shuffled/cases/065-exploitable_poker-087"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "066-blind_spectrum_monitoring-031",
+    "source": "claude_native/shuffled/cases/066-blind_spectrum_monitoring-031"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "067-exploitable_poker-069",
+    "source": "claude_native/shuffled/cases/067-exploitable_poker-069"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "068-blind_spectrum_monitoring-043",
+    "source": "claude_native/shuffled/cases/068-blind_spectrum_monitoring-043"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "069-exploitable_poker-059",
+    "source": "claude_native/shuffled/cases/069-exploitable_poker-059"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "070-blind_spectrum_monitoring-081",
+    "source": "claude_native/shuffled/cases/070-blind_spectrum_monitoring-081"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "071-blind_spectrum_monitoring-075",
+    "source": "claude_native/shuffled/cases/071-blind_spectrum_monitoring-075"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "072-exploitable_poker-046",
+    "source": "claude_native/shuffled/cases/072-exploitable_poker-046"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "073-codebase_adaptation-000",
+    "source": "claude_native/shuffled/cases/073-codebase_adaptation-000"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "074-blind_spectrum_monitoring-064",
+    "source": "claude_native/shuffled/cases/074-blind_spectrum_monitoring-064"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "075-exploitable_poker-043",
+    "source": "claude_native/shuffled/cases/075-exploitable_poker-043"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "076-exploitable_poker-056",
+    "source": "claude_native/shuffled/cases/076-exploitable_poker-056"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "077-exploitable_poker-042",
+    "source": "claude_native/shuffled/cases/077-exploitable_poker-042"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "078-exploitable_poker-114",
+    "source": "claude_native/shuffled/cases/078-exploitable_poker-114"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "079-blind_spectrum_monitoring-055",
+    "source": "claude_native/shuffled/cases/079-blind_spectrum_monitoring-055"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "080-blind_spectrum_monitoring-076",
+    "source": "claude_native/shuffled/cases/080-blind_spectrum_monitoring-076"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "081-exploitable_poker-008",
+    "source": "claude_native/shuffled/cases/081-exploitable_poker-008"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "082-database_exploration-030",
+    "source": "claude_native/shuffled/cases/082-database_exploration-030"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "083-exploitable_poker-032",
+    "source": "claude_native/shuffled/cases/083-exploitable_poker-032"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "084-blind_spectrum_monitoring-051",
+    "source": "claude_native/shuffled/cases/084-blind_spectrum_monitoring-051"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "085-exploitable_poker-014",
+    "source": "claude_native/shuffled/cases/085-exploitable_poker-014"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "086-codebase_adaptation-014",
+    "source": "claude_native/shuffled/cases/086-codebase_adaptation-014"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "087-cohort_studies-000",
+    "source": "claude_native/shuffled/cases/087-cohort_studies-000"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "088-database_exploration-007",
+    "source": "claude_native/shuffled/cases/088-database_exploration-007"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "089-blind_spectrum_monitoring-001",
+    "source": "claude_native/shuffled/cases/089-blind_spectrum_monitoring-001"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "090-blind_spectrum_monitoring-028",
+    "source": "claude_native/shuffled/cases/090-blind_spectrum_monitoring-028"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "091-exploitable_poker-007",
+    "source": "claude_native/shuffled/cases/091-exploitable_poker-007"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "092-database_exploration-006",
+    "source": "claude_native/shuffled/cases/092-database_exploration-006"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "093-exploitable_poker-119",
+    "source": "claude_native/shuffled/cases/093-exploitable_poker-119"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "094-cohort_studies-003",
+    "source": "claude_native/shuffled/cases/094-cohort_studies-003"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "095-database_exploration-005",
+    "source": "claude_native/shuffled/cases/095-database_exploration-005"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "096-blind_spectrum_monitoring-084",
+    "source": "claude_native/shuffled/cases/096-blind_spectrum_monitoring-084"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "097-blind_spectrum_monitoring-082",
+    "source": "claude_native/shuffled/cases/097-blind_spectrum_monitoring-082"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "098-blind_spectrum_monitoring-087",
+    "source": "claude_native/shuffled/cases/098-blind_spectrum_monitoring-087"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "099-blind_spectrum_monitoring-007",
+    "source": "claude_native/shuffled/cases/099-blind_spectrum_monitoring-007"
+  },
+  {
+    "group": "claude_native",
+    "chain": "shuffled",
+    "case": "100-blind_spectrum_monitoring-066",
+    "source": "claude_native/shuffled/cases/100-blind_spectrum_monitoring-066"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "001-blind_spectrum_monitoring-000",
+    "source": "claude_clm/chain/cases/001-blind_spectrum_monitoring-000"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "002-blind_spectrum_monitoring-001",
+    "source": "claude_clm/chain/cases/002-blind_spectrum_monitoring-001"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "003-blind_spectrum_monitoring-004",
+    "source": "claude_clm/chain/cases/003-blind_spectrum_monitoring-004"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "004-blind_spectrum_monitoring-007",
+    "source": "claude_clm/chain/cases/004-blind_spectrum_monitoring-007"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "005-blind_spectrum_monitoring-024",
+    "source": "claude_clm/chain/cases/005-blind_spectrum_monitoring-024"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "006-blind_spectrum_monitoring-026",
+    "source": "claude_clm/chain/cases/006-blind_spectrum_monitoring-026"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "007-blind_spectrum_monitoring-027",
+    "source": "claude_clm/chain/cases/007-blind_spectrum_monitoring-027"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "008-blind_spectrum_monitoring-028",
+    "source": "claude_clm/chain/cases/008-blind_spectrum_monitoring-028"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "009-blind_spectrum_monitoring-029",
+    "source": "claude_clm/chain/cases/009-blind_spectrum_monitoring-029"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "010-blind_spectrum_monitoring-031",
+    "source": "claude_clm/chain/cases/010-blind_spectrum_monitoring-031"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "011-blind_spectrum_monitoring-032",
+    "source": "claude_clm/chain/cases/011-blind_spectrum_monitoring-032"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "012-blind_spectrum_monitoring-041",
+    "source": "claude_clm/chain/cases/012-blind_spectrum_monitoring-041"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "013-blind_spectrum_monitoring-043",
+    "source": "claude_clm/chain/cases/013-blind_spectrum_monitoring-043"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "014-blind_spectrum_monitoring-045",
+    "source": "claude_clm/chain/cases/014-blind_spectrum_monitoring-045"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "015-blind_spectrum_monitoring-046",
+    "source": "claude_clm/chain/cases/015-blind_spectrum_monitoring-046"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "016-blind_spectrum_monitoring-051",
+    "source": "claude_clm/chain/cases/016-blind_spectrum_monitoring-051"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "017-blind_spectrum_monitoring-055",
+    "source": "claude_clm/chain/cases/017-blind_spectrum_monitoring-055"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "018-blind_spectrum_monitoring-064",
+    "source": "claude_clm/chain/cases/018-blind_spectrum_monitoring-064"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "019-blind_spectrum_monitoring-066",
+    "source": "claude_clm/chain/cases/019-blind_spectrum_monitoring-066"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "020-blind_spectrum_monitoring-069",
+    "source": "claude_clm/chain/cases/020-blind_spectrum_monitoring-069"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "021-blind_spectrum_monitoring-073",
+    "source": "claude_clm/chain/cases/021-blind_spectrum_monitoring-073"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "022-blind_spectrum_monitoring-075",
+    "source": "claude_clm/chain/cases/022-blind_spectrum_monitoring-075"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "023-blind_spectrum_monitoring-076",
+    "source": "claude_clm/chain/cases/023-blind_spectrum_monitoring-076"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "024-blind_spectrum_monitoring-079",
+    "source": "claude_clm/chain/cases/024-blind_spectrum_monitoring-079"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "025-blind_spectrum_monitoring-081",
+    "source": "claude_clm/chain/cases/025-blind_spectrum_monitoring-081"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "026-blind_spectrum_monitoring-082",
+    "source": "claude_clm/chain/cases/026-blind_spectrum_monitoring-082"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "027-blind_spectrum_monitoring-083",
+    "source": "claude_clm/chain/cases/027-blind_spectrum_monitoring-083"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "028-blind_spectrum_monitoring-084",
+    "source": "claude_clm/chain/cases/028-blind_spectrum_monitoring-084"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "029-blind_spectrum_monitoring-086",
+    "source": "claude_clm/chain/cases/029-blind_spectrum_monitoring-086"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "030-blind_spectrum_monitoring-087",
+    "source": "claude_clm/chain/cases/030-blind_spectrum_monitoring-087"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "031-codebase_adaptation-000",
+    "source": "claude_clm/chain/cases/031-codebase_adaptation-000"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "032-codebase_adaptation-005",
+    "source": "claude_clm/chain/cases/032-codebase_adaptation-005"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "033-codebase_adaptation-006",
+    "source": "claude_clm/chain/cases/033-codebase_adaptation-006"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "034-codebase_adaptation-007",
+    "source": "claude_clm/chain/cases/034-codebase_adaptation-007"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "035-codebase_adaptation-009",
+    "source": "claude_clm/chain/cases/035-codebase_adaptation-009"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "036-codebase_adaptation-013",
+    "source": "claude_clm/chain/cases/036-codebase_adaptation-013"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "037-codebase_adaptation-014",
+    "source": "claude_clm/chain/cases/037-codebase_adaptation-014"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "038-cohort_studies-000",
+    "source": "claude_clm/chain/cases/038-cohort_studies-000"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "chain",
+    "case": "039-cohort_studies-003",
+    "source": "claude_clm/chain/cases/039-cohort_studies-003"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "maintenance-v2/chain",
+    "case": "043-cohort_studies-015",
+    "source": "claude_clm/maintenance-v2/chain/cases/043-cohort_studies-015"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "043-cohort_studies-015",
+    "source": "claude_clm/memory-mcp/chain/cases/043-cohort_studies-015"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "044-database_exploration-005",
+    "source": "claude_clm/memory-mcp/chain/cases/044-database_exploration-005"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "045-database_exploration-006",
+    "source": "claude_clm/memory-mcp/chain/cases/045-database_exploration-006"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "046-database_exploration-007",
+    "source": "claude_clm/memory-mcp/chain/cases/046-database_exploration-007"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "047-database_exploration-008",
+    "source": "claude_clm/memory-mcp/chain/cases/047-database_exploration-008"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "048-database_exploration-010",
+    "source": "claude_clm/memory-mcp/chain/cases/048-database_exploration-010"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "049-database_exploration-014",
+    "source": "claude_clm/memory-mcp/chain/cases/049-database_exploration-014"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "050-database_exploration-015",
+    "source": "claude_clm/memory-mcp/chain/cases/050-database_exploration-015"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "051-database_exploration-025",
+    "source": "claude_clm/memory-mcp/chain/cases/051-database_exploration-025"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "052-database_exploration-030",
+    "source": "claude_clm/memory-mcp/chain/cases/052-database_exploration-030"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "053-database_exploration-034",
+    "source": "claude_clm/memory-mcp/chain/cases/053-database_exploration-034"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "054-database_exploration-035",
+    "source": "claude_clm/memory-mcp/chain/cases/054-database_exploration-035"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "055-database_exploration-036",
+    "source": "claude_clm/memory-mcp/chain/cases/055-database_exploration-036"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "056-database_exploration-038",
+    "source": "claude_clm/memory-mcp/chain/cases/056-database_exploration-038"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "057-exploitable_poker-000",
+    "source": "claude_clm/memory-mcp/chain/cases/057-exploitable_poker-000"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "058-exploitable_poker-001",
+    "source": "claude_clm/memory-mcp/chain/cases/058-exploitable_poker-001"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "059-exploitable_poker-003",
+    "source": "claude_clm/memory-mcp/chain/cases/059-exploitable_poker-003"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "060-exploitable_poker-007",
+    "source": "claude_clm/memory-mcp/chain/cases/060-exploitable_poker-007"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "061-exploitable_poker-008",
+    "source": "claude_clm/memory-mcp/chain/cases/061-exploitable_poker-008"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "062-exploitable_poker-014",
+    "source": "claude_clm/memory-mcp/chain/cases/062-exploitable_poker-014"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "063-exploitable_poker-015",
+    "source": "claude_clm/memory-mcp/chain/cases/063-exploitable_poker-015"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "064-exploitable_poker-023",
+    "source": "claude_clm/memory-mcp/chain/cases/064-exploitable_poker-023"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "065-exploitable_poker-027",
+    "source": "claude_clm/memory-mcp/chain/cases/065-exploitable_poker-027"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "066-exploitable_poker-032",
+    "source": "claude_clm/memory-mcp/chain/cases/066-exploitable_poker-032"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "067-exploitable_poker-033",
+    "source": "claude_clm/memory-mcp/chain/cases/067-exploitable_poker-033"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "068-exploitable_poker-036",
+    "source": "claude_clm/memory-mcp/chain/cases/068-exploitable_poker-036"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "069-exploitable_poker-042",
+    "source": "claude_clm/memory-mcp/chain/cases/069-exploitable_poker-042"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "070-exploitable_poker-043",
+    "source": "claude_clm/memory-mcp/chain/cases/070-exploitable_poker-043"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "071-exploitable_poker-045",
+    "source": "claude_clm/memory-mcp/chain/cases/071-exploitable_poker-045"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "072-exploitable_poker-046",
+    "source": "claude_clm/memory-mcp/chain/cases/072-exploitable_poker-046"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "073-exploitable_poker-051",
+    "source": "claude_clm/memory-mcp/chain/cases/073-exploitable_poker-051"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "074-exploitable_poker-054",
+    "source": "claude_clm/memory-mcp/chain/cases/074-exploitable_poker-054"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "075-exploitable_poker-056",
+    "source": "claude_clm/memory-mcp/chain/cases/075-exploitable_poker-056"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "076-exploitable_poker-058",
+    "source": "claude_clm/memory-mcp/chain/cases/076-exploitable_poker-058"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "077-exploitable_poker-059",
+    "source": "claude_clm/memory-mcp/chain/cases/077-exploitable_poker-059"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "078-exploitable_poker-066",
+    "source": "claude_clm/memory-mcp/chain/cases/078-exploitable_poker-066"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "079-exploitable_poker-069",
+    "source": "claude_clm/memory-mcp/chain/cases/079-exploitable_poker-069"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "080-exploitable_poker-075",
+    "source": "claude_clm/memory-mcp/chain/cases/080-exploitable_poker-075"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "081-exploitable_poker-079",
+    "source": "claude_clm/memory-mcp/chain/cases/081-exploitable_poker-079"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "082-exploitable_poker-080",
+    "source": "claude_clm/memory-mcp/chain/cases/082-exploitable_poker-080"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "083-exploitable_poker-087",
+    "source": "claude_clm/memory-mcp/chain/cases/083-exploitable_poker-087"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "084-exploitable_poker-089",
+    "source": "claude_clm/memory-mcp/chain/cases/084-exploitable_poker-089"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "085-exploitable_poker-091",
+    "source": "claude_clm/memory-mcp/chain/cases/085-exploitable_poker-091"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "086-exploitable_poker-092",
+    "source": "claude_clm/memory-mcp/chain/cases/086-exploitable_poker-092"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "087-exploitable_poker-093",
+    "source": "claude_clm/memory-mcp/chain/cases/087-exploitable_poker-093"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "088-exploitable_poker-099",
+    "source": "claude_clm/memory-mcp/chain/cases/088-exploitable_poker-099"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "089-exploitable_poker-104",
+    "source": "claude_clm/memory-mcp/chain/cases/089-exploitable_poker-104"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "090-exploitable_poker-105",
+    "source": "claude_clm/memory-mcp/chain/cases/090-exploitable_poker-105"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "091-exploitable_poker-111",
+    "source": "claude_clm/memory-mcp/chain/cases/091-exploitable_poker-111"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "092-exploitable_poker-112",
+    "source": "claude_clm/memory-mcp/chain/cases/092-exploitable_poker-112"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "093-exploitable_poker-113",
+    "source": "claude_clm/memory-mcp/chain/cases/093-exploitable_poker-113"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "094-exploitable_poker-114",
+    "source": "claude_clm/memory-mcp/chain/cases/094-exploitable_poker-114"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "095-exploitable_poker-115",
+    "source": "claude_clm/memory-mcp/chain/cases/095-exploitable_poker-115"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "096-exploitable_poker-119",
+    "source": "claude_clm/memory-mcp/chain/cases/096-exploitable_poker-119"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "097-sales_prediction-000",
+    "source": "claude_clm/memory-mcp/chain/cases/097-sales_prediction-000"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "098-sales_prediction-006",
+    "source": "claude_clm/memory-mcp/chain/cases/098-sales_prediction-006"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "099-sales_prediction-009",
+    "source": "claude_clm/memory-mcp/chain/cases/099-sales_prediction-009"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "memory-mcp/chain",
+    "case": "100-sales_prediction-010",
+    "source": "claude_clm/memory-mcp/chain/cases/100-sales_prediction-010"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "rescue/chain",
+    "case": "039-cohort_studies-003",
+    "source": "claude_clm/rescue/chain/cases/039-cohort_studies-003"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "rescue/chain",
+    "case": "040-cohort_studies-005",
+    "source": "claude_clm/rescue/chain/cases/040-cohort_studies-005"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "rescue/chain",
+    "case": "041-cohort_studies-006",
+    "source": "claude_clm/rescue/chain/cases/041-cohort_studies-006"
+  },
+  {
+    "group": "claude_clm",
+    "chain": "rescue/chain",
+    "case": "042-cohort_studies-012",
+    "source": "claude_clm/rescue/chain/cases/042-cohort_studies-012"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "001-blind_spectrum_monitoring-000",
+    "source": "codex_native/cases/001-blind_spectrum_monitoring-000"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "002-blind_spectrum_monitoring-001",
+    "source": "codex_native/cases/002-blind_spectrum_monitoring-001"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "003-blind_spectrum_monitoring-004",
+    "source": "codex_native/cases/003-blind_spectrum_monitoring-004"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "004-blind_spectrum_monitoring-007",
+    "source": "codex_native/cases/004-blind_spectrum_monitoring-007"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "005-blind_spectrum_monitoring-024",
+    "source": "codex_native/cases/005-blind_spectrum_monitoring-024"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "006-blind_spectrum_monitoring-026",
+    "source": "codex_native/cases/006-blind_spectrum_monitoring-026"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "007-blind_spectrum_monitoring-027",
+    "source": "codex_native/cases/007-blind_spectrum_monitoring-027"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "008-blind_spectrum_monitoring-028",
+    "source": "codex_native/cases/008-blind_spectrum_monitoring-028"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "009-blind_spectrum_monitoring-029",
+    "source": "codex_native/cases/009-blind_spectrum_monitoring-029"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "010-blind_spectrum_monitoring-031",
+    "source": "codex_native/cases/010-blind_spectrum_monitoring-031"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "011-blind_spectrum_monitoring-032",
+    "source": "codex_native/cases/011-blind_spectrum_monitoring-032"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "012-blind_spectrum_monitoring-041",
+    "source": "codex_native/cases/012-blind_spectrum_monitoring-041"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "013-blind_spectrum_monitoring-043",
+    "source": "codex_native/cases/013-blind_spectrum_monitoring-043"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "014-blind_spectrum_monitoring-045",
+    "source": "codex_native/cases/014-blind_spectrum_monitoring-045"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "015-blind_spectrum_monitoring-046",
+    "source": "codex_native/cases/015-blind_spectrum_monitoring-046"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "016-blind_spectrum_monitoring-051",
+    "source": "codex_native/cases/016-blind_spectrum_monitoring-051"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "017-blind_spectrum_monitoring-055",
+    "source": "codex_native/cases/017-blind_spectrum_monitoring-055"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "018-blind_spectrum_monitoring-064",
+    "source": "codex_native/cases/018-blind_spectrum_monitoring-064"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "019-blind_spectrum_monitoring-066",
+    "source": "codex_native/cases/019-blind_spectrum_monitoring-066"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "020-blind_spectrum_monitoring-069",
+    "source": "codex_native/cases/020-blind_spectrum_monitoring-069"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "021-blind_spectrum_monitoring-073",
+    "source": "codex_native/cases/021-blind_spectrum_monitoring-073"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "022-blind_spectrum_monitoring-075",
+    "source": "codex_native/cases/022-blind_spectrum_monitoring-075"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "023-blind_spectrum_monitoring-076",
+    "source": "codex_native/cases/023-blind_spectrum_monitoring-076"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "024-blind_spectrum_monitoring-079",
+    "source": "codex_native/cases/024-blind_spectrum_monitoring-079"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "025-blind_spectrum_monitoring-081",
+    "source": "codex_native/cases/025-blind_spectrum_monitoring-081"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "026-blind_spectrum_monitoring-082",
+    "source": "codex_native/cases/026-blind_spectrum_monitoring-082"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "027-blind_spectrum_monitoring-083",
+    "source": "codex_native/cases/027-blind_spectrum_monitoring-083"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "028-blind_spectrum_monitoring-084",
+    "source": "codex_native/cases/028-blind_spectrum_monitoring-084"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "029-blind_spectrum_monitoring-086",
+    "source": "codex_native/cases/029-blind_spectrum_monitoring-086"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "030-blind_spectrum_monitoring-087",
+    "source": "codex_native/cases/030-blind_spectrum_monitoring-087"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "031-codebase_adaptation-000",
+    "source": "codex_native/cases/031-codebase_adaptation-000"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "032-codebase_adaptation-005",
+    "source": "codex_native/cases/032-codebase_adaptation-005"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "033-codebase_adaptation-006",
+    "source": "codex_native/cases/033-codebase_adaptation-006"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "034-codebase_adaptation-007",
+    "source": "codex_native/cases/034-codebase_adaptation-007"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "035-codebase_adaptation-009",
+    "source": "codex_native/cases/035-codebase_adaptation-009"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "036-codebase_adaptation-013",
+    "source": "codex_native/cases/036-codebase_adaptation-013"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "037-codebase_adaptation-014",
+    "source": "codex_native/cases/037-codebase_adaptation-014"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "038-cohort_studies-000",
+    "source": "codex_native/cases/038-cohort_studies-000"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "039-cohort_studies-003",
+    "source": "codex_native/cases/039-cohort_studies-003"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "040-cohort_studies-005",
+    "source": "codex_native/cases/040-cohort_studies-005"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "041-cohort_studies-006",
+    "source": "codex_native/cases/041-cohort_studies-006"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "042-cohort_studies-012",
+    "source": "codex_native/cases/042-cohort_studies-012"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "043-cohort_studies-015",
+    "source": "codex_native/cases/043-cohort_studies-015"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "044-database_exploration-005",
+    "source": "codex_native/cases/044-database_exploration-005"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "045-database_exploration-006",
+    "source": "codex_native/cases/045-database_exploration-006"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "046-database_exploration-007",
+    "source": "codex_native/cases/046-database_exploration-007"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "047-database_exploration-008",
+    "source": "codex_native/cases/047-database_exploration-008"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "048-database_exploration-010",
+    "source": "codex_native/cases/048-database_exploration-010"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "049-database_exploration-014",
+    "source": "codex_native/cases/049-database_exploration-014"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "050-database_exploration-015",
+    "source": "codex_native/cases/050-database_exploration-015"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "051-database_exploration-025",
+    "source": "codex_native/cases/051-database_exploration-025"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "052-database_exploration-030",
+    "source": "codex_native/cases/052-database_exploration-030"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "053-database_exploration-034",
+    "source": "codex_native/cases/053-database_exploration-034"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "054-database_exploration-035",
+    "source": "codex_native/cases/054-database_exploration-035"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "055-database_exploration-036",
+    "source": "codex_native/cases/055-database_exploration-036"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "056-database_exploration-038",
+    "source": "codex_native/cases/056-database_exploration-038"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "057-exploitable_poker-000",
+    "source": "codex_native/cases/057-exploitable_poker-000"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "058-exploitable_poker-001",
+    "source": "codex_native/cases/058-exploitable_poker-001"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "059-exploitable_poker-003",
+    "source": "codex_native/cases/059-exploitable_poker-003"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "060-exploitable_poker-007",
+    "source": "codex_native/cases/060-exploitable_poker-007"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "061-exploitable_poker-008",
+    "source": "codex_native/cases/061-exploitable_poker-008"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "062-exploitable_poker-014",
+    "source": "codex_native/cases/062-exploitable_poker-014"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "063-exploitable_poker-015",
+    "source": "codex_native/cases/063-exploitable_poker-015"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "064-exploitable_poker-023",
+    "source": "codex_native/cases/064-exploitable_poker-023"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "065-exploitable_poker-027",
+    "source": "codex_native/cases/065-exploitable_poker-027"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "066-exploitable_poker-032",
+    "source": "codex_native/cases/066-exploitable_poker-032"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "067-exploitable_poker-033",
+    "source": "codex_native/cases/067-exploitable_poker-033"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "068-exploitable_poker-036",
+    "source": "codex_native/cases/068-exploitable_poker-036"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "069-exploitable_poker-042",
+    "source": "codex_native/cases/069-exploitable_poker-042"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "070-exploitable_poker-043",
+    "source": "codex_native/cases/070-exploitable_poker-043"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "071-exploitable_poker-045",
+    "source": "codex_native/cases/071-exploitable_poker-045"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "072-exploitable_poker-046",
+    "source": "codex_native/cases/072-exploitable_poker-046"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "073-exploitable_poker-051",
+    "source": "codex_native/cases/073-exploitable_poker-051"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "074-exploitable_poker-054",
+    "source": "codex_native/cases/074-exploitable_poker-054"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "075-exploitable_poker-056",
+    "source": "codex_native/cases/075-exploitable_poker-056"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "076-exploitable_poker-058",
+    "source": "codex_native/cases/076-exploitable_poker-058"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "077-exploitable_poker-059",
+    "source": "codex_native/cases/077-exploitable_poker-059"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "078-exploitable_poker-066",
+    "source": "codex_native/cases/078-exploitable_poker-066"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "079-exploitable_poker-069",
+    "source": "codex_native/cases/079-exploitable_poker-069"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "080-exploitable_poker-075",
+    "source": "codex_native/cases/080-exploitable_poker-075"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "081-exploitable_poker-079",
+    "source": "codex_native/cases/081-exploitable_poker-079"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "082-exploitable_poker-080",
+    "source": "codex_native/cases/082-exploitable_poker-080"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "083-exploitable_poker-087",
+    "source": "codex_native/cases/083-exploitable_poker-087"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "084-exploitable_poker-089",
+    "source": "codex_native/cases/084-exploitable_poker-089"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "085-exploitable_poker-091",
+    "source": "codex_native/cases/085-exploitable_poker-091"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "086-exploitable_poker-092",
+    "source": "codex_native/cases/086-exploitable_poker-092"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "087-exploitable_poker-093",
+    "source": "codex_native/cases/087-exploitable_poker-093"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "088-exploitable_poker-099",
+    "source": "codex_native/cases/088-exploitable_poker-099"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "089-exploitable_poker-104",
+    "source": "codex_native/cases/089-exploitable_poker-104"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "090-exploitable_poker-105",
+    "source": "codex_native/cases/090-exploitable_poker-105"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "091-exploitable_poker-111",
+    "source": "codex_native/cases/091-exploitable_poker-111"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "092-exploitable_poker-112",
+    "source": "codex_native/cases/092-exploitable_poker-112"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "093-exploitable_poker-113",
+    "source": "codex_native/cases/093-exploitable_poker-113"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "094-exploitable_poker-114",
+    "source": "codex_native/cases/094-exploitable_poker-114"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "095-exploitable_poker-115",
+    "source": "codex_native/cases/095-exploitable_poker-115"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "096-exploitable_poker-119",
+    "source": "codex_native/cases/096-exploitable_poker-119"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "097-sales_prediction-000",
+    "source": "codex_native/cases/097-sales_prediction-000"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "098-sales_prediction-006",
+    "source": "codex_native/cases/098-sales_prediction-006"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "099-sales_prediction-009",
+    "source": "codex_native/cases/099-sales_prediction-009"
+  },
+  {
+    "group": "codex_native",
+    "chain": ".",
+    "case": "100-sales_prediction-010",
+    "source": "codex_native/cases/100-sales_prediction-010"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "001-blind_spectrum_monitoring-000",
+    "source": "codex_clm/cases/001-blind_spectrum_monitoring-000"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "002-blind_spectrum_monitoring-001",
+    "source": "codex_clm/cases/002-blind_spectrum_monitoring-001"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "003-blind_spectrum_monitoring-004",
+    "source": "codex_clm/cases/003-blind_spectrum_monitoring-004"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "004-blind_spectrum_monitoring-007",
+    "source": "codex_clm/cases/004-blind_spectrum_monitoring-007"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "005-blind_spectrum_monitoring-024",
+    "source": "codex_clm/cases/005-blind_spectrum_monitoring-024"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "006-blind_spectrum_monitoring-026",
+    "source": "codex_clm/cases/006-blind_spectrum_monitoring-026"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "007-blind_spectrum_monitoring-027",
+    "source": "codex_clm/cases/007-blind_spectrum_monitoring-027"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "008-blind_spectrum_monitoring-028",
+    "source": "codex_clm/cases/008-blind_spectrum_monitoring-028"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "009-blind_spectrum_monitoring-029",
+    "source": "codex_clm/cases/009-blind_spectrum_monitoring-029"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "010-blind_spectrum_monitoring-031",
+    "source": "codex_clm/cases/010-blind_spectrum_monitoring-031"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "011-blind_spectrum_monitoring-032",
+    "source": "codex_clm/cases/011-blind_spectrum_monitoring-032"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "012-blind_spectrum_monitoring-041",
+    "source": "codex_clm/cases/012-blind_spectrum_monitoring-041"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "013-blind_spectrum_monitoring-043",
+    "source": "codex_clm/cases/013-blind_spectrum_monitoring-043"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "014-blind_spectrum_monitoring-045",
+    "source": "codex_clm/cases/014-blind_spectrum_monitoring-045"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "015-blind_spectrum_monitoring-046",
+    "source": "codex_clm/cases/015-blind_spectrum_monitoring-046"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "016-blind_spectrum_monitoring-051",
+    "source": "codex_clm/cases/016-blind_spectrum_monitoring-051"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "017-blind_spectrum_monitoring-055",
+    "source": "codex_clm/cases/017-blind_spectrum_monitoring-055"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "018-blind_spectrum_monitoring-064",
+    "source": "codex_clm/cases/018-blind_spectrum_monitoring-064"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "019-blind_spectrum_monitoring-066",
+    "source": "codex_clm/cases/019-blind_spectrum_monitoring-066"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "020-blind_spectrum_monitoring-069",
+    "source": "codex_clm/cases/020-blind_spectrum_monitoring-069"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "021-blind_spectrum_monitoring-073",
+    "source": "codex_clm/cases/021-blind_spectrum_monitoring-073"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "022-blind_spectrum_monitoring-075",
+    "source": "codex_clm/cases/022-blind_spectrum_monitoring-075"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "023-blind_spectrum_monitoring-076",
+    "source": "codex_clm/cases/023-blind_spectrum_monitoring-076"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "024-blind_spectrum_monitoring-079",
+    "source": "codex_clm/cases/024-blind_spectrum_monitoring-079"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "025-blind_spectrum_monitoring-081",
+    "source": "codex_clm/cases/025-blind_spectrum_monitoring-081"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "026-blind_spectrum_monitoring-082",
+    "source": "codex_clm/cases/026-blind_spectrum_monitoring-082"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "027-blind_spectrum_monitoring-083",
+    "source": "codex_clm/cases/027-blind_spectrum_monitoring-083"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "028-blind_spectrum_monitoring-084",
+    "source": "codex_clm/cases/028-blind_spectrum_monitoring-084"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "029-blind_spectrum_monitoring-086",
+    "source": "codex_clm/cases/029-blind_spectrum_monitoring-086"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "030-blind_spectrum_monitoring-087",
+    "source": "codex_clm/cases/030-blind_spectrum_monitoring-087"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "031-codebase_adaptation-000",
+    "source": "codex_clm/cases/031-codebase_adaptation-000"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "032-codebase_adaptation-005",
+    "source": "codex_clm/cases/032-codebase_adaptation-005"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "033-codebase_adaptation-006",
+    "source": "codex_clm/cases/033-codebase_adaptation-006"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "034-codebase_adaptation-007",
+    "source": "codex_clm/cases/034-codebase_adaptation-007"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "035-codebase_adaptation-009",
+    "source": "codex_clm/cases/035-codebase_adaptation-009"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "036-codebase_adaptation-013",
+    "source": "codex_clm/cases/036-codebase_adaptation-013"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "037-codebase_adaptation-014",
+    "source": "codex_clm/cases/037-codebase_adaptation-014"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "038-cohort_studies-000",
+    "source": "codex_clm/cases/038-cohort_studies-000"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "039-cohort_studies-003",
+    "source": "codex_clm/cases/039-cohort_studies-003"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "040-cohort_studies-005",
+    "source": "codex_clm/cases/040-cohort_studies-005"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "041-cohort_studies-006",
+    "source": "codex_clm/cases/041-cohort_studies-006"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "042-cohort_studies-012",
+    "source": "codex_clm/cases/042-cohort_studies-012"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "043-cohort_studies-015",
+    "source": "codex_clm/cases/043-cohort_studies-015"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "044-database_exploration-005",
+    "source": "codex_clm/cases/044-database_exploration-005"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "045-database_exploration-006",
+    "source": "codex_clm/cases/045-database_exploration-006"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "046-database_exploration-007",
+    "source": "codex_clm/cases/046-database_exploration-007"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "047-database_exploration-008",
+    "source": "codex_clm/cases/047-database_exploration-008"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "048-database_exploration-010",
+    "source": "codex_clm/cases/048-database_exploration-010"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "049-database_exploration-014",
+    "source": "codex_clm/cases/049-database_exploration-014"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "050-database_exploration-015",
+    "source": "codex_clm/cases/050-database_exploration-015"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "051-database_exploration-025",
+    "source": "codex_clm/cases/051-database_exploration-025"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "052-database_exploration-030",
+    "source": "codex_clm/cases/052-database_exploration-030"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "053-database_exploration-034",
+    "source": "codex_clm/cases/053-database_exploration-034"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "054-database_exploration-035",
+    "source": "codex_clm/cases/054-database_exploration-035"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "055-database_exploration-036",
+    "source": "codex_clm/cases/055-database_exploration-036"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "056-database_exploration-038",
+    "source": "codex_clm/cases/056-database_exploration-038"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "057-exploitable_poker-000",
+    "source": "codex_clm/cases/057-exploitable_poker-000"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "058-exploitable_poker-001",
+    "source": "codex_clm/cases/058-exploitable_poker-001"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "059-exploitable_poker-003",
+    "source": "codex_clm/cases/059-exploitable_poker-003"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "060-exploitable_poker-007",
+    "source": "codex_clm/cases/060-exploitable_poker-007"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "061-exploitable_poker-008",
+    "source": "codex_clm/cases/061-exploitable_poker-008"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "062-exploitable_poker-014",
+    "source": "codex_clm/cases/062-exploitable_poker-014"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "063-exploitable_poker-015",
+    "source": "codex_clm/cases/063-exploitable_poker-015"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "064-exploitable_poker-023",
+    "source": "codex_clm/cases/064-exploitable_poker-023"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "065-exploitable_poker-027",
+    "source": "codex_clm/cases/065-exploitable_poker-027"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "066-exploitable_poker-032",
+    "source": "codex_clm/cases/066-exploitable_poker-032"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "067-exploitable_poker-033",
+    "source": "codex_clm/cases/067-exploitable_poker-033"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "068-exploitable_poker-036",
+    "source": "codex_clm/cases/068-exploitable_poker-036"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "069-exploitable_poker-042",
+    "source": "codex_clm/cases/069-exploitable_poker-042"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "070-exploitable_poker-043",
+    "source": "codex_clm/cases/070-exploitable_poker-043"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "071-exploitable_poker-045",
+    "source": "codex_clm/cases/071-exploitable_poker-045"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "072-exploitable_poker-046",
+    "source": "codex_clm/cases/072-exploitable_poker-046"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "073-exploitable_poker-051",
+    "source": "codex_clm/cases/073-exploitable_poker-051"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "074-exploitable_poker-054",
+    "source": "codex_clm/cases/074-exploitable_poker-054"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "075-exploitable_poker-056",
+    "source": "codex_clm/cases/075-exploitable_poker-056"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "076-exploitable_poker-058",
+    "source": "codex_clm/cases/076-exploitable_poker-058"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "077-exploitable_poker-059",
+    "source": "codex_clm/cases/077-exploitable_poker-059"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "078-exploitable_poker-066",
+    "source": "codex_clm/cases/078-exploitable_poker-066"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "079-exploitable_poker-069",
+    "source": "codex_clm/cases/079-exploitable_poker-069"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "080-exploitable_poker-075",
+    "source": "codex_clm/cases/080-exploitable_poker-075"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "081-exploitable_poker-079",
+    "source": "codex_clm/cases/081-exploitable_poker-079"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "082-exploitable_poker-080",
+    "source": "codex_clm/cases/082-exploitable_poker-080"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "083-exploitable_poker-087",
+    "source": "codex_clm/cases/083-exploitable_poker-087"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "084-exploitable_poker-089",
+    "source": "codex_clm/cases/084-exploitable_poker-089"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "085-exploitable_poker-091",
+    "source": "codex_clm/cases/085-exploitable_poker-091"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "086-exploitable_poker-092",
+    "source": "codex_clm/cases/086-exploitable_poker-092"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "087-exploitable_poker-093",
+    "source": "codex_clm/cases/087-exploitable_poker-093"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "088-exploitable_poker-099",
+    "source": "codex_clm/cases/088-exploitable_poker-099"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "089-exploitable_poker-104",
+    "source": "codex_clm/cases/089-exploitable_poker-104"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "090-exploitable_poker-105",
+    "source": "codex_clm/cases/090-exploitable_poker-105"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "091-exploitable_poker-111",
+    "source": "codex_clm/cases/091-exploitable_poker-111"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "092-exploitable_poker-112",
+    "source": "codex_clm/cases/092-exploitable_poker-112"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "093-exploitable_poker-113",
+    "source": "codex_clm/cases/093-exploitable_poker-113"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "094-exploitable_poker-114",
+    "source": "codex_clm/cases/094-exploitable_poker-114"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "095-exploitable_poker-115",
+    "source": "codex_clm/cases/095-exploitable_poker-115"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "096-exploitable_poker-119",
+    "source": "codex_clm/cases/096-exploitable_poker-119"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "097-sales_prediction-000",
+    "source": "codex_clm/cases/097-sales_prediction-000"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "098-sales_prediction-006",
+    "source": "codex_clm/cases/098-sales_prediction-006"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "099-sales_prediction-009",
+    "source": "codex_clm/cases/099-sales_prediction-009"
+  },
+  {
+    "group": "codex_clm",
+    "chain": ".",
+    "case": "100-sales_prediction-010",
+    "source": "codex_clm/cases/100-sales_prediction-010"
+  }
+]
