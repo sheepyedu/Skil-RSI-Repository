@@ -35,3 +35,9 @@
 完成 14/60 道配对，第 15 题启动。正式请求 817 次，补评 5 次，合计 822 次。正式作答请求 672 次，其中 670 次已闭合、1 次仍在途、1 次为第 13 题原生组已知读超时。该组原始轨迹保留 205,995 字节响应前缀，CLI 终态正常，提交产物通过 4/4 项官方测试，得分 1.0。评分审计未发现新增待补评项目。 [复核快照](evidence/hourly/2026-11-19-0049.json) · [逐请求核验](evidence/hourly/2026-11-19-0049-input-output.json) · [计数](evidence/hourly/2026-11-19-0049-request-counts.json) · [评分](evidence/hourly/2026-11-19-0049-web-judge-health.json) · [第 13 题传输记录](evidence/task-013-native-transport.json) · [修正汇总](analysis/hourly-2026-11-19-0049-scores.json)
 
 第 15 题原生组因 8,192 token 单次输出预算退出，CLM 原试验完成评分。两组均从第 14 题各自检查点续接，使用同一 16,384 token 上限重跑第 15 题，原尝试保留。原生组恢复首个实际模型请求已闭合，确认 16,384 token 和上一题标记。 [原尝试](evidence/task-015-original-output-cap.json) · [恢复启动](evidence/formal-02-recovery-05-launch.json) · [恢复首请求](evidence/task-015-first-recovery-request.json)
+
+## 2026-11-19 01:19
+
+控制器在新恢复目录正常运行。已完成 14/60 道配对，第 15 题原生重跑的 16 次作答均闭合，得分 0.809，CLM 重跑在途。两组真实作答首请求均使用 16,384 token 输出上限，含前一题标记，响应正常。历史额外分段保留原第 15 题评分和失败尝试。
+
+正式请求 875 次，含原第 15 题两组尝试。另有补评 5 次，两项合计 880 次。预算参数探针额外发送 1 次。已完成的 Web 评分无待补评项。 [运行快照](evidence/hourly/2026-11-19-0119.json) · [逐请求核验](evidence/hourly/2026-11-19-0119-input-output.json) · [计数](evidence/hourly/2026-11-19-0119-request-counts.json) · [评分](evidence/hourly/2026-11-19-0119-web-judge-health.json) · [实际配对预算](evidence/task-015-matched-budget.json) · [修正汇总](analysis/hourly-2026-11-19-0119-scores.json)

@@ -1,0 +1,23 @@
+{
+  "run": "formal-02-resume-05",
+  "position": 15,
+  "observed_at": "2026-11-19T01:19:32+08:00",
+  "arms": {
+    "native": {
+      "requested_model": "deepseek-v4-1-flash-261017",
+      "max_tokens": 16384,
+      "first_request_sha256": "02ae31382df4251af20504a0c2b8e240c60e628ee71272c4e0597abc245e252b",
+      "first_response_sha256": "0e0e412793ebc584d9beff12822d6e510ba4d42db99a0ca75865b2c6f05755fa",
+      "previous_task_marker_preserved": true,
+      "first_response_closed": true
+    },
+    "clm": {
+      "requested_model": "deepseek-v4-1-flash-261017",
+      "max_tokens": 16384,
+      "first_request_sha256": "610c138a69677a084b3dd68d1819454c81bb5cb01223ffa33b8b3f97efce676b",
+      "first_response_sha256": "6c3a3e654351be3871ad27f05cd8fccbb077cbada96fea0bc3f04afd3a94fcd4",
+      "previous_task_marker_preserved": true,
+      "first_response_closed": true
+    }
+  }
+}

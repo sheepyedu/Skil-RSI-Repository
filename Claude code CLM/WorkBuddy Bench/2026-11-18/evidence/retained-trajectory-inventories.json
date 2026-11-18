@@ -52,6 +52,26 @@
       "archived_bytes": 1172067950,
       "final_audit_sha256": "e8ea18eff83196ec601d7c732a1ffa1137ee464538ef471348770fcb5386ff7d",
       "exit_status": 1
+    },
+    {
+      "run": "formal-02-resume-03",
+      "inventory_path": "formal-02-resume-03/trajectory-sha256.json",
+      "inventory_sha256": "04ce3ccfdfc6161d46cc3ad475271c18acd044f192139370220f4cede09a69d4",
+      "inventory_bytes": 1910524,
+      "listed_files": 8925,
+      "archived_bytes": 1266485914,
+      "final_audit_sha256": "0b7cf6cdeeaccb1c715985a548629595e71cb21df3ef22b59750042abd6e5558",
+      "exit_status": 1
+    },
+    {
+      "run": "formal-02-resume-04",
+      "inventory_path": "formal-02-resume-04/trajectory-sha256.json",
+      "inventory_sha256": "dde4b2e6794b2e442ac382f38c70b9d943958fb129ff5ad99b480912eb8ea490",
+      "inventory_bytes": 3068702,
+      "listed_files": 14371,
+      "archived_bytes": 1938009941,
+      "final_audit_sha256": "d6100a8cdbe03a9be5af6bcaba634e55bad93f523398bcf62127bd317764e661",
+      "exit_status": 1
     }
   ]
 }
