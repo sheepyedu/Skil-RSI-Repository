@@ -1,0 +1,1174 @@
+{
+  "observed_at": "2026-11-19T01:49:45+08:00",
+  "model": "deepseek-v4-1-flash-261017",
+  "judge_model": "gpt-6.1-sol",
+  "plan_sha256": "514a0e3a17b59db24b3990bbff1f1fd202c0379ad8f5571880f3ddf84b4de316",
+  "controller_completed_pairs": 17,
+  "exit_status": null,
+  "verified_pairs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "cases": [
+    {
+      "position": 16,
+      "domain": "sec",
+      "task": "false-positive-trap-bind-hard-multistep",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "last_event": {
+            "event": "end",
+            "timestamp": "2026-11-18T17:23:14.749732+00:00"
+          },
+          "request_outcomes": {
+            "complete": 3
+          },
+          "requests_in_flight": [],
+          "first_actual_input_tokens": 162594,
+          "first_actual_input_exact": true,
+          "previous_marker_in_first_actual_input": true,
+          "native_session_match": true,
+          "native_terminal": true,
+          "native_terminal_error": false,
+          "native_stream_sha256": "58549795061eadbf36109edef7ff55213d0b827abdbfcc06aac29fa2292b3534",
+          "native_transcript_sha256": "0c6a2331abdbbb788d3ab6d9186997c2daa29a61430c50a2ea612b1979288c30",
+          "native_compactions": 0,
+          "session_saved": true,
+          "reward": {
+            "reward": 0.5
+          },
+          "grader_files": [
+            "reward.txt",
+            "rewards.json",
+            "test-stdout.txt",
+            "verify.log"
+          ],
+          "judge_complete": 0,
+          "judge_errors": 0,
+          "exception_type": null,
+          "request_errors": [],
+          "requests_completed": [
+            {
+              "attempt": "0000",
+              "request_sha256": "5a28a7022f562c8aa3382c2710fcb77fb8dcf463fb37de7332141231bba3e4a5",
+              "response_sha256": "6c69326bd978cf1bfdd559572cd2f776fe4aadd49c034373256fc48dab00b557",
+              "request_bytes": 636927,
+              "response_bytes": 54582,
+              "input_tokens": 162594,
+              "output_tokens": 249,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0001",
+              "request_sha256": "e59239e4947076956da9ca7f37ff12da68d840c4f1663335e7afcca817fd8440",
+              "response_sha256": "df7cf35677665be4ec47dc203760beba70b567e81d16080c6264ffe27d4cd55b",
+              "request_bytes": 638736,
+              "response_bytes": 72118,
+              "input_tokens": 163077,
+              "output_tokens": 423,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0002",
+              "request_sha256": "a002b560bd6036226463d69016dfe0058c5ffd59b358164c0bb1d75b8a2e99cd",
+              "response_sha256": "d37f1f64a60787aabd7ac2b9e6d38bbe2a5bd0f417b2c6dda2fae38fa7041463",
+              "request_bytes": 641240,
+              "response_bytes": 9495,
+              "input_tokens": 163750,
+              "output_tokens": 102,
+              "finish_reason": "stop"
+            }
+          ]
+        },
+        "clm": {
+          "state": "accepted",
+          "last_event": {
+            "event": "end",
+            "timestamp": "2026-11-18T17:23:45.622456+00:00"
+          },
+          "request_outcomes": {
+            "complete": 4
+          },
+          "requests_in_flight": [],
+          "first_actual_input_tokens": 24243,
+          "first_actual_input_exact": true,
+          "previous_marker_in_first_actual_input": true,
+          "native_session_match": true,
+          "native_terminal": true,
+          "native_terminal_error": false,
+          "native_stream_sha256": "33413bacbdf8c001c6636e508fb3e4e0f6a8de97aeff6817914c2f704cec8bc4",
+          "native_transcript_sha256": "8c999915df6bf31eec8f4d462064f79b71862a5eceefccf343d3a30f208c8f7f",
+          "native_compactions": 0,
+          "session_saved": true,
+          "reward": {
+            "reward": 0.5
+          },
+          "grader_files": [
+            "reward.txt",
+            "rewards.json",
+            "test-stdout.txt",
+            "verify.log"
+          ],
+          "judge_complete": 0,
+          "judge_errors": 0,
+          "exception_type": null,
+          "request_errors": [],
+          "requests_completed": [
+            {
+              "attempt": "0000",
+              "request_sha256": "34bc1b00d40bcc8b61ff6001e5d0063fd8c6151ffc3fbcef301acac95ecc8464",
+              "response_sha256": "8ce99435b06d1ba99bdb43ccf8830001ca27e61aa2ef4854d8450830d444e303",
+              "request_bytes": 98500,
+              "response_bytes": 31768,
+              "input_tokens": 24243,
+              "output_tokens": 178,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0001",
+              "request_sha256": "177db8b14b3514840b454fa844094c1aaf377ad2a5c22d36da67d53dda565b36",
+              "response_sha256": "388e0d7507e0feb89d1f3510bbcc3d686c14f09f54b8e800eb33af1295a72d12",
+              "request_bytes": 100117,
+              "response_bytes": 24355,
+              "input_tokens": 24715,
+              "output_tokens": 113,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0002",
+              "request_sha256": "55ac0b439ebdb2c136a14b5f1a0a67397aedd84c04cb7e2bbfe63242afc88848",
+              "response_sha256": "5c502905c9eeb129d8a92cda1143cae0ca070a88da11a392321805e4330dccf6",
+              "request_bytes": 100762,
+              "response_bytes": 79539,
+              "input_tokens": 24877,
+              "output_tokens": 337,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0003",
+              "request_sha256": "f226422d3194e26796f16c1f872d92d3738bab90ba0af6a5a53ad4518958a4ea",
+              "response_sha256": "cb43465fda90c96ffb980a9ef22710945c631a838dc5fb84a39caa9873fc4182",
+              "request_bytes": 102819,
+              "response_bytes": 16815,
+              "input_tokens": 25325,
+              "output_tokens": 214,
+              "finish_reason": "stop"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "position": 17,
+      "domain": "code",
+      "task": "api_contract-hard-openapi_params",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "last_event": {
+            "event": "end",
+            "timestamp": "2026-11-18T17:37:02.224107+00:00"
+          },
+          "request_outcomes": {
+            "complete": 37
+          },
+          "requests_in_flight": [],
+          "first_actual_input_tokens": 164044,
+          "first_actual_input_exact": true,
+          "previous_marker_in_first_actual_input": true,
+          "native_session_match": true,
+          "native_terminal": true,
+          "native_terminal_error": false,
+          "native_stream_sha256": "f50eb86739eb608b4ec45ba59cd48b4b76e798a00dab46f519689efed7885906",
+          "native_transcript_sha256": "c7f45e6e185dcf7ad7f4ac8eedaa4367c565c915fffe8798af9371a63776169d",
+          "native_compactions": 1,
+          "session_saved": true,
+          "reward": {
+            "reward": 0.0,
+            "tests_passed": 0,
+            "tests_total": 12
+          },
+          "grader_files": [
+            "agent.patch",
+            "reward.json",
+            "reward.txt",
+            "score.json",
+            "test_output.txt"
+          ],
+          "judge_complete": 0,
+          "judge_errors": 0,
+          "exception_type": null,
+          "request_errors": [],
+          "requests_completed": [
+            {
+              "attempt": "0000",
+              "request_sha256": "b4e9529aeb83c0a4fef79367ef9d4ef07050006957389acb29184cb577ce0048",
+              "response_sha256": "14378c40889cf2bc21360b928172634845e95f71ba0195c42903f8b15f42811b",
+              "request_bytes": 642525,
+              "response_bytes": 28199,
+              "input_tokens": 164044,
+              "output_tokens": 128,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0001",
+              "request_sha256": "0a38495a2cbc3f189e85051a9370a06ae0e548b7a50a523eeababdeba451b2b0",
+              "response_sha256": "75e52cbc41511791bfc5e2e06c438554a918de480e18ea29c8254c95b6029159",
+              "request_bytes": 643338,
+              "response_bytes": 31410,
+              "input_tokens": 164265,
+              "output_tokens": 191,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0002",
+              "request_sha256": "cc8f7fc30d6e4c8898af1c814bf8d6e1084e66bed487b8a03fccee4230a044a9",
+              "response_sha256": "1b19ce974be87fdf7394d4d79cf08a4b5024a2751d4ab4997de1bf6bfb0788d6",
+              "request_bytes": 645379,
+              "response_bytes": 112200,
+              "input_tokens": 164699,
+              "output_tokens": 820,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0003",
+              "request_sha256": "8289b96b07e284c7429a3f52d0ade0bca4893fdd0c247edc21dc43a59f52d56b",
+              "response_sha256": "5d886e423aa20ee7fe088c18cb87e2ae130b8a8c428f3e501546d10ac3e35905",
+              "request_bytes": 650196,
+              "response_bytes": 181754,
+              "input_tokens": 165995,
+              "output_tokens": 1930,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0004",
+              "request_sha256": "1f3e01bbdb8a424bd3d196f11017ba8ec4694dddcf24c3315fff607e70bddf32",
+              "response_sha256": "6a088066b0a9bebc14d3d2497da7b60d2604e97d75ebda88d90ab0657d5856d2",
+              "request_bytes": 659166,
+              "response_bytes": 81153,
+              "input_tokens": 168084,
+              "output_tokens": 760,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0005",
+              "request_sha256": "3f70e61af2178dce3998d9250f04bbcc90dd77c004d29b38885d137435ac2a19",
+              "response_sha256": "182ad9746eeb5b273b17af3040408951b5855fa1cadcca8d13dbe221656fbc55",
+              "request_bytes": 662795,
+              "response_bytes": 349365,
+              "input_tokens": 168940,
+              "output_tokens": 2708,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0006",
+              "request_sha256": "193ce3f65d9f8e2c6fc93b013586bd03f6e1f1fb3af99f929588c0ff7fbb3def",
+              "response_sha256": "60bd3e618ccb291657afe1ace87357aec674194b2f71f92dbb57088fade2b05a",
+              "request_bytes": 668911,
+              "response_bytes": 486686,
+              "input_tokens": 170156,
+              "output_tokens": 5768,
+              "finish_reason": "stop"
+            },
+            {
+              "attempt": "0007",
+              "request_sha256": "fe07657ddf0888376a9be4e741c5c7048898dc54811ed1c4532f598aece801fb",
+              "response_sha256": "4f1282531c7b5a14cb447e38cfdf69f4859e8293e04e2d78008e226acba915f3",
+              "request_bytes": 29683,
+              "response_bytes": 45436,
+              "input_tokens": 7173,
+              "output_tokens": 234,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0008",
+              "request_sha256": "ad4f52894d0b7e98a83aae740b41a4d2d44eb701d13758b5151db1fd71af60ac",
+              "response_sha256": "ebacd23aa56e2c2374ebea5209632718b276eb89524ba19ab688275a2ce0e56e",
+              "request_bytes": 31838,
+              "response_bytes": 26302,
+              "input_tokens": 7800,
+              "output_tokens": 126,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0009",
+              "request_sha256": "0c6a6953f9f02eacc82a491a1d67ef47452eab6671c45cde469ad4bcb171f4c3",
+              "response_sha256": "c88d0f5109f5f853a6d9209464281162ed34195175809b92af7a2305afd7ed69",
+              "request_bytes": 33023,
+              "response_bytes": 131840,
+              "input_tokens": 8144,
+              "output_tokens": 1293,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0010",
+              "request_sha256": "423d73b16ba97b0f4dbeba2d7b1d1770336d3c9e0d09f4f21cd0a9f03eecf68b",
+              "response_sha256": "52adfdde4337383684a3465d5866ccff3d622f5e4edd08477f078de6ab68a28e",
+              "request_bytes": 42379,
+              "response_bytes": 32751,
+              "input_tokens": 10980,
+              "output_tokens": 154,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0011",
+              "request_sha256": "c1f8351908053e7c79ba83b77ccd8f7c10bb36b177fe5f1a6d92b4de9df73d39",
+              "response_sha256": "bb6b708a25f52bcdfa6ee772a9e53b6ad353c2853d9b9cea8184f4a1e6bbf4c3",
+              "request_bytes": 43600,
+              "response_bytes": 44550,
+              "input_tokens": 11287,
+              "output_tokens": 303,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0012",
+              "request_sha256": "09ac9502cbb87fdf912b7910969acb85c7b23d32071823fcfe95b79761f33103",
+              "response_sha256": "8c85a65983631110a3b5209d9b6ea96bd2e57442e9d5a90015aa8756a1a29cf5",
+              "request_bytes": 45174,
+              "response_bytes": 20758,
+              "input_tokens": 11637,
+              "output_tokens": 103,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0013",
+              "request_sha256": "a57745f87440da625f53a97b10abb8156c4fa7715002fe3e0cc54d96fc8c39ae",
+              "response_sha256": "071811a64cdde619ae8919664eccd24a0783490e4af839cd608aee930c847ac2",
+              "request_bytes": 47233,
+              "response_bytes": 46238,
+              "input_tokens": 12315,
+              "output_tokens": 232,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0014",
+              "request_sha256": "11964fb6a07066980810b0b44baf52c244c11906a41dd07e9c81a5a24a8624bf",
+              "response_sha256": "f483ab17740be6d9ecf2a58fb5d16e78b8928f0c99ee3f967a9c5c60e90a6d55",
+              "request_bytes": 51491,
+              "response_bytes": 36124,
+              "input_tokens": 13443,
+              "output_tokens": 167,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0015",
+              "request_sha256": "e682e4be82ecd17f15a0d9d5caf259ab79430be647b1042280577d1d437f782e",
+              "response_sha256": "aa5d06078cd7c8e3b701ff6554f086a2deeb791271b5511d9a5141c632150790",
+              "request_bytes": 52345,
+              "response_bytes": 36068,
+              "input_tokens": 13674,
+              "output_tokens": 215,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0016",
+              "request_sha256": "2763dc72372bf66a8cb8b989e9892d8f535ac8d98f0807e4bccf65e61eece66e",
+              "response_sha256": "51219eb5869a5bf0739bbbe7240793b9b8a6cad2f989384137811ee9a3d999da",
+              "request_bytes": 53352,
+              "response_bytes": 36993,
+              "input_tokens": 13934,
+              "output_tokens": 197,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0017",
+              "request_sha256": "21a1e78ca7324831dd4c8159957ceee6c6e6db951ea7775ca1620b7498253e7e",
+              "response_sha256": "c773c0f667aa2eb27addf1b086ceb10c8b35617a915db9a5628d1d28c5267742",
+              "request_bytes": 54371,
+              "response_bytes": 27869,
+              "input_tokens": 14195,
+              "output_tokens": 151,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0018",
+              "request_sha256": "6659801ec836741fccb940ddedb2b9daf99ab0a6423d12353ca48067869b4f24",
+              "response_sha256": "4d3c63a496d170873bb4244eae628f9d4aab31a06a0ef258a81cfdf03b900bb4",
+              "request_bytes": 58525,
+              "response_bytes": 21333,
+              "input_tokens": 15277,
+              "output_tokens": 115,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0019",
+              "request_sha256": "4ef00a656e5189ad88e80c0132600edce4b40a9dec7c509d2642866a72a2fcbb",
+              "response_sha256": "5f7a64babba8b496fab45dd71ac9eea0e66aaa33397dfd13a61de9e3db1c2ad3",
+              "request_bytes": 59069,
+              "response_bytes": 23836,
+              "input_tokens": 15409,
+              "output_tokens": 151,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0020",
+              "request_sha256": "b8385d3c5258a0c3fab955ea0a8dd6db4fee19eac1e470502c5261d1c2abbf4e",
+              "response_sha256": "4aa3441c831b2373a259f6878dfcb902ca24fd89d98d9937bb87853001525d71",
+              "request_bytes": 61409,
+              "response_bytes": 24616,
+              "input_tokens": 16413,
+              "output_tokens": 130,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0021",
+              "request_sha256": "d66ceb5a7df4f39f2c61e0af819bfe21dab1b77ac953961bae18a9262907396b",
+              "response_sha256": "6f0e1d8c4026c10e485646eb4781e08e190bf0d5b0c7102bb79a4a8ad6f15c6c",
+              "request_bytes": 62004,
+              "response_bytes": 141991,
+              "input_tokens": 16561,
+              "output_tokens": 1335,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0022",
+              "request_sha256": "e604b29bd399951f847aaaab07e2e8346951c34f04096c06b9a660e03b4f6de9",
+              "response_sha256": "99593302c708d496392b926e788f272f46d9c2663560f4977041907fefae25c3",
+              "request_bytes": 67988,
+              "response_bytes": 116449,
+              "input_tokens": 17932,
+              "output_tokens": 1065,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0023",
+              "request_sha256": "da6017f7f47dc4adb7c04565a2bd647b7b24249509ef203aa2786f630225ad11",
+              "response_sha256": "3428007c747278d0b894e588b9f35074659096a046f2645a7297c64b294f9ed4",
+              "request_bytes": 74153,
+              "response_bytes": 181929,
+              "input_tokens": 19327,
+              "output_tokens": 1577,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0024",
+              "request_sha256": "4f4728bf98d4aafd50691a99360ae3ec11bbd650282421daf2ae8c3133a6f06f",
+              "response_sha256": "a308fb073a16f4700ec19621b527549952169ffc021a2e7503f3175345af07eb",
+              "request_bytes": 81210,
+              "response_bytes": 31740,
+              "input_tokens": 20922,
+              "output_tokens": 175,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0025",
+              "request_sha256": "0aaeabbedac92bf5b35603ee24c5d5ab3c5647fb663ff08841ff08b78324bb8e",
+              "response_sha256": "c2c40cc9fcdf304bc1e5b6e29717846de41cb8addf082faf4862c2173c913d8c",
+              "request_bytes": 82047,
+              "response_bytes": 26702,
+              "input_tokens": 21128,
+              "output_tokens": 143,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0026",
+              "request_sha256": "647621b0ff7f445a982030be287bd6207a8952e7c75bf5989a6b2c86a5e4de0f",
+              "response_sha256": "fbd12a7c159139234c56077fd0a3dbbe43b6bf41412b6f1b278113d56c80cbc8",
+              "request_bytes": 106227,
+              "response_bytes": 89048,
+              "input_tokens": 28877,
+              "output_tokens": 744,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0027",
+              "request_sha256": "399e6778ac7c70daf35bc94eaffbd030eaac9cd69d7a978045a04e0ccc8c3eab",
+              "response_sha256": "fd703e639b5e0c2512593f3982e777da40acc5b1f923a3947b0e5d0b6eb6c397",
+              "request_bytes": 110202,
+              "response_bytes": 170385,
+              "input_tokens": 29733,
+              "output_tokens": 1584,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0028",
+              "request_sha256": "57506d172d130d48e8dbe4d9ba5aeda9058a29f4a9c2d5b3402f2f2fed3eb983",
+              "response_sha256": "4506b1fcaccf443aa6ef64e71d5ebcf32d4f200ce896a868f95b46f858f72696",
+              "request_bytes": 144339,
+              "response_bytes": 308811,
+              "input_tokens": 38842,
+              "output_tokens": 2194,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0029",
+              "request_sha256": "8d682bbafed1dc81291f219660db593a5200a753c45304b1c19fab2b48e23aae",
+              "response_sha256": "df220e53f49c5c5c9d0ad31fed7828a9faa04e49e2263ef47a1a7641b2e2177b",
+              "request_bytes": 154709,
+              "response_bytes": 44730,
+              "input_tokens": 41048,
+              "output_tokens": 342,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0030",
+              "request_sha256": "3cf7b150c2d351190f52dda74f01344c3d58243112b2e28ddab8b46d07f0bdd6",
+              "response_sha256": "84c3c0e7b0e30f144517b9d52bd8d69b019c4636cf90ec3ba96cab568685403c",
+              "request_bytes": 170084,
+              "response_bytes": 63969,
+              "input_tokens": 44803,
+              "output_tokens": 397,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0031",
+              "request_sha256": "4c388b7d6a2a9df46c8bc414fa0724ed8d832668b1a1d05dff90af5e01d22c81",
+              "response_sha256": "3f1b94b2ff078c070a1803825bf1905efc0ee6013bda33b1b574d6544c5a494a",
+              "request_bytes": 171827,
+              "response_bytes": 58488,
+              "input_tokens": 45234,
+              "output_tokens": 331,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0032",
+              "request_sha256": "ba6faafbbcccce17706120c196d4b9f2e37df9d9a1a063d765c808faa0d6d8db",
+              "response_sha256": "7676cefbe20a58bb4b1a270209fdd1930e82467d7f7f75603969d444216c2c26",
+              "request_bytes": 173733,
+              "response_bytes": 25692,
+              "input_tokens": 45749,
+              "output_tokens": 147,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0033",
+              "request_sha256": "b85de80d679d5d215921b8cf375858ff9f09364ab2d22589c215a2e0723f102a",
+              "response_sha256": "2a5248f7d12fc50f3a8643bd4384d718c126ac73bb1e855aa72c9216c3db1d2b",
+              "request_bytes": 174503,
+              "response_bytes": 59143,
+              "input_tokens": 45943,
+              "output_tokens": 576,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0034",
+              "request_sha256": "cda5c80e91abe643f98f1705ace6a6a69bb879e3623131ae79055463a3f42612",
+              "response_sha256": "333dd5f89bee4d42ee1904d36b63730176dff0ced157118b840ab6e7015cebd3",
+              "request_bytes": 177075,
+              "response_bytes": 98608,
+              "input_tokens": 46540,
+              "output_tokens": 945,
+              "finish_reason": "stop"
+            },
+            {
+              "attempt": "0035",
+              "request_sha256": "31e0bdd77a7811df2cda813d1f60fdd7a89eb1bacf69d58e10cb07973678e643",
+              "response_sha256": "b2e0732434e30e5bdbf9ccb49269b25cededde7cb914e034e93c209dc415b3e3",
+              "request_bytes": 181791,
+              "response_bytes": 23930,
+              "input_tokens": 47621,
+              "output_tokens": 118,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0036",
+              "request_sha256": "a9423d174112ad571230a95f36c7e63df9de0fdd88e092a33026c0bd57f9f4f8",
+              "response_sha256": "2bb86b708a287c6b4083ac87a0e7ca519bf1e0adf9b69ebf7381f9647c442b10",
+              "request_bytes": 182340,
+              "response_bytes": 12497,
+              "input_tokens": 47758,
+              "output_tokens": 98,
+              "finish_reason": "stop"
+            }
+          ]
+        },
+        "clm": {
+          "state": "accepted",
+          "last_event": {
+            "event": "end",
+            "timestamp": "2026-11-18T17:38:20.210710+00:00"
+          },
+          "request_outcomes": {
+            "complete": 9
+          },
+          "requests_in_flight": [],
+          "first_actual_input_tokens": 25734,
+          "first_actual_input_exact": true,
+          "previous_marker_in_first_actual_input": true,
+          "native_session_match": true,
+          "native_terminal": true,
+          "native_terminal_error": false,
+          "native_stream_sha256": "96e227b890a8eebf0110ee20ecef7f2038bd0a6712fea941c436a89c74ed5b22",
+          "native_transcript_sha256": "2892622b01f913c88c5590b63a76d3762b9f47a516b7d02423a21b3a69463075",
+          "native_compactions": 0,
+          "session_saved": true,
+          "reward": {
+            "reward": 0.0,
+            "tests_passed": 0,
+            "tests_total": 12
+          },
+          "grader_files": [
+            "agent.patch",
+            "reward.json",
+            "reward.txt",
+            "score.json",
+            "test_output.txt"
+          ],
+          "judge_complete": 0,
+          "judge_errors": 0,
+          "exception_type": null,
+          "request_errors": [],
+          "requests_completed": [
+            {
+              "attempt": "0000",
+              "request_sha256": "eff98cc5daa20d1f8a26e33049820d3446efa1506ded5aaba11dc60887e3a3c5",
+              "response_sha256": "cc15634ab6e79b78f01faab8277d7b6d6547023bc797663f66b868a7cc65a7d1",
+              "request_bytes": 104513,
+              "response_bytes": 45059,
+              "input_tokens": 25734,
+              "output_tokens": 235,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0001",
+              "request_sha256": "959388097613794ca8ab5595d49291a6dc5e6ec907fbc9e814ede6172bf21a49",
+              "response_sha256": "8822a4b7cdd1d0a54a1c2c30d196145fc6439b0cf5d99a3ed3091232fbf4153b",
+              "request_bytes": 106106,
+              "response_bytes": 26324,
+              "input_tokens": 26241,
+              "output_tokens": 117,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0002",
+              "request_sha256": "bb3713a5bfae477b971f0ce7a689cb8a5de3fb5627dc9029878f289d73ea0ca8",
+              "response_sha256": "0572d87f1662f43b685e995ccc2a9003827d276a9177e6efe3bee54e11ee8fcb",
+              "request_bytes": 107218,
+              "response_bytes": 31660,
+              "input_tokens": 26502,
+              "output_tokens": 168,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0003",
+              "request_sha256": "de14b1431d9924457246e9971cfef42a2c39209b2c9f56df21f05dc76b06536d",
+              "response_sha256": "7f85a20458894f99f9a145c3583684e4d04441e8e15c99f0dc4af3bcfb77554b",
+              "request_bytes": 109613,
+              "response_bytes": 66364,
+              "input_tokens": 27387,
+              "output_tokens": 452,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0004",
+              "request_sha256": "971597d83c96ecc1231ff06ac4a5e20a8fb709f3de37606934ed9d61684ac439",
+              "response_sha256": "4fe91bef96e0683c33343ac77360950957c1a9808395b23d28acb49b8ca84b44",
+              "request_bytes": 111894,
+              "response_bytes": 103597,
+              "input_tokens": 27939,
+              "output_tokens": 918,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0005",
+              "request_sha256": "25d2e6e3cebe489e66740361636f936ff0c81060877f4acd28b6d4b12dac71c0",
+              "response_sha256": "8e76a65e9704e3027d258dced50d92f982ed48cb421959731f4218a43c694df9",
+              "request_bytes": 115839,
+              "response_bytes": 364082,
+              "input_tokens": 28883,
+              "output_tokens": 3541,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0006",
+              "request_sha256": "30e49e06b8738e71e1dcff22b8198665059e3855958b1bb0c194b6b486167158",
+              "response_sha256": "f20bd0ee421e9f886726e4389d78c01096a99957562c33cf6581f886dbff9385",
+              "request_bytes": 132648,
+              "response_bytes": 256466,
+              "input_tokens": 32889,
+              "output_tokens": 1422,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0007",
+              "request_sha256": "a96f61c926c4885e202d612acef71be097394debb04dfec85b57c94c55bb1dd1",
+              "response_sha256": "2422b00813273385f914925a07b591107121c9e23859ca3a857b81b5d8d21e82",
+              "request_bytes": 139743,
+              "response_bytes": 88107,
+              "input_tokens": 34470,
+              "output_tokens": 830,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0008",
+              "request_sha256": "af75156f99ee87c25298b43df059795ad3e1ff063b893a04668877d1c7fc3484",
+              "response_sha256": "6c0b419ebfa2b52dfd46a5e1941b97201e3955b7b703f3b673c31c7613f04b6c",
+              "request_bytes": 145707,
+              "response_bytes": 73419,
+              "input_tokens": 35811,
+              "output_tokens": 880,
+              "finish_reason": "stop"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "position": 18,
+      "domain": "sec",
+      "task": "apt-multi-source-correlation-hard-multistep",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "last_event": {
+            "event": "end",
+            "timestamp": "2026-11-18T17:41:22.302020+00:00"
+          },
+          "request_outcomes": {
+            "complete": 21
+          },
+          "requests_in_flight": [],
+          "first_actual_input_tokens": 48351,
+          "first_actual_input_exact": true,
+          "previous_marker_in_first_actual_input": true,
+          "native_session_match": true,
+          "native_terminal": true,
+          "native_terminal_error": false,
+          "native_stream_sha256": "208bcc557781a384336cfb4c8011a9f6cd8e269b09a64ba489334570966a2491",
+          "native_transcript_sha256": "b8df0d3834098bd5e8ba1e8a6dd576a5f56602ebadc6b46182fb7b6192ac8da9",
+          "native_compactions": 0,
+          "session_saved": true,
+          "reward": {
+            "reward": 1.0
+          },
+          "grader_files": [
+            "reward.txt",
+            "rewards.json",
+            "test-stdout.txt"
+          ],
+          "judge_complete": 0,
+          "judge_errors": 0,
+          "exception_type": null,
+          "request_errors": [],
+          "requests_completed": [
+            {
+              "attempt": "0000",
+              "request_sha256": "45300fb8fdf28b2de0cb3fc453c88c266ffc627395ca0204810fe159ec8fe774",
+              "response_sha256": "33f25bdb27bf10546cef80434788df3c388830fcd7fba4ccf9033a25a20f4fb4",
+              "request_bytes": 184539,
+              "response_bytes": 27752,
+              "input_tokens": 48351,
+              "output_tokens": 141,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0001",
+              "request_sha256": "5a17c6d37593a09ed7dc2dd3e047aa003954ca218d1f9b571c96a0968d1798f1",
+              "response_sha256": "118765c0981cd441edd15cf1820857abbba015085806cf5382e10ebe157ebc97",
+              "request_bytes": 185502,
+              "response_bytes": 23541,
+              "input_tokens": 48641,
+              "output_tokens": 119,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0002",
+              "request_sha256": "d1cd3176017e850eeef85d217777b75a19c91fb3b8c922cf781ea410f6cfe7e7",
+              "response_sha256": "8bcf1ddeca174efa4907e48dd9f0537b6346322ccd89e68ed69799ca41e4e967",
+              "request_bytes": 186495,
+              "response_bytes": 40257,
+              "input_tokens": 48975,
+              "output_tokens": 201,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0003",
+              "request_sha256": "11baa8372c953f8cfc7a161626731514b4f155451292705c60bb3cbd94be94c2",
+              "response_sha256": "a4c64df9eef99b2e717d71c85f8b5fa39fb017ca09e34b793de67fd008f69475",
+              "request_bytes": 198150,
+              "response_bytes": 76995,
+              "input_tokens": 52705,
+              "output_tokens": 318,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0004",
+              "request_sha256": "befe3d7635b8af3c9ed8b6ef64232f47d45424a5a5e825c4012ff9262c043aa6",
+              "response_sha256": "9b6621ec2b37ab85e19d89f1bb6434692b84b1663d33c3114bf397576c32992a",
+              "request_bytes": 199549,
+              "response_bytes": 89507,
+              "input_tokens": 53109,
+              "output_tokens": 652,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0005",
+              "request_sha256": "ee92cd30a0a03da75a5ea4f4db1d006f96b7309f7633a879d5006c45688d66fb",
+              "response_sha256": "013d921c4a670ea293819f298657eea0096f85b5dc7ba620783d20c1e81728a7",
+              "request_bytes": 207148,
+              "response_bytes": 41737,
+              "input_tokens": 55811,
+              "output_tokens": 256,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0006",
+              "request_sha256": "036495ebcbb93ade14545728c269c7f40f30ee2b7a3f1410226411e276ae4acf",
+              "response_sha256": "efe25778e572162b1de8822a127fb62ca56bbd0067f25557f0d9d3df42ab8c38",
+              "request_bytes": 208586,
+              "response_bytes": 211916,
+              "input_tokens": 56183,
+              "output_tokens": 1810,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0007",
+              "request_sha256": "4fdf87d87f7dd034f7a7db394911dfc742e27eae4112b52dd9449576c43f8fb7",
+              "response_sha256": "2c7d88aebbb3022268c60b27ea8a342325622ce4e968d943253c3418a084b2d3",
+              "request_bytes": 215625,
+              "response_bytes": 97427,
+              "input_tokens": 58097,
+              "output_tokens": 839,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0008",
+              "request_sha256": "c0d6e69a0a1b709b53c18ba53afd0cb67d6fe03c490e3275c8764bd4eefae2e5",
+              "response_sha256": "cbf2fc326025a11632d936be51eaee34eb50364c325f27bfde36f3b44b08e76b",
+              "request_bytes": 219475,
+              "response_bytes": 234996,
+              "input_tokens": 58975,
+              "output_tokens": 2273,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0009",
+              "request_sha256": "cfd514a80851696ac304c3342f8baa6ad848dd87dfb7c3cf716eb80b69910609",
+              "response_sha256": "af0e7132cfd7be30fe1178597fc9ae63ddcb8b28a5cc6211336223f111d7baa1",
+              "request_bytes": 229523,
+              "response_bytes": 96409,
+              "input_tokens": 61873,
+              "output_tokens": 734,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0010",
+              "request_sha256": "8990f20dea4988cc4ee2b793bedcb225fe1beeb5f75d8d37e1a2960b822c0f09",
+              "response_sha256": "b55e82704eb546204030fc931aed535407f6257c4dc8a09c298dbff1615992e6",
+              "request_bytes": 232728,
+              "response_bytes": 286407,
+              "input_tokens": 62665,
+              "output_tokens": 2352,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0011",
+              "request_sha256": "224c69be4c547b62c2ade9cad8d8dd74d2f5b397b4cf0e450dd217b3765e6e0f",
+              "response_sha256": "d3edab4de4bc31a88ada2d071ef75ab96d468edda66ea6eb5953c1a7a83a78e5",
+              "request_bytes": 242497,
+              "response_bytes": 250650,
+              "input_tokens": 65266,
+              "output_tokens": 2324,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0012",
+              "request_sha256": "d68ed8e93b0c57f194d690b263f6170f2fa7d3693d2d08a2f7b36646ca7c3f06",
+              "response_sha256": "fb986ba5febc05c79d4ae054db224a13614d9a5a3a4093d024d32a943d846585",
+              "request_bytes": 253169,
+              "response_bytes": 33554,
+              "input_tokens": 68337,
+              "output_tokens": 163,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0013",
+              "request_sha256": "8d39570d067f2e0047898fd55b91e456272c4c3d0bf80e35c796812be7a276e0",
+              "response_sha256": "699d29047e028d828b21353f72dd4e98d789304f0562e6868cc4298c50ea520d",
+              "request_bytes": 254841,
+              "response_bytes": 67652,
+              "input_tokens": 68928,
+              "output_tokens": 406,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0014",
+              "request_sha256": "0456dfdb2ad2b5d385d655aa43c12244e86b6f4eccaddd31531289086cac4807",
+              "response_sha256": "5fbf56ca63f3266022b3847fe0f8558a791d7e6d1475a8252f0b7fe36dae3c71",
+              "request_bytes": 259656,
+              "response_bytes": 715523,
+              "input_tokens": 70823,
+              "output_tokens": 3675,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0015",
+              "request_sha256": "06f2208ab0f598dc00078a644189c665ba669985893837f10a6826fba4ab380d",
+              "response_sha256": "bafc69d198129becc08618335ce75f69fcfc032c9eba06e81faca895e9061d36",
+              "request_bytes": 278316,
+              "response_bytes": 162910,
+              "input_tokens": 75747,
+              "output_tokens": 1183,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0016",
+              "request_sha256": "72a07c8ee4c68638dfde09fccc499da5364a4e93545baf7d7d6237a7a010e197",
+              "response_sha256": "fbf57d149f0d56089fd2caf73054e64d0c44399751ae8128a16a10b255321e23",
+              "request_bytes": 283109,
+              "response_bytes": 68802,
+              "input_tokens": 76988,
+              "output_tokens": 580,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0017",
+              "request_sha256": "1eecde23c5113d707aade2fe39df5949c58e008e70431842bb606127ccd867af",
+              "response_sha256": "40dd723f1620a76d3d9f2c955efea12e5197fe3d109fa57255aa403b626f82a1",
+              "request_bytes": 286418,
+              "response_bytes": 80611,
+              "input_tokens": 78071,
+              "output_tokens": 718,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0018",
+              "request_sha256": "c91e5d11815ea30b13e7afad8a7b59db597c4eb24d6dcd66f5499a8f9b5e0770",
+              "response_sha256": "9fcb1ff0d9a9d1b14789be13ea70fbeae1faaf99903a829015a5553407dadfee",
+              "request_bytes": 289567,
+              "response_bytes": 183310,
+              "input_tokens": 78806,
+              "output_tokens": 1403,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0019",
+              "request_sha256": "d4475518781581b506bf2db98e0dd60158500e2b83533215090001e45842ccf1",
+              "response_sha256": "9d163307ff06c63f3aeea1af4aa23afab750c21cabd807e92a2d0a883ff53bf2",
+              "request_bytes": 295241,
+              "response_bytes": 108998,
+              "input_tokens": 80229,
+              "output_tokens": 403,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0020",
+              "request_sha256": "86c1119eaad9c64554431e567f886b4ec1d828f7e8b5d261009ec710e2b7d6bd",
+              "response_sha256": "e5da1b85e7e1f7c099a0bcd304e6aba3de75110ae2eb42dcbdd7b3922c12ccdc",
+              "request_bytes": 296764,
+              "response_bytes": 45125,
+              "input_tokens": 80665,
+              "output_tokens": 503,
+              "finish_reason": "stop"
+            }
+          ]
+        },
+        "clm": {
+          "state": "agent-start",
+          "last_event": {
+            "event": "agent-start",
+            "timestamp": "2026-11-18T17:41:24.507245+00:00"
+          },
+          "request_outcomes": {
+            "complete": 17
+          },
+          "requests_in_flight": [],
+          "first_actual_input_tokens": 37186,
+          "first_actual_input_exact": true,
+          "previous_marker_in_first_actual_input": true,
+          "native_session_match": null,
+          "native_terminal": null,
+          "native_terminal_error": null,
+          "native_stream_sha256": null,
+          "native_transcript_sha256": null,
+          "native_compactions": null,
+          "session_saved": null,
+          "reward": null,
+          "grader_files": [],
+          "judge_complete": 0,
+          "judge_errors": 0,
+          "exception_type": null,
+          "request_errors": [],
+          "requests_completed": [
+            {
+              "attempt": "0000",
+              "request_sha256": "d2870eef972960a256d330cb0c3aaa3b7b3c401543e8f7e00b9d4b344e38a23e",
+              "response_sha256": "632a5e618f9705e568e4c86921ff3b3853a2887bcf28e1eca8a6e66d7da1f8f0",
+              "request_bytes": 151226,
+              "response_bytes": 46134,
+              "input_tokens": 37186,
+              "output_tokens": 220,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0001",
+              "request_sha256": "d18eb88fe540aee72adf2a473c46d83ea60f71ab1848289819a5cef10f4671fa",
+              "response_sha256": "7cf6189ac78c3022e4b26260a5067eefdcc7f94ace6e727e1f648e5b10546c21",
+              "request_bytes": 154056,
+              "response_bytes": 50787,
+              "input_tokens": 38080,
+              "output_tokens": 212,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0002",
+              "request_sha256": "5e8b507eda7b9e76b7bb32ad3ad923ad44a73bdd49a0ecf3d72dd3628fe53f6c",
+              "response_sha256": "cec3e08f9845d0f10a5f01666d819bcdd6f34bacb8e49bb162a7bdce0c8cd68e",
+              "request_bytes": 154992,
+              "response_bytes": 26995,
+              "input_tokens": 38358,
+              "output_tokens": 137,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0003",
+              "request_sha256": "0506b3977831c91dd114c407f0e0a26d704f32d1a2aef57a957f7e98895b95c2",
+              "response_sha256": "c1517283595b31ecb08606e19431a4202bc2c3cd4011416c0135cd85c0ce46f9",
+              "request_bytes": 166361,
+              "response_bytes": 53191,
+              "input_tokens": 42005,
+              "output_tokens": 282,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0004",
+              "request_sha256": "570ac4462011ea0cc2ab37b24b6eaa76d644b07c867c3d9be1880a29cf647c78",
+              "response_sha256": "e28a71cc3df86679a7f1e02f9a2263f8296fe2059a95b0d5137c7c342954e873",
+              "request_bytes": 174319,
+              "response_bytes": 41115,
+              "input_tokens": 44718,
+              "output_tokens": 209,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0005",
+              "request_sha256": "06822b2c47b7c681e6b5a5b53bda6a23cfb2049092e0fca5ec8828267d5e09dd",
+              "response_sha256": "0b8997a59f822162332ec363ab81598c422b7c386f6c038c0c7310e034ef72c0",
+              "request_bytes": 175319,
+              "response_bytes": 243299,
+              "input_tokens": 44984,
+              "output_tokens": 2061,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0006",
+              "request_sha256": "e07a9e775cdee0f075062d05a5c28d31eb2953ab31321b9c09b9540c166e24a8",
+              "response_sha256": "474cd6fa1d01fc9921e92b015488ce39dd610e2b8bdceb013636dd46019e94e8",
+              "request_bytes": 185193,
+              "response_bytes": 142095,
+              "input_tokens": 47759,
+              "output_tokens": 1249,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0007",
+              "request_sha256": "aec8ae7694a1a0aa48505713df59813a30bb81ca7800adb1d4341b5ba137aebf",
+              "response_sha256": "6d3cb43e2fd627ef4ae7c0549fff7f98513242a3e4256462f3710037d1ee7a46",
+              "request_bytes": 189700,
+              "response_bytes": 56573,
+              "input_tokens": 49103,
+              "output_tokens": 223,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0008",
+              "request_sha256": "7c72b9d9c47cf235e27d3611d4702579b15fb1dcb07d96b9dcb06101f770ea85",
+              "response_sha256": "1bb39fe54a5385fbd2510f4e7443be8459740b805a213a54cf97172af85fe33f",
+              "request_bytes": 191854,
+              "response_bytes": 879762,
+              "input_tokens": 49800,
+              "output_tokens": 6569,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0009",
+              "request_sha256": "987bb9c24e13ee9ffc46b7d46b3fda4c31a22d0add1c28926e68112ed91aa1d3",
+              "response_sha256": "eac57b3a9a5bb6a75ac5d3342571b6822aee8fda868ec4c29517e1cb8b30cca3",
+              "request_bytes": 218251,
+              "response_bytes": 47112,
+              "input_tokens": 57452,
+              "output_tokens": 282,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0010",
+              "request_sha256": "83dc8d841acde07085e62744cdb14de35cd62fb2a13a34f37edad838bdb44364",
+              "response_sha256": "43c609a318fc559d3ce2324b140dd122a8e039b6f26c2cd068fdaf014c67d9cb",
+              "request_bytes": 221052,
+              "response_bytes": 27245,
+              "input_tokens": 58427,
+              "output_tokens": 129,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0011",
+              "request_sha256": "dc9400a6a5584fd3602075d6111dff3aaa84abf55d382df0feae159189698a64",
+              "response_sha256": "e01abe6b6f912a8e81c50786a51af097bfdd4c68a3c65b996ad190d1c88c09d8",
+              "request_bytes": 221620,
+              "response_bytes": 178766,
+              "input_tokens": 58574,
+              "output_tokens": 1631,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0012",
+              "request_sha256": "0222a2ad7422ca0e1fe3919fa7ed2657ebf843014c73d5008f021714370bd140",
+              "response_sha256": "3af323bd83c3fc92a117d61a1b215ccd1350804a88e3d1373a50fd25a77f8eeb",
+              "request_bytes": 228042,
+              "response_bytes": 33353,
+              "input_tokens": 60350,
+              "output_tokens": 155,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0013",
+              "request_sha256": "87e8bf9a9149a905c2f1ceeb5bdd511c172538c4d72acfe3f46dda656973386b",
+              "response_sha256": "a0a125b2024d410e46a1712e614eb5efb0570de5a5161c782436e2ca603a31c4",
+              "request_bytes": 231854,
+              "response_bytes": 32104,
+              "input_tokens": 61409,
+              "output_tokens": 163,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0014",
+              "request_sha256": "dee489f3a07d798c25a7fe30c6616d349e941a99081439b88c094cb947dea816",
+              "response_sha256": "755f15cfe7d435e7a8eeb4d2414e449d4f4f018d6df484ff651c8f5fbee6c3cb",
+              "request_bytes": 232545,
+              "response_bytes": 144363,
+              "input_tokens": 61591,
+              "output_tokens": 1158,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0015",
+              "request_sha256": "d95ae8c9938bef5830cace03d973a3b885abcd3d82c7e1217d69026c50251771",
+              "response_sha256": "2e24e219e2b8e221cbdce375b08471bcdde385d300afd0be5a9a5ed997ce1454",
+              "request_bytes": 236775,
+              "response_bytes": 86049,
+              "input_tokens": 62786,
+              "output_tokens": 303,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0016",
+              "request_sha256": "f9813a7eecb65b00ea3982c8413362fb68662717680bbdd408ef2b7a64457236",
+              "response_sha256": "6ff7bf87c2b0560d872bcc4f208ab2e1a6a726b7472866ab9ee9976946f4c967",
+              "request_bytes": 237870,
+              "response_bytes": 226023,
+              "input_tokens": 63112,
+              "output_tokens": 2099,
+              "finish_reason": "stop"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

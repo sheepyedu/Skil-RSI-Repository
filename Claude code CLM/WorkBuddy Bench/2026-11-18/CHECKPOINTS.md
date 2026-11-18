@@ -43,3 +43,7 @@
 正式请求 875 次，含原第 15 题两组尝试。另有补评 5 次，两项合计 880 次。预算参数探针额外发送 1 次。已完成的 Web 评分无待补评项。 [运行快照](evidence/hourly/2026-11-19-0119.json) · [逐请求核验](evidence/hourly/2026-11-19-0119-input-output.json) · [计数](evidence/hourly/2026-11-19-0119-request-counts.json) · [评分](evidence/hourly/2026-11-19-0119-web-judge-health.json) · [实际配对预算](evidence/task-015-matched-budget.json) · [修正汇总](analysis/hourly-2026-11-19-0119-scores.json)
 
 01:22 第 15 题恢复后配对验收，两组各自沿用原会话，实际作答上限均为 16,384，16/20 次请求全部闭合。官方得分 0.809/0.8876。01:25 已完成 16 道配对，第 17 题启动。 [第 15 题恢复验收](evidence/task-015-recovered-pair.json) · [前 16 题比分](analysis/through-016-scores.json)
+
+## 2026-11-19 01:49
+
+完成 17/60 道配对。第 18 题原生组得分 1.0，21 次作答均闭合，CLM 组在途。正式请求 978 次，另有 5 次补评，合计 983 次。最新评分审计中，仍无待补评的已完成任务。第 17 题原生组介入已标记，官方评分保留。 [进度](evidence/hourly/2026-11-19-0149.json) · [请求计数](evidence/hourly/2026-11-19-0149-request-counts.json) · [评分健康](evidence/hourly/2026-11-19-0149-web-judge-health.json) · [逐请求核验](evidence/hourly/2026-11-19-0149-input-output.json) · [比分](analysis/hourly-2026-11-19-0149-scores.json)
