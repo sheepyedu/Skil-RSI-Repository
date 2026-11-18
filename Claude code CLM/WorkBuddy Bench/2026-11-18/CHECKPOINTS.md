@@ -9,3 +9,7 @@
 第 6 题原生组 35 次作答全部闭合，得分 0.25。原运行停止在第 6 题 CLM 的开题前维护。第三次恢复保留全部旧会话、模型响应和评分，沿用 11 条已完成试验，验证历史推理归档后从第 6 题 CLM 继续。
 
 [小时复核快照](evidence/hourly/2026-11-18-2249.json) · [第 5、6 题已观测的输入输出](evidence/hourly/2026-11-18-2249-input-output.json) · [评分异常](evidence/task-005-judge-degradation.json) · [第三次恢复复验](evidence/formal-02-recovery-03-probe.json)
+
+## 2026-11-18 23:14 补评复核
+
+第 5 题缺失的评分项已收到完整回复并通过。对照按同模型的补评将 CLM 得分从 0.5 修正为 0.8。第 6 题已完成配对，第 7 题在修复题间笔记长度后继续。 [补评记录](REGRADING.md) · [修正后配对快照](analysis/post-regrade-checkpoint.json)

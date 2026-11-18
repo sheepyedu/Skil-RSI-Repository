@@ -1,0 +1,36 @@
+{
+  "run": "formal-02-resume-02",
+  "position": 5,
+  "task": "markdown-release-editor-L4-038",
+  "arm": "clm",
+  "model": "gpt-6.1-sol",
+  "request_sha256": "5e21fe596a38255fcb642cbb93d0f4ac7ae169666ae9a7202c20c0cf7c61ebd5",
+  "criterion": "risk_level_derivation",
+  "old_status": "fail",
+  "corrected_status": "pass",
+  "original_reward": 0.5,
+  "corrected_reward": 0.8,
+  "tests_passed": 10,
+  "tests_total": 11,
+  "transport_attempts": 2,
+  "stream": false,
+  "transport_request_sha256": "d47c625c9d5f550c522b604da16d6b95a18db27ee5134c51bf48ab4ba8e89c53",
+  "response_sha256": "9d2759d7f7fb1d3326eec8375fca230aaeb4da584681f06be7aaa2b1329c34f7",
+  "original_report_sha256": "6da8ba421b977df3d9f51a8ae41fe065cc97a9b512c04c48efeaf6100619eada",
+  "original_verifier_reward_sha256": "d67f8bf7ee5c4d6765f51adb1fb512bb7cad4104a4fdeb1a62fabd7800299910",
+  "original_submission_archive_sha256": "3fa271dd4e263be786891904184e013ccc388ff02d86299bfd41491baf4bd2da",
+  "frozen_testcases_sha256": "0db9965f5cb3f8831b51be173326a90ba18fb53fdb7204cde73331afee436058",
+  "frozen_completion_artifact_sha256": {
+    "environment/www/index.html": "da21cf960da528968ddcb0d970e6c26a6ad733a4be1c18d338d1da968eff1a56"
+  },
+  "official_baseline_reproduced": true,
+  "criterion_ids_changed": [
+    "risk_level_derivation"
+  ],
+  "corrected_report_sha256": "56d8506284625089a473a847bf565439ae63e5683a35a6950c7c69eabbec2ada",
+  "corrected_reward_sha256": "c3a3c17873ec793c5da766165c3997269b98c9b3061bb685c8ab70f7519f8fef",
+  "official_code_sha256": {
+    "submit_result.py": "cdfe6f4bcc8860ec73890bdeee85f29a72abad1e1053d3b716dffa5d814f38b7",
+    "finalize_eval.py": "dc25db5fe76ec6e7cf06dbca12b66ae9a73b68bc5730beabf2ad16d6ae890a82"
+  }
+}

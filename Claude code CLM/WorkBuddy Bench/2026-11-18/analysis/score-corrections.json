@@ -1,0 +1,16 @@
+{
+  "plan_sha256": "514a0e3a17b59db24b3990bbff1f1fd202c0379ad8f5571880f3ddf84b4de316",
+  "corrections": [
+    {
+      "position": 5,
+      "task": "markdown-release-editor-L4-038",
+      "arm": "clm",
+      "criterion": "risk_level_derivation",
+      "original_reward": 0.5,
+      "corrected_reward": 0.8,
+      "original_trial_receipt_sha256": "99f81bece3ebeae3f7ddd5e71cebc7dde4e77898f209873f9ee1b76859bbc4d6",
+      "regrade_receipt": "../evidence/regrades/005-clm-correction-receipt.json",
+      "regrade_receipt_sha256": "4ed4e4c537de1a213e1ec90a3c16729b182a243f1d350bc9b9a03a35f8ad587c"
+    }
+  ]
+}
