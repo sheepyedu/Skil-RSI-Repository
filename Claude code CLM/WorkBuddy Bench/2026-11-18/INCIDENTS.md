@@ -72,3 +72,5 @@ CLM 在 17 次完整调用及成功终态后等待后台递归搜索。确认搜
 原生组先写出成功终态并闭合 31 次模型调用，随后清理后台递归搜索。追加的两次上游请求均等候 360 秒并返回零响应字节，CLI 最终以错误退出。请求网关拒绝再次转发重复请求，留存 9 个本地重试意图。原生工作区已从同一任务容器按会话挂载核对并封存。CLM 组继而在题间维护发出请求，等候响应超时，正式题面尚未派发。同模型最小请求也在响应前超时，表明此时有上游可用性异常。
 
 恢复以第 26 道题双组已验收会话为界，两组继续采用相同题序、DeepSeek 模型与 16,384 token 上限。先确认同模型正常回复，再启动正式第 27 题。新维护入口只对响应头之前的无响应超时补试一次，保留原请求和传输回执。 [处理回执](evidence/task-027-native-background-cleanup.json) · [产物校验](evidence/task-027-native-staged-output.json) · [原故障](evidence/task-027-transport-stop.json) · [服务检查](evidence/provider-health-0349.json)
+
+03:55 第二次同模型最小请求仍超时。模型目录检查显示原入口在 25 秒内未返回数据，备用入口返回 HTTP 401，当前模型仍绑定原入口。封存的中断批次有 26,119 个轨迹文件，约 3.46 GB。 [第二次探针](evidence/provider-health-0355.json) · [模型目录检查](evidence/provider-catalog-0356.json) · [原始轨迹清单指纹](evidence/retained-trajectory-inventories.json)

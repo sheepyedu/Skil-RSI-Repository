@@ -1,0 +1,27 @@
+{
+  "observed_at": "2026-11-19T03:57:00+08:00",
+  "checks": [
+    {
+      "service": "deepseek",
+      "exit_code": null,
+      "model_count": 0,
+      "exact_frozen_model_listed": false,
+      "similar_family_listed": false,
+      "bytes": 0,
+      "catalog_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "http_status": null,
+      "catalog_call_timed_out": true
+    },
+    {
+      "service": "deepseek-router",
+      "exit_code": 1,
+      "model_count": 0,
+      "exact_frozen_model_listed": false,
+      "similar_family_listed": false,
+      "bytes": 0,
+      "catalog_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "http_status": 401,
+      "catalog_call_timed_out": false
+    }
+  ]
+}
