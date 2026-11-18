@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-11-19T03:30:29+08:00",
+  "run": "formal-02-resume-05",
+  "position": 27,
+  "arm": "native",
+  "project": "027-code-data_quality-hard-label_conflicts__env",
+  "complete_model_requests_before_intervention": 31,
+  "cli_stream_sha256_at_intervention": "94aefcb99092f844e17cf47fe668800fdb0afea325b07df3f7d34dc7a070c370",
+  "ready_result_type": "success",
+  "process_signal": "SIGTERM",
+  "process_target": "one confirmed recursive grep under the trial Claude Code process"
+}

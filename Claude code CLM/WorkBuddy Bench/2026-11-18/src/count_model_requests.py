@@ -47,11 +47,19 @@ def count(experiment):
                     continue
                 trials_seen.add(trial_key)
                 for intent in (directory / "chat-gateway").glob("*/intent.json"):
-                    deepseek["attempts"] += 1
+                    deepseek["recorded_intents"] += 1
                     outcome = intent.with_name("receipt.json")
                     if outcome.is_file():
+                        result = read(outcome)
+                        if not result.get("forwarded"):
+                            deepseek["suppressed_before_upstream"] += 1
+                            continue
                         deepseek["terminal"] += 1
-                        deepseek["complete"] += bool(read(outcome).get("complete"))
+                        deepseek["complete"] += bool(result.get("complete"))
+                    elif not intent.with_name("forward.json").is_file():
+                        deepseek["awaiting_forward"] += 1
+                        continue
+                    deepseek["attempts"] += 1
                 if "-web-" not in directory.name:
                     continue
                 for request in (directory / "wire").glob("*/request.upstream.json"):
@@ -72,9 +80,15 @@ def count(experiment):
                     response = request.with_name("response.raw")
                     if details.get("http_status") == 200 and response.is_file() and stream_closed(response):
                         judge["complete"] += 1
-        for request in (run / "clm" / "maintenance").glob("*/maintenance-request.json"):
+        maintenance_root = run / "clm" / "maintenance"
+        attempts = [
+            *maintenance_root.glob("*/maintenance-request.json"),
+            *maintenance_root.glob("*/transport-attempts/*/maintenance-request.json"),
+        ]
+        for request in attempts:
             data = request.read_bytes()
-            key = (request.parent.name, request.stat().st_mtime_ns, hashlib.sha256(data).hexdigest())
+            tag = request.relative_to(maintenance_root).parts[0]
+            key = (tag, request.stat().st_mtime_ns, hashlib.sha256(data).hexdigest())
             if key in maintenance_seen:
                 continue
             maintenance_seen.add(key)
@@ -82,7 +96,8 @@ def count(experiment):
             response = request.with_name("maintenance-transport.json")
             if response.is_file():
                 maintenance["terminal"] += 1
-                maintenance["complete"] += read(response)["status"] == 200
+                outcome = read(response)
+                maintenance["complete"] += outcome["status"] == 200 and outcome.get("transport", "eof") == "eof"
     for intent in (experiment / "regrades").glob("*/attempt-*/intent.json"):
         regrade["attempts"] += 1
         receipt = intent.with_name("receipt.json")

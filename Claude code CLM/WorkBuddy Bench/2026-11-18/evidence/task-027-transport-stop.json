@@ -1,0 +1,100 @@
+{
+  "run": "formal-02-resume-05",
+  "position": 27,
+  "native_complete_before_error": 31,
+  "native_unclosed_or_suppressed": [
+    {
+      "attempt": "0031",
+      "forwarded": true,
+      "failure_kind": "TimeoutError",
+      "http_status": null,
+      "response_bytes": 0,
+      "receipt_sha256": "705b0f506f43fb06f959c1dc96b8895881d34209704c6e970d7ecf33fff02ea5"
+    },
+    {
+      "attempt": "0032",
+      "forwarded": true,
+      "failure_kind": "TimeoutError",
+      "http_status": null,
+      "response_bytes": 0,
+      "receipt_sha256": "0bfa036f6cf8201bbbaf52656f5a58903376d3298090bdd4face250353ffd442"
+    },
+    {
+      "attempt": "0033",
+      "forwarded": false,
+      "failure_kind": "ValueError",
+      "http_status": null,
+      "response_bytes": 0,
+      "receipt_sha256": "d2aec00afdcacb2eb0610e1314153f8ec597729944f71e9d5fc51ee0891a5d75"
+    },
+    {
+      "attempt": "0034",
+      "forwarded": false,
+      "failure_kind": "ValueError",
+      "http_status": null,
+      "response_bytes": 0,
+      "receipt_sha256": "e1014815509afe569804cbd303a90bbabd5ba371e0505885d1e26e339282fa44"
+    },
+    {
+      "attempt": "0035",
+      "forwarded": false,
+      "failure_kind": "ValueError",
+      "http_status": null,
+      "response_bytes": 0,
+      "receipt_sha256": "d2442cb4587c44464699605505f85f42e62da7b58c4c528e083b4c91b8570c22"
+    },
+    {
+      "attempt": "0036",
+      "forwarded": false,
+      "failure_kind": "ValueError",
+      "http_status": null,
+      "response_bytes": 0,
+      "receipt_sha256": "55d6f5a370d224a304455b61ac24a23f0df584b9e001c7e7aeb6593f8731e1ee"
+    },
+    {
+      "attempt": "0037",
+      "forwarded": false,
+      "failure_kind": "ValueError",
+      "http_status": null,
+      "response_bytes": 0,
+      "receipt_sha256": "2cdd31759aca9cb066deccaf801cf50f375b6b4fddf4560a0cfe279d5d451bec"
+    },
+    {
+      "attempt": "0038",
+      "forwarded": false,
+      "failure_kind": "ValueError",
+      "http_status": null,
+      "response_bytes": 0,
+      "receipt_sha256": "dd01147d7c7c5d0861cf68af0286fc35ff5128d1ce0e518a01ce4355634c60cd"
+    },
+    {
+      "attempt": "0039",
+      "forwarded": false,
+      "failure_kind": "ValueError",
+      "http_status": null,
+      "response_bytes": 0,
+      "receipt_sha256": "b516faa4459c5205de09be5abaa4f6df7ae7b3795d65ac3dbe191238300ada1f"
+    },
+    {
+      "attempt": "0040",
+      "forwarded": false,
+      "failure_kind": "ValueError",
+      "http_status": null,
+      "response_bytes": 0,
+      "receipt_sha256": "da05f136a0f6677d05dd00f27ff0125f6c4cfb1c1dbb064b88ca0a63cedbd649"
+    },
+    {
+      "attempt": "0041",
+      "forwarded": false,
+      "failure_kind": "ValueError",
+      "http_status": null,
+      "response_bytes": 0,
+      "receipt_sha256": "6d97da46fc2203fd8c72aa794858d5c76c3b5794c9e7a387b7d12bf63f639ce8"
+    }
+  ],
+  "native_score": null,
+  "clm_maintenance_request_sha256": "aa8baffd034c983fc402812230fc13b7c0d2d4799ec60e30f5fafc4ec6a6a772",
+  "clm_maintenance_response_bytes": 0,
+  "clm_dispatched": false,
+  "controller_exit": 1
+}

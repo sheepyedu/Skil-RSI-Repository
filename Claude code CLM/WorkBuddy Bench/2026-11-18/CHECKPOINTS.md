@@ -59,3 +59,9 @@
 ## 2026-11-19 03:19
 
 完成 26/60 道配对，第 27 题启动。正式请求 1,481 次，补评 5 次，合计 1,486 次。第 25 题两组各 7 个 Web 评分项均闭合，未出现新增评分缺口。第 26 题两组已完成官方评分，会话与冻结题序连续。 [进度](evidence/hourly/2026-11-19-0319.json) · [计数](evidence/hourly/2026-11-19-0319-request-counts.json) · [评分](evidence/hourly/2026-11-19-0319-web-judge-health.json) · [逐请求核验](evidence/hourly/2026-11-19-0319-input-output.json) · [比分](analysis/hourly-2026-11-19-0319-scores.json)
+
+## 2026-11-19 03:49
+
+完成 26/60 道配对。第 27 题原生组在初始成功终态后清理后台搜索，随后 2 次实际发往 DeepSeek 的请求在响应前超时，CLI 最终退出，原工作区快照已保存。CLM 组维护请求也在响应前超时，控制器停止发题。单独发出的最小同模型检查同样在响应前超时。评分审计对已完成题目无新增待补评项。
+
+实际向模型发送的正式请求为 1,500 次，另有补评 5 次。第 27 题还有 9 个本地重试意图被请求网关拦住，留档备查。 [进度](evidence/hourly/2026-11-19-0349.json) · [计数](evidence/hourly/2026-11-19-0349-request-counts.json) · [评分](evidence/hourly/2026-11-19-0349-web-judge-health.json) · [逐请求核验](evidence/hourly/2026-11-19-0349-input-output.json) · [故障诊断](evidence/task-027-transport-stop.json) · [产物校验](evidence/task-027-native-staged-output.json)

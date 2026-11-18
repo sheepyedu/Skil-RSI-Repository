@@ -1,0 +1,9 @@
+{
+  "observed_at": "2026-11-19T03:44:22+08:00",
+  "run": "formal-02-resume-05",
+  "position": 27,
+  "arm": "native",
+  "archive_bytes": 19009,
+  "archive_sha256": "4cc2b0e18a3a45930eed33620350f3fdfd3115114b4774a00f45a192a6c9bf79",
+  "capture_exit_status": 0
+}
