@@ -1,0 +1,29 @@
+{
+  "baseline": {
+    "counts": {
+      "requests": 511,
+      "completed": 505,
+      "malformed_completion_frames": 2
+    },
+    "usage": {
+      "input": 68452710,
+      "output": 63023,
+      "cached_input": 64300803,
+      "reasoning_output": 3485,
+      "uncached_input": 4151907
+    }
+  },
+  "clm": {
+    "counts": {
+      "requests": 591,
+      "completed": 591
+    },
+    "usage": {
+      "input": 48890579,
+      "output": 83794,
+      "cached_input": 43420509,
+      "reasoning_output": 3788,
+      "uncached_input": 5470070
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "archive": "NATIVE_CODEX_ROLLOUTS.tar.zst",
+  "bytes": 7469289,
+  "sha256": "3503668ed2f22b18a8ab8020c91a0f4a982a8d894a8563748a84f961e7d3d662",
+  "archived_files": 3705,
+  "excluded_symlinks": [
+    "cases/035-codebase_adaptation-009/workspace-final/README.rst",
+    "cases/036-codebase_adaptation-013/workspace-final/README.rst",
+    "cases/037-codebase_adaptation-014/workspace-final/README.rst"
+  ],
+  "credential_matches": 0,
+  "trace_inventory": {
+    "scored_tasks": 100,
+    "passed": 54,
+    "requests": 511,
+    "complete_responses": 505,
+    "failed_or_truncated_requests": [
+      14,
+      122,
+      123,
+      129,
+      154,
+      363
+    ],
+    "accepted_edits": 0,
+    "native_app_server_trace": true,
+    "session_jsonl_count": 1,
+    "source_plan_sha256": "2cfc987dacf1a2810e34a8e72a006cbe06b978d2099f53908833aa7a3e9a471e"
+  }
+}

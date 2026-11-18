@@ -1,0 +1,1060 @@
+{
+  "tasks": 100,
+  "initial_tasks_equal": 100,
+  "baseline_thread": "01a1e9fa-bd03-7512-ba46-9ef8a0d228e1",
+  "clm_thread": "01a1e83e-3c61-7cf0-ae3c-3ab926adc239",
+  "counts": {
+    "both_fail": 44,
+    "both_pass": 51,
+    "baseline_only": 3,
+    "clm_only": 2
+  },
+  "families": {
+    "blind_spectrum_monitoring": {
+      "scored": 30,
+      "baseline_passed": 4,
+      "clm_passed": 3,
+      "both_fail": 26,
+      "both_pass": 3,
+      "baseline_only": 1
+    },
+    "codebase_adaptation": {
+      "scored": 7,
+      "baseline_passed": 7,
+      "clm_passed": 7,
+      "both_pass": 7
+    },
+    "cohort_studies": {
+      "scored": 6,
+      "baseline_passed": 5,
+      "clm_passed": 5,
+      "both_fail": 1,
+      "both_pass": 5
+    },
+    "database_exploration": {
+      "scored": 13,
+      "baseline_passed": 11,
+      "clm_passed": 13,
+      "both_pass": 11,
+      "clm_only": 2
+    },
+    "exploitable_poker": {
+      "scored": 40,
+      "baseline_passed": 23,
+      "clm_passed": 21,
+      "both_fail": 17,
+      "both_pass": 21,
+      "baseline_only": 2
+    },
+    "sales_prediction": {
+      "scored": 4,
+      "baseline_passed": 4,
+      "clm_passed": 4,
+      "both_pass": 4
+    }
+  },
+  "paired_results": [
+    {
+      "index": 1,
+      "task": "blind_spectrum_monitoring-000",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.2203,
+      "clm_reward": 0.2203
+    },
+    {
+      "index": 2,
+      "task": "blind_spectrum_monitoring-001",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.297,
+      "clm_reward": 0.297
+    },
+    {
+      "index": 3,
+      "task": "blind_spectrum_monitoring-004",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.3,
+      "clm_reward": 0.3
+    },
+    {
+      "index": 4,
+      "task": "blind_spectrum_monitoring-007",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.2908,
+      "clm_reward": 0.2908
+    },
+    {
+      "index": 5,
+      "task": "blind_spectrum_monitoring-024",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.3483,
+      "clm_reward": 0.3483
+    },
+    {
+      "index": 6,
+      "task": "blind_spectrum_monitoring-026",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.3366,
+      "clm_reward": 0.3366
+    },
+    {
+      "index": 7,
+      "task": "blind_spectrum_monitoring-027",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.3346,
+      "clm_reward": 0.3346
+    },
+    {
+      "index": 8,
+      "task": "blind_spectrum_monitoring-028",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.3261,
+      "clm_reward": 0.3261
+    },
+    {
+      "index": 9,
+      "task": "blind_spectrum_monitoring-029",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.3931,
+      "clm_reward": 0.3931
+    },
+    {
+      "index": 10,
+      "task": "blind_spectrum_monitoring-031",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.3919,
+      "clm_reward": 0.3919
+    },
+    {
+      "index": 11,
+      "task": "blind_spectrum_monitoring-032",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.3983,
+      "clm_reward": 0.3983
+    },
+    {
+      "index": 12,
+      "task": "blind_spectrum_monitoring-041",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.4088,
+      "clm_reward": 0.4088
+    },
+    {
+      "index": 13,
+      "task": "blind_spectrum_monitoring-043",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.4197,
+      "clm_reward": 0.4197
+    },
+    {
+      "index": 14,
+      "task": "blind_spectrum_monitoring-045",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.4191,
+      "clm_reward": 0.4191
+    },
+    {
+      "index": 15,
+      "task": "blind_spectrum_monitoring-046",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.4461,
+      "clm_reward": 0.4461
+    },
+    {
+      "index": 16,
+      "task": "blind_spectrum_monitoring-051",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.4465,
+      "clm_reward": 0.4465
+    },
+    {
+      "index": 17,
+      "task": "blind_spectrum_monitoring-055",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.3943,
+      "clm_reward": 0.3943
+    },
+    {
+      "index": 18,
+      "task": "blind_spectrum_monitoring-064",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.4186,
+      "clm_reward": 0.434
+    },
+    {
+      "index": 19,
+      "task": "blind_spectrum_monitoring-066",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.4051,
+      "clm_reward": 0.4197
+    },
+    {
+      "index": 20,
+      "task": "blind_spectrum_monitoring-069",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.4015,
+      "clm_reward": 0.4158
+    },
+    {
+      "index": 21,
+      "task": "blind_spectrum_monitoring-073",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.4082,
+      "clm_reward": 0.4218
+    },
+    {
+      "index": 22,
+      "task": "blind_spectrum_monitoring-075",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.4603,
+      "clm_reward": 0.4575
+    },
+    {
+      "index": 23,
+      "task": "blind_spectrum_monitoring-076",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.4824,
+      "clm_reward": 0.48
+    },
+    {
+      "index": 24,
+      "task": "blind_spectrum_monitoring-079",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.4837,
+      "clm_reward": 0.4898
+    },
+    {
+      "index": 25,
+      "task": "blind_spectrum_monitoring-081",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.5001,
+      "clm_reward": 0.5069
+    },
+    {
+      "index": 26,
+      "task": "blind_spectrum_monitoring-082",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": true,
+      "clm_passed": false,
+      "baseline_reward": 0.5026,
+      "clm_reward": 0.4976
+    },
+    {
+      "index": 27,
+      "task": "blind_spectrum_monitoring-083",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.509,
+      "clm_reward": 0.5041
+    },
+    {
+      "index": 28,
+      "task": "blind_spectrum_monitoring-084",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.5135,
+      "clm_reward": 0.5211
+    },
+    {
+      "index": 29,
+      "task": "blind_spectrum_monitoring-086",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.4816,
+      "clm_reward": 0.4885
+    },
+    {
+      "index": 30,
+      "task": "blind_spectrum_monitoring-087",
+      "family": "blind_spectrum_monitoring",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": 0.4962,
+      "clm_reward": 0.4914
+    },
+    {
+      "index": 31,
+      "task": "codebase_adaptation-000",
+      "family": "codebase_adaptation",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.85,
+      "clm_reward": 0.825
+    },
+    {
+      "index": 32,
+      "task": "codebase_adaptation-005",
+      "family": "codebase_adaptation",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.9,
+      "clm_reward": 0.875
+    },
+    {
+      "index": 33,
+      "task": "codebase_adaptation-006",
+      "family": "codebase_adaptation",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.925,
+      "clm_reward": 0.9
+    },
+    {
+      "index": 34,
+      "task": "codebase_adaptation-007",
+      "family": "codebase_adaptation",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.9,
+      "clm_reward": 0.925
+    },
+    {
+      "index": 35,
+      "task": "codebase_adaptation-009",
+      "family": "codebase_adaptation",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.875,
+      "clm_reward": 0.9
+    },
+    {
+      "index": 36,
+      "task": "codebase_adaptation-013",
+      "family": "codebase_adaptation",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.925,
+      "clm_reward": 0.925
+    },
+    {
+      "index": 37,
+      "task": "codebase_adaptation-014",
+      "family": "codebase_adaptation",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.9,
+      "clm_reward": 0.9
+    },
+    {
+      "index": 38,
+      "task": "cohort_studies-000",
+      "family": "cohort_studies",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": -0.003718,
+      "clm_reward": -0.010816
+    },
+    {
+      "index": 39,
+      "task": "cohort_studies-003",
+      "family": "cohort_studies",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.007316,
+      "clm_reward": 0.002993
+    },
+    {
+      "index": 40,
+      "task": "cohort_studies-005",
+      "family": "cohort_studies",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.027469,
+      "clm_reward": 0.024842
+    },
+    {
+      "index": 41,
+      "task": "cohort_studies-006",
+      "family": "cohort_studies",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.033962,
+      "clm_reward": 0.038319
+    },
+    {
+      "index": 42,
+      "task": "cohort_studies-012",
+      "family": "cohort_studies",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.190074,
+      "clm_reward": 0.182962
+    },
+    {
+      "index": 43,
+      "task": "cohort_studies-015",
+      "family": "cohort_studies",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.054677,
+      "clm_reward": 0.046511
+    },
+    {
+      "index": 44,
+      "task": "database_exploration-005",
+      "family": "database_exploration",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.8,
+      "clm_reward": 0.8
+    },
+    {
+      "index": 45,
+      "task": "database_exploration-006",
+      "family": "database_exploration",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.8,
+      "clm_reward": 0.8667
+    },
+    {
+      "index": 46,
+      "task": "database_exploration-007",
+      "family": "database_exploration",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.6667,
+      "clm_reward": 0.7333
+    },
+    {
+      "index": 47,
+      "task": "database_exploration-008",
+      "family": "database_exploration",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.8667,
+      "clm_reward": 0.8
+    },
+    {
+      "index": 48,
+      "task": "database_exploration-010",
+      "family": "database_exploration",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.8667,
+      "clm_reward": 0.8667
+    },
+    {
+      "index": 49,
+      "task": "database_exploration-014",
+      "family": "database_exploration",
+      "baseline_passed": false,
+      "clm_passed": true,
+      "baseline_reward": 0.0,
+      "clm_reward": 0.8
+    },
+    {
+      "index": 50,
+      "task": "database_exploration-015",
+      "family": "database_exploration",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.9333,
+      "clm_reward": 0.9333
+    },
+    {
+      "index": 51,
+      "task": "database_exploration-025",
+      "family": "database_exploration",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.8,
+      "clm_reward": 0.8
+    },
+    {
+      "index": 52,
+      "task": "database_exploration-030",
+      "family": "database_exploration",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.9333,
+      "clm_reward": 0.9333
+    },
+    {
+      "index": 53,
+      "task": "database_exploration-034",
+      "family": "database_exploration",
+      "baseline_passed": false,
+      "clm_passed": true,
+      "baseline_reward": 0.0,
+      "clm_reward": 0.6667
+    },
+    {
+      "index": 54,
+      "task": "database_exploration-035",
+      "family": "database_exploration",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.8,
+      "clm_reward": 0.8
+    },
+    {
+      "index": 55,
+      "task": "database_exploration-036",
+      "family": "database_exploration",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.8,
+      "clm_reward": 0.8
+    },
+    {
+      "index": 56,
+      "task": "database_exploration-038",
+      "family": "database_exploration",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.9333,
+      "clm_reward": 0.8667
+    },
+    {
+      "index": 57,
+      "task": "exploitable_poker-000",
+      "family": "exploitable_poker",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": -2.5,
+      "clm_reward": -2.0
+    },
+    {
+      "index": 58,
+      "task": "exploitable_poker-001",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 1.0,
+      "clm_reward": 2.0
+    },
+    {
+      "index": 59,
+      "task": "exploitable_poker-003",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 4.0,
+      "clm_reward": 5.0
+    },
+    {
+      "index": 60,
+      "task": "exploitable_poker-007",
+      "family": "exploitable_poker",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": -1.0,
+      "clm_reward": -1.0
+    },
+    {
+      "index": 61,
+      "task": "exploitable_poker-008",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 100.0,
+      "clm_reward": 100.0
+    },
+    {
+      "index": 62,
+      "task": "exploitable_poker-014",
+      "family": "exploitable_poker",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": -5.0,
+      "clm_reward": -100.0
+    },
+    {
+      "index": 63,
+      "task": "exploitable_poker-015",
+      "family": "exploitable_poker",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": -1.0,
+      "clm_reward": -1.0
+    },
+    {
+      "index": 64,
+      "task": "exploitable_poker-023",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": false,
+      "baseline_reward": 1.0,
+      "clm_reward": -1.0
+    },
+    {
+      "index": 65,
+      "task": "exploitable_poker-027",
+      "family": "exploitable_poker",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": -2.5,
+      "clm_reward": -1.0
+    },
+    {
+      "index": 66,
+      "task": "exploitable_poker-032",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 1.0,
+      "clm_reward": 1.0
+    },
+    {
+      "index": 67,
+      "task": "exploitable_poker-033",
+      "family": "exploitable_poker",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": -7.0,
+      "clm_reward": -7.0
+    },
+    {
+      "index": 68,
+      "task": "exploitable_poker-036",
+      "family": "exploitable_poker",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": -4.0,
+      "clm_reward": -7.0
+    },
+    {
+      "index": 69,
+      "task": "exploitable_poker-042",
+      "family": "exploitable_poker",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": -1.0,
+      "clm_reward": -0.5
+    },
+    {
+      "index": 70,
+      "task": "exploitable_poker-043",
+      "family": "exploitable_poker",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": -1.0,
+      "clm_reward": -1.0
+    },
+    {
+      "index": 71,
+      "task": "exploitable_poker-045",
+      "family": "exploitable_poker",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": -6.0,
+      "clm_reward": -6.0
+    },
+    {
+      "index": 72,
+      "task": "exploitable_poker-046",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 12.0,
+      "clm_reward": 14.0
+    },
+    {
+      "index": 73,
+      "task": "exploitable_poker-051",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 3.0,
+      "clm_reward": 100.0
+    },
+    {
+      "index": 74,
+      "task": "exploitable_poker-054",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 5.5,
+      "clm_reward": 1.0
+    },
+    {
+      "index": 75,
+      "task": "exploitable_poker-056",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 2.0,
+      "clm_reward": 100.0
+    },
+    {
+      "index": 76,
+      "task": "exploitable_poker-058",
+      "family": "exploitable_poker",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": -1.0,
+      "clm_reward": -1.0
+    },
+    {
+      "index": 77,
+      "task": "exploitable_poker-059",
+      "family": "exploitable_poker",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": -1.0,
+      "clm_reward": -1.0
+    },
+    {
+      "index": 78,
+      "task": "exploitable_poker-066",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 1.0,
+      "clm_reward": 1.0
+    },
+    {
+      "index": 79,
+      "task": "exploitable_poker-069",
+      "family": "exploitable_poker",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": -2.0,
+      "clm_reward": -1.0
+    },
+    {
+      "index": 80,
+      "task": "exploitable_poker-075",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 1.0,
+      "clm_reward": 1.0
+    },
+    {
+      "index": 81,
+      "task": "exploitable_poker-079",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 1.0,
+      "clm_reward": 1.0
+    },
+    {
+      "index": 82,
+      "task": "exploitable_poker-080",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 1.0,
+      "clm_reward": 1.0
+    },
+    {
+      "index": 83,
+      "task": "exploitable_poker-087",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 3.0,
+      "clm_reward": 3.0
+    },
+    {
+      "index": 84,
+      "task": "exploitable_poker-089",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 1.0,
+      "clm_reward": 1.0
+    },
+    {
+      "index": 85,
+      "task": "exploitable_poker-091",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 1.0,
+      "clm_reward": 1.0
+    },
+    {
+      "index": 86,
+      "task": "exploitable_poker-092",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 1.0,
+      "clm_reward": 1.0
+    },
+    {
+      "index": 87,
+      "task": "exploitable_poker-093",
+      "family": "exploitable_poker",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": -5.0,
+      "clm_reward": -5.0
+    },
+    {
+      "index": 88,
+      "task": "exploitable_poker-099",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 3.0,
+      "clm_reward": 3.0
+    },
+    {
+      "index": 89,
+      "task": "exploitable_poker-104",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 1.0,
+      "clm_reward": 1.0
+    },
+    {
+      "index": 90,
+      "task": "exploitable_poker-105",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": false,
+      "baseline_reward": 2.0,
+      "clm_reward": -1.0
+    },
+    {
+      "index": 91,
+      "task": "exploitable_poker-111",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 1.0,
+      "clm_reward": 1.0
+    },
+    {
+      "index": 92,
+      "task": "exploitable_poker-112",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 5.0,
+      "clm_reward": 4.0
+    },
+    {
+      "index": 93,
+      "task": "exploitable_poker-113",
+      "family": "exploitable_poker",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": -3.0,
+      "clm_reward": -3.0
+    },
+    {
+      "index": 94,
+      "task": "exploitable_poker-114",
+      "family": "exploitable_poker",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": -7.0,
+      "clm_reward": -5.0
+    },
+    {
+      "index": 95,
+      "task": "exploitable_poker-115",
+      "family": "exploitable_poker",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 2.0,
+      "clm_reward": 2.0
+    },
+    {
+      "index": 96,
+      "task": "exploitable_poker-119",
+      "family": "exploitable_poker",
+      "baseline_passed": false,
+      "clm_passed": false,
+      "baseline_reward": -2.0,
+      "clm_reward": -2.0
+    },
+    {
+      "index": 97,
+      "task": "sales_prediction-000",
+      "family": "sales_prediction",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.5719,
+      "clm_reward": 0.6131
+    },
+    {
+      "index": 98,
+      "task": "sales_prediction-006",
+      "family": "sales_prediction",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.6504,
+      "clm_reward": 0.8096
+    },
+    {
+      "index": 99,
+      "task": "sales_prediction-009",
+      "family": "sales_prediction",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.7671,
+      "clm_reward": 0.7872
+    },
+    {
+      "index": 100,
+      "task": "sales_prediction-010",
+      "family": "sales_prediction",
+      "baseline_passed": true,
+      "clm_passed": true,
+      "baseline_reward": 0.9014,
+      "clm_reward": 0.9098
+    }
+  ],
+  "baseline_timeline": {
+    "turns": 100,
+    "native_compactions": [
+      {
+        "turn_id": "01a1ea2f-7cf6-7c50-ab58-f0c57998965b",
+        "preceding_task": 38
+      },
+      {
+        "turn_id": "01a1ea55-b3c4-7c12-ab68-04d00614f268",
+        "preceding_task": 75
+      }
+    ],
+    "failed_turns": [
+      {
+        "turn_id": "01a1e9fc-4008-7103-8bda-2a93030f93f0",
+        "status": "failed",
+        "current_task": 5
+      },
+      {
+        "turn_id": "01a1ea2a-1aa3-7fe1-8eb7-d5352e35cd97",
+        "status": "failed",
+        "current_task": 35
+      },
+      {
+        "turn_id": "01a1ea2b-2c3f-79d2-abf5-c1fcb61d37cf",
+        "status": "failed",
+        "current_task": 35
+      },
+      {
+        "turn_id": "01a1ea2c-54b5-71c0-88d8-e7814a7a7c33",
+        "status": "failed",
+        "current_task": 36
+      },
+      {
+        "turn_id": "01a1ea2f-7cf6-7c50-ab58-f0c57998965b",
+        "status": "failed",
+        "current_task": 38
+      },
+      {
+        "turn_id": "01a1ea52-507f-71b1-bf6d-677340de1d8a",
+        "status": "failed",
+        "current_task": 72
+      }
+    ]
+  },
+  "baseline_requests": {
+    "requests": 511,
+    "routes": {
+      "/v1/responses": 511
+    },
+    "terminal_events": {
+      "response.completed": 505,
+      "response.failed": 4
+    },
+    "raw_sse_usage": {
+      "input_tokens": 68452710,
+      "output_tokens": 63023,
+      "cached_input_tokens": 64300803
+    },
+    "incomplete_responses": [
+      {
+        "revision": 14,
+        "terminal_events": [
+          "response.failed"
+        ],
+        "malformed_frames": 0
+      },
+      {
+        "revision": 122,
+        "terminal_events": [],
+        "malformed_frames": 1
+      },
+      {
+        "revision": 123,
+        "terminal_events": [],
+        "malformed_frames": 1
+      },
+      {
+        "revision": 129,
+        "terminal_events": [
+          "response.failed"
+        ],
+        "malformed_frames": 0
+      },
+      {
+        "revision": 154,
+        "terminal_events": [
+          "response.failed"
+        ],
+        "malformed_frames": 0
+      },
+      {
+        "revision": 363,
+        "terminal_events": [
+          "response.failed"
+        ],
+        "malformed_frames": 0
+      }
+    ]
+  },
+  "baseline_elapsed_seconds": 6996.07400226593,
+  "clm_elapsed_seconds": 7949.75385761261
+}

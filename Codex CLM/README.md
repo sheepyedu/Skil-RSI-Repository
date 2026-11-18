@@ -14,4 +14,22 @@
 
 [运行方式与框架图](source/README.md) · [完整报告](results/REPORT.md) · [逐题成绩](results/tasks.csv) · [终局审计](results/FINAL_AUDIT.json)
 
-原始请求、响应流和模型工作区的轨迹路径见报告，文件保存在 H20 实验目录。
+## 两组运行轨迹
+
+两组各串行完成同一顺序的 100 道 CL-Bench 题。原生 Codex 达标 54 题，Codex CLM 达标 53 题。[配对报告](results/native-vs-clm/REPORT.md) · [逐题配对结果](results/native-vs-clm/PAIRED_COMPARISON.json)
+
+| 运行 | 轨迹包 | 请求 |
+|---|---|---|
+| 原生 Codex | [NATIVE_CODEX_ROLLOUTS.tar.zst](trajectories/NATIVE_CODEX_ROLLOUTS.tar.zst) | 511 次请求，505 条完整响应，6 条失败或截断 |
+| Codex CLM | [CODEX_CLM_ROLLOUTS.tar.zst](trajectories/CODEX_CLM_ROLLOUTS.tar.zst) | 591 次请求，591 条完整响应 |
+
+每个包包含原生会话、逐请求输入与响应、工具调用和评分。原生 Codex 包也包含中断及恢复记录。解包后可用内置的 `ARCHIVE_FILE_MANIFEST.json` 校验每个成员。归档整体校验值见 [SHA256SUMS](trajectories/SHA256SUMS)。
+
+```sh
+cd 'Codex CLM/trajectories'
+shasum -a 256 -c SHA256SUMS
+mkdir -p native-codex codex-clm
+zstd -dc NATIVE_CODEX_ROLLOUTS.tar.zst | tar -xf - -C native-codex
+zstd -dc CODEX_CLM_ROLLOUTS.tar.zst | tar -xf - -C codex-clm
+```
+
