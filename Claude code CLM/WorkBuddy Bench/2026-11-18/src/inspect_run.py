@@ -52,7 +52,7 @@ def external_judge(directory, model):
         if record.get("http_status") != 200 or not response.is_file() or response.stat().st_size == 0:
             problems += 1
             continue
-        if record.get("transport") != "eof":
+        if record.get("transport") != "eof" or not response_closed(response):
             problems += 1
             continue
         request = file.with_name("request.upstream.json")

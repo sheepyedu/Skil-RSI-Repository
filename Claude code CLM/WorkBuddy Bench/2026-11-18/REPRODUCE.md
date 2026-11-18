@@ -26,6 +26,10 @@
 - 会话与评分。核对实际 CLI init UUID、最终 result、存档 transcript、正式评分和 Web 评分器回执。
 - 阶段边界。读取正式的冻结资格和实际进度文件，单独记录预处理、重试与终态。低分仍计入已有效评分的题目。
 
+## 第 3 题恢复
+
+`formal-02-resume-01` 使用 [恢复运行器](src/serial-recovery-01/) 和同一冻结题单。执行前核对 `formal-02` 终态、五条有效试验、预留会话快照和维护响应。该运行器首次只补发第 3 题 CLM 组，首三题通过逐请求验收才继续第 4 题。试跑和第 1、2 题采用原始的已冻结运行器，第 3 题 CLM 起才启用容量降级路径。汇总时以恢复目录的有效记录为准，同一条已通过的旧试验只计一次，保留原始失败维护尝试。
+
 ## 证据路径
 
 有权限的协作者可在 H20 CPFS 查找 `/mount-data/Claude-code-CLM/experiments/workbuddy-20261118`。运行根的 `formal-02` 按 `native` 和 `clm` 分组：
@@ -34,4 +38,4 @@
 - `evidence/<题序-子集-任务>/chat-gateway` 保存真实 DeepSeek 输入、原始 SSE 或 JSON 输出、终态与用量。
 - `trials/<题序-子集-任务>/agent` 和 `verifier` 保存 CLI、ATIF 和官方评分。题目产物在对应 `artifacts` 下。
 - `clm/maintenance` 保存题间维护请求、模型选取、修改前后会话副本和校验值。
-- `pilot-01` 至 `pilot-08`、`formal-01`、`plumbing-*` 和 `sync-probes` 保存诊断及修复尝试。GitHub 上的 [尝试索引](evidence/attempt-directories.json) 描述观测时点已存在的运行目录。
+- `pilot-01` 至 `pilot-08`、`formal-01`、`formal-02`、`formal-02-resume-01`、`plumbing-*` 和 `sync-probes` 保存正式执行、诊断和恢复。GitHub 上的 [尝试数据](evidence/attempts/) 保留各批次有效轨迹和失败的可公开元数据。

@@ -1,0 +1,2 @@
+{"run":"formal-01","position":1,"domain":"sec","task":"linux-ld-preload-investigation","arm":"clm","accepted":false,"exceptions":"RuntimeError","native_terminal":false,"reward":null,"accepted_context_edits":0,"actual_prompt_exact":null,"attempts":[]}
+{"run":"formal-01","position":1,"domain":"sec","task":"linux-ld-preload-investigation","arm":"native","accepted":false,"exceptions":"RuntimeError","native_terminal":false,"reward":null,"accepted_context_edits":0,"actual_prompt_exact":null,"attempts":[]}
