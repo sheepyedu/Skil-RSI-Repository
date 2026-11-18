@@ -1,0 +1,15 @@
+{
+  "started_at": "2026-11-19T05:06:16+08:00",
+  "finished_at": "2026-11-19T05:06:21+08:00",
+  "requested_model": "deepseek-v4-1-flash-261017",
+  "transport": "ssh_loopback_same_origin",
+  "transport_base_url": "http://127.0.0.1:19785/v1",
+  "origin_sha256": "f2d8660c00aa69bb37346b89197b85f1fba9b6c78dc1eb0936adbdb83cbe74fc",
+  "http_status": null,
+  "response_bytes": 0,
+  "request_sha256": "1300aa7c3728ed10748c896035e7cc12433808eba6ee76b2122649e4daaffa49",
+  "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "error_kind": "RemoteDisconnected",
+  "exit_code": 2,
+  "verified_ok": false
+}

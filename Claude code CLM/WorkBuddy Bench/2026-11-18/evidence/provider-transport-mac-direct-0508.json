@@ -1,0 +1,9 @@
+{
+  "observed_at": "2026-11-19T05:07:48+08:00",
+  "vantage": "Mac Wi-Fi bound socket",
+  "network_settings_changed": false,
+  "interface": "en1",
+  "interface_active": true,
+  "error_kind": "TimeoutError",
+  "seconds": 8.002
+}
