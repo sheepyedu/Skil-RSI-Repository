@@ -1,0 +1,56 @@
+{
+  "observed_at": "2026-11-19T04:06:20+08:00",
+  "historical_port": 19146,
+  "local_listener": false,
+  "gpu": [
+    {
+      "index": 0,
+      "vram_total_mib": 97871,
+      "vram_used_mib": 50462,
+      "utilization_percent": 85
+    },
+    {
+      "index": 1,
+      "vram_total_mib": 97871,
+      "vram_used_mib": 48551,
+      "utilization_percent": 100
+    },
+    {
+      "index": 2,
+      "vram_total_mib": 97871,
+      "vram_used_mib": 48341,
+      "utilization_percent": 100
+    },
+    {
+      "index": 3,
+      "vram_total_mib": 97871,
+      "vram_used_mib": 48457,
+      "utilization_percent": 100
+    },
+    {
+      "index": 4,
+      "vram_total_mib": 97871,
+      "vram_used_mib": 48965,
+      "utilization_percent": 100
+    },
+    {
+      "index": 5,
+      "vram_total_mib": 97871,
+      "vram_used_mib": 48323,
+      "utilization_percent": 88
+    },
+    {
+      "index": 6,
+      "vram_total_mib": 97871,
+      "vram_used_mib": 48817,
+      "utilization_percent": 88
+    },
+    {
+      "index": 7,
+      "vram_total_mib": 97871,
+      "vram_used_mib": 49089,
+      "utilization_percent": 100
+    }
+  ],
+  "check_mode": "read_only"
+}
