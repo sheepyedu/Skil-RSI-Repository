@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-11-19T01:55:55+08:00",
+  "run": "formal-02-resume-05",
+  "position": 18,
+  "arm": "clm",
+  "project": "018-sec-apt-multi-source-correlation-hard-multistep__env",
+  "complete_model_requests_before_intervention": 17,
+  "cli_stream_sha256_at_intervention": "4f63c7cef6efdf159fbbc8cd83f3edd382f0d32abd19e448b65d4b953674e4cb",
+  "ready_result_type": "success",
+  "process_signal": "SIGTERM",
+  "process_target": "one confirmed recursive grep under the trial Claude Code process"
+}

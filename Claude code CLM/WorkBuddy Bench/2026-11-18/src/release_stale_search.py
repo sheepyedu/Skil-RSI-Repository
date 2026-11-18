@@ -11,7 +11,7 @@ from zoneinfo import ZoneInfo
 
 
 CONTAINER_CHECK = r"""
-import os, signal
+import os, re, signal
 from pathlib import Path
 
 processes = {}
@@ -26,20 +26,35 @@ for folder in Path('/proc').glob('[0-9]*'):
 
 candidates = []
 for pid, (name, parent, args) in processes.items():
-    if name != 'grep' or b'-R' not in args or b'/' not in args:
+    recursive = any(
+        a in (b'--recursive', b'--dereference-recursive')
+        or (re.fullmatch(rb'-[A-Za-z]+', a) and (b'R' in a or b'r' in a))
+        for a in args[1:]
+    )
+    if name != 'grep' or not recursive or b'/' not in args:
         continue
     bash, claude, _ = processes.get(parent, (None, None, ()))
     agent, _, _ = processes.get(claude, (None, None, ()))
-    siblings = [cid for cid, (kind, parent_id, _) in processes.items() if parent_id == parent and kind == 'head']
+    siblings = [
+        (cid, kind, child_args) for cid, (kind, parent_id, child_args) in processes.items()
+        if parent_id == parent and kind in ('head', 'sed')
+    ]
     if bash != 'bash' or agent != 'claude' or len(siblings) != 1:
         continue
     fd = Path(f'/proc/{parent}/fd/1')
     try:
         log = os.readlink(fd)
         owned = Path(f'/proc/{pid}').stat().st_uid == os.getuid()
+        sibling, kind, child_args = siblings[0]
+        pipe = os.readlink(Path(f'/proc/{pid}/fd/1'))
+        pipe_match = pipe.startswith('pipe:') and pipe == os.readlink(Path(f'/proc/{sibling}/fd/0'))
+        inplace = kind == 'sed' and any(
+            a.startswith(b'--in-place') or (re.fullmatch(rb'-[A-Za-z]+', a) and b'i' in a)
+            for a in child_args[1:]
+        )
     except OSError:
         continue
-    if owned and log.startswith('/tmp/claude-') and '/tasks/' in log and log.endswith('.output'):
+    if owned and pipe_match and not inplace and log.startswith('/tmp/claude-') and '/tasks/' in log and log.endswith('.output'):
         candidates.append(pid)
 
 if len(candidates) != 1:

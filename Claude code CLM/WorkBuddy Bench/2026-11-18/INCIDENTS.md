@@ -61,4 +61,8 @@ DeepSeek 真实探针以同一模型接受 `max_tokens=16384` 并正常停止。
 
 ## 第 17 题原生组残留后台搜索
 
-原生 Claude Code 在 35 次已闭合作答后写出成功终态。它仍等待容器内后台递归搜索，评分尚未开始。按试验标签、进程谱系、原会话、CLI 终态和失活时间核验后，只终止该搜索。随后两次作答调用闭合，CLI 正常退出，官方评分为 0.0，CLM 组按原顺序开始。最终汇总单列第 4 题 CLM 和第 17 题原生两次人工干预。 [处理回执](evidence/task-017-native-background-cleanup.json) · [处理脚本](src/release_stale_search.py)
+原生 Claude Code 在 35 次已闭合作答后写出成功终态。它仍等待容器内后台递归搜索，评分尚未开始。按试验标签、进程谱系、原会话、CLI 终态和失活时间核验后，只终止该搜索。随后两次作答调用闭合，CLI 正常退出，官方评分为 0.0，CLM 组按原顺序开始。 [处理回执](evidence/task-017-native-background-cleanup.json) · [处理脚本](src/release_stale_search.py)
+
+## 第 18 题 CLM 残留后台搜索
+
+CLM 在 17 次完整调用及成功终态后等待后台递归搜索。确认搜索输出流入同一个后台管道后，只终止该搜索进程。随后 1 次调用闭合，官方评分结束，两组均为 1.0。第 19 题已正常启动。最终分析单列第 4 题 CLM、第 17 题原生、第 18 题 CLM 的人工清理，并保留各自原始请求及官方评分。 [处理回执](evidence/task-018-clm-background-cleanup.json)
