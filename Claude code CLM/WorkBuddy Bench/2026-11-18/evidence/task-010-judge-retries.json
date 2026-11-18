@@ -1,0 +1,71 @@
+{
+  "run": "formal-02-resume-04",
+  "position": 10,
+  "model": "gpt-6.1-sol",
+  "arms": {
+    "native": {
+      "reward": 1.0,
+      "complete_criteria": 14,
+      "expected_criteria": 14,
+      "retried_exact_request_groups": {},
+      "total_attempts": 14
+    },
+    "clm": {
+      "reward": 1.0,
+      "complete_criteria": 14,
+      "expected_criteria": 14,
+      "retried_exact_request_groups": {
+        "3f263b2292421a05b5681a5cd93e7abc1d12626b2a9830771a27611da1d9728e": [
+          {
+            "attempt": "00021",
+            "http_status": 200,
+            "closed": false,
+            "response_sha256": "0e8979f92a65acfa7ab45e2e7b50daa096a1a20c1569468c3560146ac85c35d7"
+          },
+          {
+            "attempt": "00022",
+            "http_status": 200,
+            "closed": true,
+            "response_sha256": "1ab7ea9b28c8b0c523ea2201c6d9c233534f093ab983dc88743954b8fe16e797"
+          }
+        ],
+        "e15bff848ff5439821d69059fdef164cfd1e4c6a74917889eefae953db0a235d": [
+          {
+            "attempt": "00024",
+            "http_status": 200,
+            "closed": false,
+            "response_sha256": "7a33ad7db7560ca639eebe2f56516a72dd12f845b4c574a8deb6c9d0b373779f"
+          },
+          {
+            "attempt": "00025",
+            "http_status": 200,
+            "closed": false,
+            "response_sha256": "36b11b3403fe8ece5695bdbd2489e9e4beeace3d17b73b528b4a50fceae44e48"
+          },
+          {
+            "attempt": "00026",
+            "http_status": 200,
+            "closed": true,
+            "response_sha256": "f099b938ba9ffa4d8809eb432f9eab235647ce49305e8e339f4af3936efa06a6"
+          }
+        ],
+        "c8bb71197c3ba024cc033b6edf957b046272cc1e177c02e1964ac4b5bd8f1a31": [
+          {
+            "attempt": "00033",
+            "http_status": 200,
+            "closed": false,
+            "response_sha256": "1f187f4bef3be3a46e0422a482443087373ccab65f58c28b946b98dcdb351ccd"
+          },
+          {
+            "attempt": "00034",
+            "http_status": 200,
+            "closed": true,
+            "response_sha256": "607ba587ff732042ec000c8bdf3f589d8d3778b89b0669699032d023e9b88b58"
+          }
+        ]
+      },
+      "total_attempts": 18
+    }
+  },
+  "regrade_needed": false
+}
