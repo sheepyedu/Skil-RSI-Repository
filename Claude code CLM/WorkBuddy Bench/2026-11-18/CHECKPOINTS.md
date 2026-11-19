@@ -166,3 +166,8 @@
 
 - 已验收 47/60 道配对。第 46 题原生得 0.6175、CLM 得 0.8725。第 47 题双组均为 1.0。两题均通过真实输入、上题标记、原会话及响应核查，第 48 题原生组已取得实际模型回复。 [快照](evidence/hourly/2026-11-19-1812.json) · [输入输出验收](evidence/hourly/2026-11-19-1812-input-output.json)
 - 正式请求 3,278 次，补评 5 次。26 条已有正式回执的 Web 线次没有待补评的上游异常。 [请求计数](evidence/hourly/2026-11-19-1812-request-counts.json) · [Web 评分](evidence/hourly/2026-11-19-1812-web-judge-health.json) · [有效评分快照](analysis/hourly-2026-11-19-1812-scores.json)
+
+## 2026-11-19 18:42 北京时间 · 定时复核
+
+- 已验收 47/60 道配对。第 48 题原生沿用已验收的 0.8532。CLM 原试验因 CLI 容量停止，新维护在 47 道历史题面完整的原会话上完成，CLM 已重跑并取得真实回复。 [快照](evidence/hourly/2026-11-19-1842.json) · [输入输出验收](evidence/hourly/2026-11-19-1842-input-output.json)
+- 正式请求 3,355 次，补评 5 次。26 条已有正式回执的 Web 线次没有待补评的上游异常。 [请求计数](evidence/hourly/2026-11-19-1842-request-counts.json) · [Web 评分](evidence/hourly/2026-11-19-1842-web-judge-health.json) · [有效评分快照](analysis/hourly-2026-11-19-1842-scores.json)

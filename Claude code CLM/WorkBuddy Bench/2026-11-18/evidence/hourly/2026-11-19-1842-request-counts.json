@@ -1,0 +1,27 @@
+{
+  "observed_at": "2026-11-19T18:42:08+08:00",
+  "formal_agent": {
+    "recorded_intents": 3032,
+    "terminal": 3022,
+    "complete": 3019,
+    "attempts": 3023,
+    "suppressed_before_upstream": 9
+  },
+  "formal_judge": {
+    "attempts": 301,
+    "terminal": 301,
+    "complete": 287
+  },
+  "formal_maintenance": {
+    "attempts": 31,
+    "terminal": 30,
+    "complete": 30
+  },
+  "supplemental_regrade": {
+    "attempts": 5,
+    "terminal": 5,
+    "complete": 1
+  },
+  "formal_total_attempts": 3355,
+  "total_including_regrades": 3360
+}
