@@ -1,0 +1,28 @@
+{
+  "observed_at": "2026-11-19T11:42:58+08:00",
+  "run": "formal-02-resume-06",
+  "position": 27,
+  "gate": {
+    "verified_model": "deepseek-v4-1-flash-261017",
+    "health_receipt_sha256": "32bce0117db2afc687d6d59e1ab8ee39933ed806f39e7396c46b92058b6effcc",
+    "health_response_sha256": "a2f183fe4d3ce00a4cb5ecb160dafa71e530a080eab7ce6d27b04df787cc30b6",
+    "health_observed_at": "2026-11-19T11:41:58+08:00"
+  },
+  "state": "agent-start",
+  "model": "deepseek-v4-1-flash-261017",
+  "max_tokens": 16384,
+  "official_input_and_current_marker_exact": true,
+  "previous_task_marker_in_actual_request": true,
+  "first_closed_model_request": {
+    "attempt": "0000",
+    "request_sha256": "849519c4ca103c7c2865b3290b8f4847a95482a8231e97e1d3942e8b2410c94d",
+    "response_sha256": "fa1592953435095e575a7b3b3adbdd1a900b404738a8054d79a1014e4944a5f5",
+    "request_bytes": 693668,
+    "response_bytes": 19505,
+    "input_tokens": 160520,
+    "output_tokens": 104,
+    "finish_reason": "tool_calls"
+  },
+  "closed_calls_at_observation": 5,
+  "plan_sha256": "514a0e3a17b59db24b3990bbff1f1fd202c0379ad8f5571880f3ddf84b4de316"
+}

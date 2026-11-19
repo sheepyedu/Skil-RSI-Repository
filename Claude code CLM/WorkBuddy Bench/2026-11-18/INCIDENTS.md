@@ -88,3 +88,5 @@ CLM 在 17 次完整调用及成功终态后等待后台递归搜索。确认搜
 06:20 通过已有 Node01 管理入口只读核对了同一原服务端口，8 秒 TCP 诊断超时。当前多条路径均未取得成功生成。 [额外路径检查](evidence/provider-transport-node01-0620.json)
 
 08:26 再次请求原 DeepSeek V4.1 Flash，45 秒后客户端返回 `URLError`，响应为零字节。H20 恢复控制器仍在等待，第 27 题两组均未派发。共 26 对正式验收，正式请求 1,500 次，补评 5 次。后续继续执行依赖原接口恢复或同模型入口通过实测。 [最新探针](evidence/provider-health-0826.json) · [运行快照](evidence/hourly/2026-11-19-0826.json) · [请求计数](evidence/hourly/2026-11-19-0826-request-counts.json)
+
+11:41，原接口返回有效回复，报告模型为 `deepseek-v4-1-flash-261017`。放行工具核对原始响应和记录指纹后，由既有恢复控制器从第 27 题开始续跑。11:42 已核验原生组首个真实请求携带冻结题面、当前标记和上一题标记，使用 16,384 token 输出上限，已收到闭合的供应商响应。CLM 组在原生组之后串行执行。 [成功探针](evidence/provider-health-1141.json) · [首个真实请求与响应的校验](evidence/task-027-resumed-native-input.json)
