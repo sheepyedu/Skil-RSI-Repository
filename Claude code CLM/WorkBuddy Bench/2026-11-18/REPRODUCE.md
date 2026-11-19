@@ -38,6 +38,8 @@
 
 前 14 题两组的输出上限均为每请求 8,192 token。自第 15 题重跑起，同一上限提高到 16,384 token。第五次恢复从两组上一道已验收的会话和笔记重新启动，使用相同的冻结任务输入和评分规则。原第 15 题与重跑均保留，汇总按选定的同预算配对使用结果。 [配对重跑代码](src/serial-recovery-05/) · [输出上限原始回执](evidence/task-015-original-output-cap.json)
 
+第 27 题的第六次恢复从第 26 对验收边界接续。已启动且正在等待的控制器读取 `operator-supervision/allow-formal-06.json`。用原 DeepSeek 服务完成一次新的最小探针后，运行 `python3 release_health_gate.py EXPERIMENT_DIR PROBE_DIR`，其中 `PROBE_DIR` 指向该实验下的 `operator-supervision/service-health-*`。工具核对冻结模型、成功回复及原始请求和响应的 SHA-256，并以一次原子操作创建放行文件；已有文件时退出。随后核对运行目录的 `start-gate.json` 和两组第 27 题首个实际请求。 [健康探针](src/probe_deepseek_health.py) · [放行工具](src/serial-recovery-06/release_health_gate.py) · [H20 文件系统验证](evidence/formal-02-recovery-06-gate-validation.json)
+
 最终对照以冻结题单逐题配对，原始分和生效分同时保留。汇总代码要求完整的 60 对，计算全样本、子集、共享输出上限各阶段的计数与配对差，并单列剔除人工清理或末次响应不完整的配对后的结果。连续会话中的题目之间可能相互影响，汇总使用描述统计。 [最终汇总代码](src/summarize_paired_scores.py) · [版本与异常标记](analysis/run-qualification-annotations.json)
 
 ## 证据路径

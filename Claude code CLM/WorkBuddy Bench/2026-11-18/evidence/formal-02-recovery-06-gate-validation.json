@@ -1,0 +1,12 @@
+{
+  "recovery_helper_sha256": "9dd3e84036c4cbdaa8399296029b4e44031c4edd3ee5c74af893b31e5fffb68a",
+  "filesystem": "H20 CPFS",
+  "observed_failed_probe_rejected": true,
+  "wrong_model_rejected": true,
+  "changed_response_hash_rejected": true,
+  "wrong_model_raw_response_rejected_even_with_matching_hash": true,
+  "nonprivate_receipt_rejected": true,
+  "synthetic_valid_receipt_atomic_link_verified": true,
+  "duplicate_release_rejected": true,
+  "live_gate_open": false
+}
