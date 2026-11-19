@@ -90,3 +90,5 @@ CLM 在 17 次完整调用及成功终态后等待后台递归搜索。确认搜
 08:26 再次请求原 DeepSeek V4.1 Flash，45 秒后客户端返回 `URLError`，响应为零字节。H20 恢复控制器仍在等待，第 27 题两组均未派发。共 26 对正式验收，正式请求 1,500 次，补评 5 次。后续继续执行依赖原接口恢复或同模型入口通过实测。 [最新探针](evidence/provider-health-0826.json) · [运行快照](evidence/hourly/2026-11-19-0826.json) · [请求计数](evidence/hourly/2026-11-19-0826-request-counts.json)
 
 11:41，原接口返回有效回复，报告模型为 `deepseek-v4-1-flash-261017`。放行工具核对原始响应和记录指纹后，由既有恢复控制器从第 27 题开始续跑。11:42 已核验原生组首个真实请求携带冻结题面、当前标记和上一题标记，使用 16,384 token 输出上限，已收到闭合的供应商响应。CLM 组在原生组之后串行执行。 [成功探针](evidence/provider-health-1141.json) · [首个真实请求与响应的校验](evidence/task-027-resumed-native-input.json)
+
+11:57，第 27 题重跑双组通过正式验收。原生为 0.8462（11/13），CLM 为 0.7692（10/13）。CLM 发出成功终态后仍等待后台递归搜索，已在核实会话、终态、空闲时长及容器进程谱系后仅终止该搜索，附加一次模型调用正常闭合。最终分析保留该配对并单列剔除它的敏感性结果。第 28 题已按原顺序启动。 [第 27 题配对验收](evidence/task-027-recovered-pair.json) · [CLM 后台搜索清理回执](evidence/task-027-recovered-clm-background-cleanup.json)

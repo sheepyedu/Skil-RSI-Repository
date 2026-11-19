@@ -1,0 +1,67 @@
+{
+  "observed_at": "2026-11-19T11:57:17+08:00",
+  "accepted_pairs": 27,
+  "prefix_audit_sha256": "05c9f6cec2e9462797eeda9f6a077626dd4f30a5789a80681651a6bd4e6074b6",
+  "plan_sha256": "514a0e3a17b59db24b3990bbff1f1fd202c0379ad8f5571880f3ddf84b4de316",
+  "model": "deepseek-v4-1-flash-261017",
+  "position": 27,
+  "domain": "code",
+  "task": "data_quality-hard-label_conflicts",
+  "arms": {
+    "native": {
+      "state": "accepted",
+      "same_original_session": true,
+      "exact_input_and_previous_task_marker": true,
+      "shared_output_budget": 16384,
+      "verified_model_responses": 48,
+      "score": {
+        "reward": 0.8462,
+        "tests_passed": 11,
+        "tests_total": 13
+      },
+      "first_actual_request": {
+        "attempt": "0000",
+        "request_sha256": "849519c4ca103c7c2865b3290b8f4847a95482a8231e97e1d3942e8b2410c94d",
+        "response_sha256": "fa1592953435095e575a7b3b3adbdd1a900b404738a8054d79a1014e4944a5f5",
+        "request_bytes": 693668,
+        "response_bytes": 19505,
+        "input_tokens": 160520,
+        "output_tokens": 104,
+        "finish_reason": "tool_calls"
+      },
+      "trial_receipt_sha256": "a0722ad3293db917f72b438c906ff5ce244b1eefa3da7ee366cec1f50e0e003f"
+    },
+    "clm": {
+      "state": "accepted",
+      "same_original_session": true,
+      "exact_input_and_previous_task_marker": true,
+      "shared_output_budget": 16384,
+      "verified_model_responses": 13,
+      "score": {
+        "reward": 0.7692,
+        "tests_passed": 10,
+        "tests_total": 13
+      },
+      "first_actual_request": {
+        "attempt": "0000",
+        "request_sha256": "3cb3d7d5a5ac7c29c885811faf2a927b0df41b4b3aa0a916795c05830102d9ef",
+        "response_sha256": "2650ea91a6c77628f1dae9fb8925cb4a58357208f147525d6b5b5d27501088ea",
+        "request_bytes": 132270,
+        "response_bytes": 23509,
+        "input_tokens": 31878,
+        "output_tokens": 130,
+        "finish_reason": "tool_calls"
+      },
+      "trial_receipt_sha256": "acaac082d340ee83d33b54111f8d56826737a4e53404944a43e4c01a96388de6"
+    }
+  },
+  "clm_maintenance": {
+    "transport": {
+      "status": 200,
+      "model": "deepseek-v4-1-flash-261017",
+      "transport": "eof",
+      "response_bytes": 3363
+    },
+    "receipt_sha256": "09acef3f8129280d75d568aa712018070ec5fab9c4e734db765d5e6b4839fbb1"
+  }
+}

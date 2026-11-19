@@ -101,3 +101,8 @@
 ## 2026-11-19 08:19
 
 08:20 核对完成 26/60 道配对，余 34 道。正式 1,500 次，加补评 1,505 次。08:18 原入口最小生成请求在 45 秒后出现 `URLError`，响应为零字节。第 27 题恢复入口仍绑定原模型，52 条已验收记录已完成复制与验收。已完成 Web 评分无待补评。 [进度](evidence/hourly/2026-11-19-0819.json) · [计数](evidence/hourly/2026-11-19-0819-request-counts.json) · [评分](evidence/hourly/2026-11-19-0819-web-judge-health.json) · [健康探针](evidence/provider-health-0818.json)
+
+## 2026-11-19 11:57 北京时间 · 恢复后第 27 题通过
+
+- 已验收 27/60 道配对。第 27 题两组沿用冻结模型、原会话和 16,384 token 共同输出预算，原生得 0.8462，CLM 得 0.7692。各核对原题面、上一题标记、模型响应和正式评分。第 28 题原生组已启动。 [配对验收](evidence/task-027-recovered-pair.json) · [控制器快照](evidence/hourly/2026-11-19-1157.json)
+- 累计正式上游请求 1,569 次，另有补评 5 次。12 条已完成的 Web 评分线次没有待补评的上游错误。 [请求计数](evidence/hourly/2026-11-19-1157-request-counts.json) · [评分审计](evidence/hourly/2026-11-19-1157-web-judge-health.json)
