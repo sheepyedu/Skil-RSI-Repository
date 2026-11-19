@@ -1,0 +1,29 @@
+{
+  "observed_at": "2026-11-19T22:14:48+08:00",
+  "run": "formal-02-resume-09",
+  "position": 56,
+  "same_original_session": true,
+  "native_compaction_trigger": "auto",
+  "native_compaction_pre_tokens": 164134,
+  "first_native_requests": [
+    {
+      "attempt": "0000",
+      "official_task_input_exact": false,
+      "prompt_tokens": 163817,
+      "max_output_tokens": 16384,
+      "request_sha256": "759689d392afb4c844bd94599d5496426c470c0f2b8960899db3571f2f495790",
+      "response_sha256": "782c78add8538e91603c49e1adc6484f189425517f138bfbfb0c22b0279a5718"
+    },
+    {
+      "attempt": "0001",
+      "official_task_input_exact": true,
+      "prompt_tokens": 8114,
+      "max_output_tokens": 16384,
+      "request_sha256": "817df58fd3169007db296e6b176d11d647241dea943c74c7ac1ec4f545889563",
+      "response_sha256": "26aa7cdb661fa9b3a79a2cea3e1f03c54a337649f01823f7c426fcc25a05853e"
+    }
+  ],
+  "prior_clm_receipt_byte_equal": true,
+  "plan_sha256": "514a0e3a17b59db24b3990bbff1f1fd202c0379ad8f5571880f3ddf84b4de316",
+  "model": "deepseek-v4-1-flash-261017"
+}

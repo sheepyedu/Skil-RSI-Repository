@@ -191,3 +191,8 @@
 
 - 已验收 54/60 道配对。第 54 题原生得 0.7789，CLM 得 0.8276，两组原会话、真实题面和闭合回复均核验通过。第 55 题原生已取得真实回复。 [快照](evidence/hourly/2026-11-19-2042.json) · [输入输出验收](evidence/hourly/2026-11-19-2042-input-output.json)
 - 正式请求 4,045 次，补评 5 次。32 条已有正式回执的 Web 线次没有待补评的上游异常。 [请求计数](evidence/hourly/2026-11-19-2042-request-counts.json) · [Web 评分](evidence/hourly/2026-11-19-2042-web-judge-health.json) · [有效评分快照](analysis/hourly-2026-11-19-2042-scores.json)
+
+## 2026-11-19 22:12 北京时间 · 第 56 题恢复监督
+
+- 已验收 55/60 道配对和第 56 题 CLM。原生第 56 题原尝试因 CLI 容量未评分，已采用原生自动压缩接续，并复核压缩后的实际原题请求。 [快照](evidence/hourly/2026-11-19-2212.json) · [原生续跑核验](evidence/task-056-resumed-native-input.json)
+- 正式请求 4,113 次，补评 5 次。33 条已有评分回执的 Web 线次没有待补评的上游异常。 [请求计数](evidence/hourly/2026-11-19-2212-request-counts.json) · [Web 评分](evidence/hourly/2026-11-19-2212-web-judge-health.json) · [有效评分快照](analysis/hourly-2026-11-19-2212-scores.json)
