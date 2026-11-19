@@ -131,3 +131,8 @@
 
 - 已验收 35/60 道配对。第 35 题双组均为 0.8，原生和 CLM 分别有 20、22 次完整作答回复，同题 32 次 Web 评分全部闭合。第 36 题原生已验收，CLM 已收到真实模型回复。 [快照](evidence/hourly/2026-11-19-1412.json) · [输入输出验收](evidence/hourly/2026-11-19-1412-input-output.json)
 - 正式请求 2,203 次，补评 5 次。16 条已完成的 Web 评分线次没有待补评异常。 [请求计数](evidence/hourly/2026-11-19-1412-request-counts.json) · [Web 评分](evidence/hourly/2026-11-19-1412-web-judge-health.json) · [有效评分快照](analysis/hourly-2026-11-19-1412-scores.json)
+
+## 2026-11-19 14:42 北京时间 · 定时复核
+
+- 已验收 37/60 道配对。第 36、37 题两组均通过题面、上题标记、原会话与模型回复核查，得分分别为双组 0.0、双组 1.0。第 38 题原生已验收，CLM 正在执行。 [快照](evidence/hourly/2026-11-19-1442.json) · [输入输出验收](evidence/hourly/2026-11-19-1442-input-output.json)
+- 正式请求 2,372 次，补评 5 次。17 条已完成的 Web 评分线次没有待补评异常。 [请求计数](evidence/hourly/2026-11-19-1442-request-counts.json) · [Web 评分](evidence/hourly/2026-11-19-1442-web-judge-health.json) · [有效评分快照](analysis/hourly-2026-11-19-1442-scores.json)
