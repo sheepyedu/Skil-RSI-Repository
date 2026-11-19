@@ -6,6 +6,14 @@ description: Preserve and verify the working state of a long native Claude Code 
 
 Keep the smallest checkpoint from which another turn can make the next decision safely. A transcript, a task checkpoint, and durable project memory have different lifetimes. Do not write a note just because you have reached a new turn.
 
+## Prefer task boundaries for elective memory editing
+
+- Schedule non-urgent persistent-memory rewrites and context pruning after the previous task is delivered and all tool calls have settled, or before the next task starts reading new material or making its first task-execution call. This is a timing preference, not a requirement to edit at every boundary or a proven score improvement.
+- Normal tool use, evidence capture, short task-local notes and necessary checkpoints may continue during a task. Edit memory mid-task only when a context limit is approaching, critical state is at imminent risk of loss, or progress cannot continue; use the smallest reversible intervention, then resume the task.
+- Before editing, retain unfinished obligations, exact constraints, evidence locators and a recoverable prior version or rollback pointer. Apply the save/readback checks below, and verify the next task's effective context before substantive work. Defer elective editing if safe application and verification cannot fit at the boundary.
+
+For the native CLI, updating a memory file does not rewrite already-loaded conversation text or control automatic compaction; verify the next task actually loads the intended version.
+
 ## Control what comes back from tools
 
 - Name the decision before reading. Ask for the relevant file section, bounded log tail, result count, or failing assertion instead of dumping a directory or full result. Keep the exact clause, constraint, or error field that affects the next step. Store large recoverable evidence only in a permitted location; keep its scope, revision, and locator.

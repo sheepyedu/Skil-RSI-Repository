@@ -6,6 +6,14 @@ description: Safely edit active context in Codex CLM when large completed spans 
 
 Treat the projected model context, a durable checkpoint, and the execution record as distinct. An edit receipt is not proof of what the next request contained. An automatic native compaction is not a model-authored CLM edit. Never edit the underlying execution record as a substitute for editing active context.
 
+## Prefer task boundaries for elective memory editing
+
+- Schedule non-urgent persistent-memory rewrites and context pruning after the previous task is delivered and all tool calls have settled, or before the next task starts reading new material or making its first task-execution call. This is a timing preference, not a requirement to edit at every boundary or a proven score improvement.
+- Normal tool use, evidence capture, short task-local notes and necessary checkpoints may continue during a task. Edit memory mid-task only when a context limit is approaching, critical state is at imminent risk of loss, or progress cannot continue; use the smallest reversible intervention, then resume the task.
+- Before editing, retain unfinished obligations, exact constraints, evidence locators and a recoverable prior version or rollback pointer. Apply the save/readback checks below, and verify the next task's effective context before substantive work. Defer elective editing if safe application and verification cannot fit at the boundary.
+
+For Codex CLM, a queued edit remains pending until the applicable request confirms it; verify the applied revision/projection without interleaving housekeeping with substantive task execution.
+
 ## Decide whether to edit
 
 - Name the pressure and the next decision. Edit only when a specific inactive span competes with current work, the runtime signals pressure, or repeated old content is measurably costly. Before treating an old note as global, ask whether a later task outside that domain would need it; prefer a scoped locator when the answer is no. Don't edit for its own sake; leave the active tail intact during an open tool call, unresolved action, or uncertain recovery.

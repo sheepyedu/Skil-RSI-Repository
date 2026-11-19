@@ -6,6 +6,14 @@ description: Preserve and recover decision-critical state in native Codex during
 
 Use the current task and live workspace as ground truth. This skill does not rewrite the session transcript or control native compaction. If all relevant state is already visible and the task is short, write nothing.
 
+## Prefer task boundaries for elective memory editing
+
+- Schedule non-urgent persistent-memory rewrites and context pruning after the previous task is delivered and all tool calls have settled, or before the next task starts reading new material or making its first task-execution call. This is a timing preference, not a requirement to edit at every boundary or a proven score improvement.
+- Normal tool use, evidence capture, short task-local notes and necessary checkpoints may continue during a task. Edit memory mid-task only when a context limit is approaching, critical state is at imminent risk of loss, or progress cannot continue; use the smallest reversible intervention, then resume the task.
+- Before editing, retain unfinished obligations, exact constraints, evidence locators and a recoverable prior version or rollback pointer. Apply the save/readback checks below, and verify the next task's effective context before substantive work. Defer elective editing if safe application and verification cannot fit at the boundary.
+
+For the native CLI, updating a memory file does not rewrite already-loaded conversation text or control automatic compaction; verify the next task actually loads the intended version.
+
 ## Before a context boundary
 
 1. Ask what decision the next turn must make. Preserve the current ask and non-negotiable constraints, exact target identity, pending or uncertain actions, the last verified state, and one next step with its verification. Keep identifiers, units, and exceptions exact when they change the decision.

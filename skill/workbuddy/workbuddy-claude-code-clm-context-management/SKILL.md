@@ -6,6 +6,14 @@ description: Manage active context in a custom Claude Code CLM runner when long 
 
 Separate the raw execution record, the active session view and the actual model request. Treat a model edit, native compaction, controller maintenance, and manual intervention as four different event sources. Never edit the raw transcript directly or bypass a runtime limit.
 
+## Prefer task boundaries for elective memory editing
+
+- Schedule non-urgent persistent-memory rewrites and context pruning after the previous task is delivered and all tool calls have settled, or before the next task starts reading new material or making its first task-execution call. This is a timing preference, not a requirement to edit at every boundary or a proven score improvement.
+- Normal tool use, evidence capture, short task-local notes and necessary checkpoints may continue during a task. Edit memory mid-task only when a context limit is approaching, critical state is at imminent risk of loss, or progress cannot continue; use the smallest reversible intervention, then resume the task.
+- Before editing, retain unfinished obligations, exact constraints, evidence locators and a recoverable prior version or rollback pointer. Apply the save/readback checks below, and verify the next task's effective context before substantive work. Defer elective editing if safe application and verification cannot fit at the boundary.
+
+For Claude Code CLM, inspect the actually applied note and any controller-added pruning, not just the model proposal; keep those event sources distinct.
+
 ## Diagnose before removing anything
 
 | Signal | Response |
