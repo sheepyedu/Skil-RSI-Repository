@@ -156,3 +156,8 @@
 
 - 已验收 44/60 道配对。第 44 题原生得 0.2275、CLM 得 0.3588，两组原会话与真实输入输出通过验收。第 45 题原生组已验收，CLM 正在执行。 [快照](evidence/hourly/2026-11-19-1712.json) · [输入输出验收](evidence/hourly/2026-11-19-1712-input-output.json)
 - 正式请求 3,001 次，补评 5 次。26 条已有正式回执的 Web 线次没有待补评的上游异常。 [请求计数](evidence/hourly/2026-11-19-1712-request-counts.json) · [Web 评分](evidence/hourly/2026-11-19-1712-web-judge-health.json) · [有效评分快照](analysis/hourly-2026-11-19-1712-scores.json)
+
+## 2026-11-19 17:42 北京时间 · 定时复核
+
+- 已验收 45/60 道配对。第 45 题原生得 0.6923、CLM 得 0.6154，两组真实输入和原会话通过验收。第 46 题仍在原生组运行。 [快照](evidence/hourly/2026-11-19-1742.json) · [输入输出验收](evidence/hourly/2026-11-19-1742-input-output.json)
+- 正式请求 3,125 次，补评 5 次。26 条已有正式回执的 Web 线次没有待补评的上游异常。 [请求计数](evidence/hourly/2026-11-19-1742-request-counts.json) · [Web 评分](evidence/hourly/2026-11-19-1742-web-judge-health.json) · [有效评分快照](analysis/hourly-2026-11-19-1742-scores.json)
