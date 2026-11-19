@@ -1,0 +1,32 @@
+{
+  "observed_at": "2026-11-19T18:50:02+08:00",
+  "run": "formal-02-resume-08",
+  "accepted_pairs": 48,
+  "arms": {
+    "native": {
+      "official_score": {
+        "reward": 0.8532
+      },
+      "verified_closed_responses": 45,
+      "max_prompt_tokens": 171605,
+      "receipt_sha256": "2495a1b44abf82002326e89619409ff498683deba795ab9b054e548cbaf3cbb2",
+      "original_session_verified": true,
+      "original_input_and_previous_marker": true,
+      "shared_max_output_tokens": 16384
+    },
+    "clm": {
+      "official_score": {
+        "reward": 0.9478
+      },
+      "verified_closed_responses": 46,
+      "max_prompt_tokens": 141363,
+      "receipt_sha256": "80d2fe557d12d1d13b8423ea651780eec3117507365dfe4f004a6fccf1a6d74f",
+      "original_session_verified": true,
+      "original_input_and_previous_marker": true,
+      "shared_max_output_tokens": 16384
+    }
+  },
+  "prefix_audit_sha256": "1a2c8c6b160604c3d2613640f5a581a18f3f9e618d7d528983b0249277dffb07",
+  "model": "deepseek-v4-1-flash-261017",
+  "plan_sha256": "514a0e3a17b59db24b3990bbff1f1fd202c0379ad8f5571880f3ddf84b4de316"
+}

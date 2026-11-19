@@ -1,0 +1,24 @@
+{
+  "observed_at": "2026-11-19T18:43:05+08:00",
+  "run": "formal-02-resume-08",
+  "position": 48,
+  "fixed_plan_and_session_ids": true,
+  "original_first_prompt_tokens": 70223,
+  "resumed_first_prompt_tokens": 53848,
+  "first_actual_request_and_closed_response": {
+    "attempt": "0000",
+    "request_sha256": "47d7130ef31a950e604de9a06278b3d800c769776a66198382f4fb50c6d82381",
+    "response_sha256": "7d6aaed00c777fdcdf4190a62b8951cb055629991b87a3866a26ff7188d155c7",
+    "request_bytes": 224060,
+    "response_bytes": 40927,
+    "input_tokens": 53848,
+    "output_tokens": 249,
+    "finish_reason": "tool_calls"
+  },
+  "exact_official_input_and_previous_marker": true,
+  "actual_replay_preview_bytes": 215532,
+  "reused_original_capacity": 16384,
+  "maintenance_trigger_bytes": 240000,
+  "maintenance_receipt_sha256": "55f9386d210517cec3edeb0641738b11fe21b84afcb7025311a30a5c458711e1",
+  "no_replayed_native_trial": true
+}
