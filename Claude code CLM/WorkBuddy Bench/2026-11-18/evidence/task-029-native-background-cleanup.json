@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-11-19T12:23:47+08:00",
+  "run": "formal-02-resume-06",
+  "position": 29,
+  "arm": "native",
+  "project": "029-code-feature-medium-etag_header_for_static__env",
+  "complete_model_requests_before_intervention": 58,
+  "cli_stream_sha256_at_intervention": "d19dca7238298a175a3f060cd006135b79695c1dfbf70cf328d941cd7e1c0d16",
+  "ready_result_type": "success",
+  "process_signal": "SIGTERM",
+  "process_target": "one confirmed recursive grep under the trial Claude Code process"
+}

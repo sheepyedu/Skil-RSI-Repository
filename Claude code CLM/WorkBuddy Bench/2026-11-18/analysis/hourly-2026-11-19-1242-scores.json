@@ -1,0 +1,531 @@
+{
+  "observed_at": "2026-11-19T12:42:46+08:00",
+  "run": "formal-02-resume-06",
+  "plan_sha256": "514a0e3a17b59db24b3990bbff1f1fd202c0379ad8f5571880f3ddf84b4de316",
+  "completed_pairs": 29,
+  "total_pairs": 60,
+  "rows": [
+    {
+      "position": 1,
+      "domain": "sec",
+      "task": "linux-ld-preload-investigation",
+      "scores": {
+        "native": {
+          "raw": 0.7613,
+          "effective": 0.7613,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.8283,
+          "effective": 0.8283,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.067
+    },
+    {
+      "position": 2,
+      "domain": "web",
+      "task": "dense-saas-visual-refactor-L3-046",
+      "scores": {
+        "native": {
+          "raw": 0.2,
+          "effective": 0.2,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.2
+    },
+    {
+      "position": 3,
+      "domain": "web",
+      "task": "security-privacy-permission-review-L4-020",
+      "scores": {
+        "native": {
+          "raw": 0.7,
+          "effective": 0.7,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.3
+    },
+    {
+      "position": 4,
+      "domain": "code",
+      "task": "refactor-medium-config_validation_errors",
+      "scores": {
+        "native": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 5,
+      "domain": "web",
+      "task": "markdown-release-editor-L4-038",
+      "scores": {
+        "native": {
+          "raw": 0.8,
+          "effective": 0.8,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.5,
+          "effective": 0.8,
+          "correction_used": true
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 6,
+      "domain": "code",
+      "task": "feature-medium-envless_file_load",
+      "scores": {
+        "native": {
+          "raw": 0.25,
+          "effective": 0.25,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.75
+    },
+    {
+      "position": 7,
+      "domain": "code",
+      "task": "reliability-hard-stream_release",
+      "scores": {
+        "native": {
+          "raw": 0.75,
+          "effective": 0.75,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.75,
+          "effective": 0.75,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 8,
+      "domain": "office",
+      "task": "warranty-recovery-allocation-L5-033",
+      "scores": {
+        "native": {
+          "raw": 0.883,
+          "effective": 0.883,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.829,
+          "effective": 0.829,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.054
+    },
+    {
+      "position": 9,
+      "domain": "code",
+      "task": "schema_behavior-medium-datakey_errors",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 10,
+      "domain": "web",
+      "task": "root-cause-localization-L3-015",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 11,
+      "domain": "code",
+      "task": "reliability-medium-pool_release",
+      "scores": {
+        "native": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 12,
+      "domain": "web",
+      "task": "root-cause-localization-L3-013",
+      "scores": {
+        "native": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.4,
+          "effective": 0.4,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.4
+    },
+    {
+      "position": 13,
+      "domain": "code",
+      "task": "bug_fix-medium-matching_absolute_paths",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 14,
+      "domain": "sec",
+      "task": "yara-detect-cryptominer",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 15,
+      "domain": "office",
+      "task": "wechat-tech-topic-package-hardened",
+      "scores": {
+        "native": {
+          "raw": 0.809,
+          "effective": 0.809,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.8876,
+          "effective": 0.8876,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0786
+    },
+    {
+      "position": 16,
+      "domain": "sec",
+      "task": "false-positive-trap-bind-hard-multistep",
+      "scores": {
+        "native": {
+          "raw": 0.5,
+          "effective": 0.5,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.5,
+          "effective": 0.5,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 17,
+      "domain": "code",
+      "task": "api_contract-hard-openapi_params",
+      "scores": {
+        "native": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 18,
+      "domain": "sec",
+      "task": "apt-multi-source-correlation-hard-multistep",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 19,
+      "domain": "code",
+      "task": "feature-medium-validation_to_eliminate_uriref",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 20,
+      "domain": "office",
+      "task": "rank-ic-topn-L4-001",
+      "scores": {
+        "native": {
+          "raw": 0.8269,
+          "effective": 0.8269,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.7968,
+          "effective": 0.7968,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.0301
+    },
+    {
+      "position": 21,
+      "domain": "code",
+      "task": "data_reporting-medium-customer_health_export",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 22,
+      "domain": "office",
+      "task": "drug-inventory-split-L2-006",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 23,
+      "domain": "code",
+      "task": "python_port-medium-header_dimensions",
+      "scores": {
+        "native": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 24,
+      "domain": "sec",
+      "task": "windows-dll-proxy-investigation",
+      "scores": {
+        "native": {
+          "raw": 0.8792,
+          "effective": 0.8792,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.861,
+          "effective": 0.861,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.0182
+    },
+    {
+      "position": 25,
+      "domain": "web",
+      "task": "workflow-backoffice-L4-002",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 26,
+      "domain": "sec",
+      "task": "windows-dll-proxy-rule-gen",
+      "scores": {
+        "native": {
+          "raw": 0.9462,
+          "effective": 0.9462,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.6399,
+          "effective": 0.6399,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.3063
+    },
+    {
+      "position": 27,
+      "domain": "code",
+      "task": "data_quality-hard-label_conflicts",
+      "scores": {
+        "native": {
+          "raw": 0.8462,
+          "effective": 0.8462,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.7692,
+          "effective": 0.7692,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.077
+    },
+    {
+      "position": 28,
+      "domain": "code",
+      "task": "feature-hard-fallback_signers_and_switch",
+      "scores": {
+        "native": {
+          "raw": 0.6,
+          "effective": 0.6,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.6,
+          "effective": 0.6,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 29,
+      "domain": "code",
+      "task": "feature-medium-etag_header_for_static",
+      "scores": {
+        "native": {
+          "raw": 0.2727,
+          "effective": 0.2727,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.2727,
+          "effective": 0.2727,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    }
+  ]
+}
