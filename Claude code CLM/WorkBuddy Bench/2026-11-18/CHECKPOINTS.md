@@ -121,3 +121,8 @@
 
 - 已验收 32/60 道配对。第 30–32 题的两组官方输入、上一题标记、原会话和输出已核验，第 33 题原生组已取得真实回复。 [快照](evidence/hourly/2026-11-19-1312.json) · [输入输出验收](evidence/hourly/2026-11-19-1312-input-output.json)
 - 正式请求 1,935 次，补评 5 次。第 30 题双组得分均为 0.0，两组各 10 次 Web 评分请求全部闭合。14 条已完成的 Web 评分线次无待补评异常。 [请求计数](evidence/hourly/2026-11-19-1312-request-counts.json) · [Web 评分](evidence/hourly/2026-11-19-1312-web-judge-health.json) · [有效评分快照](analysis/hourly-2026-11-19-1312-scores.json)
+
+## 2026-11-19 13:42 北京时间 · 定时复核
+
+- 已验收 34/60 道配对。第 34 题的 CLM 组以原会话续跑，真实输入含原题面和上一题标记，首个回复已闭合。两组该题的官方得分均为 0.0。第 35 题已启动。 [快照](evidence/hourly/2026-11-19-1342.json) · [输入输出验收](evidence/hourly/2026-11-19-1342-input-output.json) · [第 34 题续跑](evidence/task-034-resumed-clm-input.json)
+- 正式请求 2,013 次，补评 5 次。14 条已完成的 Web 评分线次无待补评异常。 [请求计数](evidence/hourly/2026-11-19-1342-request-counts.json) · [Web 评分](evidence/hourly/2026-11-19-1342-web-judge-health.json) · [有效评分快照](analysis/hourly-2026-11-19-1342-scores.json)

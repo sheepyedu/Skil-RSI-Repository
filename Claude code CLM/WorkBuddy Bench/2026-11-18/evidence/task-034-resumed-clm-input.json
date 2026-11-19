@@ -1,0 +1,27 @@
+{
+  "observed_at": "2026-11-19T13:38:05+08:00",
+  "run": "formal-02-resume-07",
+  "position": 34,
+  "accepted_trials_retained": 67,
+  "preserved_receipts_byte_equal": true,
+  "sessions_and_plan_byte_equal": true,
+  "reused_original_maintenance_response": true,
+  "original_task_and_prior_marker_in_wire": true,
+  "soft_target_bytes": 165000,
+  "native_preview_bytes": 169046,
+  "projected_message_bytes": 166179,
+  "max_output_tokens": 16384,
+  "model": "deepseek-v4-1-flash-261017",
+  "first_closed_model_request": {
+    "attempt": "0000",
+    "request_sha256": "88b6b95fe195a8b0e5c6ec9efbdd90cb9950201212355aba7ed7239be8b4860b",
+    "response_sha256": "0ccc919f451f206ef7841f7bfd85100dfd9299267673dbe6d9847ecee5177f2e",
+    "request_bytes": 173025,
+    "response_bytes": 30307,
+    "input_tokens": 42150,
+    "output_tokens": 191,
+    "finish_reason": "tool_calls"
+  },
+  "observed_state": "verification-start",
+  "complete_responses_at_observation": 6
+}
