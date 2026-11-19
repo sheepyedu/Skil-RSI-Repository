@@ -116,3 +116,8 @@
 
 - 已验收 29/60 道配对。第 29 题两组均为 0.2727，原生 60 次、CLM 46 次模型回复闭合，上一题标记、官方输入和原会话匹配。第 30 题原生组已取得真实回复。 [快照](evidence/hourly/2026-11-19-1242.json) · [输入输出验收](evidence/hourly/2026-11-19-1242-input-output.json)
 - 正式请求 1,782 次，补评 5 次。12 条已完成的 Web 评分线次无待补评异常。 [请求计数](evidence/hourly/2026-11-19-1242-request-counts.json) · [Web 评分](evidence/hourly/2026-11-19-1242-web-judge-health.json) · [有效评分快照](analysis/hourly-2026-11-19-1242-scores.json)
+
+## 2026-11-19 13:12 北京时间 · 定时复核
+
+- 已验收 32/60 道配对。第 30–32 题的两组官方输入、上一题标记、原会话和输出已核验，第 33 题原生组已取得真实回复。 [快照](evidence/hourly/2026-11-19-1312.json) · [输入输出验收](evidence/hourly/2026-11-19-1312-input-output.json)
+- 正式请求 1,935 次，补评 5 次。第 30 题双组得分均为 0.0，两组各 10 次 Web 评分请求全部闭合。14 条已完成的 Web 评分线次无待补评异常。 [请求计数](evidence/hourly/2026-11-19-1312-request-counts.json) · [Web 评分](evidence/hourly/2026-11-19-1312-web-judge-health.json) · [有效评分快照](analysis/hourly-2026-11-19-1312-scores.json)
