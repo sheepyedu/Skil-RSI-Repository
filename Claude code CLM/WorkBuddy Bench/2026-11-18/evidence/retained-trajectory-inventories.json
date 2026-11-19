@@ -102,6 +102,18 @@
       "archived_bytes": 8808053182,
       "final_audit_sha256": "45ce54e39dbd67c52951872e3fb8adfc5283f77186fa3694ee6772afcfac1054",
       "exit_status": 1
+    },
+    {
+      "run": "formal-02-resume-08",
+      "inventory_path": "formal-02-resume-08/trajectory-sha256.json",
+      "inventory_sha256": "067ec11b87e4195bd8247b6ad08a0e3c5b2b614024fd2ebeca86c670f6a13d72",
+      "inventory_bytes": 15414641,
+      "listed_files": 72031,
+      "archived_bytes": 11459202466,
+      "final_audit_sha256": "9045cc5dd574a9310b6eabceb6f3049d621d95ff56a3f3a5ec4bcd8e6e0b718d",
+      "exit_status": 1,
+      "accepted_pairs": 55,
+      "failed_trial_closed_at": "2026-11-19T12:50:22.027860+00:00"
     }
   ]
 }

@@ -122,3 +122,9 @@ CLM 在 17 次完整调用及成功终态后等待后台递归搜索。确认搜
 ## 第 51–53 题 CLM 单次回复与零分复核
 
 20:13 回读三题实际请求、原始响应和官方评分。每题请求均包含三个工具定义，供应商各返回一次 HTTP 200 和完整 `stop` 响应。三次仅陈述接下来计划，工具调用增量均为零。各题官方原分为 0.0，均纳入原对照，原始响应和评分留存。 [逐题校验值及状态](evidence/tasks-051-053-clm-single-response-review.json)
+
+## 第 56 题原生组容量中断
+
+20:50，原生组的 4 次 DeepSeek 请求均完整闭合。最后一次输入为 168,731 token，随后本地 CLI 返回 `Prompt is too long`，官方评分未启动。同题 CLM 正常完成，得 1.0。21:53 重新连上 H20 后核实，已验收 55 道配对及第 56 题 CLM，原生失败尝试随整个第八次运行批次封存。
+
+第九次恢复从原生第 55 题与 CLM 第 56 题的原会话快照接续，重用 111 条已验收线次。设置原生 Claude Code 的自动压缩阈值为当前有效窗口的 75%，使用原程序的压缩行为。实际模型、两组各自会话、题面和题序已核对。 [失败回执与续跑检查点](evidence/formal-02-recovery-09-offline-proof.json) · [归档索引](evidence/retained-trajectory-inventories.json) · [中断时评分审计](evidence/hourly/2026-11-19-2154-web-judge-health.json)

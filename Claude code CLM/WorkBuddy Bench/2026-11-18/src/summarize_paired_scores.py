@@ -62,6 +62,7 @@ def compare(snapshot, annotations):
         "by_domain": domain_results,
         "output_budget_cohorts": cohorts,
         "clm_replay_policy_changes": annotations.get("clm_replay_policy_changes", []),
+        "native_compaction_policy_changes": annotations.get("native_compaction_policy_changes", []),
         "regraded_positions": [
             r["position"] for r in rows if any(trial["correction_used"] for trial in r["scores"].values())
         ],

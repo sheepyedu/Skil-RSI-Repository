@@ -1,0 +1,36 @@
+{
+  "source": "formal-02-resume-08",
+  "position": 56,
+  "retained_trials": 111,
+  "plan_sha256": "514a0e3a17b59db24b3990bbff1f1fd202c0379ad8f5571880f3ddf84b4de316",
+  "same_original_sessions": true,
+  "failed_trial": {
+    "arm": "native",
+    "last_successful_prompt_tokens": 168731,
+    "terminal": "Prompt is too long",
+    "completed_model_responses": 4,
+    "receipt_sha256": "4f4d21742bd53983c32b4e5d8be1fa3d8ea66691e3e42926da1bef8caff46190",
+    "session_sha256": "e29fdd1a3b1f8a28705aa575c43ffc0ad2dc781e8ad5c53899e2cbbe7178cf14",
+    "last_request_sha256": "de96559532d613b87dff50875ced36bc0ced7e90b19caece2039333b4370b59b"
+  },
+  "checkpoints": {
+    "native": {
+      "position": 55,
+      "sha256": "fe9085e0fc01e2abdd32d78ace8199910d4a390781c4985d406bec6cb54d4860"
+    },
+    "clm": {
+      "position": 56,
+      "sha256": "e3f19e8ce1932b573631e9012a60515a8294a5ffbaba10f3beedff149a0bf494"
+    }
+  },
+  "prior_clm_official_score_retained": 1.0,
+  "installed_cli_accepts_auto_compaction_percentage": true,
+  "native_auto_compaction_pct": 75,
+  "runtime_sha256": {
+    "launch_recovery.sh": "a23d7bb5bac44930920c2568c24175ea50059baa2935ebf47aee1a4cc3c80cda",
+    "serial_agent.py": "e5a8a333ca1704c02044983ae749b79506a6956c41ed2ccd7f0892ede3ac00a4",
+    "retry_native_capacity.py": "e6a9936cc8b2201e1f09ce92daf8d14e5e566157262909c61055f56ae3eaace9",
+    "inspect_run.py": "4083019a1207e42849de3982bcbf0bfb7f322ecc50d3ba6c3bc87a057f377b2f"
+  },
+  "model_requests": 0
+}

@@ -72,11 +72,13 @@ def trial(root, arm, row, previous, model, judge_model):
     entries = [json.loads(l) for l in timeline.read_text().splitlines() if l]
     receipt_path = directory / "receipt.json"
     receipt = read(receipt_path) if receipt_path.is_file() else {}
+    native_compacted = arm == "native" and (receipt.get("native") or {}).get("native_compactions", 0)
     attempts = sorted((directory / "chat-gateway").glob("*/intent.json"))
     outcomes = Counter()
     exact = None
     previous_found = None
     first_input = None
+    first_task_attempt = None
     in_flight = []
     complete = []
     errors = []
@@ -111,14 +113,16 @@ def trial(root, arm, row, previous, model, judge_model):
                          "input_tokens": (result.get("usage") or {}).get("prompt_tokens"),
                          "output_tokens": (result.get("usage") or {}).get("completion_tokens"),
                          "finish_reason": result.get("finish_reason")})
-        if exact is None:
+        if exact is None or (exact is False and native_compacted):
             payload = read(request)
             texts = list(user_text(payload))
             exact = payload.get("model") == model and any(
                 row["marker"] in value and instruction in value for value in texts
             )
-            previous_found = any(previous["marker"] in value for value in texts) if previous else None
-            first_input = (result.get("usage") or {}).get("prompt_tokens")
+            if exact:
+                first_task_attempt = parent.name
+                previous_found = any(previous["marker"] in value for value in texts) if previous else None
+                first_input = (result.get("usage") or {}).get("prompt_tokens")
     local = root / arm / "trials" / name
     score = receipt.get("reward")
     grader_results = sorted(p.name for p in (local / "verifier").iterdir() if p.is_file()) if (local / "verifier").is_dir() else []
@@ -144,6 +148,7 @@ def trial(root, arm, row, previous, model, judge_model):
         "state": "accepted" if receipt.get("accepted") else "failed" if receipt else entries[-1]["event"],
         "last_event": entries[-1], "request_outcomes": dict(outcomes), "requests_in_flight": in_flight,
         "first_actual_input_tokens": first_input, "first_actual_input_exact": exact,
+        "first_actual_task_attempt": first_task_attempt,
         "previous_marker_in_first_actual_input": previous_found,
         "native_session_match": observed_sessions == {expected_session} if receipt else None,
         "native_terminal": bool(terminal_errors) if receipt else None,

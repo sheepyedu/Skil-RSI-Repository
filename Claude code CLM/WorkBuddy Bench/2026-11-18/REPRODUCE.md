@@ -44,6 +44,8 @@
 
 第 48 题起，CLM 题间维护的触发阈值提前至 240,000 字节，优先投影目标为 165,000 字节，可保留内容的上限为 285,000 字节。第八次恢复重用 95 条接受记录，从 CLM 第 47 题的原会话、附件和笔记重跑第 48 题 CLM，继续包含其已验收的原生组。离线验证先在隔离会话副本上检查全部 47 条历史题面和可见助手文本。 [恢复代码](src/serial-recovery-08/) · [原失败与离线验证](evidence/formal-02-recovery-08-offline-proof.json)
 
+第 56 题起，原生组设置 `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE=75`，提前触发 Claude Code 自带的压缩。第九次恢复从原生第 55 题和 CLM 第 56 题的各自已验收原会话接续，仅重跑第 56 题原生组。两组内部仍按固定题序。第 56 题已验收的 CLM 线次早于原生重跑，复核按实际时间检查两组未重叠。 [恢复代码](src/serial-recovery-09/) · [终态与原会话核验](evidence/formal-02-recovery-09-offline-proof.json) · [顺序审计](src/audit_serial_order.py)
+
 最终对照以冻结题单逐题配对，原始分和生效分同时保留。汇总代码要求完整的 60 对，计算全样本、子集、共享输出上限各阶段的计数与配对差，并单列剔除人工清理或末次响应不完整的配对后的结果。连续会话中的题目之间可能相互影响，汇总使用描述统计。 [最终汇总代码](src/summarize_paired_scores.py) · [版本与异常标记](analysis/run-qualification-annotations.json)
 
 ## 证据路径

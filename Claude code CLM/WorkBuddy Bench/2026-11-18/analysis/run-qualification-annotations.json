@@ -8,6 +8,9 @@
     {"from_position": 34, "soft_target_bytes": 165000, "fallback_limit_bytes": 285000, "evidence": "../evidence/formal-02-recovery-07-offline-proof.json"},
     {"from_position": 48, "maintenance_trigger_bytes": 240000, "soft_target_bytes": 165000, "fallback_limit_bytes": 285000, "evidence": "../evidence/formal-02-recovery-08-offline-proof.json"}
   ],
+  "native_compaction_policy_changes": [
+    {"from_position": 56, "auto_compaction_window_percent": 75, "evidence": "../evidence/formal-02-recovery-09-offline-proof.json"}
+  ],
   "flags": [
     {"position": 4, "arm": "clm", "kind": "operator_cleanup", "evidence": "../evidence/task-004-background-cleanup.json"},
     {"position": 13, "arm": "native", "kind": "unclosed_final_agent_response", "evidence": "../evidence/task-013-native-transport.json"},
@@ -17,6 +20,7 @@
     {"position": 29, "arm": "native", "kind": "operator_cleanup", "evidence": "../evidence/task-029-native-background-cleanup.json"},
     {"position": 48, "arm": "clm", "kind": "cli_capacity_replay", "evidence": "../evidence/formal-02-recovery-08-offline-proof.json"},
     {"position": 50, "arm": "native", "kind": "operator_cleanup", "evidence": "../evidence/task-050-native-background-cleanup.json"},
-    {"position": 50, "arm": "clm", "kind": "operator_cleanup", "evidence": "../evidence/task-050-clm-background-cleanup.json"}
+    {"position": 50, "arm": "clm", "kind": "operator_cleanup", "evidence": "../evidence/task-050-clm-background-cleanup.json"},
+    {"position": 56, "arm": "native", "kind": "cli_capacity_replay", "evidence": "../evidence/formal-02-recovery-09-offline-proof.json"}
   ]
 }
