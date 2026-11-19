@@ -176,3 +176,8 @@
 
 - 已验收 49/60 道配对。第 49 题原生为 0.0、CLM 为 0.8582，两组原会话、真实输入和闭合响应通过验收。第 50 题原生已取得响应，正在继续。 [快照](evidence/hourly/2026-11-19-1912.json) · [输入输出验收](evidence/hourly/2026-11-19-1912-input-output.json)
 - 正式请求 3,585 次，补评 5 次。26 条已有正式回执的 Web 线次没有待补评的上游异常。 [请求计数](evidence/hourly/2026-11-19-1912-request-counts.json) · [Web 评分](evidence/hourly/2026-11-19-1912-web-judge-health.json) · [有效评分快照](analysis/hourly-2026-11-19-1912-scores.json)
+
+## 2026-11-19 19:42 北京时间 · 定时复核
+
+- 已验收 50/60 道配对。第 50 题双组各得 1.0。清理残留搜索后的追加作答全部闭合，两组原会话及官方评分通过校验。第 51 题原生已继续取得真实回复。 [快照](evidence/hourly/2026-11-19-1942.json) · [输入输出验收](evidence/hourly/2026-11-19-1942-input-output.json)
+- 正式请求 3,778 次，补评 5 次。26 条已有正式回执的 Web 线次没有待补评的上游异常。 [请求计数](evidence/hourly/2026-11-19-1942-request-counts.json) · [Web 评分](evidence/hourly/2026-11-19-1942-web-judge-health.json) · [有效评分快照](analysis/hourly-2026-11-19-1942-scores.json)
