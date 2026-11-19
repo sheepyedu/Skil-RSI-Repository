@@ -1,0 +1,18 @@
+{
+  "native": {
+    "other_payload_differences": 0,
+    "examined_requests": 643,
+    "billing_lines_removed": 643,
+    "adjacent_pairs": 583,
+    "old_identical_systems": 0,
+    "stable_identical_systems": 575
+  },
+  "clm": {
+    "other_payload_differences": 0,
+    "examined_requests": 585,
+    "billing_lines_removed": 585,
+    "adjacent_pairs": 525,
+    "old_identical_systems": 0,
+    "stable_identical_systems": 525
+  }
+}

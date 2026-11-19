@@ -1,0 +1,36 @@
+{
+  "time_utc": "2026-11-19T15:56:58.914857+00:00",
+  "model": "deepseek-v4-1-flash-261017",
+  "native": [
+    {
+      "http_status": 200,
+      "prompt_tokens": 4705,
+      "completion_tokens": 14,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 4705
+    },
+    {
+      "http_status": 200,
+      "prompt_tokens": 4705,
+      "completion_tokens": 14,
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 97
+    }
+  ],
+  "clm": [
+    {
+      "http_status": 200,
+      "prompt_tokens": 4715,
+      "completion_tokens": 14,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 4715
+    },
+    {
+      "http_status": 200,
+      "prompt_tokens": 4715,
+      "completion_tokens": 12,
+      "prompt_cache_hit_tokens": 4608,
+      "prompt_cache_miss_tokens": 107
+    }
+  ]
+}
