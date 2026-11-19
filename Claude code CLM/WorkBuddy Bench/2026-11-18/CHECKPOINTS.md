@@ -106,3 +106,8 @@
 
 - 已验收 27/60 道配对。第 27 题两组沿用冻结模型、原会话和 16,384 token 共同输出预算，原生得 0.8462，CLM 得 0.7692。各核对原题面、上一题标记、模型响应和正式评分。第 28 题原生组已启动。 [配对验收](evidence/task-027-recovered-pair.json) · [控制器快照](evidence/hourly/2026-11-19-1157.json)
 - 累计正式上游请求 1,569 次，另有补评 5 次。12 条已完成的 Web 评分线次没有待补评的上游错误。 [请求计数](evidence/hourly/2026-11-19-1157-request-counts.json) · [评分审计](evidence/hourly/2026-11-19-1157-web-judge-health.json)
+
+## 2026-11-19 12:12 北京时间 · 定时复核
+
+- 已验收 28/60 道配对。第 28 题双组均为 0.6，真实输入、上一题标记和原会话校验通过，原生 53 次与 CLM 24 次模型回复闭合。第 29 题原生组已启动，核验到已闭合的真实请求与响应。 [快照](evidence/hourly/2026-11-19-1212.json) · [输入输出验收](evidence/hourly/2026-11-19-1212-input-output.json)
+- 正式请求 1,653 次，补评 5 次，现有 Web 评分没有待补评的上游异常。 [请求计数](evidence/hourly/2026-11-19-1212-request-counts.json) · [Web 评分](evidence/hourly/2026-11-19-1212-web-judge-health.json) · [有效评分快照](analysis/hourly-2026-11-19-1212-scores.json)
