@@ -1,0 +1,3419 @@
+{
+  "verified_at": "2026-11-19T02:12:48.550Z",
+  "files_verified": 484,
+  "all_git_blob_shas_match": true,
+  "archive_parts": 393,
+  "archive_sha256": "40667201f924a9306bd86053a70a1ad0b117d5e6e988b9d3500bd59fdcc502fe",
+  "scope": {
+    "kind": "incomplete_checkpoint",
+    "planned_pairs": 65,
+    "planned_trials": 130,
+    "completed_pairs": 60,
+    "completed_and_graded": 120,
+    "provider_policy_rejected_ungraded": 1,
+    "not_started": 9,
+    "model": "gpt-6.1-sol",
+    "cli": "0.169.0",
+    "reasoning_effort": "low",
+    "final65_complete": false,
+    "scope_change": false,
+    "production65_gates_unchanged": true,
+    "all_original_failures_retained": true,
+    "archive_sha256": "40667201f924a9306bd86053a70a1ad0b117d5e6e988b9d3500bd59fdcc502fe",
+    "source_local_commit": "0d25f1f58cf0195b2a023df844e40caaa7e33a4b",
+    "source_github_commit": "5ba71c1dba156bab19f7bcc4cbd802e0755ca7bb",
+    "source_tree": "0aa61b2e029dad62278c09cf4c17ced7a8cf066e",
+    "next_action": "Resolve official provider access restriction before any continuation of the frozen task61; no bypass",
+    "formal_full65_review_submitted": false
+  },
+  "uploaded_objects": [
+    {
+      "path": "Codex CLM/README.md",
+      "sha": "ff942de529ce53dcfc7f1da0444e42662f90f975",
+      "bytes": 2482,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:29:19.572Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/README.md",
+      "sha": "7160f4c19438b4d6978006648bc5041ec9927548",
+      "bytes": 787,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:29:48.583Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/CURRENT_SNAPSHOT_LEDGER_01/INCOMPLETE_STATUS.json",
+      "sha": "bc7ae1c4f4ea6fc64d43bb6948be9caef6a261f0",
+      "bytes": 3072,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:29:48.594Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/CURRENT_SNAPSHOT_LEDGER_01/all-clm-edit-events.json",
+      "sha": "0a2d302df98bb37ef8ceeeb872de873c2d09dc41",
+      "bytes": 5382,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:29:48.594Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/CURRENT_SNAPSHOT_LEDGER_01/all-native-compactions.json",
+      "sha": "6850c4f194b8deec3278d149ed5daf7ccbb7169f",
+      "bytes": 3720,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:29:51.438Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/CURRENT_SNAPSHOT_LEDGER_01/all-provider-usage.json",
+      "sha": "9ac76882c2bdc01e0d029547c74611d87659e320",
+      "bytes": 2463,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:29:51.438Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/CURRENT_SNAPSHOT_LEDGER_01/formal-task-attempt-counts.json",
+      "sha": "bac8f2545403703ca336bd7cc1b6bbde4bac0a33",
+      "bytes": 24796,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:29:51.438Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/CURRENT_SNAPSHOT_USAGE.md",
+      "sha": "3e5643b6056ec9456fb5074bce571a629d39fcb5",
+      "bytes": 1699,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:29:55.403Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/FROZEN65_EXECUTION_STATUS_01.json",
+      "sha": "e45864525ad0aa85c7b9678e0580dc932fed9741",
+      "bytes": 23523,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:29:55.403Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/POLICY_REFUSAL_061_01.json",
+      "sha": "5a8969097f555d5e10c738f9ad419785ff2b580a",
+      "bytes": 1845,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:29:55.404Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/PREFIX60_CONTEXT.pdf",
+      "sha": "625fc1d53b538b0d194081387b0d8db021478f13",
+      "bytes": 23382,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:29:58.954Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/PREFIX60_CONTEXT.png",
+      "sha": "d2b3f3d8290ffdbee62681e79ae29083da41ac33",
+      "bytes": 302684,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:29:58.954Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/PREFIX60_REPORT.md",
+      "sha": "5915230ba4cf17740e2accacdf96a47c71285077",
+      "bytes": 5978,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:29:58.954Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/PREFIX60_REPORT_PROOF_01.json",
+      "sha": "5a9b9da194a7a11c18c94687030ee8e74703e547",
+      "bytes": 1354,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:30:02.003Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/README.md",
+      "sha": "00e108acbd58951d561106d5ea18b494fd7fdee3",
+      "bytes": 2934,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:30:02.003Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/SOURCE_GITHUB_VERIFIED_v9.json",
+      "sha": "3904fe418d2278ec73ef18e425b7a5e894b286e1",
+      "bytes": 19122,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:30:02.003Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/SOURCE_H20_VERIFIED_v9.json",
+      "sha": "21db8263e974a852ae9d218d8dd6356eb590835e",
+      "bytes": 12678,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:30:05.302Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/STATUS.json",
+      "sha": "70916d838317d3324bee517f2d3457f98b37bc10",
+      "bytes": 867,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:30:05.302Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/TASK_INPUT_BINDING_PREFIX60_01.json",
+      "sha": "614a525211fec680160e77a8bf606687185aa17f",
+      "bytes": 149531,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:30:05.302Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/.gitattributes",
+      "sha": "c3f261b4dbf0d63dbe4652de4d357efec38a2d16",
+      "bytes": 20,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:30:13.142Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/MANIFEST.json",
+      "sha": "2321a60aa21074f47e84cc30e4715c89bcde841e",
+      "bytes": 64262,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:30:13.142Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0001",
+      "sha": "ac2a375a035e01e84ad05e84c4fd7b9339b81a9c",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:30:13.142Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0002",
+      "sha": "0865c848b97939fc2ce6829971e157b4c28e1de9",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:30:29.564Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0003",
+      "sha": "9a6e78afe00f0bd2d5416c1514f6e6e7ee776fba",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:30:29.564Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0004",
+      "sha": "289eaa99b9f1e57fa0561ebfd7f2058dc5a1e048",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:30:29.564Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0005",
+      "sha": "5140dbed0d9f668262017a731f21f70ebf4f2625",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:30:53.173Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0006",
+      "sha": "f6e8eb38dc6a0a157165bfc223a20d0ce99ed8b9",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:30:53.173Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0007",
+      "sha": "7c1114466a6b16f80cbf457be2d00644fcd95567",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:30:53.173Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0008",
+      "sha": "5dc5211dfacb2ed5bc4d8d5c857aa1cf13489dc6",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:31:14.992Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0009",
+      "sha": "68237cc40dd3af848ee889f2df1bf69caaf81e05",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:31:14.992Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0010",
+      "sha": "c0b587cd8cd04e2f1b8538f6f904f2933269f8a8",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:31:14.992Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0011",
+      "sha": "f7c22db3bbb595a82c399d41511ae2683a514edd",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:31:40.553Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0012",
+      "sha": "0f00312d7adf7ca92803aafce510062be21d1c5f",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:31:40.553Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0013",
+      "sha": "54605a53f918e93bc69290207569a670c8f7f8ea",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:31:40.553Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0014",
+      "sha": "bcabd4547a5b43857b3e74247d090e490176a075",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:31:54.771Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0015",
+      "sha": "f5a294083afaee2def6e30c6107fb627d92233ee",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:31:54.771Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0016",
+      "sha": "34c81eb9e80196d403112fe345aae7a5139d4f25",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:31:54.771Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0017",
+      "sha": "0d39fd1622c2a5c916705c88958c7935212aa7e9",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:32:13.303Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0018",
+      "sha": "b8ed14a26f266117112f9cdd4166281ccd71aafa",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:32:13.303Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0019",
+      "sha": "ae904dd429a2168ceb8a88c43e0016142c35bd7f",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:32:13.303Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0020",
+      "sha": "feee10f5290b36c2f2b6abafe9e42009bbbd1a02",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:32:27.899Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0021",
+      "sha": "23e32fea3ad960654b94496fe5bdfe5eb5080f0a",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:32:27.899Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0022",
+      "sha": "14e22f8da4d2f1d17485bcc31e5b920fecde8d0e",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:32:27.899Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0023",
+      "sha": "abced7751e3cf98847b45e636c3b2eb41cc2b557",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:32:41.091Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0024",
+      "sha": "00db3bb35b0b00cb415f38bc0d8aa9f0ff6367fe",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:32:41.091Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0025",
+      "sha": "64811ea3022dd3dc6f78e2cbaace5544efb64518",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:32:41.091Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0026",
+      "sha": "a0b74ab7dd6aec9ac6cf0a2b4ed2a48c216c7acd",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:32:55.323Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0027",
+      "sha": "2dfec75c64653189fd680b377dcfed7b8673442b",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:32:55.323Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0028",
+      "sha": "7e73a898c6d03d1d1a4f772c52cb1023feab5012",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:32:55.323Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0029",
+      "sha": "9febe0a78c7a5a3561386e10a7464ddee54c6fe0",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:33:15.465Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0030",
+      "sha": "147ca0c706d9084e0e310aca3fdbf84592c37169",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:33:15.465Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0031",
+      "sha": "8cd3a3ea351e3d98cb5a33a57099342946557a75",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:33:15.465Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0032",
+      "sha": "743f9c4b8b2ef4de656b76cee85a8be2b4a706c4",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:33:32.259Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0033",
+      "sha": "3f462d53f4db75ea16c6e9205beac16fca5cd85f",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:33:32.259Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0034",
+      "sha": "208387966f845567c1647f881ea46cfad707c4fa",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:33:32.259Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0035",
+      "sha": "c47b0c6c40051e504dd8da84efa330d6e8af17a4",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:33:48.222Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0036",
+      "sha": "fbd5778efff74a6893297d768372a1d38261c605",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:33:48.222Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0037",
+      "sha": "ab7a4f7150d56678c24b1e7e941d560954382085",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:33:48.222Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0038",
+      "sha": "36af6236ebc986cf0034ebbe86e68339583649c0",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:34:11.150Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0039",
+      "sha": "ad2aec032841ff798a6b945b84e6752bdca3f639",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:34:11.150Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0040",
+      "sha": "67b50ef5eea5d6e971a3522628c222cb91d887d1",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:34:11.150Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0041",
+      "sha": "6ef41164d912aefbb5e4d43b0fa5f4f5291e1e2d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:34:26.566Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0042",
+      "sha": "527a17950acfecc3040b4a1ae8ee055126054a1b",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:34:26.566Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0043",
+      "sha": "49d59a1815f362ffb914dbdf91537a1425a3621e",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:34:26.566Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0044",
+      "sha": "4eac9acb549a5856ac2dd4ec5d7e50b6685e9630",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:34:47.358Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0045",
+      "sha": "dc1ff23036ea056d10e41b38a08b770053f1d99e",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:34:47.358Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0046",
+      "sha": "95afbf8f49a91621440893f3fefbbd18941a5422",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:34:47.358Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0047",
+      "sha": "ee9e20dc8c45e461fb7920f5b18e24aea0e3aa53",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:35:15.472Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0048",
+      "sha": "aa35f4285a29d3134097a3cdc23fd4089e7eda41",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:35:15.472Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0049",
+      "sha": "39bca51ba0cd3fd5d11ebc24085e4bac7e4acc6d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:35:15.472Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0050",
+      "sha": "184a036c6a7b4ffffeffd832f9081d9119dbfebd",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:35:34.255Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0051",
+      "sha": "4b76fdafb84ac1de8fb1e12db055be87b8424466",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:35:34.255Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0052",
+      "sha": "2ad000a17cba09c29382742756e3495ae6d5d85d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:35:34.255Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0053",
+      "sha": "4bbb8b671e52948d35d89335287a34f2375b0e9c",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:35:52.996Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0054",
+      "sha": "4a589f4656f5ff85e6b9a8783fe123db85e276fc",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:35:52.996Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0055",
+      "sha": "02a061d710ecf555ca9dd97483d706444d6de3b6",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:35:52.996Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0056",
+      "sha": "f067217446b25b31d23a727217976138edf86d6a",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:36:08.556Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0057",
+      "sha": "c5d309bc6126e4a55da5aff6e5d4167683421e48",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:36:08.556Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0058",
+      "sha": "f6ce2421f66dd1a3ac6fbd2663a9b2f4dd046996",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:36:08.556Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0059",
+      "sha": "72c9e607820db09a8076ac9ac59df2fba78c1850",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:36:26.403Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0060",
+      "sha": "b8d29e8b621b382cf3ab02b5a360060837d08cf1",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:36:26.403Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0061",
+      "sha": "bf84eb3df42ebbf780ee74cbe1a3b2f23ad1045f",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:36:26.403Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0062",
+      "sha": "c5bbc9b9af50ffb6aba554eb4486da17aef35915",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:36:41.163Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0063",
+      "sha": "aef73f32b8d051aef07c2f949dc9c291287b9d4b",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:36:41.163Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0064",
+      "sha": "6351f3b050de59f176d2b21ad3baaf0bef3347db",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:36:41.163Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0065",
+      "sha": "bbac033a1284d67ef4760e9e37dfcc40282800d3",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:36:56.683Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0066",
+      "sha": "7400803943ca085641aa7a2a5da8c7201e766893",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:36:56.683Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0067",
+      "sha": "242ae802bb741c5b4c22497fdc93282f64910d9b",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:36:56.683Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0068",
+      "sha": "0e7a9d85666db6fa098219c64cefbfa4fcf74aa2",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:37:17.312Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0069",
+      "sha": "386a240bc706402565793d5d397c951d94594997",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:37:17.312Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0070",
+      "sha": "ba2ee09cd8ff48830a951e023b089ef2f9715ddd",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:37:17.312Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0071",
+      "sha": "120eb81e554225ff57edf4ad47ecebcf9435b1dc",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:37:30.535Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0072",
+      "sha": "a087bf406317bc67ffb644fad364857afba38d19",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:37:30.535Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0073",
+      "sha": "2f86bb997f9d875ce92c031a9fa0c1c2d48101cd",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:37:30.535Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0074",
+      "sha": "1f56cf59b02b553e3ec901ae3015b3c2991824f8",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:37:51.577Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0075",
+      "sha": "f7821bfdadff72b381679c63b29a17e2103b3a9e",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:37:51.577Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0076",
+      "sha": "7a2988e2385d0cca6e8ce2e86d483f2b1a31959c",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:37:51.577Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0077",
+      "sha": "59a4141bc0854e9155b49734a91af9bf39d8e6dd",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:38:07.229Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0078",
+      "sha": "026ab30fc29a10442daefb32a3dde10ee6d6c224",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:38:07.229Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0079",
+      "sha": "51c7ac018fef55258f66af81ae441edc141e29f2",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:38:07.229Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0080",
+      "sha": "03feb5f7ee347f91340f0185b73e3043a79d2aa9",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:38:18.454Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0081",
+      "sha": "dda2d6110c12b756f0e2b6c69babdeed08eccd80",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:38:18.454Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0082",
+      "sha": "e1d3a0c2c99605c2d5bd58a55c27e28e28c74a77",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:38:18.454Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0083",
+      "sha": "abe14faaaafa38d37eac26e0d9d528cf75056bd7",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:38:39.812Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0084",
+      "sha": "a1b2d33804b4531b8afad8df82463ce98a968aee",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:38:39.812Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0085",
+      "sha": "854d5e1c1e856f3d039c5fd0020f27031d230bac",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:38:39.812Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0086",
+      "sha": "b758766e5031a5d7f818381f5e20158c595e0ca1",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:38:59.597Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0087",
+      "sha": "f5360f6402c0f7008a366253b166ad5f1c73a69e",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:38:59.597Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0088",
+      "sha": "536aad58a3de850370f75af24da19cab5ae88034",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:38:59.597Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0089",
+      "sha": "b60fdde2654d97959660dff05190641093b57b1a",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:39:14.941Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0090",
+      "sha": "7f19162bb3eaddd89018a3707d6db37915d5fbec",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:39:14.941Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0091",
+      "sha": "56adf4b64813d1d143c37216056149561a140fb7",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:39:14.941Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0092",
+      "sha": "be87e23961c54bb6a8f76e7354bc5284af0ddd8d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:39:28.992Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0093",
+      "sha": "82cd84f147f86430808e8c7e6f0d7f3cc866db73",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:39:28.992Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0094",
+      "sha": "1c01d03ad81ed3eb6cd1e2cce8678b8b84fb26c0",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:39:28.992Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0095",
+      "sha": "c7ee035e3cd220cfdb2a8931064a6ee6a78feae0",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:39:46.558Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0096",
+      "sha": "b58d95f903437335ff415084b620c105a89ddf56",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:39:46.558Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0097",
+      "sha": "7e256a716658ed99d24d201fdc59f6e170c6105b",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:39:46.558Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0098",
+      "sha": "fd525dcd5ef964e3883f6c5b6e37c1ab5e242cd2",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:40:00.256Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0099",
+      "sha": "f7e76816509d7325e20187fd7e034cc57f78f4db",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:40:00.256Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0100",
+      "sha": "1ce83afd27baf0b1b90bf31b372bc2fa9cb3d67a",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:40:00.256Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0101",
+      "sha": "85ffa7d661aad7374fabd27cab2e22863d0a6c11",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:40:17.487Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0102",
+      "sha": "938273d1317cb7c442d931cc19571f96be6c6085",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:40:17.487Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0103",
+      "sha": "a993d3d95f83b29a3e292cc17613286e761d9b14",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:40:17.487Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0104",
+      "sha": "460b9889048c17d5b8609572d8540ca8c2596696",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:40:34.094Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0105",
+      "sha": "e209e54f7cb96663a608a6e4e8909a0134b454b5",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:40:34.094Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0106",
+      "sha": "4ea34f9e340492473c763a96522f9305ec471f45",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:40:34.094Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0107",
+      "sha": "ec33e49c39c413e962be79e7dc784ce3a22af5b2",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:40:50.522Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0108",
+      "sha": "e4f43564bba4f3a3c06597593382125690e933ca",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:40:50.522Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0109",
+      "sha": "3a774ee5de3f59bd1e9efcae814c3208e590ef04",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:40:50.522Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0110",
+      "sha": "e3466710809c265de758c72d19c288dfe02ec14f",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:41:17.253Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0111",
+      "sha": "ca456103345a7084732f720434324ac1e1de070d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:41:17.253Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0112",
+      "sha": "12087284fd890f675e766b93cc05f3b42be807ba",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:41:17.253Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0113",
+      "sha": "1347c5ab202d823349fc5e1e4d739244d5b0b4e8",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:41:33.378Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0114",
+      "sha": "13bddfcb7dc209225bc509d2e66ed433d98ac27b",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:41:33.378Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0115",
+      "sha": "cad52c9a5aa88c7de80d37d6bafd15f1fb89e0c0",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:41:33.378Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0116",
+      "sha": "095695e391e16bcb3eb398eb0d080273239bf918",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:41:55.046Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0117",
+      "sha": "65fe80b9fa85f4e83f874c9b8acdda1fb50bb182",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:41:55.046Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0118",
+      "sha": "a79245f59cc6093cf500d453f4983cf79768bb0d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:41:55.046Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0119",
+      "sha": "492703e2022682a726926518f3eed79da626bdc4",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:42:17.371Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0120",
+      "sha": "d9fe2212bd7c6da5ba4d900a45f8d1e75e2acad3",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:42:17.371Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0121",
+      "sha": "e08123ae39b81f236cc6b4e5d758650668f1674b",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:42:17.371Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0122",
+      "sha": "a3ae82b1f3790dd9c94fe02da1e00f5d1f70ac9d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:42:43.408Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0123",
+      "sha": "9752f0f51dc8d9a27676556888b39773d8463b3d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:42:43.408Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0124",
+      "sha": "4319bfae46b426d737832f63d50bea9fb1edb6bd",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:42:43.408Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0125",
+      "sha": "7ba9dc7ae3b77ea300b216ff4d737fd32e90301b",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:43:17.178Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0126",
+      "sha": "8ee7a29ddf13784dd63fad52cb152968d33907c4",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:43:17.178Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0127",
+      "sha": "4447d2dd9e896ba3631d82f52c5e8ab7a462eaa1",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:43:17.178Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0128",
+      "sha": "cc38a148dd25539fcab567a62d3e3df68baad76d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:43:37.466Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0129",
+      "sha": "9801166b55914f8d6a6a979fcaaf93f26ccd557c",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:43:37.466Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0130",
+      "sha": "3d21d6962e39e924a356d4a879127a77c086d4e3",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:43:37.466Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0131",
+      "sha": "c718cba21af3d5b681815a3945c89b36f46c33b1",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:43:49.910Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0132",
+      "sha": "95d76720c1b4f029b1374b3273f919f84d83aeec",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:43:49.910Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0133",
+      "sha": "48886f3f98f63438efe35788626f8896422d8a27",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:43:49.910Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0134",
+      "sha": "688dd451960826208d872420f4ddbb690fbfdc65",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:44:08.227Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0135",
+      "sha": "6fe5b6930817ec1d5e649114593fbac730b2c94e",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:44:08.227Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0136",
+      "sha": "36f1f82aa3985e15ef193972d2ad2208b37a91c5",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:44:08.227Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0137",
+      "sha": "1a58256f307dbcad583c0992f2af22d67285f195",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:44:25.071Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0138",
+      "sha": "762da35952934665fdf382e46d88791d9bfa31eb",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:44:25.071Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0139",
+      "sha": "530ac0ffba3d5c26c5b895b05cd2117982cfeef0",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:44:25.071Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0140",
+      "sha": "16fbe619cdef0aecc7fd066ce5f109f3ef659918",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:44:45.901Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0141",
+      "sha": "4ae826dae5b89c669b0295a06e54ba84773225d8",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:44:45.901Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0142",
+      "sha": "87804c95f6c83cbfea1a05f8a59025aac872922d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:44:45.901Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0143",
+      "sha": "af4b74fc77382218fe23744cc6751480b13c42ca",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:45:07.159Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0144",
+      "sha": "0635fa9de2726896500a5cfbc1630d27ba5e1193",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:45:07.159Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0145",
+      "sha": "8d55e7963fbeb6738bf530226842d9240cdc4174",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:45:07.159Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0146",
+      "sha": "4dea0b51bf4949e2d0d5e9e7e9799f8d9fcbcf35",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:45:31.550Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0147",
+      "sha": "46c70a20618d06f3c243dc2afa8e43a578cee4e2",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:45:31.550Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0148",
+      "sha": "a31dc92aaf7e769c7c581bb5df146d5c211d1260",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:45:31.550Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0149",
+      "sha": "71c2b263eae7a3570277d0f24c73a32912965cb8",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:45:53.682Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0150",
+      "sha": "cb9bf441cda7cad4a19d2ff75b67b9b8425ac41e",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:45:53.682Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0151",
+      "sha": "ecb6d22bac0babfd678f9f7e5bb69a814ce02dcd",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:45:53.682Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0152",
+      "sha": "79466b5ad9e5a0029c2504f5e8c80abafdf4f4d0",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:46:17.304Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0153",
+      "sha": "68f55ae69de32e786575e11ce32c76325ee98488",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:46:17.304Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0154",
+      "sha": "5cccefeaa9922bf86e134d353a4606953254a146",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:46:17.304Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0155",
+      "sha": "4bf3a0f85f42c6fb49312b2809a5d0026475ca34",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:46:41.981Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0156",
+      "sha": "43b3a3aea67291ac2c836af5bc593f11b6b48830",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:46:41.981Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0157",
+      "sha": "429ae76931e0b054181f479d071eeb92de63ceb7",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:46:41.981Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0158",
+      "sha": "c6c4a1c1031a94c925f2666a2d3f9a7a91619f52",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:46:57.492Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0159",
+      "sha": "1e14032f4c294d478bcd2ccb4dcc415b1e7b3eb2",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:46:57.492Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0160",
+      "sha": "a90827347bb9bb7bf8ecdbec298aed1f674ceeac",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:46:57.492Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0161",
+      "sha": "af19844904947d867d602caf0a42c8d4097c1e76",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:47:21.485Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0162",
+      "sha": "63f3532ad5628faed838de6c6177b3429e8319ba",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:47:21.485Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0163",
+      "sha": "b279ed7c4cf97b5e7ba5896a6af60fca3a5713f1",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:47:21.485Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0164",
+      "sha": "515cceb6082558242a67c04b170af8036e167b8a",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:47:38.603Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0165",
+      "sha": "59fd0c17e5248bafcf7c7bd5b2f8f1c1b1848a31",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:47:38.603Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0166",
+      "sha": "13196afbb1aa7996f06bcd772a5a64a4ef896d9d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:47:38.603Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0167",
+      "sha": "6740d7a4192cf78045bddb84fcc96a62465ce517",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:48:01.544Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0168",
+      "sha": "2486e11595664d14052be408f64093c1e2d491c1",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:48:01.544Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0169",
+      "sha": "f0c4bc49c9617c93a69423cd729526084cad0484",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:48:01.544Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0170",
+      "sha": "5f269fb2f550e4901d33b903dc8a85b65fea69fd",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:48:21.599Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0171",
+      "sha": "161c3c4226cdc89e0a455e4a29884373f1c7367f",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:48:21.599Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0172",
+      "sha": "1d9ab7b4e1ac6717e05c0fefdab0a6bddaa858be",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:48:21.599Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0173",
+      "sha": "1bd0b2b5c7e23e24e6e5574bff2630dcd1011184",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:48:37.320Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0174",
+      "sha": "519a1f82ec54ef78f2e86afbb27d3e3d5f9e538b",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:48:37.320Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0175",
+      "sha": "a2e38d31260ca427d7f57f7e37590e660272ea78",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:48:37.320Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0176",
+      "sha": "5caa7759dab3d28be328fa01eae4fd941c575423",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:48:54.255Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0177",
+      "sha": "2b09ad062d0c4c724269a6898fce825d0da4918c",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:48:54.255Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0178",
+      "sha": "09c4254f7caec97f1ee7dd786ea2b8c9ebe729a3",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:48:54.255Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0179",
+      "sha": "fef1c66630f660044d220d33b37b6ccb6c378d0c",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:49:16.270Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0180",
+      "sha": "0a74b801eec1fadf8fcba236d293fda9efbf7abc",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:49:16.270Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0181",
+      "sha": "ef413ee7155d5a53da43e75cab67fe272f0cc4ad",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:49:16.270Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0182",
+      "sha": "885439fc55ab0461069fcf29db8f10e83a2e2792",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:49:32.593Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0183",
+      "sha": "e6e7bad3f4873e86bcc5066e193a0bcd1d82f60d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:49:32.593Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0184",
+      "sha": "0ffbbb62de963364c8e2c830d68f35d05ab2d517",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:49:32.593Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0185",
+      "sha": "e1e7955c36b76b037cd6f1bb1c8a8fc4b834806d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:49:46.836Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0186",
+      "sha": "512b2c116f7be80f777585d75c530744d002af27",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:49:46.836Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0187",
+      "sha": "383a2a82e03b0da0d40a6cec0e3839fef7dc3bdb",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:49:46.836Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0188",
+      "sha": "d26397fcbb8dc865f1325373b73e1245ece6e8b3",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:50:05.873Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0189",
+      "sha": "aaeb180710013966c2e08e2e501cb1f28597a384",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:50:05.873Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0190",
+      "sha": "81a14f427d3df0603d08dd601622cc43aa435be7",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:50:05.873Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0191",
+      "sha": "c9e005388c50d7dc6315fb0b89a319af85f5f12b",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:50:24.068Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0192",
+      "sha": "5571be974141eef866ea9f4600ebdc29f36496eb",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:50:24.068Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0193",
+      "sha": "acebd3cdb61fcf19bb10f5e46be867e047dba118",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:50:24.068Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0194",
+      "sha": "b31e95ba6f53f42a8ceef6014555a6b4dab6da20",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:50:43.272Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0195",
+      "sha": "7651a6a23a2147248530d2c7b21208fb2de51e93",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:50:43.272Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0196",
+      "sha": "a31e32423aef263a844aafeb855324448f392b41",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:50:43.272Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0197",
+      "sha": "bcadca2e1386e74377de977406418a36379666b6",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:51:01.081Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0198",
+      "sha": "330190a69f53e3bea88e2cf547deee86dc9372bf",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:51:01.081Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0199",
+      "sha": "7185d729c12227fa802ae368298bd7ffcbe66f0f",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:51:01.081Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0200",
+      "sha": "f848427183474a8c221e836984c06200e571a032",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:51:17.024Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0201",
+      "sha": "d0d66b64a22db496d603927e4d7d7d36a8af7c82",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:51:17.024Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0202",
+      "sha": "9f3cedb5e03b12980c79df19ea07c4ddc90400d4",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:51:17.024Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0203",
+      "sha": "664f2843dde5954dda19b2a3d236d706b6524561",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:51:45.471Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0204",
+      "sha": "620e0d573aa7700957530257af5c90f1fdfbbc08",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:51:45.471Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0205",
+      "sha": "94fc9aaeb2da937aa6d3324d60b48bf6be947f35",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:51:45.471Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0206",
+      "sha": "3d20d74b41bc5bd1336a43fa4b9f357007829efd",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:52:01.339Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0207",
+      "sha": "f20b8c0c4e9b94943dcdf434eeca516e7c0a98a8",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:52:01.339Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0208",
+      "sha": "03b116a55e28f8d37bd0bf9256a47403637472f2",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:52:01.339Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0209",
+      "sha": "0cd1831811f9859cdaa6367868160bd3ed1b4165",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:52:27.543Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0210",
+      "sha": "224346a823ac7bfc46026f38095338678b670bb8",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:52:27.544Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0211",
+      "sha": "52e9de0913f7ec7085405490b48d080b7bcbe1f7",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:52:27.544Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0212",
+      "sha": "606675e8b07ac3b59230380b4400e97d841fafe6",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:52:51.043Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0213",
+      "sha": "7cebf4864a5d052e1dfa875d097faf4190460b9b",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:52:51.043Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0214",
+      "sha": "4fc13bb7fb2dbafe710070815a6c92c2a64a8a24",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:52:51.043Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0215",
+      "sha": "c24cb774a4151ff6ea831e5eb7f26e415de1c107",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:53:10.625Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0216",
+      "sha": "fc4b78f6daf1127a6db8c4b137035437ef7fad7d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:53:10.625Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0217",
+      "sha": "8d6f09f4b41f59d646feef4dba9dc5fabbc84962",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:53:10.625Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0218",
+      "sha": "6934e63fc06bd683d0f5cceb8b9829335a7f0a8d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:53:31.760Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0219",
+      "sha": "dbfa5669fa312e1aad359d230911f0ec34ad679d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:53:31.760Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0220",
+      "sha": "2b80161a2f418c4f641c7a502d9c423a738bac6e",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:53:31.760Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0221",
+      "sha": "d8ab9410ed6aa8199a74b396d2a3edc1b0f258a1",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:53:51.698Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0222",
+      "sha": "09a372cf93f7b804ebcde264fd59afeacf0d90e5",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:53:51.698Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0223",
+      "sha": "62c30ec791a0c3aefe388e3ada5fa1258e5b09dc",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:53:51.698Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0224",
+      "sha": "1c82f09cef2da54f599c926908899a6ad5f8bbfb",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:54:07.450Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0225",
+      "sha": "181c48c0857d7a2afe75407e19d7bf85a12f23eb",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:54:07.450Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0226",
+      "sha": "66c29644f3b204518cb76d4aab064546c6051853",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:54:07.450Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0227",
+      "sha": "c555b793501bdd2900cc7739ac416eec77fca0a0",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:54:24.428Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0228",
+      "sha": "cdc82726f61bd57a22eaf9d639f73ea3e9b69daa",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:54:24.428Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0229",
+      "sha": "77ad0fbc8e880aeb471afc0e67acb84b77e7ca06",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:54:24.428Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0230",
+      "sha": "491d99e0c1243be686bbc595090c571f5fc54d18",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:54:42.762Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0231",
+      "sha": "8e1ebdce330f592edef2877f57e254f7f4ab50fa",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:54:42.762Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0232",
+      "sha": "9bf391354b15b811245a2ce0d359e8f3ecc9949a",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:54:42.762Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0233",
+      "sha": "ccfe8303ac0878b9a93ac5ae299af25c95b34f8e",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:54:59.663Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0234",
+      "sha": "6f9846310dfbe3fbd3046e8430161083519ba335",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:54:59.663Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0235",
+      "sha": "1c4a00fbb8211cdf4fcade751f1c8f7878928bc5",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:54:59.663Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0236",
+      "sha": "214eb9f1ec2d6901e75bc910e043bdd555171f44",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:55:13.099Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0237",
+      "sha": "2c24ee0bb3c3f3cc92c985faf3aac875d54957c9",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:55:13.099Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0238",
+      "sha": "b4bde1b69e96cc8674a237476de5338f682b0177",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:55:13.099Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0239",
+      "sha": "d0164f74d4c816fb7f4e6ba4c8df45bb58d4ab5b",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:55:33.393Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0240",
+      "sha": "328e8080976700552538ba70aea263b8c6049639",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:55:33.393Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0241",
+      "sha": "eeac2a3592088f3071900a7c14f08197d7e23f91",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:55:33.393Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0242",
+      "sha": "a580548d14350b9d6d7e26acee4d519e374715fd",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:55:51.548Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0243",
+      "sha": "8ac3da3e16b9e28ebc4c0b935c82ca91997437e5",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:55:51.548Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0244",
+      "sha": "839462e9e45b3011b06b788904d6287d31e91136",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:55:51.548Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0245",
+      "sha": "c3ce84c48cef09cfe654c02e9cce864a125251db",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:56:06.944Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0246",
+      "sha": "d35852dd6510851c9a41837ea4104542fec8b1bb",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:56:06.944Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0247",
+      "sha": "ad445c782908bfbd9cf2343e57d2044b4a41ac68",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:56:06.944Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0248",
+      "sha": "329304e3bac10dcbe5f784cc66457b122f8244b2",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:56:39.020Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0249",
+      "sha": "e4ee0bce9eb4f32248bc78ce719f1a60ec55428c",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:56:39.020Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0250",
+      "sha": "cf4ed04b8de96b2853d8bacb1d31bb0dcefbfb21",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:56:39.020Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0251",
+      "sha": "ea88c2553ad5acd2fdcb227baf7ef4280dd162c9",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:56:55.827Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0252",
+      "sha": "8d5ffa4bfe1889c9e706cd5495436c1182d4ddf0",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:56:55.827Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0253",
+      "sha": "02d44d9799c7ec77536b3d7e032d6d17ad5a90c4",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:56:55.827Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0254",
+      "sha": "9c27caa0e2dd36ca931b0faac77f52dbdd5041cb",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:57:09.416Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0255",
+      "sha": "677d9a7e0ebbfee01f7f818a654b6c9e05bde2d2",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:57:09.416Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0256",
+      "sha": "6c205e636c1f2bf09c9923d055aefcf6fcb7c482",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:57:09.416Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0257",
+      "sha": "478ea876889c7cd611350143e2c7003ca9dc3f4f",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:57:21.721Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0258",
+      "sha": "c083acec2f23db7ab1db9a7e94b90351feb82196",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:57:21.721Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0259",
+      "sha": "9e973bd9a89ced98a5699587c8a375c6b3649ed4",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:57:21.721Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0260",
+      "sha": "556a59a8149bb9074ae3e16367d54d477c1b0100",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:57:36.167Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0261",
+      "sha": "40b4208f296b2f64f3706605ea846f52143ab2fb",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:57:36.167Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0262",
+      "sha": "cfeaa3a38f4c24985a8f32588db636ef69852878",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:57:36.167Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0263",
+      "sha": "0d6b4f3e317ae4e89b0a1f8a337a599c356bde01",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:57:49.186Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0264",
+      "sha": "284ce4fe3b573cb53cdaa904c15726477db0bcfb",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:57:49.186Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0265",
+      "sha": "10716f89ecafe5a598e05fe77d97004a413bfc7b",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:57:49.186Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0266",
+      "sha": "4b21b3083e11028cb0dcdf74eba61beb3b6ce8ce",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:58:02.570Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0267",
+      "sha": "e9b49e036fe2c1e7a1c9f71ed5e9310cfc6e4462",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:58:02.570Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0268",
+      "sha": "ccbc38ca300c6fb880292a4d9e70d7c9cdd2af99",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:58:02.570Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0269",
+      "sha": "68054814f75a5410fca98404c5c0f5637617a5a5",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:58:19.100Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0270",
+      "sha": "9b22a37883412731e9d1f46df05467a2559d2829",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:58:19.100Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0271",
+      "sha": "61ff35d338a455bf36463882d91317a6bcbc9e7c",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:58:19.100Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0272",
+      "sha": "fadb00dd5bfeb445fb551460124d36b68c635bf7",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:58:36.242Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0273",
+      "sha": "5a5d16094abc04deaa13d82f4635ccb77ba3b2cf",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:58:36.242Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0274",
+      "sha": "c7a68cffa696fc2a99da5707842444368d79d22f",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:58:36.242Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0275",
+      "sha": "8fc0bc7c6122bbf5b1542ca85c02be867544d47e",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:58:51.575Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0276",
+      "sha": "86bc366f925028c356576fd22a07a4acad9acef2",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:58:51.575Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0277",
+      "sha": "45c3773de34b3bb0a39680f356d6002f5459072b",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:58:51.575Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0278",
+      "sha": "c52bfbd613b3c9b626822a8e4e371a55808b26a3",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:59:03.301Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0279",
+      "sha": "8331a768bf95934e5b2364af38f3d5307f99c722",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:59:03.301Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0280",
+      "sha": "9a4bfae1f20f58d1dc8fb172c5473d6dd9956f66",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:59:03.301Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0281",
+      "sha": "076209c918a439d130f80f85527c763914bf1045",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:59:18.189Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0282",
+      "sha": "cfd30c4d60f61566e9c74b76729083daebb93e3d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:59:18.189Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0283",
+      "sha": "ee58f87277828239d799d1082859fcc3edb6266e",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:59:18.189Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0284",
+      "sha": "48066f52abec311a10801db9992e39f9fb79d5c8",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:59:33.898Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0285",
+      "sha": "d9a82f80a094811e7c5d1e820d0f90acc915f1d9",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:59:33.898Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0286",
+      "sha": "96979ef76fc981ebae3833acf9d2c30120d11bbc",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:59:33.898Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0287",
+      "sha": "4502087cf14bcef5d03f9ff55d419df97cc3e8fc",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:59:55.017Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0288",
+      "sha": "21a114ca4bca95fbd06430dfb936ba58716a2538",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:59:55.017Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0289",
+      "sha": "8e4d0782a2c3a0c5ffecce3d7de927d15c9d9783",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T01:59:55.017Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0290",
+      "sha": "cac77bd766ee65122ae465049131638e630765f5",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:00:17.644Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0291",
+      "sha": "0f13b0c757575307054a9519b4d8f41e58b3d6af",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:00:17.644Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0292",
+      "sha": "39a96dad2a410683b2dfffa334e3bb1b132415e3",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:00:17.644Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0293",
+      "sha": "6f855469a6ff85268404e7b6ba486c7803a9f883",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:00:39.081Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0294",
+      "sha": "ae4bc6dcd8880bfe347796572edbcc9cfbd911c1",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:00:39.081Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0295",
+      "sha": "f39c36a7b27dfcc76320b530709985e892897060",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:00:39.081Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0296",
+      "sha": "58878a158ef19eeb13b412106fd02b10fa0d1a28",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:01:04.762Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0297",
+      "sha": "e1e0649bc6e6f4e3013e14e325bb24e18174ae1d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:01:04.762Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0298",
+      "sha": "da989946d15e9f1be50896328c8db9f1a62fd39a",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:01:04.762Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0299",
+      "sha": "e771ee08539a73738bad28e053de0edff6a1db9d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:01:30.562Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0300",
+      "sha": "da18c972af65538a405692685ef4bd7f234f0316",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:01:30.562Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0301",
+      "sha": "9292ef98072ae9707f60e26de26277fabf34b830",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:01:30.562Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0302",
+      "sha": "7b48caf7a02341ef997f04f220b96be17f49044a",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:01:44.729Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0303",
+      "sha": "946c2b3db038e789330dd88871fca11529cb202d",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:01:44.729Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0304",
+      "sha": "24518b938b402d2b76a288cdc4ebdb93b0943843",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:01:44.729Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0305",
+      "sha": "855485a9a512bd4e809a49fc61bad2fdc5c6bd8e",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:02:01.638Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0306",
+      "sha": "fc6ae7603d5622e4ff9e609db1673db6224ab619",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:02:01.638Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0307",
+      "sha": "e8cdaf5dde765a8aa60fec02c20e3a9b430f1961",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:02:01.638Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0308",
+      "sha": "1bf924067cd2206aee1d7fc9d4be6dce323ad6b1",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:02:15.102Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0309",
+      "sha": "d72b2fe36cd662fa39e7c8f4bfd05ae49fcb7abb",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:02:15.102Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0310",
+      "sha": "e6e2195df93758857b040a1de14164a574cc8bb0",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:02:15.102Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0311",
+      "sha": "422c6e5f3538fea89979122f4509b3b7103f9a85",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:02:28.615Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0312",
+      "sha": "b7d28033a393af48fc69bee0176264d2067963b7",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:02:28.615Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0313",
+      "sha": "c9f417b752b993740ca8ae0c3d97cb569bce96e7",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:02:28.615Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0314",
+      "sha": "0d6e69dfa25defb5a3ce15875a1422be974f1365",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:02:46.886Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0315",
+      "sha": "02f480e83050add29aea8aba21770b1e78f49d36",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:02:46.886Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0316",
+      "sha": "52b5c304b411d58b40be9d8a87bfaa0ef2362402",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:02:46.886Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0317",
+      "sha": "bd8a55042d2809c3e56b3e515c2112c89ebed4be",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:02:57.827Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0318",
+      "sha": "2554ff3e1f6762bd7f58aaacbcbb35e72c057d18",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:02:57.827Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0319",
+      "sha": "52c39e90c64792d4f3f10f9c1e9f9bfc559bd324",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:02:57.827Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0320",
+      "sha": "bc4976c030e2e9054b1099c12d8c82867de04cbc",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:03:13.541Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0321",
+      "sha": "d77f57fb346093d92e66c2468919280a6c8d5418",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:03:13.541Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0322",
+      "sha": "20979f728a4811e029661c8f0aab7a94932ada8e",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:03:13.541Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0323",
+      "sha": "fbf9893776d02275476f87b19f0256bf19236045",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:03:29.325Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0324",
+      "sha": "d211c36af1db3dcdd148838e20321406144d01c4",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:03:29.325Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0325",
+      "sha": "e5570348093a7008cd757ee3b2f7cd70d6cdcf29",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:03:29.325Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0326",
+      "sha": "ed0c109ba6543a588f0c4282b3470da3c4ec952f",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:03:42.767Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0327",
+      "sha": "d1012b5f7f78f479f405b0d72f4769a4714ae366",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:03:42.767Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0328",
+      "sha": "2853a7c01ffa59bf85105dbbbf4ba846ecb4d63c",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:03:42.767Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0329",
+      "sha": "127f60a1e15db96647a72455909ea9b3d8c5b3df",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:03:58.036Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0330",
+      "sha": "b7efcf2f2c3646be305ce619e019f43745ee318e",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:03:58.036Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0331",
+      "sha": "a8d78ff33f57fe4fbc945d90b045656dfde20f1e",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:03:58.036Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0332",
+      "sha": "fdad77d2a631a6b3c8810c304122f74f15b319ac",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:04:13.734Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0333",
+      "sha": "1c436c1a7d42eff0d769496842581e6a9d444130",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:04:13.734Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0334",
+      "sha": "f0775f57c3725183de7eb8fd34a086b7debc2e79",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:04:13.734Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0335",
+      "sha": "b22d2d20b5abf7e1dba7a614287378a000c9df3b",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:04:24.788Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0336",
+      "sha": "ad4fb5f116f2fc5de0a9b238f39de6b6bb7ecbbc",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:04:24.788Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0337",
+      "sha": "595af0487f35d92c169dc133de602c320f6740bb",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:04:24.788Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0338",
+      "sha": "9176f783795fd3df8015f3d340c20a9008c2f105",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:04:39.279Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0339",
+      "sha": "ab9a715a30b714dafbf6d8a43edd2d059777728c",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:04:39.279Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0340",
+      "sha": "3de2efb891c85c3fd555c413e6f83242d0513c9b",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:04:39.279Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0341",
+      "sha": "dcf99b8d0c9c9896c627b158019a1fc638818bd6",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:04:53.596Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0342",
+      "sha": "aba2705b8a0d5881c2d5e9d976a52e0dd2c73ada",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:04:53.596Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0343",
+      "sha": "224faafef930c857972d1e3817af14a910341057",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:04:53.596Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0344",
+      "sha": "ffbf31ef24f6123ef3e6d101a02079c8374f4f75",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:05:09.396Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0345",
+      "sha": "2df2205835a94fb28d89c0591aa2c754d9e0716b",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:05:09.396Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0346",
+      "sha": "57fb772146200371945b856143bf443d522d51d6",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:05:09.396Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0347",
+      "sha": "67c9549aa9b9ccd2051486c1a49bd366d04cf2b1",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:05:27.063Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0348",
+      "sha": "22b6112f13ddcc78778938b116a56b17c4b09d02",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:05:27.063Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0349",
+      "sha": "cdca95f770db7f86c05aa146188d32226a0d0d32",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:05:27.063Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0350",
+      "sha": "329134c34929d375b4ecea07837404cf269b7ae1",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:05:41.615Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0351",
+      "sha": "55e024ea9bea50ae9ef6f1e74d82e0b4693e6d2c",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:05:41.615Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0352",
+      "sha": "ab593e08c0bc527ce2f8cc0d8b59fe0913b5afbe",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:05:41.615Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0353",
+      "sha": "c02a27298e8171b15363f554e5c07be21e361cb4",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:05:57.417Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0354",
+      "sha": "136bb396e70e1c5d796d6814a689367d26745744",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:05:57.417Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0355",
+      "sha": "1258f2f5e2e10905f97b150b9035dbc476d47fd3",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:05:57.417Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0356",
+      "sha": "c46f28821893a034111204bba86ca1e835f65422",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:06:17.477Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0357",
+      "sha": "a1aedb45c33df8c599522279f942fffe7263a0c1",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:06:17.477Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0358",
+      "sha": "3e7588db9a76997dc70eeaefffe84c17de68096b",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:06:17.477Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0359",
+      "sha": "4fc8fb4b7cbedcf911e6202a8c6ce179ddf089b4",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:06:32.450Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0360",
+      "sha": "b9edb73066f3a67afcd2d1ded1efd7cec3d04b8a",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:06:32.450Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0361",
+      "sha": "be3eede4df5bf831879f13f071170368718de71a",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:06:32.450Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0362",
+      "sha": "4caf109f8720c8514e034f73add64bb9aead6c31",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:06:44.059Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0363",
+      "sha": "510654d705e9d7e96f91eb0d7a213137462a5135",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:06:44.059Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0364",
+      "sha": "01f633f8029a398342eb904552049ad96271efc8",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:06:44.059Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0365",
+      "sha": "9610035f62499d351ce0416045959d0b75e5a45a",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:07:00.385Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0366",
+      "sha": "99416fc81ceac72acf347e89a06187aee4054cb9",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:07:00.385Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0367",
+      "sha": "ba2e0fb1f17cafc83819442c9710f6d4f40774b2",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:07:00.385Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0368",
+      "sha": "b2253bad837604332abdbe24ffdd49a5b53a10aa",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:07:18.723Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0369",
+      "sha": "9ab1f8aa55b3b55c387589c7523055c4deb1d1d5",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:07:18.723Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0370",
+      "sha": "4d6c36f834d90aa80918153876ceed4d2b85dd63",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:07:18.723Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0371",
+      "sha": "f7048d081e8615668f802a603ffda7778267b129",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:07:44.796Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0372",
+      "sha": "19cd5037559ab4300b6edad79ed9cf408b010437",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:07:44.796Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0373",
+      "sha": "8317917e6d240d851f3f48f25b6a95117907b039",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:07:44.796Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0374",
+      "sha": "d0774f1341f89033533ddd0bddf883dfd080cf01",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:08:06.566Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0375",
+      "sha": "15ed8145efe3f9ae7463e294862353acdfef57df",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:08:06.566Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0376",
+      "sha": "a7e473fb0041f174953fdb7f5690ba8e2246cb0a",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:08:06.566Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0377",
+      "sha": "ecd223cedf4c55f0ec2cea72c4a5582951c5fa6c",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:09:37.040Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0378",
+      "sha": "4d4b0eabcfceee6156bcec4505d73245627e5fcf",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:09:37.048Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0379",
+      "sha": "3af8161bd21a6d249ef24d03ee44b71d827a63d4",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:09:37.053Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0380",
+      "sha": "0bf980aec68a0bc967ba832ddd683af13433e5b5",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:09:59.341Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0381",
+      "sha": "78620742cd402d6a8788cf20b400dd0a9847983c",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:09:59.352Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0382",
+      "sha": "c15f6eacbb94618a586e19e23fd29dc300e18f0e",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:09:59.358Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0383",
+      "sha": "6930a8ab569210780875d2952f220f78afffc05e",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:10:33.259Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0384",
+      "sha": "d8e6e8e2c98cd3d1dd50b7e9b5e55b78dc4ae4c0",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:10:33.264Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0385",
+      "sha": "2fa66a6a05f9403d4f77066774c4697b681c0864",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:10:33.269Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0386",
+      "sha": "a405b4f79b126d7792088c003b8ec486a40795ae",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:10:50.571Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0387",
+      "sha": "2df2f8adf946e91fdda88969e663d6f6419c7fcb",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:10:50.577Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0388",
+      "sha": "6e7761895fd20342c0b9996e599c6bcb2fbfcdbb",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:10:50.581Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0389",
+      "sha": "3eacb6897239a7c3aae1cd5db9cde68f16a9e116",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:03.782Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0390",
+      "sha": "5dfbef74058e90593522aac6cc3e451d6121826c",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:03.787Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0391",
+      "sha": "778863322a1541dc3ca116ee61fc32c19ac8a6e6",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:03.791Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0392",
+      "sha": "11a06ddb3cc20a892b22e485ddeac5a078656393",
+      "bytes": 8388608,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:14.940Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/archive/parts/workbuddy.part-0393",
+      "sha": "46a0f1a09c338516f81ee0b7f18a60ed9d668f3c",
+      "bytes": 4482678,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:14.950Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/framework-docs-v6/EVIDENCE_EXAMPLES.json",
+      "sha": "30a0b65c6e0db70bc81883a384426686e8a96ca7",
+      "bytes": 3708,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:14.959Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/framework-docs-v6/FRAMEWORK.md",
+      "sha": "5a29589071413f77e42767a10d1d1ddc855375a2",
+      "bytes": 10408,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:17.563Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/framework-docs-v6/MANIFEST.json",
+      "sha": "d81a88f992f51a03fc1dcb02b04230f9da3534e3",
+      "bytes": 1237,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:17.575Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/framework-docs-v6/PROMPTS.json",
+      "sha": "1499d682b83fa12c4f8d2367a60299f748c934d0",
+      "bytes": 1831,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:17.585Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/framework-docs-v6/framework-overview.pdf",
+      "sha": "e0a8208eb636240f8fea7f95290b5cbb97f45556",
+      "bytes": 139912,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:21.649Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/framework-docs-v6/framework-overview.png",
+      "sha": "91f241ff47166a55972e8e2af81486c3eb3fb852",
+      "bytes": 602033,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:21.658Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/framework-docs-v6/framework-overview.svg",
+      "sha": "5ac48c8a62596f462b92916c9ecc637ae86c394b",
+      "bytes": 317505,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:21.665Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/framework-docs-v6/framework.mmd",
+      "sha": "ebff3db12ab6bd3b363179a8a6dbc47487db6586",
+      "bytes": 3459,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:25.136Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/package_workbuddy.py",
+      "sha": "49991812b45713e1b0cca580c3363f4c7fa612af",
+      "bytes": 15039,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:25.147Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/prefix60-audit/official-judge-quality.json",
+      "sha": "528f7a47a57cfad72acd015aac3fbd936f1d1c29",
+      "bytes": 84008,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:25.157Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/prefix60-audit/paired.csv",
+      "sha": "8478d7b21df98254a95c0b565f50348544360b47",
+      "bytes": 3941,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:28.044Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/prefix60-audit/paired.json",
+      "sha": "efed68f170d36f7daf564fb3d2e3805a4f5e7475",
+      "bytes": 192327,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:28.055Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/prefix60-audit/summary.json",
+      "sha": "a6452b69c0573e61f7018052e08e5c50c9b86afb",
+      "bytes": 7262,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:28.070Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/restore_workbuddy.py",
+      "sha": "11e9f7e0b8156cc000ae64ab13d6b46e6ed43161",
+      "bytes": 5294,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:30.991Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/.gitignore",
+      "sha": "f1f573296a34e63b9313ec1d65494055c8e67781",
+      "bytes": 54,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:31.001Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/README.md",
+      "sha": "c1577f3fcdfcffc249ce457bea4624079c67f664",
+      "bytes": 4889,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:31.011Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/append_workbuddy_security.py",
+      "sha": "c5173ab70422fc9b54dd1caef177ef03fa8dd15f",
+      "bytes": 6873,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:33.900Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/audit_workbuddy.py",
+      "sha": "32a3bed63cece0dad22195b78992d174ff812345",
+      "bytes": 38295,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:33.911Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/build_workbuddy_security_extra.py",
+      "sha": "d67ffce6dfcf7ca355b9dbef66a252a7c0023fcc",
+      "bytes": 6942,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:33.920Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/check_workbuddy_archive.py",
+      "sha": "53f566c95c573ecaa0eb8c9c17bb30b961984a00",
+      "bytes": 7336,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:37.178Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/check_workbuddy_binding.py",
+      "sha": "48103a831ee7adfbd04689841d3d58c61fed89e9",
+      "bytes": 9311,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:37.188Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/check_workbuddy_binding_cpu.py",
+      "sha": "a4dee532810097f5d8c6f83de54041a73be6bd5e",
+      "bytes": 5474,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:37.195Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/check_workbuddy_dns.py",
+      "sha": "0ad8243f3ba40bf716bfaa96041d57b89a6418cd",
+      "bytes": 5305,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:40.007Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/check_workbuddy_postprocess.py",
+      "sha": "c2af220e8f0682b512d88594f2734d71dfe98710",
+      "bytes": 8091,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:40.018Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/check_workbuddy_publication.py",
+      "sha": "f625fbff64d8c1b436faa432f1d0b3badcfa23b5",
+      "bytes": 5212,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:40.027Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/check_workbuddy_recovery.py",
+      "sha": "2c805dc607542b568aaa53d5650574353b73b59e",
+      "bytes": 9772,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:42.940Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/check_workbuddy_verifier_mode.py",
+      "sha": "b87c4d9a4494137abe77dd106dedefb905c43a30",
+      "bytes": 1329,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:42.951Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/continue_workbuddy_transport.py",
+      "sha": "a1317d5dc8404faef57f96fc43e95e00774e1187",
+      "bytes": 12419,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:42.960Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/describe_workbuddy_framework.py",
+      "sha": "635758f40aa4d5e41dae5b570661a8cfab23ed1a",
+      "bytes": 24160,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:46.705Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/package_workbuddy.py",
+      "sha": "49991812b45713e1b0cca580c3363f4c7fa612af",
+      "bytes": 15039,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:46.716Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/patch_workbuddy_verifier_permissions.py",
+      "sha": "98c6cf3a22ad662a638d09cfd818480d9c237019",
+      "bytes": 1629,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:46.725Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/prepare_workbuddy_publication.py",
+      "sha": "9836adfb9277ce0a5e74994e26306c4f3e22cb08",
+      "bytes": 10924,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:49.413Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/prepare_workbuddy_security_extra.py",
+      "sha": "a6039841d5aee6718f67d874bcad43f98bec8068",
+      "bytes": 2034,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:49.424Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/probe_workbuddy_capacity.py",
+      "sha": "5a8d80fc9db5ae13168e78b7f1e2bb95a91b98e4",
+      "bytes": 6921,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:49.433Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/provision_workbuddy_cbc.py",
+      "sha": "404eb43eeb1cf5af150a37c31554d30075c1a672",
+      "bytes": 6961,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:52.239Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/recover_workbuddy_web_pilot.py",
+      "sha": "686708cfc14ba908ae44e2bb3411568d5b5dec49",
+      "bytes": 5911,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:52.250Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/regrade_workbuddy_code.py",
+      "sha": "f336fc6f0f0db240a68b6e4acbbaf577ae53176e",
+      "bytes": 4838,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:52.257Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/repair_workbuddy_agent_judge.py",
+      "sha": "dc6cda8187668db395e9def68d0f7576e9a89682",
+      "bytes": 22169,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:55.013Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/repair_workbuddy_csv_bom.py",
+      "sha": "d0a94d0a70032de1e5139bb01cb41848ee9bb407",
+      "bytes": 9039,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:55.023Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/repair_workbuddy_judge.py",
+      "sha": "b67268f2d48c8e0269b539abf96a63a7e58ea3f4",
+      "bytes": 12941,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:55.032Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/repair_workbuddy_office.py",
+      "sha": "0b663da1e04052df7c3ed4dc430d7b41d050fbaa",
+      "bytes": 12907,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:58.181Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/report_workbuddy.py",
+      "sha": "2410c4dcd1dc5c38780810116620df08788e88b4",
+      "bytes": 14123,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:58.193Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/restore_workbuddy.py",
+      "sha": "11e9f7e0b8156cc000ae64ab13d6b46e6ed43161",
+      "bytes": 5294,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:11:58.202Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/resume_workbuddy_formal.py",
+      "sha": "c0ae4cf32edd8a5a7a5cb450917a0dd17c4bb286",
+      "bytes": 7430,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:01.085Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/snapshot_workbuddy_inputs.py",
+      "sha": "d279343ceb87b73617c2171fae7c3fae6d303d05",
+      "bytes": 6568,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:01.095Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/workbuddy/DELIVERY.md",
+      "sha": "553a19bbd8d7c3777ab1c14708e81eade677af99",
+      "bytes": 11943,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:01.104Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/workbuddy/README.md",
+      "sha": "11e5461b7e6e2b070fdd0381ce9bab3062020a4e",
+      "bytes": 6600,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:04.995Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/workbuddy/agent.py",
+      "sha": "a77e3117981a2ea899cef0c2a462d1df215e357d",
+      "bytes": 6771,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:05.006Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/workbuddy/checkpoint.py",
+      "sha": "aae62afccada4932b4c66c5b3bec215e504aae9d",
+      "bytes": 7043,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:05.015Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/workbuddy/finalize-h20.sh",
+      "sha": "a20d7e0b65cfae4db0bd4e74d0e7d3eabf78a6ea",
+      "bytes": 1144,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:08.029Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/workbuddy/h20.sh",
+      "sha": "a34c98f5f3b0cfba681e356f614aad1610f1d62b",
+      "bytes": 539,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:08.040Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/workbuddy/loopback.py",
+      "sha": "e7ceda9566caa1054cf511b0104c87ff6900f572",
+      "bytes": 392,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:08.049Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/workbuddy/native_turn.py",
+      "sha": "063df4f8ea0fadf43827f8526d6aad314137d606",
+      "bytes": 8341,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:11.038Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/workbuddy/relay.py",
+      "sha": "a24ebd0662b7f837f9428703d49ae0711da95d06",
+      "bytes": 14059,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:11.048Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/workbuddy/restore_state.py",
+      "sha": "91ea5b878557d1a75311e5ec545c308b55eb6121",
+      "bytes": 3079,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:11.056Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/workbuddy/run.py",
+      "sha": "61dd11ebe6302b02ccd01ab9dd84a35953be4f29",
+      "bytes": 21648,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:15.418Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/benchmarks/workbuddy/tools/clm-context",
+      "sha": "ffc6ff51922ed75714727050f293e9e14bb48532",
+      "bytes": 55,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:15.430Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/bin/clm-context",
+      "sha": "6eaf8e456bbc13b219ed3e9d08d74bb9b19f4831",
+      "bytes": 64,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:15.438Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/bin/codex-clm",
+      "sha": "5b7e434540c0a475f0bab7027a07d65a925d22b2",
+      "bytes": 389,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:18.055Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/clm/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:18.064Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/clm/container_entry.py",
+      "sha": "80ca39cfd1d82434022d60b0cec8dbec214f543a",
+      "bytes": 3016,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:18.074Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/clm/context.py",
+      "sha": "971e461e76d74ea7bc55acaede54b46aa548da5c",
+      "bytes": 7932,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:20.737Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/clm/edit.py",
+      "sha": "68ebae20774174da24a4547fa8c846d1b68c8ff3",
+      "bytes": 1758,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:20.749Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/clm/gateway.py",
+      "sha": "e98e41206daae6a72e1e8fa70392c72c0fc27802",
+      "bytes": 5855,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:20.757Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/clm/probe.py",
+      "sha": "cf76cb670c3fce0dd4a9df3e692428ad3ac6fbb1",
+      "bytes": 1215,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:25.477Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/clm/run.py",
+      "sha": "1ad1a5892c52103a2654de485c27fcdae3648756",
+      "bytes": 5338,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:25.488Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/tests/smoke-h20",
+      "sha": "39a21b4d61c1cff35687ac39f672385e6ac99da7",
+      "bytes": 4155,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:25.496Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/source/tests/test_context.py",
+      "sha": "1031b5bc8b54623069316d5950b007949b55bd59",
+      "bytes": 4076,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:28.236Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/verification/LOCAL_VERIFIED.json",
+      "sha": "d2993a3c28fe1ac5c889a9412ea3bb0ba68c43d8",
+      "bytes": 927,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:28.247Z"
+    },
+    {
+      "path": "Codex CLM/workbuddy-20261118/checkpoints/prefix60-policy-20261119/verification/VERIFIED.json",
+      "sha": "ddab3897b9b2a3fdc9d00db049f1fdbc08c7a958",
+      "bytes": 1087,
+      "verified": true,
+      "uploaded_at": "2026-11-19T02:12:28.256Z"
+    }
+  ]
+}

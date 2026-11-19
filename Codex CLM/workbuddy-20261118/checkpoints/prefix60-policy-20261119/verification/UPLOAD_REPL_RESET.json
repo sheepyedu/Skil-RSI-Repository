@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-11-19T02:08:43.059Z",
+  "function_cell": "g22:996",
+  "error": "read failed at index397",
+  "diagnostic_error": "checkpointUploaded is not defined after failed read",
+  "staged_next_bytes_sha_matches": true,
+  "persisted_unique_successes": 397,
+  "branch_updated": false,
+  "root_cause": "persistent REPL bindings missing; underlying reset cause not confirmed",
+  "recovery": "reload upload plan and actual receipts from disk; continue only missing immutable objects; make subsequent calls self contained"
+}

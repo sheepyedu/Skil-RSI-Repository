@@ -1,0 +1,277 @@
+{
+  "base_branch": {
+    "name": "main",
+    "commit": {
+      "sha": "1ff2d0f0feb558c776005b55d7c6818f0aec135b",
+      "node_id": "C_kwDOVxQYidoAKDFmZjJkMGYwZmViNTU4Yzc3NjAwNWI1NWQ3YzY4MThmMGFlYzEzNWI",
+      "commit": {
+        "author": {
+          "name": "sheepy",
+          "email": "sheepy.edu@gmail.com",
+          "date": "2026-11-19T00:27:21Z"
+        },
+        "committer": {
+          "name": "sheepy",
+          "email": "sheepy.edu@gmail.com",
+          "date": "2026-11-19T00:27:21Z"
+        },
+        "message": "Archive verified WorkBuddy same-model service blockage at task 27",
+        "tree": {
+          "sha": "9fbe17fdfa26e6d733f463d6da330fc5227d8ba1",
+          "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/trees/9fbe17fdfa26e6d733f463d6da330fc5227d8ba1"
+        },
+        "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/commits/1ff2d0f0feb558c776005b55d7c6818f0aec135b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/commits/1ff2d0f0feb558c776005b55d7c6818f0aec135b",
+      "html_url": "https://github.com/sheepyedu/Skil-RSI-Repository/commit/1ff2d0f0feb558c776005b55d7c6818f0aec135b",
+      "comments_url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/commits/1ff2d0f0feb558c776005b55d7c6818f0aec135b/comments",
+      "author": {
+        "login": "sheepyedu",
+        "id": 342531523,
+        "node_id": "U_kgDOFGqdww",
+        "avatar_url": "https://avatars.githubusercontent.com/u/342531523?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sheepyedu",
+        "html_url": "https://github.com/sheepyedu",
+        "followers_url": "https://api.github.com/users/sheepyedu/followers",
+        "following_url": "https://api.github.com/users/sheepyedu/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sheepyedu/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sheepyedu/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sheepyedu/subscriptions",
+        "organizations_url": "https://api.github.com/users/sheepyedu/orgs",
+        "repos_url": "https://api.github.com/users/sheepyedu/repos",
+        "events_url": "https://api.github.com/users/sheepyedu/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sheepyedu/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sheepyedu",
+        "id": 342531523,
+        "node_id": "U_kgDOFGqdww",
+        "avatar_url": "https://avatars.githubusercontent.com/u/342531523?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sheepyedu",
+        "html_url": "https://github.com/sheepyedu",
+        "followers_url": "https://api.github.com/users/sheepyedu/followers",
+        "following_url": "https://api.github.com/users/sheepyedu/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sheepyedu/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sheepyedu/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sheepyedu/subscriptions",
+        "organizations_url": "https://api.github.com/users/sheepyedu/orgs",
+        "repos_url": "https://api.github.com/users/sheepyedu/repos",
+        "events_url": "https://api.github.com/users/sheepyedu/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sheepyedu/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d8664195800e7ce939dd5e9a2a39d9fded7a1872",
+          "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/commits/d8664195800e7ce939dd5e9a2a39d9fded7a1872",
+          "html_url": "https://github.com/sheepyedu/Skil-RSI-Repository/commit/d8664195800e7ce939dd5e9a2a39d9fded7a1872"
+        }
+      ]
+    },
+    "_links": {
+      "self": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/branches/main",
+      "html": "https://github.com/sheepyedu/Skil-RSI-Repository/tree/main"
+    },
+    "protected": false,
+    "protection": {
+      "enabled": false,
+      "required_status_checks": {
+        "enforcement_level": "off",
+        "contexts": [],
+        "checks": []
+      }
+    },
+    "protection_url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/branches/main/protection"
+  },
+  "root": {
+    "sha": "9fbe17fdfa26e6d733f463d6da330fc5227d8ba1",
+    "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/trees/9fbe17fdfa26e6d733f463d6da330fc5227d8ba1",
+    "tree": [
+      {
+        "path": ".gitattributes",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1c08ac68d3c711fac1277efd8ea834dc49a0ed4e",
+        "size": 69,
+        "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/blobs/1c08ac68d3c711fac1277efd8ea834dc49a0ed4e"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e9385c5e533f911998d2403c5369e637af5f7df",
+        "size": 82,
+        "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/blobs/3e9385c5e533f911998d2403c5369e637af5f7df"
+      },
+      {
+        "path": "Claude code CLM",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4873285703ff58c835ebf2cdc1fcee2015d52dd5",
+        "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/trees/4873285703ff58c835ebf2cdc1fcee2015d52dd5"
+      },
+      {
+        "path": "Codex CLM",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ee3310038a9b467f9b2f8f3c3c012ff52592c7b8",
+        "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/trees/ee3310038a9b467f9b2f8f3c3c012ff52592c7b8"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "230863cd169b91bb00c300615566877c9be036d4",
+        "size": 2802,
+        "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/blobs/230863cd169b91bb00c300615566877c9be036d4"
+      },
+      {
+        "path": "archive",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8e9fe39009b350ee0689c54fdecd828861989e0d",
+        "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/trees/8e9fe39009b350ee0689c54fdecd828861989e0d"
+      },
+      {
+        "path": "restore_archive.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "be8557b44a2faa37185477cb2c6e981ab21ea330",
+        "size": 1541,
+        "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/blobs/be8557b44a2faa37185477cb2c6e981ab21ea330"
+      },
+      {
+        "path": "results",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "253966e3074b1204e4d2561c98b39f61528f4798",
+        "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/trees/253966e3074b1204e4d2561c98b39f61528f4798"
+      },
+      {
+        "path": "skill",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4b0769d32f6c017e85eff720f5c9218820780542",
+        "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/trees/4b0769d32f6c017e85eff720f5c9218820780542"
+      },
+      {
+        "path": "skill_zh",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b450a165d4ae830dfabbf183831da0c3d48b7708",
+        "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/trees/b450a165d4ae830dfabbf183831da0c3d48b7708"
+      }
+    ],
+    "truncated": false
+  },
+  "codex": [
+    {
+      "name": "README.md",
+      "path": "Codex CLM/README.md",
+      "sha": "b2d09f50da8d43e74b24a980369f24bf9e8bbcc1",
+      "size": 1969,
+      "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/contents/Codex%20CLM/README.md?ref=1ff2d0f0feb558c776005b55d7c6818f0aec135b",
+      "html_url": "https://github.com/sheepyedu/Skil-RSI-Repository/blob/1ff2d0f0feb558c776005b55d7c6818f0aec135b/Codex%20CLM/README.md",
+      "git_url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/blobs/b2d09f50da8d43e74b24a980369f24bf9e8bbcc1",
+      "download_url": "https://raw.githubusercontent.com/sheepyedu/Skil-RSI-Repository/1ff2d0f0feb558c776005b55d7c6818f0aec135b/Codex%20CLM/README.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/contents/Codex%20CLM/README.md?ref=1ff2d0f0feb558c776005b55d7c6818f0aec135b",
+        "git": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/blobs/b2d09f50da8d43e74b24a980369f24bf9e8bbcc1",
+        "html": "https://github.com/sheepyedu/Skil-RSI-Repository/blob/1ff2d0f0feb558c776005b55d7c6818f0aec135b/Codex%20CLM/README.md"
+      }
+    },
+    {
+      "name": "benchmark",
+      "path": "Codex CLM/benchmark",
+      "sha": "99cc2b0905132c5e59c970070663e2564dee0314",
+      "size": 0,
+      "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/contents/Codex%20CLM/benchmark?ref=1ff2d0f0feb558c776005b55d7c6818f0aec135b",
+      "html_url": "https://github.com/sheepyedu/Skil-RSI-Repository/tree/1ff2d0f0feb558c776005b55d7c6818f0aec135b/Codex%20CLM/benchmark",
+      "git_url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/trees/99cc2b0905132c5e59c970070663e2564dee0314",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/contents/Codex%20CLM/benchmark?ref=1ff2d0f0feb558c776005b55d7c6818f0aec135b",
+        "git": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/trees/99cc2b0905132c5e59c970070663e2564dee0314",
+        "html": "https://github.com/sheepyedu/Skil-RSI-Repository/tree/1ff2d0f0feb558c776005b55d7c6818f0aec135b/Codex%20CLM/benchmark"
+      }
+    },
+    {
+      "name": "results",
+      "path": "Codex CLM/results",
+      "sha": "3e4664e2259378f836d42f2a53c58448fce6902e",
+      "size": 0,
+      "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/contents/Codex%20CLM/results?ref=1ff2d0f0feb558c776005b55d7c6818f0aec135b",
+      "html_url": "https://github.com/sheepyedu/Skil-RSI-Repository/tree/1ff2d0f0feb558c776005b55d7c6818f0aec135b/Codex%20CLM/results",
+      "git_url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/trees/3e4664e2259378f836d42f2a53c58448fce6902e",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/contents/Codex%20CLM/results?ref=1ff2d0f0feb558c776005b55d7c6818f0aec135b",
+        "git": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/trees/3e4664e2259378f836d42f2a53c58448fce6902e",
+        "html": "https://github.com/sheepyedu/Skil-RSI-Repository/tree/1ff2d0f0feb558c776005b55d7c6818f0aec135b/Codex%20CLM/results"
+      }
+    },
+    {
+      "name": "source",
+      "path": "Codex CLM/source",
+      "sha": "e0ae3500306e98d1240f4087ff8207f7c545d0e3",
+      "size": 0,
+      "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/contents/Codex%20CLM/source?ref=1ff2d0f0feb558c776005b55d7c6818f0aec135b",
+      "html_url": "https://github.com/sheepyedu/Skil-RSI-Repository/tree/1ff2d0f0feb558c776005b55d7c6818f0aec135b/Codex%20CLM/source",
+      "git_url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/trees/e0ae3500306e98d1240f4087ff8207f7c545d0e3",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/contents/Codex%20CLM/source?ref=1ff2d0f0feb558c776005b55d7c6818f0aec135b",
+        "git": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/trees/e0ae3500306e98d1240f4087ff8207f7c545d0e3",
+        "html": "https://github.com/sheepyedu/Skil-RSI-Repository/tree/1ff2d0f0feb558c776005b55d7c6818f0aec135b/Codex%20CLM/source"
+      }
+    },
+    {
+      "name": "trajectories",
+      "path": "Codex CLM/trajectories",
+      "sha": "8486a024bdf0f4d33705645d8f728cc0b38e992a",
+      "size": 0,
+      "url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/contents/Codex%20CLM/trajectories?ref=1ff2d0f0feb558c776005b55d7c6818f0aec135b",
+      "html_url": "https://github.com/sheepyedu/Skil-RSI-Repository/tree/1ff2d0f0feb558c776005b55d7c6818f0aec135b/Codex%20CLM/trajectories",
+      "git_url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/trees/8486a024bdf0f4d33705645d8f728cc0b38e992a",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/contents/Codex%20CLM/trajectories?ref=1ff2d0f0feb558c776005b55d7c6818f0aec135b",
+        "git": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/trees/8486a024bdf0f4d33705645d8f728cc0b38e992a",
+        "html": "https://github.com/sheepyedu/Skil-RSI-Repository/tree/1ff2d0f0feb558c776005b55d7c6818f0aec135b/Codex%20CLM/trajectories"
+      }
+    }
+  ],
+  "tree_creation_failure": {
+    "content": [
+      {
+        "type": "text",
+        "text": "ReadTimeout: "
+      }
+    ],
+    "structuredContent": {
+      "error": "ReadTimeout: ",
+      "error_code": "UNKNOWN"
+    },
+    "isError": true
+  }
+}

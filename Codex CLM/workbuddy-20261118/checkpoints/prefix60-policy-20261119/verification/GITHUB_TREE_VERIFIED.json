@@ -1,0 +1,14 @@
+{
+  "verified_at": "2026-11-19T02:17:53.972Z",
+  "files_verified": 483,
+  "all_sha_mode_size_match": true,
+  "other_root_subtrees_unchanged": true,
+  "old_codex_subtrees_unchanged": true,
+  "root": "e4ea8f93cf69d2a6580daa1fc6227275d75a5041",
+  "codex": "09019014e24d69b431fc50e2509078347ee57c62",
+  "workbuddy": "6e45fced756e40b35888b8750eedd667a1dab5dd",
+  "parent": "1ff2d0f0feb558c776005b55d7c6818f0aec135b",
+  "actual_tree_url": "https://api.github.com/repos/sheepyedu/Skil-RSI-Repository/git/trees/6e45fced756e40b35888b8750eedd667a1dab5dd?recursive=1",
+  "total_staged_files_including_parent_readme": 484,
+  "parent_readme_git_blob": "ff942de529ce53dcfc7f1da0444e42662f90f975"
+}
