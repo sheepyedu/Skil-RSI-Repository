@@ -1,0 +1,47 @@
+{
+  "run": "formal-02-resume-08",
+  "rows": [
+    {
+      "position": 51,
+      "arm": "clm",
+      "model": "deepseek-v4-1-flash-261017",
+      "http_status": 200,
+      "finish": "stop",
+      "complete": true,
+      "advertised_tools": 3,
+      "response_tool_call_deltas": 0,
+      "original_task_input_verified": true,
+      "official_score": 0.0,
+      "request_sha256": "38c93fd08b3271ca44c6492b08752d2bffca5718c6f462d52a00ded3d2ffdf20",
+      "response_sha256": "6d92145dfc7017effdaf5af2aeecda5ffe9c216c9ed553eb9879f440e1404e16"
+    },
+    {
+      "position": 52,
+      "arm": "clm",
+      "model": "deepseek-v4-1-flash-261017",
+      "http_status": 200,
+      "finish": "stop",
+      "complete": true,
+      "advertised_tools": 3,
+      "response_tool_call_deltas": 0,
+      "original_task_input_verified": true,
+      "official_score": 0.0,
+      "request_sha256": "e1415981e610268983a6949323acdcadd76d8d7cc0ce0fac93f3a01a75184e16",
+      "response_sha256": "4570e46f290867ea691d5f99a5ce7776f3f0e6781922e921d6523625c43be023"
+    },
+    {
+      "position": 53,
+      "arm": "clm",
+      "model": "deepseek-v4-1-flash-261017",
+      "http_status": 200,
+      "finish": "stop",
+      "complete": true,
+      "advertised_tools": 3,
+      "response_tool_call_deltas": 0,
+      "original_task_input_verified": true,
+      "official_score": 0.0,
+      "request_sha256": "f83fa5c5a22eb50ea30782e59742b61dce88524e13df44302c23f2bba5a9d706",
+      "response_sha256": "122eea4d19b816b4710cfdd17878fda6ec315af0a4485dc35eeefdba0a988a12"
+    }
+  ]
+}
