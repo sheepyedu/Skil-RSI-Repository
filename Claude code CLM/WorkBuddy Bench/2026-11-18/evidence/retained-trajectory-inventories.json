@@ -92,6 +92,16 @@
       "archived_bytes": 4686577576,
       "final_audit_sha256": "5fa46211949d9bd4197b394b7cda970c7f8efb63868a0f084d5c75ccf6a9777a",
       "exit_status": 1
+    },
+    {
+      "run": "formal-02-resume-07",
+      "inventory_path": "formal-02-resume-07/trajectory-sha256.json",
+      "inventory_sha256": "e0a9db6eb2be5be472e9b164a8efd7335b00f8672b67a5520543aaf23ec78637",
+      "inventory_bytes": 12525384,
+      "listed_files": 58883,
+      "archived_bytes": 8808053182,
+      "final_audit_sha256": "45ce54e39dbd67c52951872e3fb8adfc5283f77186fa3694ee6772afcfac1054",
+      "exit_status": 1
     }
   ]
 }

@@ -1,0 +1,32 @@
+{
+  "source": "formal-02-resume-07",
+  "position": 48,
+  "retained_trials": 95,
+  "frozen_plan_sha256": "514a0e3a17b59db24b3990bbff1f1fd202c0379ad8f5571880f3ddf84b4de316",
+  "model": "deepseek-v4-1-flash-261017",
+  "failure": {
+    "terminal": "Prompt is too long",
+    "closed_model_requests": 49,
+    "last_prompt_tokens": 180065,
+    "last_request_sha256": "a2e7e47c95908a44b24541fbc3492d87e74e602f75211e1fa82897ea14eef0bc",
+    "receipt_sha256": "d0146b774eb160f98207402e47108b5cb145968b338e5a223cc49b192cf94af1",
+    "session_sha256": "9f7d4a239e3ba3e771c7ccdb2c82efb780f891fb65660aa3f1c84b90324f5099"
+  },
+  "maintenance_fixture": {
+    "provider_requests": 0,
+    "chosen_edit": "synthetic selection from real eligible exchanges",
+    "previous_message_bytes": 274841,
+    "native_preview_bytes": 215532,
+    "projected_message_bytes": 215333,
+    "preserved_benchmark_turns": 47,
+    "visible_assistant_text_verified": true,
+    "trigger_bytes": 240000,
+    "target_bytes": 165000,
+    "replay_limit_bytes": 285000
+  },
+  "runtime_sha256": {
+    "resume_projection.py": "eb10ecb19be02e61e5522534e2e5c6455cb16ff5bdcd80f133660f13030efdbc",
+    "retry_clm_capacity.py": "9ccbe1d149e192a62cd3adc4924de1cce7cd7c324457d0cc369f98dbe7d6d3d6",
+    "launch_recovery.sh": "413d96d160874a02e5ddd13f529c6c90f2636990fd2581280ed30552c7762bc4"
+  }
+}
