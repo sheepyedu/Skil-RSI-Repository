@@ -1,0 +1,1958 @@
+{
+  "observed_at": "2026-11-19T14:12:55+08:00",
+  "model": "deepseek-v4-1-flash-261017",
+  "judge_model": "gpt-6.1-sol",
+  "plan_sha256": "514a0e3a17b59db24b3990bbff1f1fd202c0379ad8f5571880f3ddf84b4de316",
+  "controller_completed_pairs": 35,
+  "exit_status": null,
+  "verified_pairs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "cases": [
+    {
+      "position": 35,
+      "domain": "web",
+      "task": "release-readiness-review-L4-019",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "last_event": {
+            "event": "end",
+            "timestamp": "2026-11-19T05:46:31.314044+00:00"
+          },
+          "request_outcomes": {
+            "complete": 20
+          },
+          "requests_in_flight": [],
+          "first_actual_input_tokens": 119366,
+          "first_actual_input_exact": true,
+          "previous_marker_in_first_actual_input": true,
+          "native_session_match": true,
+          "native_terminal": true,
+          "native_terminal_error": false,
+          "native_stream_sha256": "cfb36503012ced91a70aeae1697ecb1e12a5390661dde288f1005a05953af284",
+          "native_transcript_sha256": "66c00fb1812fd3fd7dc068c76c45685e461388ec1ec468f7d9e1cb22c2dd316c",
+          "native_compactions": 1,
+          "session_saved": true,
+          "reward": {
+            "test_pass_rate": 0.8,
+            "overall": 0.8,
+            "wall_time_sec": 127.12,
+            "reward": 0.8,
+            "tests_passed": 16,
+            "tests_total": 17
+          },
+          "grader_files": [
+            "agent.patch",
+            "agent.workspace.tar.gz",
+            "copy_verify_context_evidence.log",
+            "finalize_eval.log",
+            "llm_judge_pipeline.log",
+            "raw_reward.json",
+            "reward.json",
+            "reward.txt",
+            "rule_judge.log",
+            "rule_judge_evidence.log",
+            "score.json",
+            "setup.log",
+            "submit_result.log",
+            "visual_evidence.log",
+            "workflow_trace.log"
+          ],
+          "judge_complete": 16,
+          "judge_errors": 0,
+          "exception_type": null,
+          "request_errors": [],
+          "requests_completed": [
+            {
+              "attempt": "0000",
+              "request_sha256": "f48ea9adce6ff152dc051f091e33ca3b2069bfe09c3f8e21d80db7a9e9f48be5",
+              "response_sha256": "becd1cf289e48af59a4c6aadbc49075e25d21dc5f886bff6517f29f66ba41633",
+              "request_bytes": 479737,
+              "response_bytes": 21892,
+              "input_tokens": 119366,
+              "output_tokens": 125,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0001",
+              "request_sha256": "a8c4cc44b7a66b6603af9ebdc30ca348501dae04993a3e3380501485233ead46",
+              "response_sha256": "395a2e25224631158a24765a582cead93c3093b4bd8737e0b95dd34b2d9cf059",
+              "request_bytes": 481203,
+              "response_bytes": 48702,
+              "input_tokens": 119801,
+              "output_tokens": 184,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0002",
+              "request_sha256": "8032f3c2e85ccff863846d21d9efaaecc905977968bb7936e5bd040ad3d1ebe1",
+              "response_sha256": "92de6cb6de71253f2dd0f22edd5edbd7c066f45294b00631a1b1f447cc7389cb",
+              "request_bytes": 487463,
+              "response_bytes": 52859,
+              "input_tokens": 121282,
+              "output_tokens": 208,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0003",
+              "request_sha256": "70f5319c20c25380c66987d4b3be7fac47e73aa47fae4c55c9aec39ddf9c85dd",
+              "response_sha256": "a0c8e026e09df15f62c1d200ee2f821a9d0ed262a7858688ec9a522897197e97",
+              "request_bytes": 494036,
+              "response_bytes": 621262,
+              "input_tokens": 122978,
+              "output_tokens": 5260,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0004",
+              "request_sha256": "2d25c8f2d05ec4ae3f27c5f98a8ce9c134c81389961877b80d023e4aef8fd222",
+              "response_sha256": "060f2c26fc3747d5b329f71cf73cdec311e17f24a0c7dac821805ac2a0407005",
+              "request_bytes": 515920,
+              "response_bytes": 912428,
+              "input_tokens": 128383,
+              "output_tokens": 8763,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0005",
+              "request_sha256": "d6683c3e7305df8c0b7ed8db20a42bcfb8c8acdbcddc68ffbb6d32653b8ae73c",
+              "response_sha256": "763acfb4f90fce63b5056dca5ef208e18017db21d5faff16fa3a97c520e39cd2",
+              "request_bytes": 553202,
+              "response_bytes": 21538,
+              "input_tokens": 137274,
+              "output_tokens": 122,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0006",
+              "request_sha256": "b01e83ce71366d8230cd995612e7c7efded7ced0fb5890d09a1edc0b5ec7d844",
+              "response_sha256": "633f4d51632b7c4aa74f742cff6b0db3d918b78451a26f1792198afaf23e9af2",
+              "request_bytes": 554398,
+              "response_bytes": 2307654,
+              "input_tokens": 137589,
+              "output_tokens": 11041,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0007",
+              "request_sha256": "fe5f8e24d17970fd08bb009bc20f84b1e1c095c62c97509433af6b68e21cb37b",
+              "response_sha256": "4da5239ff5d7f88d2f2d46f971fa646f8611971f85817e4816f3f142ec9365e9",
+              "request_bytes": 600583,
+              "response_bytes": 274777,
+              "input_tokens": 148677,
+              "output_tokens": 2706,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0008",
+              "request_sha256": "4565441dff878f1c9619dba51683a3bf1fe8dcc7d71e616520ef6c32197aba86",
+              "response_sha256": "10d413ba037d88e3817f0b6dde15b4bb3cc8053199dc1151601317481c88906a",
+              "request_bytes": 612983,
+              "response_bytes": 17908,
+              "input_tokens": 151700,
+              "output_tokens": 123,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0009",
+              "request_sha256": "5853df1068ccd04b133189e5161e5b8a3e9eb46c8d93ac9456f1ee41c761d68f",
+              "response_sha256": "5118a3fa28ee6a692ba45bb6bc03fff059c372082b92105ab50bd1d0d336adb3",
+              "request_bytes": 616536,
+              "response_bytes": 107778,
+              "input_tokens": 152511,
+              "output_tokens": 371,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0010",
+              "request_sha256": "605c5925072c24fe9bef833f27ed7199f4ae2b68dc1e2d6ffc0079d0fba05283",
+              "response_sha256": "2098942b31a6245f193caf2d18da261445e03bfdc8437047b3be585a04573335",
+              "request_bytes": 619557,
+              "response_bytes": 18253,
+              "input_tokens": 153297,
+              "output_tokens": 111,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0011",
+              "request_sha256": "0a17d9ab338e64d08ec696578eaf697ca9b55c0e7ca461702cd8625a1e519bd1",
+              "response_sha256": "7234ce94f5bd041fb5abff71427cbeedc2f2abbe5ecc6380dcde1b57f618d81e",
+              "request_bytes": 627509,
+              "response_bytes": 136023,
+              "input_tokens": 155168,
+              "output_tokens": 1055,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0012",
+              "request_sha256": "2e876e86ef1cb1e41e24961a24c49bc84b80776d80ae3a63b96f97fd4d2b24cf",
+              "response_sha256": "7785f4d22d3396a95fa2991f1877eb33cf801a1f062bd18cbb8b631570193246",
+              "request_bytes": 633227,
+              "response_bytes": 269577,
+              "input_tokens": 156443,
+              "output_tokens": 2555,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0013",
+              "request_sha256": "e5bb52229d4da5381c8ffead5be09eeb48b9b5b4b5ef6ca85ecf538cf4a48cbb",
+              "response_sha256": "5b9e6c92f179222e1963aefb06ccf4a18a71bd117ab7ff5d0222d12e5b1ff81f",
+              "request_bytes": 645780,
+              "response_bytes": 36585,
+              "input_tokens": 159635,
+              "output_tokens": 205,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0014",
+              "request_sha256": "70939548a3fbd4d3bb665de7c8d4c011415620aaf4ca1dcaba4e827d498f8c02",
+              "response_sha256": "911f73d38ae84b5483d0950f9d58d76ca13c5434e4ac57bb2dcd1e697fc14628",
+              "request_bytes": 649522,
+              "response_bytes": 549362,
+              "input_tokens": 160544,
+              "output_tokens": 3846,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0015",
+              "request_sha256": "2ed7d731efd2c99833e3aa3711f6c41607f0af27a39785e9c92118967d38db8e",
+              "response_sha256": "db02a97974c22b06b4f5241ac5504ec1548177a86191147fd95d8e8ae98b26db",
+              "request_bytes": 667142,
+              "response_bytes": 38624,
+              "input_tokens": 164774,
+              "output_tokens": 335,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0016",
+              "request_sha256": "4a160e3942527afc28d84da20106ff7581e83bcdd750b94d508ebf45b23dde1b",
+              "response_sha256": "890fca19d6dd068ecef7bb22beaf9c018fc83512980e323348682fcf32b5d027",
+              "request_bytes": 673258,
+              "response_bytes": 384944,
+              "input_tokens": 165989,
+              "output_tokens": 4699,
+              "finish_reason": "stop"
+            },
+            {
+              "attempt": "0017",
+              "request_sha256": "b4bce15faa47a70f28e1443adae2f7724f3967120284c5a7ad05d17a949485a3",
+              "response_sha256": "ba5ab8d10fd339d8b52399a44eb4cae3e9fb8e12cdc6e1bfcbb876a2677dbd1d",
+              "request_bytes": 44047,
+              "response_bytes": 46165,
+              "input_tokens": 11077,
+              "output_tokens": 235,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0018",
+              "request_sha256": "13087508e73daa739f5558e65aaef9724663e62a6fe3357a4f9f1b89240c02c6",
+              "response_sha256": "be82b646d339cbe017ae4470619efde0f1335d6a5054a504987671677bc9ac33",
+              "request_bytes": 49292,
+              "response_bytes": 83649,
+              "input_tokens": 12523,
+              "output_tokens": 963,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0019",
+              "request_sha256": "069b920f453daa4c3d02191d32ad8b3ab1aa547a1b12b8e38437f4eace5f3a5d",
+              "response_sha256": "ece68b91ce1b19d4735e15d2dc27c2d5bf6dee9460e973d4ec2f8736090f42b0",
+              "request_bytes": 52286,
+              "response_bytes": 35770,
+              "input_tokens": 13606,
+              "output_tokens": 386,
+              "finish_reason": "stop"
+            }
+          ]
+        },
+        "clm": {
+          "state": "accepted",
+          "last_event": {
+            "event": "end",
+            "timestamp": "2026-11-19T05:53:38.665441+00:00"
+          },
+          "request_outcomes": {
+            "complete": 22
+          },
+          "requests_in_flight": [],
+          "first_actual_input_tokens": 50569,
+          "first_actual_input_exact": true,
+          "previous_marker_in_first_actual_input": true,
+          "native_session_match": true,
+          "native_terminal": true,
+          "native_terminal_error": false,
+          "native_stream_sha256": "b4b561709be407d7139e240a27d81797c9d629b32ebe883ad34333d31b8855f7",
+          "native_transcript_sha256": "8f64238c4cefdacbd3519a26787d75e2a079d3e358da9b509ad117c38f0f4d22",
+          "native_compactions": 0,
+          "session_saved": true,
+          "reward": {
+            "test_pass_rate": 0.8,
+            "overall": 0.8,
+            "wall_time_sec": 144.88,
+            "reward": 0.8,
+            "tests_passed": 16,
+            "tests_total": 17
+          },
+          "grader_files": [
+            "agent.patch",
+            "agent.workspace.tar.gz",
+            "copy_verify_context_evidence.log",
+            "finalize_eval.log",
+            "llm_judge_pipeline.log",
+            "raw_reward.json",
+            "reward.json",
+            "reward.txt",
+            "rule_judge.log",
+            "rule_judge_evidence.log",
+            "score.json",
+            "setup.log",
+            "submit_result.log",
+            "visual_evidence.log",
+            "workflow_trace.log"
+          ],
+          "judge_complete": 16,
+          "judge_errors": 0,
+          "exception_type": null,
+          "request_errors": [],
+          "requests_completed": [
+            {
+              "attempt": "0000",
+              "request_sha256": "0be8d8775c6b2c182a6e2ed54dc99dbbed91848fb26b3385872a4cc052304f69",
+              "response_sha256": "e2d40e9de4c70119bdc75f513642ae8ce38093c5d16a2d48b18315cb3104e281",
+              "request_bytes": 205530,
+              "response_bytes": 51109,
+              "input_tokens": 50569,
+              "output_tokens": 278,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0001",
+              "request_sha256": "e486909d3e93eb7b0c32327ffed78d96d134320059daa5e43bdaad207e345c60",
+              "response_sha256": "8e6ca4971eac555055a0da48e1f9eb0f2df306142fe405aa58edd2d9b5d22697",
+              "request_bytes": 211848,
+              "response_bytes": 33726,
+              "input_tokens": 51926,
+              "output_tokens": 142,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0002",
+              "request_sha256": "d9be2883a237467f50ecff0ac18d54a31d2a766233eb2e82f614da1931369409",
+              "response_sha256": "54bfc6983784380d8a6f807b1179aca68f9b4590f8f2aa4060f5fbe8635dfd5e",
+              "request_bytes": 216785,
+              "response_bytes": 15621,
+              "input_tokens": 53280,
+              "output_tokens": 85,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0003",
+              "request_sha256": "97881316deb74394fd0250739211e0b1d039ab5ef7d3e0c0f269cb9406b22d80",
+              "response_sha256": "9667aa34c62d8330cadd3148d7e6df9a2799e972666639d87aa23aacd8f9991c",
+              "request_bytes": 218518,
+              "response_bytes": 93185,
+              "input_tokens": 53630,
+              "output_tokens": 731,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0004",
+              "request_sha256": "03e3b968ca80ec435bf753e9c3c850a678fb56f3aa5cd952e6bbd12e06c9aaf1",
+              "response_sha256": "4788eeaca1b5ebb88fc11f3e92cf2b36112726248f2028c025ceb49c3cf9f5f4",
+              "request_bytes": 221851,
+              "response_bytes": 35012,
+              "input_tokens": 54388,
+              "output_tokens": 153,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0005",
+              "request_sha256": "9c476962ca9b6b6dca75b0edbacf3ff3e36aabf77397270967cb2ec716529c0d",
+              "response_sha256": "63d779d694164e5e493bae6b7d47b4c3f83954e57b0c4cdf57ad92994ad443d7",
+              "request_bytes": 222631,
+              "response_bytes": 716937,
+              "input_tokens": 54573,
+              "output_tokens": 4636,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0006",
+              "request_sha256": "f9da98c7f18e6cc0be3be4b84769b9482f51fcfe429f2356d405ac9360220b49",
+              "response_sha256": "3e988a57d512f30e0cb619b041afa9b48bd41fca6fbaa0e6f047b227276cf97e",
+              "request_bytes": 243580,
+              "response_bytes": 90854,
+              "input_tokens": 59707,
+              "output_tokens": 336,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0007",
+              "request_sha256": "b35b689309a51a8aa8cdd5d42a255f66456256676ad70cc8401cd85b0a5c8c77",
+              "response_sha256": "9359486685aa722b4202e52499a38c5c15f9a7443b29ef4dbeffa169e7204a98",
+              "request_bytes": 261847,
+              "response_bytes": 236670,
+              "input_tokens": 65225,
+              "output_tokens": 1806,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0008",
+              "request_sha256": "128f49559c4c341373b3e243a30ed7ea32267f57408aaf479523c8858eec7000",
+              "response_sha256": "72ae0961b823e8754fb88a8a2023cc9f17383a3ab46a062da570d2f413b67fe3",
+              "request_bytes": 269157,
+              "response_bytes": 126306,
+              "input_tokens": 67067,
+              "output_tokens": 1167,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0009",
+              "request_sha256": "f6b485b26e5195f3e997453040818a60486c0d366d3e793dc66fb19882821506",
+              "response_sha256": "a86dd7acaee1c05b12a76cb0ccd91eebe493c31b286e17fa5f9914593276cd89",
+              "request_bytes": 351969,
+              "response_bytes": 11762,
+              "input_tokens": 68523,
+              "output_tokens": 100,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0010",
+              "request_sha256": "1981abfbf80336ac1796423faa4db5682503fed457d5ec989cf034c5f20622e6",
+              "response_sha256": "d08b8c32490affd265d706a7454939ffbb1a0f821a57f50595ef75f899e47940",
+              "request_bytes": 439388,
+              "response_bytes": 274466,
+              "input_tokens": 69431,
+              "output_tokens": 973,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0011",
+              "request_sha256": "12032580efdf2dc021c536f9d68e4b5456f0ce2bf2097ce6e984e6357f9eb496",
+              "response_sha256": "540b394d01e3036c8a0be1e7cb2ee8b8b15d0699ae4afc4e7c0da16603aceb43",
+              "request_bytes": 450371,
+              "response_bytes": 2200674,
+              "input_tokens": 72389,
+              "output_tokens": 11451,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0012",
+              "request_sha256": "1530fcb8b40f1b8136ab625575f439ba5e46c49710539418c3e491756837fd98",
+              "response_sha256": "cda99da24d5beb8261185f24620926f5decd4fdefcc301cab96a7bd05adce45c",
+              "request_bytes": 501957,
+              "response_bytes": 256442,
+              "input_tokens": 84933,
+              "output_tokens": 1818,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0013",
+              "request_sha256": "a3531b90d01bd034586aec662e010d9862917d149b79b97c8453bc82a1e49d8d",
+              "response_sha256": "c62290b2c6406def419f4fdd6cfb7f930d815374258401c747a024e259b42282",
+              "request_bytes": 509613,
+              "response_bytes": 13522,
+              "input_tokens": 86808,
+              "output_tokens": 104,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0014",
+              "request_sha256": "21ea50d347f1377b88e1a1409b546f48d4c1cfd4a8acb2f6c6d79f0de8de1294",
+              "response_sha256": "8782bb2ded91e3ea24226d3d74e12e3f0a147f6f1fa4101c126c2e3b5d106a1b",
+              "request_bytes": 514132,
+              "response_bytes": 117423,
+              "input_tokens": 87870,
+              "output_tokens": 411,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0015",
+              "request_sha256": "9cf8f4820f3e3397ba10c088cfda4c6a76d3193e202d4e0e519eb41a9959fd46",
+              "response_sha256": "e848ec33370ee3577e43328a8fa4b661a8d60745de2502a9ab78558b82578506",
+              "request_bytes": 515876,
+              "response_bytes": 162268,
+              "input_tokens": 88323,
+              "output_tokens": 1620,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0016",
+              "request_sha256": "064ba39d6f70210dff0ca0c7bfc7b6cc1098672e75dc2c98c004451d59ef28c4",
+              "response_sha256": "c3cb0728e336b4bb7687f9091b681f7c196afb6a2407f351aeeedf4aba8fd508",
+              "request_bytes": 523597,
+              "response_bytes": 10533,
+              "input_tokens": 90303,
+              "output_tokens": 77,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0017",
+              "request_sha256": "31ebfe3bdc86971b61cf8b4e8e4a6af5a7c38b971c90de6b728f6d8aa1826159",
+              "response_sha256": "e44cbb3b099ba9d13cce0ea16739acf316d0e1e53676410697cc875377a56bc2",
+              "request_bytes": 524927,
+              "response_bytes": 62737,
+              "input_tokens": 90649,
+              "output_tokens": 242,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0018",
+              "request_sha256": "e8665c47ffbc14896f055d4c034c1be6a3cf93ac291160240ad9bfcb2216e9f8",
+              "response_sha256": "c60d3e20ee4910c55f1862f6423e6f36be3425bb47673c26a9ec42cf301fea0d",
+              "request_bytes": 526081,
+              "response_bytes": 22615,
+              "input_tokens": 90930,
+              "output_tokens": 114,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0019",
+              "request_sha256": "ec4149db720844954a59f972279f324c409e8aaaedacb28593f69c5588260a85",
+              "response_sha256": "d2ef6182f0cde6babfad0601db7236e4ab6da6618b6d8fc41b97f6c4e47d2771",
+              "request_bytes": 530332,
+              "response_bytes": 90780,
+              "input_tokens": 91949,
+              "output_tokens": 759,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0020",
+              "request_sha256": "9f3204f0ed30e3c04dfbfa7766e4a0d0eacda75a03573142568cde1c66b7bb4d",
+              "response_sha256": "d5e6699e73cc9725ca2b5b0293d4d81d5e340e7cf33be48bcb8db5287d758740",
+              "request_bytes": 533600,
+              "response_bytes": 53411,
+              "input_tokens": 92748,
+              "output_tokens": 229,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0021",
+              "request_sha256": "b3b61f2c53fd7257f8c100645c3055113e321e5530127a445a0608b35c15fa1c",
+              "response_sha256": "772ea82e535d54b1b3bfe82ded96ed959bae3afbcbea5692c22fdf6260373b17",
+              "request_bytes": 534702,
+              "response_bytes": 98282,
+              "input_tokens": 93116,
+              "output_tokens": 989,
+              "finish_reason": "stop"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "position": 36,
+      "domain": "code",
+      "task": "python_port-medium-blog_tags",
+      "arms": {
+        "native": {
+          "state": "accepted",
+          "last_event": {
+            "event": "end",
+            "timestamp": "2026-11-19T06:07:38.830674+00:00"
+          },
+          "request_outcomes": {
+            "complete": 107
+          },
+          "requests_in_flight": [],
+          "first_actual_input_tokens": 14116,
+          "first_actual_input_exact": true,
+          "previous_marker_in_first_actual_input": true,
+          "native_session_match": true,
+          "native_terminal": true,
+          "native_terminal_error": false,
+          "native_stream_sha256": "c4d3b7a16f4efb0760e9d97affd3cee0741c7c3736033270cb3c37c83833473a",
+          "native_transcript_sha256": "7369320227f33095246376407429b646fe816c52fdc04e423de4d0c2be0f2503",
+          "native_compactions": 0,
+          "session_saved": true,
+          "reward": {
+            "reward": 0.0,
+            "tests_passed": 0,
+            "tests_total": 20
+          },
+          "grader_files": [
+            "agent.patch",
+            "reward.json",
+            "reward.txt",
+            "score.json",
+            "test_output.txt"
+          ],
+          "judge_complete": 0,
+          "judge_errors": 0,
+          "exception_type": null,
+          "request_errors": [],
+          "requests_completed": [
+            {
+              "attempt": "0000",
+              "request_sha256": "b174ee1bb1626d7dd4f555c780bc72da00b543222b9fb476a479d19a771c947a",
+              "response_sha256": "7e41a22792d7357bc4e883373ef144de64fa450975eb45b92af6c36dcdfcca44",
+              "request_bytes": 54486,
+              "response_bytes": 21233,
+              "input_tokens": 14116,
+              "output_tokens": 131,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0001",
+              "request_sha256": "381b9622ee4e225ea2a012bc79f42cd3f5f4acad08f0984212288760dfc14895",
+              "response_sha256": "c04f45ab1fb171cccc295d018515ae15e581ad24657021211eb848821bb724cd",
+              "request_bytes": 57393,
+              "response_bytes": 35896,
+              "input_tokens": 15074,
+              "output_tokens": 159,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0002",
+              "request_sha256": "d056111c86cced5fdff6dd48e5321e91dd628988657d3c382b045b9d0ecc3340",
+              "response_sha256": "8cb462b78642611b11986e916a8be0bade1c9f931ca0975d645311db916d4953",
+              "request_bytes": 59908,
+              "response_bytes": 29843,
+              "input_tokens": 15711,
+              "output_tokens": 134,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0003",
+              "request_sha256": "67172730e089c5d9e4d5a9ecd8a5bf43a2461c1383c6a680dd3047473b9a44ac",
+              "response_sha256": "a45b67319e947657b3858f744b4b9c1431202e7837d0f7c4ff13553e84e6c029",
+              "request_bytes": 64615,
+              "response_bytes": 35759,
+              "input_tokens": 16974,
+              "output_tokens": 165,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0004",
+              "request_sha256": "fe2203f35a9d9e02436f2ccc7077e5dda4df814bac5fcabdeb006e4aa1509aee",
+              "response_sha256": "6eec27629fc2fe92da5546998f23954bed94ba9b27d8ef67516289733700b5da",
+              "request_bytes": 65446,
+              "response_bytes": 38470,
+              "input_tokens": 17191,
+              "output_tokens": 198,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0005",
+              "request_sha256": "ab456eca1f68f594784a2d0029ad6a95cea5746614907b789c0672539bf597a7",
+              "response_sha256": "f5bb07d124f1651c037086a6b3d23055b3ca96773286f0a04f31c30e5d4b4607",
+              "request_bytes": 69310,
+              "response_bytes": 60511,
+              "input_tokens": 18586,
+              "output_tokens": 355,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0006",
+              "request_sha256": "320bfb1633f7b7e00d3e7f401c8aeac49ca6e52f48d0ec0bd5234a538a015453",
+              "response_sha256": "b363c3bdd4aa033d841c757d3937e7d262743a4e7fa12a3d7b5b0644b2b846d5",
+              "request_bytes": 77243,
+              "response_bytes": 43053,
+              "input_tokens": 20526,
+              "output_tokens": 212,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0007",
+              "request_sha256": "2c3444eeeb687f650d8e400895d90abcccbe865fd150b4550e22d257217c4494",
+              "response_sha256": "e127dfc7d5660eaa74dcc54499f1ab1973f5713da8ea729f5178e5c34af54627",
+              "request_bytes": 84242,
+              "response_bytes": 28585,
+              "input_tokens": 22080,
+              "output_tokens": 125,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0008",
+              "request_sha256": "eb1547ff576291777869849554f9ed1a14374fa015ba3765ef207c4e435c32b1",
+              "response_sha256": "274d0d6c70704e42d7aa5e27bbc2426db43836634946d9aede048f4d4a949675",
+              "request_bytes": 87671,
+              "response_bytes": 36443,
+              "input_tokens": 22882,
+              "output_tokens": 146,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0009",
+              "request_sha256": "760be14d20c29dc3a12018e7f57b478531fc8e0e8af229ca040ee58939faa48f",
+              "response_sha256": "67a52e73f4b38eeec863f4befffbc2bee36b62409e982a41c903f0dec59b6078",
+              "request_bytes": 102090,
+              "response_bytes": 25391,
+              "input_tokens": 26300,
+              "output_tokens": 138,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0010",
+              "request_sha256": "c874536bd25df1dd036ef43d04a43696736b1c5818e5f413ab944102483bd773",
+              "response_sha256": "d743ccd4fa161e9d7bdab0f6db863d57e3faf5fce539d1d7cbf64393c97a4dd2",
+              "request_bytes": 116453,
+              "response_bytes": 61484,
+              "input_tokens": 29972,
+              "output_tokens": 478,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0011",
+              "request_sha256": "eae68bdc9bbdebca1851b0ce1ab34817613e1ba00bcf585c4b1d316f76b73d79",
+              "response_sha256": "2c6f9d976f1a1ad2efb9ddcff48b9a5c4863edd1d476e626f340aa2b58a97cd4",
+              "request_bytes": 118684,
+              "response_bytes": 55634,
+              "input_tokens": 30533,
+              "output_tokens": 292,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0012",
+              "request_sha256": "19534442d923546721de34dcfac3620fce52310203f53d30ddbbbae97891be14",
+              "response_sha256": "9836568e952c27ca525d764b5543b58696649504d4e28af488fa6ea9e9b427f9",
+              "request_bytes": 120080,
+              "response_bytes": 94564,
+              "input_tokens": 30916,
+              "output_tokens": 815,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0013",
+              "request_sha256": "0f870ca65d7543e1c1aedd7e845a65c5a42d08f04f1b0f4cfcc3ece6460bf440",
+              "response_sha256": "f18da748ee3bfb61b1cd5a6bbb5edcc3e61d90cd664367fe633aa49b101e55a5",
+              "request_bytes": 129836,
+              "response_bytes": 39626,
+              "input_tokens": 33373,
+              "output_tokens": 276,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0014",
+              "request_sha256": "baedf063a7704aa6920c6960617ed60588379d8c62dbc3a5758400a9f751656c",
+              "response_sha256": "2d284908810cf4fbc1c68286e7c1b52c3e272e5a7ab4d16279c3905f2b8d838f",
+              "request_bytes": 131153,
+              "response_bytes": 3383984,
+              "input_tokens": 33677,
+              "output_tokens": 16384,
+              "finish_reason": "length"
+            },
+            {
+              "attempt": "0015",
+              "request_sha256": "1ffe5c63db73c52b35625a211d85f80b3a5b79e918866f9705d889b42884389b",
+              "response_sha256": "d1d8a8d2c6636598872b23ed92eca5e1a7edba1dc5bb8f41c5b9b717474e569d",
+              "request_bytes": 164304,
+              "response_bytes": 4157933,
+              "input_tokens": 42192,
+              "output_tokens": 16203,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0016",
+              "request_sha256": "4de811283d4939dd085c07dc573651ab3945feb12af701f12efcdfe8089d9847",
+              "response_sha256": "ca8f58d874b71d3ff5f22d7d7e80fde8b5d0d263142bf2adc5e3227f019a0311",
+              "request_bytes": 234554,
+              "response_bytes": 33784,
+              "input_tokens": 58470,
+              "output_tokens": 188,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0017",
+              "request_sha256": "83947cdc1d47c132855eedce40fce922ab1092d1f1819d967b1223d059b1c69c",
+              "response_sha256": "0b926d19600a4c3245ec9ea9a7a91f40eeb10fa5a0a0e2470c92b9b76b936bc9",
+              "request_bytes": 235478,
+              "response_bytes": 13239,
+              "input_tokens": 58725,
+              "output_tokens": 96,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0018",
+              "request_sha256": "4e73d013498726b7d42904cf395e269e9f8aac306b3e06fd87951c70f23f9639",
+              "response_sha256": "5ef4e4113c936fb4e6c4147e2aeb870c70d6399a81d7bca98044de3b4e5a357c",
+              "request_bytes": 236219,
+              "response_bytes": 28978,
+              "input_tokens": 58904,
+              "output_tokens": 130,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0019",
+              "request_sha256": "1d3eb2ebbe133d735968b3b603dc712c995cc160526b5790a67281506c394df5",
+              "response_sha256": "4a5fe4c1ee345725bada64c1152eef026512c7ec15740c6bbe87525c4bc6fb23",
+              "request_bytes": 236903,
+              "response_bytes": 14097,
+              "input_tokens": 59094,
+              "output_tokens": 77,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0020",
+              "request_sha256": "40245d115c5e9e0c280ab747d1550c7036ff258c955c5a1eabc434f65d24583d",
+              "response_sha256": "e4437fe129be1ce79d96f2ebcc627013fb769a8aed5afcc0e5637a1d7508ea39",
+              "request_bytes": 237265,
+              "response_bytes": 200948,
+              "input_tokens": 59184,
+              "output_tokens": 666,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0021",
+              "request_sha256": "a99843f7a5a71993d7d79c688a21867c94ae01a32a362b01e80c63cff1a34b1f",
+              "response_sha256": "09df850a72cf6788d5a697a374a9e34bf84cc378c31624a45086581a77ec21ea",
+              "request_bytes": 241182,
+              "response_bytes": 350903,
+              "input_tokens": 60335,
+              "output_tokens": 2822,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0022",
+              "request_sha256": "66791212cda8706a47612245c8c2fbb5042d031333482e6768c9b9ad0b5c8cea",
+              "response_sha256": "44363672db2e70b14bb77e3855011c9ef6b7f1a7849f22ebd0fcb432dfb28376",
+              "request_bytes": 252908,
+              "response_bytes": 91542,
+              "input_tokens": 63408,
+              "output_tokens": 922,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0023",
+              "request_sha256": "ceb2a6751f31b57241b181ee2bebd9141aab8b132c42907c86160082046a2820",
+              "response_sha256": "250dfdaf289a6c8d682fe563801be1912e226129d41517f9b2796a27d9e3b30a",
+              "request_bytes": 258932,
+              "response_bytes": 11750,
+              "input_tokens": 64905,
+              "output_tokens": 86,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0024",
+              "request_sha256": "76f8e95105fe731a41689f2809a471a4031573798f971c65c11498a829dc5a35",
+              "response_sha256": "2b78c397e375ac9cf2a1ea1d452bc344907b74273327df9d84abb050f8591733",
+              "request_bytes": 262335,
+              "response_bytes": 369638,
+              "input_tokens": 65679,
+              "output_tokens": 1472,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0025",
+              "request_sha256": "50199cda86ad8393647a39f61590c8fec3b8218cabb1df4b4af03e2a00c1d1ad",
+              "response_sha256": "626de2b5ba04de1f85097919f1388c9cbbafd75544900c9f01a1be79f3ad25f2",
+              "request_bytes": 269147,
+              "response_bytes": 83020,
+              "input_tokens": 67193,
+              "output_tokens": 407,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0026",
+              "request_sha256": "92aec6e6b703aef465a6d67141ea3babce4eae3c29460ae161b44cd13f652fdf",
+              "response_sha256": "88455370e8a19638b74f9cd532b01af8f159742b90a85d914c2ace7d0b61d636",
+              "request_bytes": 270802,
+              "response_bytes": 41946,
+              "input_tokens": 67674,
+              "output_tokens": 357,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0027",
+              "request_sha256": "c63cd9d9668486ad1418531f9806059fc3e0f5fe8824462e5f1d5fbb69966fbf",
+              "response_sha256": "1a3b6f9037d2de6c7f1be6fa39bb47995f57b3b3095012b067eb768c9d38760c",
+              "request_bytes": 275060,
+              "response_bytes": 28313,
+              "input_tokens": 68606,
+              "output_tokens": 248,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0028",
+              "request_sha256": "fa2a8606efd2e4b0a5dfd6906bf7e9c86b0be369d711f80ad99686b49e9225ea",
+              "response_sha256": "b166b7fbfde0f8cc4a2aa92dc13d5771734f40f725d8eee28863c352977d1538",
+              "request_bytes": 280986,
+              "response_bytes": 100816,
+              "input_tokens": 70098,
+              "output_tokens": 369,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0029",
+              "request_sha256": "50d5d7d93232966852b93fd496ecb7f4864fe5f9489f7916ffabf8e308e87252",
+              "response_sha256": "74e56222d743540d4bc8e28164d2ea30bdaeb662d8b62911a7671b0c597ef76c",
+              "request_bytes": 282594,
+              "response_bytes": 96954,
+              "input_tokens": 70511,
+              "output_tokens": 349,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0030",
+              "request_sha256": "48f012fe6e0c2e2834b4e4075b4d52c545ca2712a79da2079a2bc81be877a825",
+              "response_sha256": "12b754a8302a417b9f04e85ec96ea4ed50ec4c3b847dfb8077be1543fb4df0d0",
+              "request_bytes": 284350,
+              "response_bytes": 11175,
+              "input_tokens": 70901,
+              "output_tokens": 79,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0031",
+              "request_sha256": "df876c2ed02cbde5ad61e7c378ab87f457a4bd57185bfda9369cbb7582c79c81",
+              "response_sha256": "78db58c76489a144b532d9a1c7216db7840b8c9b8597a501abfb8662cecdebba",
+              "request_bytes": 286171,
+              "response_bytes": 115698,
+              "input_tokens": 71393,
+              "output_tokens": 407,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0032",
+              "request_sha256": "fa475424779eaf1b49878cd93d3c66068ef4977ee7dbbb6cdbdcdb010fc6a5a7",
+              "response_sha256": "94cf790bd3f0d83491f5f6449ff9bc8459de625d15de108d9420a0da2514639f",
+              "request_bytes": 288111,
+              "response_bytes": 60648,
+              "input_tokens": 71841,
+              "output_tokens": 242,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0033",
+              "request_sha256": "c38f828f1d3cc0c7cc96fbe5d935ee9d476053b23444d8b6a28524a4969b50ca",
+              "response_sha256": "df3e21054152cde7c17d4f0bd2b775cada98ee2e84d4e822e90db887b1a61ee4",
+              "request_bytes": 289200,
+              "response_bytes": 48991,
+              "input_tokens": 72126,
+              "output_tokens": 209,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0034",
+              "request_sha256": "6e501ef3a0a0aba9ec511bcf0a32e47700ef8067ce5a29763bd21eb238e12fb8",
+              "response_sha256": "80924ce47b88115cfe71d9c41c84edbb0d82333b6acee8f7e9d89db98acca770",
+              "request_bytes": 290215,
+              "response_bytes": 294047,
+              "input_tokens": 72376,
+              "output_tokens": 2433,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0035",
+              "request_sha256": "9ac15363435d71a902518464e7b6a658003f5f195ead74f35a60bfabe1f90a7b",
+              "response_sha256": "2be5ab27a8ad496fb6d136742f17694080f72c5394937cb51b6b7dec5f1129e3",
+              "request_bytes": 300187,
+              "response_bytes": 71331,
+              "input_tokens": 74852,
+              "output_tokens": 299,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0036",
+              "request_sha256": "35364c0293f14f898b22799927099487595289629c5f64dc93c11dbcb2c30065",
+              "response_sha256": "4158f775af3b7d7b767cbf210445c12371f975c945b5ac6b4f4c0854e3446926",
+              "request_bytes": 301804,
+              "response_bytes": 105606,
+              "input_tokens": 75359,
+              "output_tokens": 378,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0037",
+              "request_sha256": "2d8a06d774ceeac8ac28bbf292917f7dfa0ceaaa3e3b8df6a28099f85ef47556",
+              "response_sha256": "9b7f08bfe01b5174104996d27e51d8032cdffd3d216f2c3c449d4d2493b90fb3",
+              "request_bytes": 303992,
+              "response_bytes": 208921,
+              "input_tokens": 75982,
+              "output_tokens": 1908,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0038",
+              "request_sha256": "4644dfbb1f3be7d1001a1481336d8ef99800ebaa88bc8f6b3489328ee14f75c0",
+              "response_sha256": "f871471701daa1edbc3cdbaa2aedb89854c4d2fd67e8165749b90256c4172d3b",
+              "request_bytes": 312194,
+              "response_bytes": 214575,
+              "input_tokens": 77979,
+              "output_tokens": 2189,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0039",
+              "request_sha256": "9b93e98fd8e2c419a09bc400007a05e072a567d61f6fa2f98b0706d18fbcdc5b",
+              "response_sha256": "9044f2ff1e9a21aaba925f781f3403b8a5a5985ee327c2320164812e9cb46b72",
+              "request_bytes": 321710,
+              "response_bytes": 12039,
+              "input_tokens": 80505,
+              "output_tokens": 87,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0040",
+              "request_sha256": "2e9c277b678fc40f2f8a3942f59e312d3e35e70fa3bf8dff5b748c6b484de334",
+              "response_sha256": "772969ca252f2f87fdcbd5fbaf6ac5ce550d5bb00835c66dc65d03e77453858d",
+              "request_bytes": 323674,
+              "response_bytes": 72663,
+              "input_tokens": 80998,
+              "output_tokens": 287,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0041",
+              "request_sha256": "b41f89c1d6093014202091f9c7b6efe9b3f12372e7cdd9effef0f4329470b28c",
+              "response_sha256": "fa3423c1953dbb89f19eff7c25caac93ba640db64317a5d66454f509fec61408",
+              "request_bytes": 325097,
+              "response_bytes": 39598,
+              "input_tokens": 81327,
+              "output_tokens": 178,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0042",
+              "request_sha256": "c4457daebea7378637f10684ce89a1da130dc1a1acc2568ec54af5bf4bc91579",
+              "response_sha256": "d5873eeff9cc9d61e6bd8c98d426cf48094155f2835f00722c3d27bb175654f1",
+              "request_bytes": 325936,
+              "response_bytes": 147311,
+              "input_tokens": 81547,
+              "output_tokens": 510,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0043",
+              "request_sha256": "5a88aa9116b4d38672bb0aa20accacad0cf93717954ddc3bc192b7aa479e862b",
+              "response_sha256": "b7f7865bd6cb8ed68b42c7e19150e9d042adad4b93e5edb397c23e593e92fff0",
+              "request_bytes": 328599,
+              "response_bytes": 128090,
+              "input_tokens": 82099,
+              "output_tokens": 446,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0044",
+              "request_sha256": "8616e1efd7c8018872ceceefb1078862669abd03ef3f6d9bd4627088ee6956a3",
+              "response_sha256": "174057c78f611f627789b364f2fa76375efdcc685661b5687b4f975c79439fcd",
+              "request_bytes": 330858,
+              "response_bytes": 128941,
+              "input_tokens": 82587,
+              "output_tokens": 449,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0045",
+              "request_sha256": "c8c24b6f16a10249e9ebbf1a7c2e737a49a4386603f892a94d0510c9bba509d2",
+              "response_sha256": "31bfdfe64f7679f39e2f0f0a0f65cf50776b7e92aa7e7f0f93279e1a11b64eb8",
+              "request_bytes": 333008,
+              "response_bytes": 114759,
+              "input_tokens": 83077,
+              "output_tokens": 444,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0046",
+              "request_sha256": "077e0b16140a9d804146e89c11e1da928933b85e81959d69b6ed585279de753e",
+              "response_sha256": "7ebc0127b50d6f4ca8c36e77ef54b667fbbf78a309d6489a286a4d968ea60459",
+              "request_bytes": 334990,
+              "response_bytes": 298531,
+              "input_tokens": 83660,
+              "output_tokens": 2384,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0047",
+              "request_sha256": "373bb46ec908da40f9be74c77ab0a212e618412c7b3e737257a55b2ff1473732",
+              "response_sha256": "a9e9a5a6ee7f7b4145c3686ce57e55f1ecda102b62025d13813ed3eecb3e91eb",
+              "request_bytes": 344966,
+              "response_bytes": 299736,
+              "input_tokens": 86085,
+              "output_tokens": 1133,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0048",
+              "request_sha256": "32036c162ec12782ebdfaa1c738cb707ac9015ccdbd075db12566d4ed7226200",
+              "response_sha256": "55e556898163a685d51d61ccc7e559e21f08bb8b00d0e6faf5045896a5efbbe5",
+              "request_bytes": 349402,
+              "response_bytes": 56124,
+              "input_tokens": 87302,
+              "output_tokens": 386,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0049",
+              "request_sha256": "79b8cc9206bfabf08c29b0d3c9313eb9149b4a401d20f9dafad9768a40bf41a9",
+              "response_sha256": "adf30dc6a2ffe78d7df47b4a11ecb2e7e7d392e5f4e6c5f095d642247e7566ec",
+              "request_bytes": 350947,
+              "response_bytes": 36399,
+              "input_tokens": 87755,
+              "output_tokens": 296,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0050",
+              "request_sha256": "38715753caddc20a7fc50c759a0a9c7c1d08aafd960bb833c92866509ed44a12",
+              "response_sha256": "bade86bd8dde739ba8c5bddea2810f0e66c099238338d2b284d40d802ccb1d4d",
+              "request_bytes": 353013,
+              "response_bytes": 31525,
+              "input_tokens": 88336,
+              "output_tokens": 141,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0051",
+              "request_sha256": "ae0c2ef58aaf8bd6ff5e7c3d8c67c1b6d4c6efed0c896c00e011eafbfb2a89ea",
+              "response_sha256": "cd763ccf9c019cf7d50f37d6f50c104060a0460739dea36dafe28c2438c271bb",
+              "request_bytes": 353690,
+              "response_bytes": 143581,
+              "input_tokens": 88526,
+              "output_tokens": 824,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0052",
+              "request_sha256": "a42ab7f8de4b73d0a97cbf18d384b0870d6d343d16ccee0098ecdd316e16f1be",
+              "response_sha256": "20e1e20e7c9f788afa7b5feb2f5e0b0be67730c334011592ce4eb9ddec00c8b6",
+              "request_bytes": 356622,
+              "response_bytes": 69183,
+              "input_tokens": 89392,
+              "output_tokens": 248,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0053",
+              "request_sha256": "82734377094f9e7f0eae24a75fe9f8e2eb6cf79bd9e46b297415a9e95d26d625",
+              "response_sha256": "96ecf6f8e64f8c30bd196445e61dd5b43b4bf3f49638366c473729bc37e69496",
+              "request_bytes": 358020,
+              "response_bytes": 256546,
+              "input_tokens": 89925,
+              "output_tokens": 834,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0054",
+              "request_sha256": "ee00346db9c1475b0448295b0e8ad256a08bd78dff1d7c438db148884612f5fb",
+              "response_sha256": "8a23b04ca34f212c43fb125e42adaf70c5f1bce81f3cf2633c2adb9b3ac5df6e",
+              "request_bytes": 361401,
+              "response_bytes": 91546,
+              "input_tokens": 90924,
+              "output_tokens": 949,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0055",
+              "request_sha256": "f3dabd46ea4ff066ba61556db5d374eadd979050ac5b731e04c4b0ad24a31907",
+              "response_sha256": "4952ebe0581ee14a7085c244e5d441db779e95e638b23c9087dd23c6072a1bf5",
+              "request_bytes": 366153,
+              "response_bytes": 103670,
+              "input_tokens": 92179,
+              "output_tokens": 370,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0056",
+              "request_sha256": "27d1fcf554c9363a4b50f0ea6e0303ad2d7b2247483c1de9fe618e73e8efd889",
+              "response_sha256": "7f11e4babf9bf47460017027d00c74828e090d6ed3b9ba3166a69f4c3a7cb707",
+              "request_bytes": 367905,
+              "response_bytes": 11445,
+              "input_tokens": 92592,
+              "output_tokens": 81,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0057",
+              "request_sha256": "9c528b2c8597922e5b00da74eb5a93f77aa1ba5edd066f7076327f1cceafeea3",
+              "response_sha256": "ede6824f43d3f9aa9fcd5f1fc60619a779acd5dcb4953dd953fbfab63233f332",
+              "request_bytes": 370773,
+              "response_bytes": 10854,
+              "input_tokens": 93251,
+              "output_tokens": 78,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0058",
+              "request_sha256": "601ed526bdab9e625ead67dad61baa0d5bb1de4091ddfd5af37ee09c4697545a",
+              "response_sha256": "aa9fa3816362cae6baa66eaf51846a512d4ad07f2174eabe2c4cac1bc6eafbd8",
+              "request_bytes": 371798,
+              "response_bytes": 56295,
+              "input_tokens": 93497,
+              "output_tokens": 222,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0059",
+              "request_sha256": "db1c19eb5e19a6dc282d72235743e9eac0bbbf1181a70d6d42d2784d20af489e",
+              "response_sha256": "bdf8d5f2fe8601a933f3dc1d2a5a6f38ac2ec554adf707c2b679d18ee76e5dda",
+              "request_bytes": 372895,
+              "response_bytes": 124959,
+              "input_tokens": 93762,
+              "output_tokens": 436,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0060",
+              "request_sha256": "d6c1012afd6c657ab8e4970f0c08fcc22695896d59f116f6f374afe0eab7792e",
+              "response_sha256": "13c8d4a920fc4d6729b9b2e7e9fea3fbdcd786ad74b60c4e1ad18e7616923fed",
+              "request_bytes": 374816,
+              "response_bytes": 33831,
+              "input_tokens": 94240,
+              "output_tokens": 155,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0061",
+              "request_sha256": "dc2c0160d27a0f776e016c3136a1b74151ca29bbd9f3f5ed4207abe87830bdf2",
+              "response_sha256": "171526b945c3477e6b75a8d0a44e12e6f5e9303f104faf4b11151c2d1731bfd7",
+              "request_bytes": 375529,
+              "response_bytes": 45535,
+              "input_tokens": 94437,
+              "output_tokens": 212,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0062",
+              "request_sha256": "3533dbf6d0ab7174982acc81f4dc31737d15b83c7f9849c2aba313e48dc011b9",
+              "response_sha256": "cecd8117eb39c656554b19c1a0c93e539ba17cdced9b00bdcecb1c6472b7a69b",
+              "request_bytes": 376425,
+              "response_bytes": 263886,
+              "input_tokens": 94674,
+              "output_tokens": 856,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0063",
+              "request_sha256": "3ed4b1bdfb6d3e4e148cc55dc617d0258e455b11d12d458ff63b573f62dbbedc",
+              "response_sha256": "4dac0bc3e5347468185eddfbabac6af11f16eee1017acfb7d4e924faf8e09345",
+              "request_bytes": 379933,
+              "response_bytes": 36372,
+              "input_tokens": 95719,
+              "output_tokens": 359,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0064",
+              "request_sha256": "8ece1836a874a0c15b353013bc93d69496467b059116238213f21958a502aaf1",
+              "response_sha256": "87efd568aff7999f417eaa977bb1b8181cccd4c5902a0a3b3edaaa2514cdd88c",
+              "request_bytes": 381435,
+              "response_bytes": 134115,
+              "input_tokens": 96116,
+              "output_tokens": 1214,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0065",
+              "request_sha256": "995e5300bc75fee1af23815f9c2c50b6ccefb4cf8a85f17c824ef9a683057c72",
+              "response_sha256": "fd8eba637c50f1103f305ab8fe8e88d5e66b97746ce3ed4e07cce6c26922413d",
+              "request_bytes": 387130,
+              "response_bytes": 30452,
+              "input_tokens": 97482,
+              "output_tokens": 136,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0066",
+              "request_sha256": "16d7cb1892050a3fc5f4714ded318029818243ec0e4addb89e7d38cbcde6d986",
+              "response_sha256": "7d2afced0c8c6197789a1083ffa36c07f596939a43d9b299b95009bc6922c1d3",
+              "request_bytes": 390348,
+              "response_bytes": 43540,
+              "input_tokens": 98357,
+              "output_tokens": 214,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0067",
+              "request_sha256": "fbbb9822ccc2351009fa6bbcea348bdbfb51ac9162859dc60a87e32a5e9b0400",
+              "response_sha256": "933a1bdb01ce93f3e69d9d125c8f3b1db2a09d56106934490af3b87cc846ae40",
+              "request_bytes": 391343,
+              "response_bytes": 270744,
+              "input_tokens": 98613,
+              "output_tokens": 2694,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0068",
+              "request_sha256": "accd2930a281f0c249ce5170ba04506887f52022b0ad212f3ccc66dfc46fb57d",
+              "response_sha256": "574d81cb03c9eeb03db911bc4c8ed7ea1f4f6e4169afb8040a72cbb0d44eda1c",
+              "request_bytes": 405017,
+              "response_bytes": 273932,
+              "input_tokens": 102249,
+              "output_tokens": 958,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0069",
+              "request_sha256": "da142c7826d1b17fc9a63518332571b2744b2cd26a6a63ff820683ce78a43937",
+              "response_sha256": "1f2ee5c1f8d482aaf8637e9ea2f50f71406604eacbadee6a7fdc079d978ffa46",
+              "request_bytes": 408763,
+              "response_bytes": 47465,
+              "input_tokens": 103250,
+              "output_tokens": 218,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0070",
+              "request_sha256": "2f640151b6ce3655646b8e00ebccf5a10c05d149394ae53c340fc191160f3d64",
+              "response_sha256": "0b2384c9558768f43524aa95ba61b4ad0efbc0402216b5832eba9f5fcda351ac",
+              "request_bytes": 410007,
+              "response_bytes": 290296,
+              "input_tokens": 103659,
+              "output_tokens": 1096,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0071",
+              "request_sha256": "1f5fee63e7750b66037356cba0511cc9509bc5b7a9c490138f829e85958dcda2",
+              "response_sha256": "c59f85dd6fdf2f65415e18645c893cc3a520be6079d53003b4701df5b52c7557",
+              "request_bytes": 414476,
+              "response_bytes": 34581,
+              "input_tokens": 104898,
+              "output_tokens": 156,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0072",
+              "request_sha256": "4fda5ad4778eee031345ea8b9bb88f0716c75af4b4b7a5bf1dcbe6fe17f8304a",
+              "response_sha256": "96402c995801d13c439aca33e651045c22bc08c02e79c27c8d175eaf0723610e",
+              "request_bytes": 415427,
+              "response_bytes": 15991,
+              "input_tokens": 105149,
+              "output_tokens": 86,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0073",
+              "request_sha256": "705b869531bd82b6d661ae1ac0f1cf0e131b02800c6e5c4cf7124b3fe2fdcb92",
+              "response_sha256": "79fc11cb9e6cce3a628b199cb7d1495644bcf9e7325574e04a224153387d57d2",
+              "request_bytes": 415887,
+              "response_bytes": 74991,
+              "input_tokens": 105261,
+              "output_tokens": 332,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0074",
+              "request_sha256": "18cdb4103a2a61bbaabd4ec0a7731e275c231f0e0435cd99869ac3100c4b289c",
+              "response_sha256": "0de37c289160aefcb4981a86623c227fbb6db0013a5a1593da23e9b4dbb8e229",
+              "request_bytes": 417533,
+              "response_bytes": 61206,
+              "input_tokens": 105660,
+              "output_tokens": 399,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0075",
+              "request_sha256": "d1444ab3c9357a043f4cd7cfeb98769edc3de44aa3387cf3bf3f2ee12e3ebf2f",
+              "response_sha256": "77931254a57ae52d433b6414a43cd38e757944952fc235594a94d226ce7a0a43",
+              "request_bytes": 419112,
+              "response_bytes": 228335,
+              "input_tokens": 106132,
+              "output_tokens": 2075,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0076",
+              "request_sha256": "5537ad80259085417f3115a0d32a2a83a1b8453664222f2669abb78ab026d90a",
+              "response_sha256": "c4977273fab1f5a4d77c9d95472ac9711a00694b8d27665febaf96d61c2f798c",
+              "request_bytes": 427722,
+              "response_bytes": 46158,
+              "input_tokens": 108248,
+              "output_tokens": 198,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0077",
+              "request_sha256": "a12a2c6e43b152da784e7ed2649b22f9bb13d10c82b927b78882571bc57abdcf",
+              "response_sha256": "6e101dbb56e3f7c02c2e75153f53a790ffb4ba75d7afb56c603cc81a03141656",
+              "request_bytes": 428782,
+              "response_bytes": 38765,
+              "input_tokens": 108489,
+              "output_tokens": 204,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0078",
+              "request_sha256": "11f83f83973adaa88e353ae9e53e43019cdef8364b0a9fd269663b9fd8e5d532",
+              "response_sha256": "4f02b1f39a5d3628e5fe514609bcab3c0efd590a0d72f12839a0ef744684d9c4",
+              "request_bytes": 429909,
+              "response_bytes": 91285,
+              "input_tokens": 108771,
+              "output_tokens": 550,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0079",
+              "request_sha256": "6339fa81f76aebd735ddd68baf5763928fe53004bc6ada35c3ffd8095db70d9e",
+              "response_sha256": "2a3c24ec931464b96e0d916f50f32f9de605f1e89e4516c2f5435311165942e9",
+              "request_bytes": 432223,
+              "response_bytes": 110754,
+              "input_tokens": 109363,
+              "output_tokens": 605,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0080",
+              "request_sha256": "c9e15affd0b831827ba3d205c505ed591fcf3de9c46911fea3681a332b21f631",
+              "response_sha256": "cdac9b7c0409a13e2419fa9c16f01a709b1e7e0ccd86fabf858959853d6d7565",
+              "request_bytes": 434934,
+              "response_bytes": 145814,
+              "input_tokens": 110008,
+              "output_tokens": 1128,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0081",
+              "request_sha256": "5759d4355c1ba58c97cc934f432e0d0733a2f7603b0135e1a6f322532afed3c6",
+              "response_sha256": "8cb9ec2f7b8db90819d94b6af00c4f126dbfc0565ed0381364b80f07724a386e",
+              "request_bytes": 439926,
+              "response_bytes": 215575,
+              "input_tokens": 111181,
+              "output_tokens": 1356,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0082",
+              "request_sha256": "d049bf06742998e55c21ff6fc033500a2047ca00a0ebaf598df8210a29405618",
+              "response_sha256": "aefe746a95a53a8634fb6a7610805ac1f28808567063ad82fc7e7a2c6e910118",
+              "request_bytes": 446542,
+              "response_bytes": 48601,
+              "input_tokens": 112952,
+              "output_tokens": 425,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0083",
+              "request_sha256": "d39fa06b1a20f02d2f0a9b28c6e4463f49e691eb879705ff75658f2f09cb3f0d",
+              "response_sha256": "7b56a80276579392443faa00ec0832d54587f0f2ab5f85aedead230e4485b8b5",
+              "request_bytes": 448503,
+              "response_bytes": 61127,
+              "input_tokens": 113433,
+              "output_tokens": 500,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0084",
+              "request_sha256": "98cde57a4fe97080e8cf6fd0ac3c3d3edb29f96c20d76ed4c4f540bf6f2f64ad",
+              "response_sha256": "da9b18a36ae8f1068cde6105455cb3405d44b016f2a87beda2b34409814028b8",
+              "request_bytes": 453675,
+              "response_bytes": 211067,
+              "input_tokens": 114738,
+              "output_tokens": 2025,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0085",
+              "request_sha256": "32fa91ecff4d752e27411293bb9a26e9f7178bd3dbb0e89d7ea953ba7e85befc",
+              "response_sha256": "1a2f2f2be35702c126f58fad98e8b281bc9969221883ac927f7a8563ea2a64b5",
+              "request_bytes": 463479,
+              "response_bytes": 269095,
+              "input_tokens": 116942,
+              "output_tokens": 1540,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0086",
+              "request_sha256": "87b8b7bd211a6605deaed6079c050f74100c6f93b7580a6bf89aee0ede89a849",
+              "response_sha256": "e4224104f52aa9b9f8eaab773c397eeccfb20a3076532b31384adf4ce0658576",
+              "request_bytes": 470512,
+              "response_bytes": 25784,
+              "input_tokens": 118632,
+              "output_tokens": 178,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0087",
+              "request_sha256": "9e3d1a6c55feec076515d270dd3897fe622675714fb8b3084446a8ff229cb4ec",
+              "response_sha256": "9d2cc0bceb1360253f65f60bbf4a289f53b1db68a81e313294623a6ebddb6dda",
+              "request_bytes": 476056,
+              "response_bytes": 64858,
+              "input_tokens": 119933,
+              "output_tokens": 353,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0088",
+              "request_sha256": "2e3faf416594261521683ec812b6d5e0905d15e9c6e7eab5ac788e0ba896c743",
+              "response_sha256": "fded0f5ca0d70d13f4493db3bbb5adef81911f0075af6703a2c3721cc187d6ff",
+              "request_bytes": 477562,
+              "response_bytes": 116275,
+              "input_tokens": 120305,
+              "output_tokens": 830,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0089",
+              "request_sha256": "106f81b35ae27a0d2d4853f7254335378dbecad32f5cd418826c427f7aef491e",
+              "response_sha256": "0ee827a8e3f329b24e08e202ecbb567f428d800b0b991ab4c910caa4ca4548c0",
+              "request_bytes": 481215,
+              "response_bytes": 132155,
+              "input_tokens": 121140,
+              "output_tokens": 1330,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0090",
+              "request_sha256": "06ea77e6d64bad19acca33be222fcbe941e288aaebd4cfd24e42a80cf080c41d",
+              "response_sha256": "5a4bdfb0b5324386579ecb44f8153873b5c916384024a61a6d71a190965ba5f7",
+              "request_bytes": 486888,
+              "response_bytes": 71842,
+              "input_tokens": 122630,
+              "output_tokens": 272,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0091",
+              "request_sha256": "a960556356c93c49dc3f94122e243275c49aaa6c1f9d3a25cee381c08bc9315a",
+              "response_sha256": "d714c8b769df268456e16cf2f6a9dcf39a198e698ba290a149a9d2bdec997522",
+              "request_bytes": 488170,
+              "response_bytes": 23181,
+              "input_tokens": 122945,
+              "output_tokens": 135,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0092",
+              "request_sha256": "dd83140478c324d72fa3f2e0f34e9a4a2f0023262ee96eef0f31868f4eb8dc1e",
+              "response_sha256": "1f2c51e5d0f1025f9dbe305555909ffac1f95eb0a0e882e4c25a3e94041f18a8",
+              "request_bytes": 488798,
+              "response_bytes": 52932,
+              "input_tokens": 123101,
+              "output_tokens": 391,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0093",
+              "request_sha256": "9d11687cb0af633fac42a255252b3b30ef8b82c664557b7785d6bd8c65afffae",
+              "response_sha256": "b88405bec1c664214abad46f5a50f5e5ec9ffa7c4194d736b006d8a86502c99a",
+              "request_bytes": 490651,
+              "response_bytes": 146505,
+              "input_tokens": 123529,
+              "output_tokens": 1024,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0094",
+              "request_sha256": "ea7b7f9bb623b0c047064c135e09f9e21e6a6ece5150a65a4638dfc5bb3111dd",
+              "response_sha256": "de2cef936b7ca36c080fae52665c89ab5b9eba63fc028c9f23691c1002184e4c",
+              "request_bytes": 495427,
+              "response_bytes": 118621,
+              "input_tokens": 124573,
+              "output_tokens": 967,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0095",
+              "request_sha256": "ef4545665cad89e944410578cfd6c559103d06e20942398a482cf576763f9b2d",
+              "response_sha256": "d50d4176f586e8fed37d326b625b75c9d37db5844c76da84d9ccf1063dbc8ef7",
+              "request_bytes": 499793,
+              "response_bytes": 127300,
+              "input_tokens": 125682,
+              "output_tokens": 1079,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0096",
+              "request_sha256": "35e824c80f9e79df46862324593f93a8bbb8e4b10b9a50a17081b6386382fa6f",
+              "response_sha256": "9ef4bfe315d522379c827d0dd23d35638e99d915eabe99fe8ca390e5fe553066",
+              "request_bytes": 504412,
+              "response_bytes": 137138,
+              "input_tokens": 126851,
+              "output_tokens": 1490,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0097",
+              "request_sha256": "cc733b1b17e1facda06861e781735610991df137b8c9946a08a52ee34b6a46dd",
+              "response_sha256": "419ec6de983613f43d44b0c1beecd69f688ed3d19e5d22edb098eb52b7272bfb",
+              "request_bytes": 512725,
+              "response_bytes": 89648,
+              "input_tokens": 128807,
+              "output_tokens": 329,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0098",
+              "request_sha256": "f7a52650934e3c60b0cf0c59f59efdabf6006ec7e755a3224f2b7557c636dc39",
+              "response_sha256": "799a02b352d791a77147c93d983c3c8e2ad886467eb31ca25dfbba671ab76e85",
+              "request_bytes": 514364,
+              "response_bytes": 146507,
+              "input_tokens": 129178,
+              "output_tokens": 904,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0099",
+              "request_sha256": "2663b4c2421e73e8c74bf0b80d23275745fa01eac473c97e010736f4565b2c3b",
+              "response_sha256": "a26a6d4d8505a88cfce20d7214e9251248d23394aa2e5ad42010637949814360",
+              "request_bytes": 518206,
+              "response_bytes": 268862,
+              "input_tokens": 130165,
+              "output_tokens": 1402,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0100",
+              "request_sha256": "3274343e7620043e90837351a697637450042292538e55af72990c4603bd4c6f",
+              "response_sha256": "4c6aa85a64db81703a7d9f1ab142c06ab0e9236f774a081341dd662fb4dacdf0",
+              "request_bytes": 524582,
+              "response_bytes": 54684,
+              "input_tokens": 131579,
+              "output_tokens": 206,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0101",
+              "request_sha256": "a4f4d84f0ac598048c032502e792dd0cf14e8c483e9b967da26d5fb15d6c0e80",
+              "response_sha256": "5f9f590f7707102cef6f19f9c5d0c1dd593a66d488d13ac89075789f352dc5a8",
+              "request_bytes": 525690,
+              "response_bytes": 48377,
+              "input_tokens": 131866,
+              "output_tokens": 287,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0102",
+              "request_sha256": "5fc24b8267ecf6f610cd509225d437cc99b952997e1568a5293c4f56ab92f0b7",
+              "response_sha256": "9be5ab1404248218d7ab6b968fe18e3f4675f3000cc601e3dc2ce46360d55787",
+              "request_bytes": 527198,
+              "response_bytes": 90451,
+              "input_tokens": 132204,
+              "output_tokens": 859,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0103",
+              "request_sha256": "5215adcc7e8b262fdf29db947f8459db3e0ce5bd311951ada70b0806a35a50c7",
+              "response_sha256": "8730e33f86b2e05afcc59a048bacca1fe6662ac1b44f44aa1cf3be6b4b68863a",
+              "request_bytes": 531368,
+              "response_bytes": 162733,
+              "input_tokens": 133091,
+              "output_tokens": 1139,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0104",
+              "request_sha256": "56836520fb64563fbc8a475aae2efe799432b4987fa2e0da6283b12a9f847bfb",
+              "response_sha256": "1813b9e7ad92f303e6f06dcd81fa785de9654429e732df65514a7d41420b5011",
+              "request_bytes": 536644,
+              "response_bytes": 55611,
+              "input_tokens": 134461,
+              "output_tokens": 465,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0105",
+              "request_sha256": "d127674dbaebfda72dcea033f0fab1e935fddc3d20af660dbd0a7748b87b0b3d",
+              "response_sha256": "06804baaf9ad2fa63062eb8e0f23b4a4306749e8e1fbb0c6656d7f99234cf9c7",
+              "request_bytes": 538709,
+              "response_bytes": 42015,
+              "input_tokens": 134957,
+              "output_tokens": 240,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0106",
+              "request_sha256": "0affd1c28746456a131382764eededfa815a87579f708f204a36db45af86c5c3",
+              "response_sha256": "c783d020cdeab566ea4bdebe06ae0a01f8ba5b480ddb4cf77f5350b6eb6a6a47",
+              "request_bytes": 539820,
+              "response_bytes": 63325,
+              "input_tokens": 135221,
+              "output_tokens": 714,
+              "finish_reason": "stop"
+            }
+          ]
+        },
+        "clm": {
+          "state": "agent-start",
+          "last_event": {
+            "event": "agent-start",
+            "timestamp": "2026-11-19T06:07:50.978701+00:00"
+          },
+          "request_outcomes": {
+            "complete": 23
+          },
+          "requests_in_flight": [
+            {
+              "attempt": "0023",
+              "created": "2026-11-19T14:12:48.778916+08:00"
+            }
+          ],
+          "first_actual_input_tokens": 41209,
+          "first_actual_input_exact": true,
+          "previous_marker_in_first_actual_input": true,
+          "native_session_match": null,
+          "native_terminal": null,
+          "native_terminal_error": null,
+          "native_stream_sha256": null,
+          "native_transcript_sha256": null,
+          "native_compactions": null,
+          "session_saved": null,
+          "reward": null,
+          "grader_files": [],
+          "judge_complete": 0,
+          "judge_errors": 0,
+          "exception_type": null,
+          "request_errors": [],
+          "requests_completed": [
+            {
+              "attempt": "0000",
+              "request_sha256": "065831f2a977532113134d4101d6e816e12bb2e9b8aaf3f1f7af480439790a80",
+              "response_sha256": "a5a07fe10f7062689d5dff78bec8dac4972af621f2ce58c62e33ad2a98d218f2",
+              "request_bytes": 169282,
+              "response_bytes": 29765,
+              "input_tokens": 41209,
+              "output_tokens": 197,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0001",
+              "request_sha256": "073d75aefacab73f86d0f474091d56f420449a6c3cff169c52d1411ed82c4ca3",
+              "response_sha256": "0b4af0ca0a390e6d3f71732f5d33747aa011806b0d9a1d4b01c580b9dea86f09",
+              "request_bytes": 172379,
+              "response_bytes": 30917,
+              "input_tokens": 42154,
+              "output_tokens": 129,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0002",
+              "request_sha256": "7426f2c220268f645f7bbc9f2082c9eb87ed6ce09925be7484092fa68f704027",
+              "response_sha256": "ef33a73d4829ac03d4419d13ac141f018353523eb66b7a2a654db723c79dfa8c",
+              "request_bytes": 174525,
+              "response_bytes": 57480,
+              "input_tokens": 42704,
+              "output_tokens": 278,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0003",
+              "request_sha256": "6a62287efdc6db1bfa5b2b65de7497d7162977b8d2578bd96d753e57d496a463",
+              "response_sha256": "6acbbf477fddacf8d94f08cb25f5bd94509bc15a7ffcd888605b02bdebb80eb2",
+              "request_bytes": 186599,
+              "response_bytes": 41301,
+              "input_tokens": 45843,
+              "output_tokens": 304,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0004",
+              "request_sha256": "1d88a6c37e6feb7e4f35eafb4d618a4b8b3b43f390b3e2bff01c12ea3f7edfa3",
+              "response_sha256": "fb12c4ce8dc57c8ab6b3ebb939e1c7ac53968e846ef24efd3276f584dbae08db",
+              "request_bytes": 188346,
+              "response_bytes": 20760,
+              "input_tokens": 46279,
+              "output_tokens": 105,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0005",
+              "request_sha256": "5ee9d9e5086c3f4c7aff9b412ca0b06daf6ebebfc5ea3d76247e25bd0d913f1e",
+              "response_sha256": "661092aebee0326eace71a19dc4a4b1af8e8ce7cc122e36aeddf3da394c3e1db",
+              "request_bytes": 188909,
+              "response_bytes": 64385,
+              "input_tokens": 46420,
+              "output_tokens": 393,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0006",
+              "request_sha256": "d9731aea5f90b1f74797c232e357fcbce6c3b0f1bf007a31925f83730a6039cb",
+              "response_sha256": "42cd9819dce4d315ab2fb2f2eab8583e9916e2ff5a963739351d8e936567bc8d",
+              "request_bytes": 190720,
+              "response_bytes": 37118,
+              "input_tokens": 46860,
+              "output_tokens": 236,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0007",
+              "request_sha256": "58e8896853f84a4cff37321a54643e2881ae9e5e438a3380f5b44e975c2a8be6",
+              "response_sha256": "d1fcc9f59615c1330049cdfcb05667c83ae6392cec74eed1de7fd626055a9cfe",
+              "request_bytes": 198319,
+              "response_bytes": 72003,
+              "input_tokens": 48826,
+              "output_tokens": 568,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0008",
+              "request_sha256": "c9d73a3c142f493a078a926ffc10dfbe3985c38a88270280660a9f3dfdbc774b",
+              "response_sha256": "45a0107f88a2333a840b97a208e639b7d49b373cc161b7d8a820af6dbdc3d492",
+              "request_bytes": 201142,
+              "response_bytes": 108943,
+              "input_tokens": 49480,
+              "output_tokens": 856,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0009",
+              "request_sha256": "c96dbdbc6b014618309dbf50d1d5d270a1ca8ee7362b4bac708a0887f94deb5f",
+              "response_sha256": "f4f311ce5c597fc66b3726f85f903d6603387f7db466c11568394514e728672c",
+              "request_bytes": 205344,
+              "response_bytes": 3673949,
+              "input_tokens": 50453,
+              "output_tokens": 16384,
+              "finish_reason": "length"
+            },
+            {
+              "attempt": "0010",
+              "request_sha256": "c8432356859ca34f67abe8d65aeb5e68cae502f80d4058e09cb8ef2230ddb6b8",
+              "response_sha256": "b14ec437a5bffd9acf299c5dfc9fac8b9a9f96d8f6ff6d84754cb14c55f66572",
+              "request_bytes": 235231,
+              "response_bytes": 2867539,
+              "input_tokens": 57864,
+              "output_tokens": 10880,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0011",
+              "request_sha256": "2a7063820d524ece6e6998b9ab454ad3249a3ee510b3089b1fd547913f55bca4",
+              "response_sha256": "4c05d239ecbd4081a9b561de58ea1f99ef3f9b5c0f56ab259bbe8adc29c09ed7",
+              "request_bytes": 283354,
+              "response_bytes": 292332,
+              "input_tokens": 68756,
+              "output_tokens": 1666,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0012",
+              "request_sha256": "27b4f7f5b1d2c809b54e7566d57efc0a43a283b8c52381f5b114087ceca775e2",
+              "response_sha256": "b33c781b6b82caf26d9964fb744ee875c6a6776e71ad07c3c294d2ea70bc192b",
+              "request_bytes": 290619,
+              "response_bytes": 594801,
+              "input_tokens": 70853,
+              "output_tokens": 5098,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0013",
+              "request_sha256": "7ed52dd7266785c120519b3cf283d1b90d40f21f6d79b5ae8fd273a4515fa280",
+              "response_sha256": "2f04e5e58e5328893b6326c68ff1e133219284476bcaf15612fad47a9d0c26af",
+              "request_bytes": 312343,
+              "response_bytes": 51030,
+              "input_tokens": 75963,
+              "output_tokens": 215,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0014",
+              "request_sha256": "3e8c7d17e0983daf6c3c84109ecca502b3ed132614a280d8e98574405f7b8c46",
+              "response_sha256": "4ebb32621b0a8fedc7efdc5454e684a35c10d587ec25b60b8265b1ee51a86b53",
+              "request_bytes": 313339,
+              "response_bytes": 117926,
+              "input_tokens": 76193,
+              "output_tokens": 404,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0015",
+              "request_sha256": "c4dc613500ca4b7e6c458ac7b3a2868bd74892ba94aadfd3a407336606c83b6a",
+              "response_sha256": "83304c3ccf00e0a68a0293352ebb5a0147f266a99b9429369c8467a6606f5b98",
+              "request_bytes": 314979,
+              "response_bytes": 608101,
+              "input_tokens": 76679,
+              "output_tokens": 3584,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0016",
+              "request_sha256": "206b3d72a9a9c20353756352a1623cbfb22257570c239943d599001b49a09139",
+              "response_sha256": "b64b4fb9960f0e0f7c68294002ce2f486c1334ea9783bdf40ac256e180265a89",
+              "request_bytes": 330867,
+              "response_bytes": 133203,
+              "input_tokens": 80275,
+              "output_tokens": 449,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0017",
+              "request_sha256": "de5cd57b499b9011d98aa3e585c7316db2dca3f2e2c3b35c6d796c674068a531",
+              "response_sha256": "13c4f15438e1303f253c37a6682a4f4b50712783b084017c7be1b362b613f4a2",
+              "request_bytes": 333142,
+              "response_bytes": 325370,
+              "input_tokens": 80996,
+              "output_tokens": 2050,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0018",
+              "request_sha256": "2e5e597243cd8452403d0d277b7a90c6968898bff3c11285cd073dda81335236",
+              "response_sha256": "bd2a05f40cfb1fe2ca26aac7ca4cb668e60bffdd6dc206ffc8813e89a9865c05",
+              "request_bytes": 341627,
+              "response_bytes": 26410,
+              "input_tokens": 83060,
+              "output_tokens": 126,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0019",
+              "request_sha256": "b8d0b302b5bd3b06da818ff04ef931d451dcf7f88563d1f6038b58df6f290641",
+              "response_sha256": "bbf218e72565707cbb33564e701f9a7cf977353e1924db316a4a144aef66528b",
+              "request_bytes": 345710,
+              "response_bytes": 13343,
+              "input_tokens": 83913,
+              "output_tokens": 79,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0020",
+              "request_sha256": "74379ad9dbff92c6534ec6af03004b9df0bb6a33f4b3f11928a99f4dc78f3b6f",
+              "response_sha256": "855589f62d169f1ebd2c1eff856190a2f6deb8cb64934404d7eb42a69b4ff732",
+              "request_bytes": 348973,
+              "response_bytes": 82022,
+              "input_tokens": 84678,
+              "output_tokens": 315,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0021",
+              "request_sha256": "0434d6953fc9f28487b3a2431f82018c499959497f3abce2cb304d7ecb8833ac",
+              "response_sha256": "8bc35fc2f7d87a30e8346c52f170a0370feb3ed4d78668010b14033be8ae3628",
+              "request_bytes": 350185,
+              "response_bytes": 27393,
+              "input_tokens": 85018,
+              "output_tokens": 227,
+              "finish_reason": "tool_calls"
+            },
+            {
+              "attempt": "0022",
+              "request_sha256": "40bea98cc8890eae18a667a5db17d7acf42192ecc31a4e16047a917510445590",
+              "response_sha256": "1cd47832f3eb4974895fdebcde637ee280849c16d4aad75956b00065f7cb363a",
+              "request_bytes": 351474,
+              "response_bytes": 14353,
+              "input_tokens": 85337,
+              "output_tokens": 93,
+              "finish_reason": "tool_calls"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
