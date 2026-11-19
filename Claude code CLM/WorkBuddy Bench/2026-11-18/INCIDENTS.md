@@ -130,3 +130,5 @@ CLM 在 17 次完整调用及成功终态后等待后台递归搜索。确认搜
 第九次恢复从原生第 55 题与 CLM 第 56 题的原会话快照接续，重用 111 条已验收线次。设置原生 Claude Code 的自动压缩阈值为当前有效窗口的 75%，使用原程序的压缩行为。实际模型、两组各自会话、题面和题序已核对。 [失败回执与续跑检查点](evidence/formal-02-recovery-09-offline-proof.json) · [归档索引](evidence/retained-trajectory-inventories.json) · [中断时评分审计](evidence/hourly/2026-11-19-2154-web-judge-health.json)
 
 22:12，第 56 题原生组从原会话起跑并触发原生自动压缩。压缩辅助请求输入 163,817 token，压缩后的首个原题请求输入 8,114 token，两次响应均闭合。已验收的 111 条线次回执逐字节相同，第 56 题 CLM 的 1.0 保留。 [实际请求及响应校验](evidence/task-056-resumed-native-input.json)
+
+22:42 完成第 56 题双组复验，原生重跑与原 CLM 回执均为 1.0。原生重跑记录 24 次完整模型响应，包含已核验的原生压缩和正式题面请求。两条接受线次没有重叠，且各自会话中的题序保持一致，既有 CLM 线次早于原生重跑。 [配对验收](evidence/hourly/2026-11-19-2242-input-output.json)
