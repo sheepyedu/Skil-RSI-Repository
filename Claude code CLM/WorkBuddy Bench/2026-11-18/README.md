@@ -1,6 +1,6 @@
 # WorkBuddy Bench · Claude Code 与 CLM 串行对照
 
-**2026-11-18 北京时间开始。运行批次 `formal-02`，续接批次为 `formal-02-resume-01` 至 `formal-02-resume-05`。** 两条 Claude Code 2.1.160 线路使用同一份 60 题清单和同一题序。每组使用独立且连续的原生会话 UUID，每道题使用隔离的官方工作区，组内延续会话和笔记。执行顺序为同题原生组、CLM 组，随后进入下一题。作答模型均为 DeepSeek V4.1 Flash `deepseek-v4-1-flash-261017`。Web 外部评分使用 GPT-6.1-sol，其余按对应的官方评分方式。
+**北京时间 2026-11-19 22:52，60 道配对全部验收。** 原生组平均有效分为 0.6467，CLM 为 0.6344。两条 Claude Code 2.1.160 线路使用同一份 60 题清单和相同题序，各自沿用原会话 UUID。每道题使用隔离的官方工作区，组内延续会话和笔记。正式执行及续接批次从 `formal-02` 到 `formal-02-resume-09`。第 56 题 CLM 的接受线次早于同题原生重跑，两组所有接受线次互不重叠。作答模型均为 DeepSeek V4.1 Flash `deepseek-v4-1-flash-261017`，Web 外部评分使用 GPT-6.1-sol。 [最终对照报告](RESULTS.md) · [逐题分数](analysis/final-scores.csv) · [时序审计](evidence/final-serial-order.json)
 
 | 子集 | 官方 v1.0 | 正式选题 | 独立试跑 |
 |---|---:|---:|---:|
@@ -35,6 +35,6 @@ Security 使用经过范围核对的离线防御性任务。冻结题单记录�
 
 2026-11-19 11:41，原 DeepSeek V4.1 Flash 入口恢复并通过真实生成核验。截至 11:57，已完成 27/60 道配对，原生与 CLM 已沿用各自原会话完成第 27 题，控制器已启动第 28 题。阶段正式请求 1,569 次，另有 5 次补评。 [恢复记录](INCIDENTS.md) · [第 27 题配对验收](evidence/task-027-recovered-pair.json) · [请求计数](evidence/hourly/2026-11-19-1157-request-counts.json)
 
-此阶段归档不代表 60 题全部结束。GitHub 保存题单、源版本、校验值、执行代码和可公开观测。完整原始会话、逐请求正文、响应流、CLI 输出、题目产物、失败尝试、敏感配置与原始依赖包留在访问受控的 H20 CPFS。原始第三方数据由上游分发，公开索引可核对实际使用版本及全部归档校验值。混合 Security 压缩包含超出本次防御范围的任务。可公开逐请求文件记录完整性、哈希、用量和状态。
+GitHub 保存对照结果、题单、源版本、校验值、执行代码及可公开观测。完整原始会话、逐请求正文、响应流、CLI 输出、题目产物、失败尝试、敏感配置与原始依赖包留在访问受控的 H20 CPFS。原始第三方数据由上游分发。公开索引可核对实际使用版本和各批次归档，逐请求元数据记录完整性、哈希、用量和状态。 [最终轨迹覆盖审计](evidence/final-trajectory-audit.json) · [历次归档索引](evidence/retained-trajectory-inventories.json)
 
 官方数据及条款。[WorkBuddy Bench v1.0 固定数据版本](https://huggingface.co/datasets/tencent/workbuddy-bench/tree/3e8ad839685c589d83a1dd60fe2d15eabb75f27a) · [固定框架版本](https://github.com/Tencent/workbuddy-bench/tree/625b2233093ae4f23e76be28c1f341d41cc70373) · [Tencent 条款](data/TENCENT-LICENSE.txt)

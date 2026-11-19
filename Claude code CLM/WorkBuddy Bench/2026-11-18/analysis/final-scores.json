@@ -1,0 +1,1089 @@
+{
+  "observed_at": "2026-11-19T22:52:45+08:00",
+  "run": "formal-02-resume-09",
+  "plan_sha256": "514a0e3a17b59db24b3990bbff1f1fd202c0379ad8f5571880f3ddf84b4de316",
+  "completed_pairs": 60,
+  "total_pairs": 60,
+  "rows": [
+    {
+      "position": 1,
+      "domain": "sec",
+      "task": "linux-ld-preload-investigation",
+      "scores": {
+        "native": {
+          "raw": 0.7613,
+          "effective": 0.7613,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.8283,
+          "effective": 0.8283,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.067
+    },
+    {
+      "position": 2,
+      "domain": "web",
+      "task": "dense-saas-visual-refactor-L3-046",
+      "scores": {
+        "native": {
+          "raw": 0.2,
+          "effective": 0.2,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.2
+    },
+    {
+      "position": 3,
+      "domain": "web",
+      "task": "security-privacy-permission-review-L4-020",
+      "scores": {
+        "native": {
+          "raw": 0.7,
+          "effective": 0.7,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.3
+    },
+    {
+      "position": 4,
+      "domain": "code",
+      "task": "refactor-medium-config_validation_errors",
+      "scores": {
+        "native": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 5,
+      "domain": "web",
+      "task": "markdown-release-editor-L4-038",
+      "scores": {
+        "native": {
+          "raw": 0.8,
+          "effective": 0.8,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.5,
+          "effective": 0.8,
+          "correction_used": true
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 6,
+      "domain": "code",
+      "task": "feature-medium-envless_file_load",
+      "scores": {
+        "native": {
+          "raw": 0.25,
+          "effective": 0.25,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.75
+    },
+    {
+      "position": 7,
+      "domain": "code",
+      "task": "reliability-hard-stream_release",
+      "scores": {
+        "native": {
+          "raw": 0.75,
+          "effective": 0.75,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.75,
+          "effective": 0.75,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 8,
+      "domain": "office",
+      "task": "warranty-recovery-allocation-L5-033",
+      "scores": {
+        "native": {
+          "raw": 0.883,
+          "effective": 0.883,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.829,
+          "effective": 0.829,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.054
+    },
+    {
+      "position": 9,
+      "domain": "code",
+      "task": "schema_behavior-medium-datakey_errors",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 10,
+      "domain": "web",
+      "task": "root-cause-localization-L3-015",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 11,
+      "domain": "code",
+      "task": "reliability-medium-pool_release",
+      "scores": {
+        "native": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 12,
+      "domain": "web",
+      "task": "root-cause-localization-L3-013",
+      "scores": {
+        "native": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.4,
+          "effective": 0.4,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.4
+    },
+    {
+      "position": 13,
+      "domain": "code",
+      "task": "bug_fix-medium-matching_absolute_paths",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 14,
+      "domain": "sec",
+      "task": "yara-detect-cryptominer",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 15,
+      "domain": "office",
+      "task": "wechat-tech-topic-package-hardened",
+      "scores": {
+        "native": {
+          "raw": 0.809,
+          "effective": 0.809,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.8876,
+          "effective": 0.8876,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0786
+    },
+    {
+      "position": 16,
+      "domain": "sec",
+      "task": "false-positive-trap-bind-hard-multistep",
+      "scores": {
+        "native": {
+          "raw": 0.5,
+          "effective": 0.5,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.5,
+          "effective": 0.5,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 17,
+      "domain": "code",
+      "task": "api_contract-hard-openapi_params",
+      "scores": {
+        "native": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 18,
+      "domain": "sec",
+      "task": "apt-multi-source-correlation-hard-multistep",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 19,
+      "domain": "code",
+      "task": "feature-medium-validation_to_eliminate_uriref",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 20,
+      "domain": "office",
+      "task": "rank-ic-topn-L4-001",
+      "scores": {
+        "native": {
+          "raw": 0.8269,
+          "effective": 0.8269,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.7968,
+          "effective": 0.7968,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.0301
+    },
+    {
+      "position": 21,
+      "domain": "code",
+      "task": "data_reporting-medium-customer_health_export",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 22,
+      "domain": "office",
+      "task": "drug-inventory-split-L2-006",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 23,
+      "domain": "code",
+      "task": "python_port-medium-header_dimensions",
+      "scores": {
+        "native": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 24,
+      "domain": "sec",
+      "task": "windows-dll-proxy-investigation",
+      "scores": {
+        "native": {
+          "raw": 0.8792,
+          "effective": 0.8792,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.861,
+          "effective": 0.861,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.0182
+    },
+    {
+      "position": 25,
+      "domain": "web",
+      "task": "workflow-backoffice-L4-002",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 26,
+      "domain": "sec",
+      "task": "windows-dll-proxy-rule-gen",
+      "scores": {
+        "native": {
+          "raw": 0.9462,
+          "effective": 0.9462,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.6399,
+          "effective": 0.6399,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.3063
+    },
+    {
+      "position": 27,
+      "domain": "code",
+      "task": "data_quality-hard-label_conflicts",
+      "scores": {
+        "native": {
+          "raw": 0.8462,
+          "effective": 0.8462,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.7692,
+          "effective": 0.7692,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.077
+    },
+    {
+      "position": 28,
+      "domain": "code",
+      "task": "feature-hard-fallback_signers_and_switch",
+      "scores": {
+        "native": {
+          "raw": 0.6,
+          "effective": 0.6,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.6,
+          "effective": 0.6,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 29,
+      "domain": "code",
+      "task": "feature-medium-etag_header_for_static",
+      "scores": {
+        "native": {
+          "raw": 0.2727,
+          "effective": 0.2727,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.2727,
+          "effective": 0.2727,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 30,
+      "domain": "web",
+      "task": "review-card-queue-persistence-L4-063",
+      "scores": {
+        "native": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 31,
+      "domain": "office",
+      "task": "rule-based-stock-exclusion-L4-011",
+      "scores": {
+        "native": {
+          "raw": 0.9946,
+          "effective": 0.9946,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.9205,
+          "effective": 0.9205,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.0741
+    },
+    {
+      "position": 32,
+      "domain": "office",
+      "task": "procurement-reconcile-L3-015",
+      "scores": {
+        "native": {
+          "raw": 0.7619,
+          "effective": 0.7619,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.7619,
+          "effective": 0.7619,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 33,
+      "domain": "sec",
+      "task": "windows-dll-sideload-investigation",
+      "scores": {
+        "native": {
+          "raw": 0.7851,
+          "effective": 0.7851,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.7486,
+          "effective": 0.7486,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.0365
+    },
+    {
+      "position": 34,
+      "domain": "code",
+      "task": "testing-medium-format_errors",
+      "scores": {
+        "native": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 35,
+      "domain": "web",
+      "task": "release-readiness-review-L4-019",
+      "scores": {
+        "native": {
+          "raw": 0.8,
+          "effective": 0.8,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.8,
+          "effective": 0.8,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 36,
+      "domain": "code",
+      "task": "python_port-medium-blog_tags",
+      "scores": {
+        "native": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 37,
+      "domain": "sec",
+      "task": "ntfs-ads-extractor",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 38,
+      "domain": "web",
+      "task": "firmware-card-interaction-tests-L3-074",
+      "scores": {
+        "native": {
+          "raw": 0.5,
+          "effective": 0.5,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.2,
+          "effective": 0.2,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.3
+    },
+    {
+      "position": 39,
+      "domain": "web",
+      "task": "file-manager-workflow-L3-044",
+      "scores": {
+        "native": {
+          "raw": 0.5,
+          "effective": 0.5,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.5
+    },
+    {
+      "position": 40,
+      "domain": "web",
+      "task": "miniprogram-source-structure-L2-041",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 41,
+      "domain": "office",
+      "task": "health-quote-L2-003",
+      "scores": {
+        "native": {
+          "raw": 0.8571,
+          "effective": 0.8571,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.8571,
+          "effective": 0.8571,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 42,
+      "domain": "web",
+      "task": "ui-state-rebuild-L3-007",
+      "scores": {
+        "native": {
+          "raw": 0.8,
+          "effective": 0.8,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.7,
+          "effective": 0.7,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.1
+    },
+    {
+      "position": 43,
+      "domain": "web",
+      "task": "misleading-chart-repair-L3-055",
+      "scores": {
+        "native": {
+          "raw": 0.4,
+          "effective": 0.4,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.4
+    },
+    {
+      "position": 44,
+      "domain": "office",
+      "task": "effective-control-state-L5-036",
+      "scores": {
+        "native": {
+          "raw": 0.2275,
+          "effective": 0.2275,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.3588,
+          "effective": 0.3588,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.1313
+    },
+    {
+      "position": 45,
+      "domain": "code",
+      "task": "feature-medium-humanize_metric_for_converting",
+      "scores": {
+        "native": {
+          "raw": 0.6923,
+          "effective": 0.6923,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.6154,
+          "effective": 0.6154,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.0769
+    },
+    {
+      "position": 46,
+      "domain": "sec",
+      "task": "yara-rust-loader-family",
+      "scores": {
+        "native": {
+          "raw": 0.6175,
+          "effective": 0.6175,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.8725,
+          "effective": 0.8725,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.255
+    },
+    {
+      "position": 47,
+      "domain": "code",
+      "task": "model_evaluation-hard-threshold_slices",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 48,
+      "domain": "sec",
+      "task": "windows-dll-sideload-rule-gen",
+      "scores": {
+        "native": {
+          "raw": 0.8532,
+          "effective": 0.8532,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.9478,
+          "effective": 0.9478,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0946
+    },
+    {
+      "position": 49,
+      "domain": "office",
+      "task": "recruiting-search-skill-mock-mcp-hardened",
+      "scores": {
+        "native": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.8582,
+          "effective": 0.8582,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.8582
+    },
+    {
+      "position": 50,
+      "domain": "code",
+      "task": "tool_behavior-easy-diagnostics_and_observability",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 51,
+      "domain": "web",
+      "task": "cohort-retention-dashboard-L4-054",
+      "scores": {
+        "native": {
+          "raw": 0.4,
+          "effective": 0.4,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.4
+    },
+    {
+      "position": 52,
+      "domain": "web",
+      "task": "blog-editor-draft-recovery-L4-059",
+      "scores": {
+        "native": {
+          "raw": 0.8,
+          "effective": 0.8,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.8
+    },
+    {
+      "position": 53,
+      "domain": "web",
+      "task": "kanban-drag-state-L3-042",
+      "scores": {
+        "native": {
+          "raw": 0.4,
+          "effective": 0.4,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.4
+    },
+    {
+      "position": 54,
+      "domain": "office",
+      "task": "crypto-backtest-chain-L4-002",
+      "scores": {
+        "native": {
+          "raw": 0.7789,
+          "effective": 0.7789,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.8276,
+          "effective": 0.8276,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0487
+    },
+    {
+      "position": 55,
+      "domain": "office",
+      "task": "research-factor-table-extract-L3-016",
+      "scores": {
+        "native": {
+          "raw": 0.9189,
+          "effective": 0.9189,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.9614,
+          "effective": 0.9614,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0425
+    },
+    {
+      "position": 56,
+      "domain": "web",
+      "task": "svg-chart-diagram-refactor-L4-024",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 57,
+      "domain": "code",
+      "task": "feature_pipeline-hard-text_hashing",
+      "scores": {
+        "native": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 1.0,
+          "effective": 1.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 58,
+      "domain": "web",
+      "task": "research-homepage-visual-repair-L3-064",
+      "scores": {
+        "native": {
+          "raw": 0.7,
+          "effective": 0.7,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.7,
+          "effective": 0.7,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 59,
+      "domain": "code",
+      "task": "api_contract-hard-validation_errors",
+      "scores": {
+        "native": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": 0.0
+    },
+    {
+      "position": 60,
+      "domain": "office",
+      "task": "service-channel-ticket-daily",
+      "scores": {
+        "native": {
+          "raw": 0.989,
+          "effective": 0.989,
+          "correction_used": false
+        },
+        "clm": {
+          "raw": 0.0,
+          "effective": 0.0,
+          "correction_used": false
+        }
+      },
+      "effective_paired_difference": -0.989
+    }
+  ]
+}

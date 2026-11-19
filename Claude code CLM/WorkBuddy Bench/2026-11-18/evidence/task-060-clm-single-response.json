@@ -1,0 +1,13 @@
+{
+  "run": "formal-02-resume-09",
+  "position": 60,
+  "arm": "clm",
+  "http_status": 200,
+  "finish": "stop",
+  "response_closed": true,
+  "advertised_tools": 3,
+  "response_tool_call_deltas": 0,
+  "official_score": 0,
+  "request_sha256": "fe963f366ffcae579903543f7a7ac62544cdd1af3386df6c31e85ccde9c51443",
+  "response_sha256": "0e390916315f1f574f9c06c44ef2741cd76e2cbdec17eb0b562acb2b1ed3bf53"
+}

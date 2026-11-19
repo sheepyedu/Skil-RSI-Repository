@@ -1,0 +1,470 @@
+{
+  "run": "formal-02-resume-09",
+  "rows": [
+    {
+      "position": 2,
+      "task": "dense-saas-visual-refactor-L3-046",
+      "arm": "native",
+      "raw_reward": 0.2,
+      "expected_llm_criteria": 15,
+      "judge_attempts": 15,
+      "closed_attempts": 15,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 2,
+      "task": "dense-saas-visual-refactor-L3-046",
+      "arm": "clm",
+      "raw_reward": 0.0,
+      "expected_llm_criteria": 15,
+      "judge_attempts": 15,
+      "closed_attempts": 15,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 3,
+      "task": "security-privacy-permission-review-L4-020",
+      "arm": "native",
+      "raw_reward": 0.7,
+      "expected_llm_criteria": 16,
+      "judge_attempts": 16,
+      "closed_attempts": 16,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 3,
+      "task": "security-privacy-permission-review-L4-020",
+      "arm": "clm",
+      "raw_reward": 1.0,
+      "expected_llm_criteria": 16,
+      "judge_attempts": 16,
+      "closed_attempts": 16,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 5,
+      "task": "markdown-release-editor-L4-038",
+      "arm": "native",
+      "raw_reward": 0.8,
+      "expected_llm_criteria": 8,
+      "judge_attempts": 8,
+      "closed_attempts": 8,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 5,
+      "task": "markdown-release-editor-L4-038",
+      "arm": "clm",
+      "raw_reward": 0.5,
+      "expected_llm_criteria": 8,
+      "judge_attempts": 12,
+      "closed_attempts": 7,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {
+        "5e21fe596a38255fcb642cbb93d0f4ac7ae169666ae9a7202c20c0cf7c61ebd5": [
+          {
+            "attempt": "00051",
+            "http_status": 200,
+            "closed": false
+          },
+          {
+            "attempt": "00052",
+            "http_status": 200,
+            "closed": false
+          },
+          {
+            "attempt": "00053",
+            "http_status": 200,
+            "closed": false
+          },
+          {
+            "attempt": "00054",
+            "http_status": 200,
+            "closed": false
+          },
+          {
+            "attempt": "00055",
+            "http_status": 200,
+            "closed": false
+          }
+        ]
+      },
+      "grade_affecting_judge_failures": [
+        {
+          "criterion": "risk_level_derivation",
+          "regraded": true
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "task": "root-cause-localization-L3-015",
+      "arm": "native",
+      "raw_reward": 1.0,
+      "expected_llm_criteria": 14,
+      "judge_attempts": 14,
+      "closed_attempts": 14,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 10,
+      "task": "root-cause-localization-L3-015",
+      "arm": "clm",
+      "raw_reward": 1.0,
+      "expected_llm_criteria": 14,
+      "judge_attempts": 18,
+      "closed_attempts": 14,
+      "recovered_request_groups": 3,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 12,
+      "task": "root-cause-localization-L3-013",
+      "arm": "native",
+      "raw_reward": 0.0,
+      "expected_llm_criteria": 10,
+      "judge_attempts": 13,
+      "closed_attempts": 10,
+      "recovered_request_groups": 3,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 12,
+      "task": "root-cause-localization-L3-013",
+      "arm": "clm",
+      "raw_reward": 0.4,
+      "expected_llm_criteria": 10,
+      "judge_attempts": 11,
+      "closed_attempts": 10,
+      "recovered_request_groups": 1,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 25,
+      "task": "workflow-backoffice-L4-002",
+      "arm": "native",
+      "raw_reward": 1.0,
+      "expected_llm_criteria": 7,
+      "judge_attempts": 7,
+      "closed_attempts": 7,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 25,
+      "task": "workflow-backoffice-L4-002",
+      "arm": "clm",
+      "raw_reward": 1.0,
+      "expected_llm_criteria": 7,
+      "judge_attempts": 7,
+      "closed_attempts": 7,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 30,
+      "task": "review-card-queue-persistence-L4-063",
+      "arm": "native",
+      "raw_reward": 0.0,
+      "expected_llm_criteria": 10,
+      "judge_attempts": 10,
+      "closed_attempts": 10,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 30,
+      "task": "review-card-queue-persistence-L4-063",
+      "arm": "clm",
+      "raw_reward": 0.0,
+      "expected_llm_criteria": 10,
+      "judge_attempts": 10,
+      "closed_attempts": 10,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 35,
+      "task": "release-readiness-review-L4-019",
+      "arm": "native",
+      "raw_reward": 0.8,
+      "expected_llm_criteria": 16,
+      "judge_attempts": 16,
+      "closed_attempts": 16,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 35,
+      "task": "release-readiness-review-L4-019",
+      "arm": "clm",
+      "raw_reward": 0.8,
+      "expected_llm_criteria": 16,
+      "judge_attempts": 16,
+      "closed_attempts": 16,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 38,
+      "task": "firmware-card-interaction-tests-L3-074",
+      "arm": "native",
+      "raw_reward": 0.5,
+      "expected_llm_criteria": 12,
+      "judge_attempts": 12,
+      "closed_attempts": 12,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 38,
+      "task": "firmware-card-interaction-tests-L3-074",
+      "arm": "clm",
+      "raw_reward": 0.2,
+      "expected_llm_criteria": 12,
+      "judge_attempts": 12,
+      "closed_attempts": 12,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 39,
+      "task": "file-manager-workflow-L3-044",
+      "arm": "native",
+      "raw_reward": 0.5,
+      "expected_llm_criteria": 7,
+      "judge_attempts": 7,
+      "closed_attempts": 7,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 39,
+      "task": "file-manager-workflow-L3-044",
+      "arm": "clm",
+      "raw_reward": 1.0,
+      "expected_llm_criteria": 7,
+      "judge_attempts": 7,
+      "closed_attempts": 7,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 40,
+      "task": "miniprogram-source-structure-L2-041",
+      "arm": "native",
+      "raw_reward": 1.0,
+      "expected_llm_criteria": 13,
+      "judge_attempts": 13,
+      "closed_attempts": 13,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 40,
+      "task": "miniprogram-source-structure-L2-041",
+      "arm": "clm",
+      "raw_reward": 1.0,
+      "expected_llm_criteria": 13,
+      "judge_attempts": 14,
+      "closed_attempts": 13,
+      "recovered_request_groups": 1,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 42,
+      "task": "ui-state-rebuild-L3-007",
+      "arm": "native",
+      "raw_reward": 0.8,
+      "expected_llm_criteria": 11,
+      "judge_attempts": 11,
+      "closed_attempts": 11,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 42,
+      "task": "ui-state-rebuild-L3-007",
+      "arm": "clm",
+      "raw_reward": 0.7,
+      "expected_llm_criteria": 11,
+      "judge_attempts": 11,
+      "closed_attempts": 11,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 43,
+      "task": "misleading-chart-repair-L3-055",
+      "arm": "native",
+      "raw_reward": 0.4,
+      "expected_llm_criteria": 6,
+      "judge_attempts": 6,
+      "closed_attempts": 6,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 43,
+      "task": "misleading-chart-repair-L3-055",
+      "arm": "clm",
+      "raw_reward": 0.0,
+      "expected_llm_criteria": 6,
+      "judge_attempts": 4,
+      "closed_attempts": 4,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 51,
+      "task": "cohort-retention-dashboard-L4-054",
+      "arm": "native",
+      "raw_reward": 0.4,
+      "expected_llm_criteria": 7,
+      "judge_attempts": 7,
+      "closed_attempts": 7,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 51,
+      "task": "cohort-retention-dashboard-L4-054",
+      "arm": "clm",
+      "raw_reward": 0.0,
+      "expected_llm_criteria": 7,
+      "judge_attempts": 3,
+      "closed_attempts": 3,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 52,
+      "task": "blog-editor-draft-recovery-L4-059",
+      "arm": "native",
+      "raw_reward": 0.8,
+      "expected_llm_criteria": 11,
+      "judge_attempts": 11,
+      "closed_attempts": 11,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 52,
+      "task": "blog-editor-draft-recovery-L4-059",
+      "arm": "clm",
+      "raw_reward": 0.0,
+      "expected_llm_criteria": 11,
+      "judge_attempts": 9,
+      "closed_attempts": 9,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 53,
+      "task": "kanban-drag-state-L3-042",
+      "arm": "native",
+      "raw_reward": 0.4,
+      "expected_llm_criteria": 8,
+      "judge_attempts": 8,
+      "closed_attempts": 8,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 53,
+      "task": "kanban-drag-state-L3-042",
+      "arm": "clm",
+      "raw_reward": 0.0,
+      "expected_llm_criteria": 8,
+      "judge_attempts": 6,
+      "closed_attempts": 6,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 56,
+      "task": "svg-chart-diagram-refactor-L4-024",
+      "arm": "native",
+      "raw_reward": 1.0,
+      "expected_llm_criteria": 13,
+      "judge_attempts": 13,
+      "closed_attempts": 13,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 56,
+      "task": "svg-chart-diagram-refactor-L4-024",
+      "arm": "clm",
+      "raw_reward": 1.0,
+      "expected_llm_criteria": 13,
+      "judge_attempts": 13,
+      "closed_attempts": 13,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 58,
+      "task": "research-homepage-visual-repair-L3-064",
+      "arm": "native",
+      "raw_reward": 0.7,
+      "expected_llm_criteria": 10,
+      "judge_attempts": 10,
+      "closed_attempts": 10,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    },
+    {
+      "position": 58,
+      "task": "research-homepage-visual-repair-L3-064",
+      "arm": "clm",
+      "raw_reward": 0.7,
+      "expected_llm_criteria": 10,
+      "judge_attempts": 10,
+      "closed_attempts": 10,
+      "recovered_request_groups": 0,
+      "unclosed_request_groups": {},
+      "grade_affecting_judge_failures": []
+    }
+  ]
+}

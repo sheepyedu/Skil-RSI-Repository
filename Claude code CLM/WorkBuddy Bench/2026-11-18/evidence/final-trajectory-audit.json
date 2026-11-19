@@ -1,0 +1,66 @@
+{
+  "run": "formal-02-resume-09",
+  "inventory_path": "formal-02-resume-09/trajectory-sha256.json",
+  "inventory_sha256": "a4a1f774d77944cb662543794f55c00dfaef89a175da1ee356411d2eefaeb413",
+  "inventory_bytes": 16313926,
+  "listed_files": 76178,
+  "archived_bytes": 12414835219,
+  "final_audit_sha256": "9ae1bf100795283c769242c96646abe4a71f9a71674b3c6bc93e145eae8137a0",
+  "accepted_controller_receipt_sha256": "21e763216cae3be17d3894d8fb3bd70fa2fdae4038ec81b8b33af7de9d02bf3d",
+  "exit_status": 0,
+  "accepted_pairs": 60,
+  "controller_exited": true,
+  "verified_inventory_coverage": {
+    "receipt.json": 120,
+    "native-session.jsonl": 120,
+    "timeline.jsonl": 120,
+    "agent/cc-output.txt": 120,
+    "agent/trajectory.json": 120
+  },
+  "plan_sha256": "514a0e3a17b59db24b3990bbff1f1fd202c0379ad8f5571880f3ddf84b4de316",
+  "accepted_trial_usage": {
+    "native": {
+      "completed_trials": 60,
+      "accepted_trials": 60,
+      "launches_with_native_session": 60,
+      "native_stdout_logs": 60,
+      "atif_trajectories": 60,
+      "native_compactions": 28,
+      "exact_instruction_trials": 60,
+      "backend_requests": 2483,
+      "backend_complete": 2482,
+      "recorded_http_requests": 2702,
+      "accepted_context_edits": 0,
+      "context_applied_requests": 0,
+      "prompt_tokens": 222551636,
+      "completion_tokens": 3164117,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 0
+    },
+    "clm": {
+      "completed_trials": 60,
+      "accepted_trials": 60,
+      "launches_with_native_session": 60,
+      "native_stdout_logs": 60,
+      "atif_trajectories": 60,
+      "native_compactions": 0,
+      "exact_instruction_trials": 60,
+      "backend_requests": 1303,
+      "backend_complete": 1303,
+      "recorded_http_requests": 1497,
+      "accepted_context_edits": 0,
+      "context_applied_requests": 0,
+      "prompt_tokens": 94319160,
+      "completion_tokens": 1453871,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 0
+    }
+  },
+  "clm_between_task_maintenance": {
+    "accepted_events": 39,
+    "model_selected_exchange_count": 774,
+    "additional_completed_tool_pairs": 439,
+    "native_transcript_rewrites": 39,
+    "visible_assistant_text_explicitly_verified": 37
+  }
+}

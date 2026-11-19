@@ -114,6 +114,16 @@
       "exit_status": 1,
       "accepted_pairs": 55,
       "failed_trial_closed_at": "2026-11-19T12:50:22.027860+00:00"
+    },
+    {
+      "run": "formal-02-resume-09",
+      "inventory_path": "formal-02-resume-09/trajectory-sha256.json",
+      "inventory_sha256": "a4a1f774d77944cb662543794f55c00dfaef89a175da1ee356411d2eefaeb413",
+      "inventory_bytes": 16313926,
+      "listed_files": 76178,
+      "archived_bytes": 12414835219,
+      "final_audit_sha256": "9ae1bf100795283c769242c96646abe4a71f9a71674b3c6bc93e145eae8137a0",
+      "exit_status": 0
     }
   ]
 }

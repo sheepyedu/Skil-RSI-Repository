@@ -1,0 +1,174 @@
+{
+  "observed_at": "2026-11-19T22:52:45+08:00",
+  "run": "formal-02-resume-09",
+  "plan_sha256": "514a0e3a17b59db24b3990bbff1f1fd202c0379ad8f5571880f3ddf84b4de316",
+  "all_pairs": {
+    "pairs": 60,
+    "native_mean": 0.646675,
+    "clm_mean": 0.634405,
+    "mean_clm_minus_native": -0.01227,
+    "clm_higher": 12,
+    "tied": 32,
+    "native_higher": 16
+  },
+  "by_domain": {
+    "sec": {
+      "pairs": 10,
+      "native_mean": 0.83425,
+      "clm_mean": 0.83981,
+      "mean_clm_minus_native": 0.00556,
+      "clm_higher": 3,
+      "tied": 4,
+      "native_higher": 3
+    },
+    "web": {
+      "pairs": 18,
+      "native_mean": 0.611111,
+      "clm_mean": 0.533333,
+      "mean_clm_minus_native": -0.077778,
+      "clm_higher": 3,
+      "tied": 8,
+      "native_higher": 7
+    },
+    "code": {
+      "pairs": 20,
+      "native_mean": 0.52056,
+      "clm_mean": 0.550365,
+      "mean_clm_minus_native": 0.029805,
+      "clm_higher": 1,
+      "tied": 17,
+      "native_higher": 2
+    },
+    "office": {
+      "pairs": 12,
+      "native_mean": 0.7539,
+      "clm_mean": 0.754908,
+      "mean_clm_minus_native": 0.001008,
+      "clm_higher": 5,
+      "tied": 3,
+      "native_higher": 4
+    }
+  },
+  "output_budget_cohorts": [
+    {
+      "first_position": 1,
+      "last_position": 14,
+      "shared_output_budget": 8192,
+      "pairs": 14,
+      "native_mean": 0.596021,
+      "clm_mean": 0.686236,
+      "mean_clm_minus_native": 0.090214,
+      "clm_higher": 4,
+      "tied": 8,
+      "native_higher": 2
+    },
+    {
+      "first_position": 15,
+      "last_position": 60,
+      "shared_output_budget": 16384,
+      "pairs": 46,
+      "native_mean": 0.662091,
+      "clm_mean": 0.61863,
+      "mean_clm_minus_native": -0.043461,
+      "clm_higher": 8,
+      "tied": 24,
+      "native_higher": 14
+    }
+  ],
+  "clm_replay_policy_changes": [
+    {
+      "from_position": 34,
+      "soft_target_bytes": 165000,
+      "fallback_limit_bytes": 285000,
+      "evidence": "../evidence/formal-02-recovery-07-offline-proof.json"
+    },
+    {
+      "from_position": 48,
+      "maintenance_trigger_bytes": 240000,
+      "soft_target_bytes": 165000,
+      "fallback_limit_bytes": 285000,
+      "evidence": "../evidence/formal-02-recovery-08-offline-proof.json"
+    }
+  ],
+  "native_compaction_policy_changes": [
+    {
+      "from_position": 56,
+      "auto_compaction_window_percent": 75,
+      "evidence": "../evidence/formal-02-recovery-09-offline-proof.json"
+    }
+  ],
+  "regraded_positions": [
+    5
+  ],
+  "operator_or_transport_flags": [
+    {
+      "position": 4,
+      "arm": "clm",
+      "kind": "operator_cleanup",
+      "evidence": "../evidence/task-004-background-cleanup.json"
+    },
+    {
+      "position": 13,
+      "arm": "native",
+      "kind": "unclosed_final_agent_response",
+      "evidence": "../evidence/task-013-native-transport.json"
+    },
+    {
+      "position": 17,
+      "arm": "native",
+      "kind": "operator_cleanup",
+      "evidence": "../evidence/task-017-native-background-cleanup.json"
+    },
+    {
+      "position": 18,
+      "arm": "clm",
+      "kind": "operator_cleanup",
+      "evidence": "../evidence/task-018-clm-background-cleanup.json"
+    },
+    {
+      "position": 27,
+      "arm": "clm",
+      "kind": "operator_cleanup",
+      "evidence": "../evidence/task-027-recovered-clm-background-cleanup.json"
+    },
+    {
+      "position": 29,
+      "arm": "native",
+      "kind": "operator_cleanup",
+      "evidence": "../evidence/task-029-native-background-cleanup.json"
+    },
+    {
+      "position": 48,
+      "arm": "clm",
+      "kind": "cli_capacity_replay",
+      "evidence": "../evidence/formal-02-recovery-08-offline-proof.json"
+    },
+    {
+      "position": 50,
+      "arm": "native",
+      "kind": "operator_cleanup",
+      "evidence": "../evidence/task-050-native-background-cleanup.json"
+    },
+    {
+      "position": 50,
+      "arm": "clm",
+      "kind": "operator_cleanup",
+      "evidence": "../evidence/task-050-clm-background-cleanup.json"
+    },
+    {
+      "position": 56,
+      "arm": "native",
+      "kind": "cli_capacity_replay",
+      "evidence": "../evidence/formal-02-recovery-09-offline-proof.json"
+    }
+  ],
+  "sensitivity_excluding_flagged_pairs": {
+    "pairs": 51,
+    "native_mean": 0.643694,
+    "clm_mean": 0.628914,
+    "mean_clm_minus_native": -0.01478,
+    "clm_higher": 11,
+    "tied": 25,
+    "native_higher": 15
+  }
+}
