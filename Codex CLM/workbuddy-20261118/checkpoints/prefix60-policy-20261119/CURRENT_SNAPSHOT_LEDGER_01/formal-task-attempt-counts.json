@@ -1,0 +1,1091 @@
+[
+  {
+    "position": 1,
+    "arm": "clm",
+    "task": "linux-ld-preload-investigation",
+    "physical_trial_directories": 2,
+    "with_result": 1,
+    "without_result": 1,
+    "with_exception": 0
+  },
+  {
+    "position": 1,
+    "arm": "native",
+    "task": "linux-ld-preload-investigation",
+    "physical_trial_directories": 2,
+    "with_result": 1,
+    "without_result": 1,
+    "with_exception": 0
+  },
+  {
+    "position": 2,
+    "arm": "clm",
+    "task": "dense-saas-visual-refactor-L3-046",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 2,
+    "arm": "native",
+    "task": "dense-saas-visual-refactor-L3-046",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 3,
+    "arm": "clm",
+    "task": "security-privacy-permission-review-L4-020",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 3,
+    "arm": "native",
+    "task": "security-privacy-permission-review-L4-020",
+    "physical_trial_directories": 3,
+    "with_result": 3,
+    "without_result": 0,
+    "with_exception": 2
+  },
+  {
+    "position": 4,
+    "arm": "clm",
+    "task": "refactor-medium-config_validation_errors",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 4,
+    "arm": "native",
+    "task": "refactor-medium-config_validation_errors",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 5,
+    "arm": "clm",
+    "task": "markdown-release-editor-L4-038",
+    "physical_trial_directories": 2,
+    "with_result": 2,
+    "without_result": 0,
+    "with_exception": 1
+  },
+  {
+    "position": 5,
+    "arm": "native",
+    "task": "markdown-release-editor-L4-038",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 6,
+    "arm": "clm",
+    "task": "feature-medium-envless_file_load",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 6,
+    "arm": "native",
+    "task": "feature-medium-envless_file_load",
+    "physical_trial_directories": 2,
+    "with_result": 2,
+    "without_result": 0,
+    "with_exception": 1
+  },
+  {
+    "position": 7,
+    "arm": "clm",
+    "task": "reliability-hard-stream_release",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 7,
+    "arm": "native",
+    "task": "reliability-hard-stream_release",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 8,
+    "arm": "clm",
+    "task": "warranty-recovery-allocation-L5-033",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 8,
+    "arm": "native",
+    "task": "warranty-recovery-allocation-L5-033",
+    "physical_trial_directories": 3,
+    "with_result": 3,
+    "without_result": 0,
+    "with_exception": 2
+  },
+  {
+    "position": 9,
+    "arm": "clm",
+    "task": "schema_behavior-medium-datakey_errors",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 9,
+    "arm": "native",
+    "task": "schema_behavior-medium-datakey_errors",
+    "physical_trial_directories": 2,
+    "with_result": 2,
+    "without_result": 0,
+    "with_exception": 1
+  },
+  {
+    "position": 10,
+    "arm": "clm",
+    "task": "root-cause-localization-L3-015",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 10,
+    "arm": "native",
+    "task": "root-cause-localization-L3-015",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 11,
+    "arm": "clm",
+    "task": "reliability-medium-pool_release",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 11,
+    "arm": "native",
+    "task": "reliability-medium-pool_release",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 12,
+    "arm": "clm",
+    "task": "root-cause-localization-L3-013",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 12,
+    "arm": "native",
+    "task": "root-cause-localization-L3-013",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 13,
+    "arm": "clm",
+    "task": "bug_fix-medium-matching_absolute_paths",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 13,
+    "arm": "native",
+    "task": "bug_fix-medium-matching_absolute_paths",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 14,
+    "arm": "clm",
+    "task": "yara-detect-cryptominer",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 14,
+    "arm": "native",
+    "task": "yara-detect-cryptominer",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 15,
+    "arm": "clm",
+    "task": "wechat-tech-topic-package-hardened",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 15,
+    "arm": "native",
+    "task": "wechat-tech-topic-package-hardened",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 16,
+    "arm": "clm",
+    "task": "false-positive-trap-bind-hard-multistep",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 16,
+    "arm": "native",
+    "task": "false-positive-trap-bind-hard-multistep",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 17,
+    "arm": "clm",
+    "task": "api_contract-hard-openapi_params",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 17,
+    "arm": "native",
+    "task": "api_contract-hard-openapi_params",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 18,
+    "arm": "clm",
+    "task": "apt-multi-source-correlation-hard-multistep",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 18,
+    "arm": "native",
+    "task": "apt-multi-source-correlation-hard-multistep",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 19,
+    "arm": "clm",
+    "task": "feature-medium-validation_to_eliminate_uriref",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 19,
+    "arm": "native",
+    "task": "feature-medium-validation_to_eliminate_uriref",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 20,
+    "arm": "clm",
+    "task": "rank-ic-topn-L4-001",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 20,
+    "arm": "native",
+    "task": "rank-ic-topn-L4-001",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 21,
+    "arm": "clm",
+    "task": "data_reporting-medium-customer_health_export",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 21,
+    "arm": "native",
+    "task": "data_reporting-medium-customer_health_export",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 22,
+    "arm": "clm",
+    "task": "drug-inventory-split-L2-006",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 22,
+    "arm": "native",
+    "task": "drug-inventory-split-L2-006",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 23,
+    "arm": "clm",
+    "task": "python_port-medium-header_dimensions",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 23,
+    "arm": "native",
+    "task": "python_port-medium-header_dimensions",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 24,
+    "arm": "clm",
+    "task": "windows-dll-proxy-investigation",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 24,
+    "arm": "native",
+    "task": "windows-dll-proxy-investigation",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 25,
+    "arm": "clm",
+    "task": "workflow-backoffice-L4-002",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 25,
+    "arm": "native",
+    "task": "workflow-backoffice-L4-002",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 26,
+    "arm": "clm",
+    "task": "windows-dll-proxy-rule-gen",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 26,
+    "arm": "native",
+    "task": "windows-dll-proxy-rule-gen",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 27,
+    "arm": "clm",
+    "task": "data_quality-hard-label_conflicts",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 27,
+    "arm": "native",
+    "task": "data_quality-hard-label_conflicts",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 28,
+    "arm": "clm",
+    "task": "feature-hard-fallback_signers_and_switch",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 28,
+    "arm": "native",
+    "task": "feature-hard-fallback_signers_and_switch",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 29,
+    "arm": "clm",
+    "task": "feature-medium-etag_header_for_static",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 29,
+    "arm": "native",
+    "task": "feature-medium-etag_header_for_static",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 30,
+    "arm": "clm",
+    "task": "review-card-queue-persistence-L4-063",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 30,
+    "arm": "native",
+    "task": "review-card-queue-persistence-L4-063",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 31,
+    "arm": "clm",
+    "task": "rule-based-stock-exclusion-L4-011",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 31,
+    "arm": "native",
+    "task": "rule-based-stock-exclusion-L4-011",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 32,
+    "arm": "clm",
+    "task": "procurement-reconcile-L3-015",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 32,
+    "arm": "native",
+    "task": "procurement-reconcile-L3-015",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 33,
+    "arm": "clm",
+    "task": "windows-dll-sideload-investigation",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 33,
+    "arm": "native",
+    "task": "windows-dll-sideload-investigation",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 34,
+    "arm": "clm",
+    "task": "testing-medium-format_errors",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 34,
+    "arm": "native",
+    "task": "testing-medium-format_errors",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 35,
+    "arm": "clm",
+    "task": "release-readiness-review-L4-019",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 35,
+    "arm": "native",
+    "task": "release-readiness-review-L4-019",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 36,
+    "arm": "clm",
+    "task": "python_port-medium-blog_tags",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 36,
+    "arm": "native",
+    "task": "python_port-medium-blog_tags",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 37,
+    "arm": "clm",
+    "task": "ntfs-ads-extractor",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 37,
+    "arm": "native",
+    "task": "ntfs-ads-extractor",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 38,
+    "arm": "clm",
+    "task": "firmware-card-interaction-tests-L3-074",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 38,
+    "arm": "native",
+    "task": "firmware-card-interaction-tests-L3-074",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 39,
+    "arm": "clm",
+    "task": "file-manager-workflow-L3-044",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 39,
+    "arm": "native",
+    "task": "file-manager-workflow-L3-044",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 40,
+    "arm": "clm",
+    "task": "miniprogram-source-structure-L2-041",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 40,
+    "arm": "native",
+    "task": "miniprogram-source-structure-L2-041",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 41,
+    "arm": "clm",
+    "task": "health-quote-L2-003",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 41,
+    "arm": "native",
+    "task": "health-quote-L2-003",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 42,
+    "arm": "clm",
+    "task": "ui-state-rebuild-L3-007",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 42,
+    "arm": "native",
+    "task": "ui-state-rebuild-L3-007",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 43,
+    "arm": "clm",
+    "task": "misleading-chart-repair-L3-055",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 43,
+    "arm": "native",
+    "task": "misleading-chart-repair-L3-055",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 44,
+    "arm": "clm",
+    "task": "effective-control-state-L5-036",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 44,
+    "arm": "native",
+    "task": "effective-control-state-L5-036",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 45,
+    "arm": "clm",
+    "task": "feature-medium-humanize_metric_for_converting",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 45,
+    "arm": "native",
+    "task": "feature-medium-humanize_metric_for_converting",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 46,
+    "arm": "clm",
+    "task": "yara-rust-loader-family",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 46,
+    "arm": "native",
+    "task": "yara-rust-loader-family",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 47,
+    "arm": "clm",
+    "task": "model_evaluation-hard-threshold_slices",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 47,
+    "arm": "native",
+    "task": "model_evaluation-hard-threshold_slices",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 48,
+    "arm": "clm",
+    "task": "windows-dll-sideload-rule-gen",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 48,
+    "arm": "native",
+    "task": "windows-dll-sideload-rule-gen",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 49,
+    "arm": "clm",
+    "task": "recruiting-search-skill-mock-mcp-hardened",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 49,
+    "arm": "native",
+    "task": "recruiting-search-skill-mock-mcp-hardened",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 50,
+    "arm": "clm",
+    "task": "tool_behavior-easy-diagnostics_and_observability",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 50,
+    "arm": "native",
+    "task": "tool_behavior-easy-diagnostics_and_observability",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 51,
+    "arm": "clm",
+    "task": "cohort-retention-dashboard-L4-054",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 51,
+    "arm": "native",
+    "task": "cohort-retention-dashboard-L4-054",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 52,
+    "arm": "clm",
+    "task": "blog-editor-draft-recovery-L4-059",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 52,
+    "arm": "native",
+    "task": "blog-editor-draft-recovery-L4-059",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 53,
+    "arm": "clm",
+    "task": "kanban-drag-state-L3-042",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 53,
+    "arm": "native",
+    "task": "kanban-drag-state-L3-042",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 54,
+    "arm": "clm",
+    "task": "crypto-backtest-chain-L4-002",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 54,
+    "arm": "native",
+    "task": "crypto-backtest-chain-L4-002",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 55,
+    "arm": "clm",
+    "task": "research-factor-table-extract-L3-016",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 55,
+    "arm": "native",
+    "task": "research-factor-table-extract-L3-016",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 56,
+    "arm": "clm",
+    "task": "svg-chart-diagram-refactor-L4-024",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 56,
+    "arm": "native",
+    "task": "svg-chart-diagram-refactor-L4-024",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 57,
+    "arm": "clm",
+    "task": "feature_pipeline-hard-text_hashing",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 57,
+    "arm": "native",
+    "task": "feature_pipeline-hard-text_hashing",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 58,
+    "arm": "clm",
+    "task": "research-homepage-visual-repair-L3-064",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 58,
+    "arm": "native",
+    "task": "research-homepage-visual-repair-L3-064",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 59,
+    "arm": "clm",
+    "task": "api_contract-hard-validation_errors",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 59,
+    "arm": "native",
+    "task": "api_contract-hard-validation_errors",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 60,
+    "arm": "clm",
+    "task": "service-channel-ticket-daily",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 60,
+    "arm": "native",
+    "task": "service-channel-ticket-daily",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 0
+  },
+  {
+    "position": 61,
+    "arm": "native",
+    "task": "bb-bin-int-length-005",
+    "physical_trial_directories": 1,
+    "with_result": 1,
+    "without_result": 0,
+    "with_exception": 1
+  }
+]

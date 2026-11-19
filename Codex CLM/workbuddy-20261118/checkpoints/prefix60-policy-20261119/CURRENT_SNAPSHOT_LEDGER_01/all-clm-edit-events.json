@@ -1,0 +1,111 @@
+[
+  {
+    "time_ns": 1795016499036737374,
+    "evidence": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-07/clm/evidence/001-sec-linux-ld-preload-investigation/wire/00010/receipt.json",
+    "receipt_sha256": "d1642038c3d1d2d89dc15ce568ff2937005d59c245c1cc21d922933977cd45e4",
+    "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+    "marker": "WB_CODEX_FORMAL_001",
+    "row": {
+      "dockerfile_sha256": "228ee87583efd87045b37868e4211b1158ec8f82259dbab85637f3ac231a49cc",
+      "domain": "sec",
+      "image": "wb-clm-formal-001-sec:94de38d8d9c17d58",
+      "image_id": "sha256:af2bb094c69f4ecf07ce884d8a1a2365baf9115f76e8b010df111fa3f11ae03c",
+      "instruction_sha256": "06dd528314705c7be4f9d9bcdcacb9596fadcaa581320dec8dd4d80f2c91cbf7",
+      "marker": "WB_CODEX_FORMAL_001",
+      "position": 1,
+      "staged_task_config_sha256": "7c5cec44e6b304e2f46894375c1e00c5772876e60477d36ac8d17d64bbaf7ff3",
+      "task": "linux-ld-preload-investigation"
+    },
+    "request_delivered": true,
+    "trial_selected_at_source": true,
+    "after_input_bytes": 102601,
+    "before_input_bytes": 144706,
+    "dropped_ids": [
+      "e2229301801b4d80bd1d99dd"
+    ],
+    "edit": "accepted",
+    "editable_count": 7,
+    "raw_input_sha256": "f61892a9eee90c393887c6f48c57df4f8731faaa5e789ee98a4d9f4959e44e20",
+    "removed_items": 3,
+    "revision": 10,
+    "upstream_input_sha256": "ee685667ee035bb163f715b746455a7bd9b443a7c9f415eaaacee44e401c8e87",
+    "effective_dropped_ids": [
+      "e2229301801b4d80bd1d99dd"
+    ],
+    "note": "For Linux SOC SQLite triage, use delimiter output and grouped launch queries; column output can explode with encoded commands. Preserve timestamp order when delivery telemetry arrives late.",
+    "protected_content_and_complete_batches_verified": true
+  },
+  {
+    "time_ns": 1795044385704761504,
+    "evidence": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/051-web-cohort-retention-dashboard-L4-054/wire/00004/receipt.json",
+    "receipt_sha256": "4ffaa972e716951fd44a9d910b946ca47f3d8a6d2d6615a1b8c528a1c66ee65a",
+    "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+    "marker": "WB_CODEX_FORMAL_051",
+    "row": {
+      "dockerfile_sha256": "20fd48e9eb9633d43e16e0d22cbc18c866e31fe5ac55d68d2d99d908b4619f98",
+      "domain": "web",
+      "image": "wb-clm-formal-051-web:0c3090e1c14b9615",
+      "image_id": "sha256:e20bf0fe403540edabe092a723c471efe96520bb382e08ae0cf944dc94228cfe",
+      "instruction_sha256": "c09fab3cd010f368c83d57da900276c086760fb9ec8b2dbbbb02cb3c67c259df",
+      "marker": "WB_CODEX_FORMAL_051",
+      "position": 51,
+      "staged_task_config_sha256": "986230439a2d28244d647ef5b903c5cf6fc0a01afb8ec31a459d5b5232128ef0",
+      "task": "cohort-retention-dashboard-L4-054"
+    },
+    "request_delivered": true,
+    "trial_selected_at_source": true,
+    "after_input_bytes": 283774,
+    "before_input_bytes": 288762,
+    "dropped_ids": [
+      "bd45a9e54362f05385c2acff"
+    ],
+    "edit": "accepted",
+    "editable_count": 18,
+    "raw_input_sha256": "376564a1d6a7c6c1641350b60a87c81d19e14032bce42156a8b2148bb74bc78b",
+    "removed_items": 3,
+    "revision": 414,
+    "upstream_input_sha256": "30a6d8e5d01352b45f82c60328d2d055e256aa8bd3996e6ff9779a80a6bc9abe",
+    "effective_dropped_ids": [
+      "bd45a9e54362f05385c2acff"
+    ],
+    "note": "For Linux SOC SQLite triage, use delimiter output and grouped launch queries; column output can explode with encoded commands. Preserve timestamp order when delivery telemetry arrives late.",
+    "protected_content_and_complete_batches_verified": true
+  },
+  {
+    "time_ns": 1795046053766919154,
+    "evidence": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/054-office-crypto-backtest-chain-L4-002/wire/00005/receipt.json",
+    "receipt_sha256": "a406ae8ecd228fdc5fc17ebf352728f8ad0d68811cee0de6cd7baa874fe597b9",
+    "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+    "marker": "WB_CODEX_FORMAL_054",
+    "row": {
+      "dockerfile_sha256": "c6bbbb58b5293f0b0d38ac87a28a81981a1b62a381517f6f4ed907a6df17b689",
+      "domain": "office",
+      "image": "wb-clm-formal-054-office:faab94246bfff96e",
+      "image_id": "sha256:46413b041a3d16aa11eca4b772cb9a50184bc5840794c03397a58da5a70b8c51",
+      "instruction_sha256": "e17decf36943082e01a6c3a1e78dba0fd0e23bf925d00fdb517da22e5545f2cf",
+      "marker": "WB_CODEX_FORMAL_054",
+      "position": 54,
+      "staged_task_config_sha256": "5da09a5bd5f5592fa2f8211ecec4e91c26b1b21af89315b3c493334fd30f65e8",
+      "task": "crypto-backtest-chain-L4-002"
+    },
+    "request_delivered": true,
+    "trial_selected_at_source": true,
+    "after_input_bytes": 436774,
+    "before_input_bytes": 451936,
+    "dropped_ids": [
+      "55147369369e0f6bc0034259"
+    ],
+    "edit": "accepted",
+    "editable_count": 32,
+    "raw_input_sha256": "d93f17a37832240ae8a7113d8ea2660b239d2cae5a58014070db374d368feeec",
+    "removed_items": 5,
+    "revision": 432,
+    "upstream_input_sha256": "877cf5e34a3231a9b532fa5d97c20ce85e60d16898de48e5628307f042b9f789",
+    "effective_dropped_ids": [
+      "55147369369e0f6bc0034259",
+      "bd45a9e54362f05385c2acff"
+    ],
+    "note": "For offline replay, order events drive incremental fills and ledger only reconciles. Verify workbooks by reopening them.",
+    "protected_content_and_complete_batches_verified": true
+  }
+]

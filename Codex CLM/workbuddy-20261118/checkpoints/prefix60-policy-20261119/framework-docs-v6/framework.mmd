@@ -1,0 +1,63 @@
+flowchart TB
+  subgraph B["官方 WorkBuddy 数据与评分"]
+    D["官方260题与原始instruction SHA<br/>Code80 / Office50 / Security60 / Web70"]
+    J["原有CompositeVerifier与Security脚本<br/>Web官方多模态评分"]
+  end
+  subgraph H["共同串行适配：两臂相同，禁止链内并发"]
+    S["冻结65：Code20 / Office12 / Security15 / Web18<br/>参考60题序 + 末尾追加5题<br/>任务i：native → clm，再进入i+1<br/>每题新官方环境；每臂独立HOME与同一thread"]
+    P1["P1：共同user任务包装 + 官方题面原文"]
+    R["宿主保护记录器<br/>raw/sent JSON、每个响应attempt、会话、产物、SHA"]
+    E["每题工作区与任务产物<br/>原有官方输出路径"]
+  end
+  subgraph C["原生 Codex CLI 0.169.0：官方二进制与工具宿主"]
+    CLI["app-server<br/>thread/start或thread/resume；turn/start"]
+    ACTIVE["CLI活跃上下文 H_t"]
+    STORE["原生会话JSONL / CODEX_HOME<br/>保留旧历史证据；每题沿原thread"]
+    TOOLS["原生Code Mode / exec_command / apply_patch"]
+    COMPACT["原生context compaction<br/>自动触发或thread/compact/start"]
+  end
+  subgraph M["CLM新增：模型通过原生Bash调用外部命令"]
+    P2["P2：CLM专用developer说明"]
+    CT["clm-context status / show / edit"]
+    LIVE["LIVE_CTX_MAIN.json<br/>revision、可编辑完整批次、note"]
+    EDIT["edit.json<br/>revision + drop IDs + note"]
+    PROJ["API输入投影 P_t<br/>删除旧完整工具批次；P3追加短记忆"]
+    P3["P3：CLM memory written by the assistant + 动态note"]
+    G["CLM题间容量保护<br/>上一题raw ≥ 3 MiB 或实际input ≥ 165000 tokens"]
+  end
+  W["容器127.0.0.1:19731 → Unix socket → 宿主网关<br/>Base原字节透传；CLM采用P_t<br/>最多3次同请求，仅交付完整成功响应"]
+  GPT["GPT-6.1-sol Responses API<br/>模型报告ID；后端权重未独立验证"]
+  N["每臂独立/serial-home/notes<br/>两臂均可通过原生工具读写；不自动全文注入"]
+  CP["终态临时传输故障<br/>AGENT_END暂停、工作区镜像及挂载产物、TAR/SHA"]
+  RES["从当前题快照恢复；同thread续接<br/>保留原失败与费用；不重做已完成题"]
+  DNS["追加DNS题初始化<br/>启动官方named；恢复健康或停止状态；保留区文件"]
+  JR["共同评分技术适配与独立复评<br/>权限 / UTF-8 BOM / 类型守卫 / CBC<br/>冻结原补丁及产物；不重跑actor<br/>保留原成绩与失败，附独立评分覆盖层"]
+  D --> S --> P1 --> CLI
+  CLI <--> ACTIVE
+  CLI <--> STORE
+  CLI <--> TOOLS
+  TOOLS --> E --> J --> R
+  CLI <--> W <--> GPT
+  P2 --> CLI
+  TOOLS -->|仅CLM可用该命令| CT
+  CT <-->|工具输出P4| LIVE
+  CT --> EDIT --> PROJ
+  PROJ --> LIVE
+  P3 --> PROJ
+  ACTIVE -->|原始input| PROJ -->|CLM分支| W
+  TOOLS <--> N
+  W -.前题用量.-> G --> COMPACT -->|实际替换活跃历史| ACTIVE
+  ACTIVE -.原生自动策略.-> COMPACT
+  W --> R
+  S --> CP --> RES --> CLI
+  RES --> E
+  S --> DNS --> E
+  J -.技术缺口.-> JR --> R
+  classDef original fill:#edf4ff,stroke:#2867a6,color:#122d4a;
+  classDef official fill:#edf8f1,stroke:#238159,color:#123b26;
+  classDef added fill:#fff0e3,stroke:#e5781a,color:#5c2d08;
+  classDef external fill:#f3effb,stroke:#7d60aa,color:#332451;
+  class D,J,E official;
+  class CLI,ACTIVE,STORE,TOOLS,COMPACT original;
+  class S,P1,R,P2,CT,LIVE,EDIT,PROJ,P3,G,W,N,CP,RES,DNS,JR added;
+  class GPT external;

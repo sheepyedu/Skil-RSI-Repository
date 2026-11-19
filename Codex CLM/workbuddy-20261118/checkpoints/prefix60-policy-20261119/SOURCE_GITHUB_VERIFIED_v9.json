@@ -1,0 +1,487 @@
+{
+  "local_commit": "0d25f1f58cf0195b2a023df844e40caaa7e33a4b",
+  "github_commit": "5ba71c1dba156bab19f7bcc4cbd802e0755ca7bb",
+  "tree": {
+    "sha": "0aa61b2e029dad62278c09cf4c17ced7a8cf066e",
+    "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/trees/0aa61b2e029dad62278c09cf4c17ced7a8cf066e",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1f573296a34e63b9313ec1d65494055c8e67781",
+        "size": 54,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/f1f573296a34e63b9313ec1d65494055c8e67781"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c1577f3fcdfcffc249ce457bea4624079c67f664",
+        "size": 4889,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/c1577f3fcdfcffc249ce457bea4624079c67f664"
+      },
+      {
+        "path": "benchmarks",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "86a311d14d490a56d5cf38467e8010d040e29b1c",
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/trees/86a311d14d490a56d5cf38467e8010d040e29b1c"
+      },
+      {
+        "path": "benchmarks/append_workbuddy_security.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c5173ab70422fc9b54dd1caef177ef03fa8dd15f",
+        "size": 6873,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/c5173ab70422fc9b54dd1caef177ef03fa8dd15f"
+      },
+      {
+        "path": "benchmarks/audit_workbuddy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "32a3bed63cece0dad22195b78992d174ff812345",
+        "size": 38295,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/32a3bed63cece0dad22195b78992d174ff812345"
+      },
+      {
+        "path": "benchmarks/build_workbuddy_security_extra.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d67ffce6dfcf7ca355b9dbef66a252a7c0023fcc",
+        "size": 6942,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/d67ffce6dfcf7ca355b9dbef66a252a7c0023fcc"
+      },
+      {
+        "path": "benchmarks/check_workbuddy_archive.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "53f566c95c573ecaa0eb8c9c17bb30b961984a00",
+        "size": 7336,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/53f566c95c573ecaa0eb8c9c17bb30b961984a00"
+      },
+      {
+        "path": "benchmarks/check_workbuddy_binding.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "48103a831ee7adfbd04689841d3d58c61fed89e9",
+        "size": 9311,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/48103a831ee7adfbd04689841d3d58c61fed89e9"
+      },
+      {
+        "path": "benchmarks/check_workbuddy_binding_cpu.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a4dee532810097f5d8c6f83de54041a73be6bd5e",
+        "size": 5474,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/a4dee532810097f5d8c6f83de54041a73be6bd5e"
+      },
+      {
+        "path": "benchmarks/check_workbuddy_dns.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0ad8243f3ba40bf716bfaa96041d57b89a6418cd",
+        "size": 5305,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/0ad8243f3ba40bf716bfaa96041d57b89a6418cd"
+      },
+      {
+        "path": "benchmarks/check_workbuddy_postprocess.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c2af220e8f0682b512d88594f2734d71dfe98710",
+        "size": 8091,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/c2af220e8f0682b512d88594f2734d71dfe98710"
+      },
+      {
+        "path": "benchmarks/check_workbuddy_publication.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f625fbff64d8c1b436faa432f1d0b3badcfa23b5",
+        "size": 5212,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/f625fbff64d8c1b436faa432f1d0b3badcfa23b5"
+      },
+      {
+        "path": "benchmarks/check_workbuddy_recovery.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2c805dc607542b568aaa53d5650574353b73b59e",
+        "size": 9772,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/2c805dc607542b568aaa53d5650574353b73b59e"
+      },
+      {
+        "path": "benchmarks/check_workbuddy_verifier_mode.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b87c4d9a4494137abe77dd106dedefb905c43a30",
+        "size": 1329,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/b87c4d9a4494137abe77dd106dedefb905c43a30"
+      },
+      {
+        "path": "benchmarks/continue_workbuddy_transport.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a1317d5dc8404faef57f96fc43e95e00774e1187",
+        "size": 12419,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/a1317d5dc8404faef57f96fc43e95e00774e1187"
+      },
+      {
+        "path": "benchmarks/describe_workbuddy_framework.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "635758f40aa4d5e41dae5b570661a8cfab23ed1a",
+        "size": 24160,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/635758f40aa4d5e41dae5b570661a8cfab23ed1a"
+      },
+      {
+        "path": "benchmarks/package_workbuddy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49991812b45713e1b0cca580c3363f4c7fa612af",
+        "size": 15039,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/49991812b45713e1b0cca580c3363f4c7fa612af"
+      },
+      {
+        "path": "benchmarks/patch_workbuddy_verifier_permissions.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "98c6cf3a22ad662a638d09cfd818480d9c237019",
+        "size": 1629,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/98c6cf3a22ad662a638d09cfd818480d9c237019"
+      },
+      {
+        "path": "benchmarks/prepare_workbuddy_publication.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9836adfb9277ce0a5e74994e26306c4f3e22cb08",
+        "size": 10924,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/9836adfb9277ce0a5e74994e26306c4f3e22cb08"
+      },
+      {
+        "path": "benchmarks/prepare_workbuddy_security_extra.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a6039841d5aee6718f67d874bcad43f98bec8068",
+        "size": 2034,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/a6039841d5aee6718f67d874bcad43f98bec8068"
+      },
+      {
+        "path": "benchmarks/probe_workbuddy_capacity.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5a8d80fc9db5ae13168e78b7f1e2bb95a91b98e4",
+        "size": 6921,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/5a8d80fc9db5ae13168e78b7f1e2bb95a91b98e4"
+      },
+      {
+        "path": "benchmarks/provision_workbuddy_cbc.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "404eb43eeb1cf5af150a37c31554d30075c1a672",
+        "size": 6961,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/404eb43eeb1cf5af150a37c31554d30075c1a672"
+      },
+      {
+        "path": "benchmarks/recover_workbuddy_web_pilot.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "686708cfc14ba908ae44e2bb3411568d5b5dec49",
+        "size": 5911,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/686708cfc14ba908ae44e2bb3411568d5b5dec49"
+      },
+      {
+        "path": "benchmarks/regrade_workbuddy_code.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f336fc6f0f0db240a68b6e4acbbaf577ae53176e",
+        "size": 4838,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/f336fc6f0f0db240a68b6e4acbbaf577ae53176e"
+      },
+      {
+        "path": "benchmarks/repair_workbuddy_agent_judge.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dc6cda8187668db395e9def68d0f7576e9a89682",
+        "size": 22169,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/dc6cda8187668db395e9def68d0f7576e9a89682"
+      },
+      {
+        "path": "benchmarks/repair_workbuddy_csv_bom.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d0a94d0a70032de1e5139bb01cb41848ee9bb407",
+        "size": 9039,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/d0a94d0a70032de1e5139bb01cb41848ee9bb407"
+      },
+      {
+        "path": "benchmarks/repair_workbuddy_judge.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b67268f2d48c8e0269b539abf96a63a7e58ea3f4",
+        "size": 12941,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/b67268f2d48c8e0269b539abf96a63a7e58ea3f4"
+      },
+      {
+        "path": "benchmarks/repair_workbuddy_office.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0b663da1e04052df7c3ed4dc430d7b41d050fbaa",
+        "size": 12907,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/0b663da1e04052df7c3ed4dc430d7b41d050fbaa"
+      },
+      {
+        "path": "benchmarks/report_workbuddy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2410c4dcd1dc5c38780810116620df08788e88b4",
+        "size": 14123,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/2410c4dcd1dc5c38780810116620df08788e88b4"
+      },
+      {
+        "path": "benchmarks/restore_workbuddy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "11e9f7e0b8156cc000ae64ab13d6b46e6ed43161",
+        "size": 5294,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/11e9f7e0b8156cc000ae64ab13d6b46e6ed43161"
+      },
+      {
+        "path": "benchmarks/resume_workbuddy_formal.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c0ae4cf32edd8a5a7a5cb450917a0dd17c4bb286",
+        "size": 7430,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/c0ae4cf32edd8a5a7a5cb450917a0dd17c4bb286"
+      },
+      {
+        "path": "benchmarks/snapshot_workbuddy_inputs.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d279343ceb87b73617c2171fae7c3fae6d303d05",
+        "size": 6568,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/d279343ceb87b73617c2171fae7c3fae6d303d05"
+      },
+      {
+        "path": "benchmarks/workbuddy",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d0cda83afd1630f95a64cfb4a5e675af3e42e05a",
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/trees/d0cda83afd1630f95a64cfb4a5e675af3e42e05a"
+      },
+      {
+        "path": "benchmarks/workbuddy/DELIVERY.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "553a19bbd8d7c3777ab1c14708e81eade677af99",
+        "size": 11943,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/553a19bbd8d7c3777ab1c14708e81eade677af99"
+      },
+      {
+        "path": "benchmarks/workbuddy/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "11e5461b7e6e2b070fdd0381ce9bab3062020a4e",
+        "size": 6600,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/11e5461b7e6e2b070fdd0381ce9bab3062020a4e"
+      },
+      {
+        "path": "benchmarks/workbuddy/agent.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a77e3117981a2ea899cef0c2a462d1df215e357d",
+        "size": 6771,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/a77e3117981a2ea899cef0c2a462d1df215e357d"
+      },
+      {
+        "path": "benchmarks/workbuddy/checkpoint.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aae62afccada4932b4c66c5b3bec215e504aae9d",
+        "size": 7043,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/aae62afccada4932b4c66c5b3bec215e504aae9d"
+      },
+      {
+        "path": "benchmarks/workbuddy/finalize-h20.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "a20d7e0b65cfae4db0bd4e74d0e7d3eabf78a6ea",
+        "size": 1144,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/a20d7e0b65cfae4db0bd4e74d0e7d3eabf78a6ea"
+      },
+      {
+        "path": "benchmarks/workbuddy/h20.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "a34c98f5f3b0cfba681e356f614aad1610f1d62b",
+        "size": 539,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/a34c98f5f3b0cfba681e356f614aad1610f1d62b"
+      },
+      {
+        "path": "benchmarks/workbuddy/loopback.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e7ceda9566caa1054cf511b0104c87ff6900f572",
+        "size": 392,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/e7ceda9566caa1054cf511b0104c87ff6900f572"
+      },
+      {
+        "path": "benchmarks/workbuddy/native_turn.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "063df4f8ea0fadf43827f8526d6aad314137d606",
+        "size": 8341,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/063df4f8ea0fadf43827f8526d6aad314137d606"
+      },
+      {
+        "path": "benchmarks/workbuddy/relay.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a24ebd0662b7f837f9428703d49ae0711da95d06",
+        "size": 14059,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/a24ebd0662b7f837f9428703d49ae0711da95d06"
+      },
+      {
+        "path": "benchmarks/workbuddy/restore_state.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "91ea5b878557d1a75311e5ec545c308b55eb6121",
+        "size": 3079,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/91ea5b878557d1a75311e5ec545c308b55eb6121"
+      },
+      {
+        "path": "benchmarks/workbuddy/run.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61dd11ebe6302b02ccd01ab9dd84a35953be4f29",
+        "size": 21648,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/61dd11ebe6302b02ccd01ab9dd84a35953be4f29"
+      },
+      {
+        "path": "benchmarks/workbuddy/tools",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0ad385eaf7b279276029bd4e150b0fb4efbb5db8",
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/trees/0ad385eaf7b279276029bd4e150b0fb4efbb5db8"
+      },
+      {
+        "path": "benchmarks/workbuddy/tools/clm-context",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "ffc6ff51922ed75714727050f293e9e14bb48532",
+        "size": 55,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/ffc6ff51922ed75714727050f293e9e14bb48532"
+      },
+      {
+        "path": "bin",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4735de666692d5abc4ee4ce3d8bc0edd6ad19f64",
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/trees/4735de666692d5abc4ee4ce3d8bc0edd6ad19f64"
+      },
+      {
+        "path": "bin/clm-context",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "6eaf8e456bbc13b219ed3e9d08d74bb9b19f4831",
+        "size": 64,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/6eaf8e456bbc13b219ed3e9d08d74bb9b19f4831"
+      },
+      {
+        "path": "bin/codex-clm",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "5b7e434540c0a475f0bab7027a07d65a925d22b2",
+        "size": 389,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/5b7e434540c0a475f0bab7027a07d65a925d22b2"
+      },
+      {
+        "path": "clm",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d27c8e0332d7c5618f437665821e8f5a77c6d40d",
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/trees/d27c8e0332d7c5618f437665821e8f5a77c6d40d"
+      },
+      {
+        "path": "clm/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "clm/container_entry.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "80ca39cfd1d82434022d60b0cec8dbec214f543a",
+        "size": 3016,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/80ca39cfd1d82434022d60b0cec8dbec214f543a"
+      },
+      {
+        "path": "clm/context.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "971e461e76d74ea7bc55acaede54b46aa548da5c",
+        "size": 7932,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/971e461e76d74ea7bc55acaede54b46aa548da5c"
+      },
+      {
+        "path": "clm/edit.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "68ebae20774174da24a4547fa8c846d1b68c8ff3",
+        "size": 1758,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/68ebae20774174da24a4547fa8c846d1b68c8ff3"
+      },
+      {
+        "path": "clm/gateway.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e98e41206daae6a72e1e8fa70392c72c0fc27802",
+        "size": 5855,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/e98e41206daae6a72e1e8fa70392c72c0fc27802"
+      },
+      {
+        "path": "clm/probe.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cf76cb670c3fce0dd4a9df3e692428ad3ac6fbb1",
+        "size": 1215,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/cf76cb670c3fce0dd4a9df3e692428ad3ac6fbb1"
+      },
+      {
+        "path": "clm/run.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1ad1a5892c52103a2654de485c27fcdae3648756",
+        "size": 5338,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/1ad1a5892c52103a2654de485c27fcdae3648756"
+      },
+      {
+        "path": "tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4eab685326c449e5bff0ba33c420aeec4985b0f7",
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/trees/4eab685326c449e5bff0ba33c420aeec4985b0f7"
+      },
+      {
+        "path": "tests/smoke-h20",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "39a21b4d61c1cff35687ac39f672385e6ac99da7",
+        "size": 4155,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/39a21b4d61c1cff35687ac39f672385e6ac99da7"
+      },
+      {
+        "path": "tests/test_context.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1031b5bc8b54623069316d5950b007949b55bd59",
+        "size": 4076,
+        "url": "https://api.github.com/repos/sheepyedu/Codex-CLM/git/blobs/1031b5bc8b54623069316d5950b007949b55bd59"
+      }
+    ],
+    "truncated": false
+  },
+  "verified_files": 54,
+  "h20_exact": true
+}

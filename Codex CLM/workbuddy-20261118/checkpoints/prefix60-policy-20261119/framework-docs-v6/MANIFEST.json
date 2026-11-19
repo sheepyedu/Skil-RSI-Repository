@@ -1,0 +1,19 @@
+{
+  "source": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/source-transport-v4",
+  "run": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14",
+  "plan_sha256": "ac0179adb2b541cf4eb647dda1b2270a438ffa9ef53bd27574207f5bd2395386",
+  "runtime_sha256": {
+    "bin/codex": "b452ca20f838a8855a88a41050ee4a694033fff4ea3ecdad5633e6e0e8d13f2b",
+    "bin/codex-code-mode-host": "e9f2ef68671b2b6ac68902d19e8dafda3f5928e678ecf3f30c74b203a2c403ed",
+    "codex-path/rg": "e62198eb19b136b88c330af83647b5a962cb99b6b1f066758568f12de1974849"
+  },
+  "files": {
+    "EVIDENCE_EXAMPLES.json": "9b998188ba6dc33782ea7243e6381522db5624f34b1a3e17dfb550b801258a70",
+    "FRAMEWORK.md": "4bffc795293ec6a57535d3d5e1dea53130fd2604148718b8e138dcc34e150ce2",
+    "PROMPTS.json": "36f095eefdaf6585f0ade42979ce6ffdf5b931d57c9d10d842e13b60b7cd2797",
+    "framework-overview.pdf": "32edf9c91bcecc39313ac5bdbef1092b92a4084e6fd7058c13c23527c72f3368",
+    "framework-overview.png": "3f750c8d9e32ca83df931507253128ec472474b44016993497d335e9bb77fa06",
+    "framework-overview.svg": "a2b2b99e0e9bd4425062db267aefa4fdf89fb9e9e5346847de94a8f541e5b0be",
+    "framework.mmd": "bdb9bab19acbe87792caec718b5ad27a6501c39c57ec1d1959ac477229ab1a5b"
+  }
+}

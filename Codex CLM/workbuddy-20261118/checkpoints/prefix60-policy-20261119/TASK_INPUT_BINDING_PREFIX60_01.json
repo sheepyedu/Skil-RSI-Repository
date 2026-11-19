@@ -1,0 +1,2657 @@
+{
+  "scope": "Stage prefix diagnostic",
+  "observed_at": "2026-11-19T08:41:44.156985+08:00",
+  "model_api_calls": 0,
+  "run": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14",
+  "selected_trials_verified": 120,
+  "threads": {
+    "native": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+    "clm": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96"
+  },
+  "all_native_completions_and_task_bindings_verified": true,
+  "source_sha256": "3e94db899513ba36c880a354c6f1af0694376b052e7955fd25f7c5171a9ff8da",
+  "native_helper_sha256": "ad18717f6969c359dd0fc871bb56e2ca802f3b183c6c532f80d7c4105f075993",
+  "normalization": "Native RPC prompt preserves full UTF-8 instruction; API comparison ignores trailing LF only.",
+  "trials": [
+    {
+      "position": 1,
+      "domain": "sec",
+      "task": "linux-ld-preload-investigation",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_001",
+      "instruction_sha256": "06dd528314705c7be4f9d9bcdcacb9596fadcaa581320dec8dd4d80f2c91cbf7",
+      "native_prompt_sha256": "4dcdb61d5403c607cead975e5f5f94727cb5d68aa3eff6ff884b44458f9a8b5b",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1ef4b-a366-7b13-8bd6-d74efc82056d",
+        "native_result_sha256": "ac28abf17d3d79ce6702faae977722ee9923af29522674a2d760ef44e648538b",
+        "native_timeline_sha256": "68a0e9dcfbad88852f2feeebff2f7e027661f7db29dff016b10e598a49448ccd"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/001-sec-linux-ld-preload-investigation/wire/00001",
+        "started_ns": 1795016074295526528,
+        "request_raw_sha256": "6439a41475dbb65e3b03f4e6e80d405b102da38ef1f500f6613f5c2aad88baa0",
+        "request_sent_sha256": "6439a41475dbb65e3b03f4e6e80d405b102da38ef1f500f6613f5c2aad88baa0",
+        "response_sha256": "b7975e86bcf701f023b27c6f203d59a1fc06e9ee761d89fbfad1a785537fe0ec"
+      }
+    },
+    {
+      "position": 1,
+      "domain": "sec",
+      "task": "linux-ld-preload-investigation",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_001",
+      "instruction_sha256": "06dd528314705c7be4f9d9bcdcacb9596fadcaa581320dec8dd4d80f2c91cbf7",
+      "native_prompt_sha256": "4dcdb61d5403c607cead975e5f5f94727cb5d68aa3eff6ff884b44458f9a8b5b",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1ef4f-53bb-7341-a911-f47d62a2f3a0",
+        "native_result_sha256": "be7c7b24fec5f6cff956b29607a2e0fd8dba6c1e126ec81f13cd9b9b0ede7986",
+        "native_timeline_sha256": "7cdc4079db1d0ee613dbbf1f545ff6e926783f4423a75ab00f4eb374e15f44ef"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/001-sec-linux-ld-preload-investigation/wire/00001",
+        "started_ns": 1795016316016276388,
+        "request_raw_sha256": "6eb537f77667f5f73fd24dad91c030e5dde9d47e545d1eca665f03fd7e04bf19",
+        "request_sent_sha256": "6eb537f77667f5f73fd24dad91c030e5dde9d47e545d1eca665f03fd7e04bf19",
+        "response_sha256": "888168f654a0bfb3e9b381ba66968757c127fc987c7514d122f6063541cdced8"
+      }
+    },
+    {
+      "position": 2,
+      "domain": "web",
+      "task": "dense-saas-visual-refactor-L3-046",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_002",
+      "instruction_sha256": "2befa16cc16a49c59fcaefbaa1a707e5d61730b4c9b3e6686c72260f5de7a321",
+      "native_prompt_sha256": "3816bfe8339c713b801976350fe3a39f5b2b0a17629329a01d9678425f8ce679",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1ef52-8480-76f3-a6eb-d224ec94b0ce",
+        "native_result_sha256": "245e361e7bd2d3e5f7c39f29d36604515cbe7f19d0aac4ee16e8c0d42f9c4c07",
+        "native_timeline_sha256": "ac5a34291c9a854736f0124b540411ba42ef5264f6cdd14acd0c66fa8d236292"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/002-web-dense-saas-visual-refactor-L3-046/wire/00001",
+        "started_ns": 1795016524984684031,
+        "request_raw_sha256": "18f2fc0c63fdf55648c94bf5ae79455baa66c1dd0db6de90c3b57c16ce6fa75c",
+        "request_sent_sha256": "18f2fc0c63fdf55648c94bf5ae79455baa66c1dd0db6de90c3b57c16ce6fa75c",
+        "response_sha256": "24ba158d4b5d7ee6423072b5ab62df08e28a1f4738b52aa7d3070af272e33a52"
+      }
+    },
+    {
+      "position": 2,
+      "domain": "web",
+      "task": "dense-saas-visual-refactor-L3-046",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_002",
+      "instruction_sha256": "2befa16cc16a49c59fcaefbaa1a707e5d61730b4c9b3e6686c72260f5de7a321",
+      "native_prompt_sha256": "3816bfe8339c713b801976350fe3a39f5b2b0a17629329a01d9678425f8ce679",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1ef57-f49a-7fa2-8462-6b0b31d02ee1",
+        "native_result_sha256": "d24789773eeaa347af5f601d5370ad38c862d12cdef74b4703085d194500f12d",
+        "native_timeline_sha256": "f8886279504223385ccf2a2483f832b72ae3742b335ce85450a14f3d19cebd6e"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/002-web-dense-saas-visual-refactor-L3-046/wire/00001",
+        "started_ns": 1795016881362634863,
+        "request_raw_sha256": "8c310383077c27a0472e8a940ec267f9098006611375b6801a8170936bda58eb",
+        "request_sent_sha256": "27a6822dc5e22ad1897443dad67083ebbb5833d99ea433a504772967a5cb7791",
+        "response_sha256": "ab3527b14be72982f576e71dfc108b14c664966a2b6f3543b338a3485db3e3be"
+      }
+    },
+    {
+      "position": 3,
+      "domain": "web",
+      "task": "security-privacy-permission-review-L4-020",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_003",
+      "instruction_sha256": "b6f3e162175d92e92057efb082a626d04523479244e970d7e613bc8c0a67b7cf",
+      "native_prompt_sha256": "117b74193a1b3cc3858c550247f0f47a1bc5a65bbc4ced810e49c6f1b7b68b31",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1ef79-f77e-7bf2-8440-d9a44b91271d",
+        "native_result_sha256": "1634ee4738811582b2317bdeef868c0bd6f47761810e883d9309bfa5de3eae32",
+        "native_timeline_sha256": "38987593b6d428e4af92ae4a5f40b6efde93a7155732d024835088cea3e8c3a7"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/003-web-security-privacy-permission-review-L4-020/wire/00001",
+        "started_ns": 1795019110361421055,
+        "request_raw_sha256": "45d3074f49f5678e8f150bb8dff2045c04ebf933242292db0508d4b4bc83523b",
+        "request_sent_sha256": "45d3074f49f5678e8f150bb8dff2045c04ebf933242292db0508d4b4bc83523b",
+        "response_sha256": "5b8c4a24506f2a105f03957cbf1067a94db53389eac12ac8b63560de51b5d058"
+      }
+    },
+    {
+      "position": 3,
+      "domain": "web",
+      "task": "security-privacy-permission-review-L4-020",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_003",
+      "instruction_sha256": "b6f3e162175d92e92057efb082a626d04523479244e970d7e613bc8c0a67b7cf",
+      "native_prompt_sha256": "117b74193a1b3cc3858c550247f0f47a1bc5a65bbc4ced810e49c6f1b7b68b31",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1ef8d-eb8f-7c53-9242-4d1321d373db",
+        "native_result_sha256": "f298de1563342da639a8cbfb0f7181110efa7ac030ebde7201bc15a2c1723ac0",
+        "native_timeline_sha256": "772d11dd323baa07fc6777cab12133460028235139a6459b6afbd6ca8b0024ef"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/003-web-security-privacy-permission-review-L4-020/wire/00001",
+        "started_ns": 1795020418029261262,
+        "request_raw_sha256": "72c63e44660923deb62dba81a6f02d454353f78b613cf5b381fc710fa3337f93",
+        "request_sent_sha256": "2d7701b55f5f1ad0ccaf26d26d2df6dea3077d0f1923ffd8c5a948d53f7ac9d4",
+        "response_sha256": "2b3853c18fa336bd6faef79219965ff0207cedfc14fbdc3c2e38ce063546071f"
+      }
+    },
+    {
+      "position": 4,
+      "domain": "code",
+      "task": "refactor-medium-config_validation_errors",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_004",
+      "instruction_sha256": "c84f20765083208b20554c42a679c71c46f4ecd61a9a5aa9f8ce07e56ef54193",
+      "native_prompt_sha256": "cd471e70623a976aec445fd18fb8fa09a98d953d9b8fd18c92c7746c5d878125",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1ef95-c421-76d1-9052-ab04c8814362",
+        "native_result_sha256": "c9a45a2c5b7f9f8d339aa6b76cda688da44ca4c2d44ad6470eceb22da367bdab",
+        "native_timeline_sha256": "736309880f0807dbefec64ecf0a36b588c8dc1dd2fe46ce35d95bf7b59544485"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/004-code-refactor-medium-config_validation_errors/wire/00001",
+        "started_ns": 1795020932190053602,
+        "request_raw_sha256": "0aff65a7d9a99dfd8e6ba00bd671dacd87f523c813aacbc8b66c558a31b7bf11",
+        "request_sent_sha256": "0aff65a7d9a99dfd8e6ba00bd671dacd87f523c813aacbc8b66c558a31b7bf11",
+        "response_sha256": "cc737041f0d4528e3cef1054c5f50481a05ac57aa70d83509e6c0a110f33e043"
+      }
+    },
+    {
+      "position": 4,
+      "domain": "code",
+      "task": "refactor-medium-config_validation_errors",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_004",
+      "instruction_sha256": "c84f20765083208b20554c42a679c71c46f4ecd61a9a5aa9f8ce07e56ef54193",
+      "native_prompt_sha256": "cd471e70623a976aec445fd18fb8fa09a98d953d9b8fd18c92c7746c5d878125",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1ef98-1015-7b21-a6cf-7a9c65911724",
+        "native_result_sha256": "3c07c1b5187a8bb0946db16b69d1e433cd1cc3558b90d5ccdb9ff63b58209e33",
+        "native_timeline_sha256": "e951391a8cd99911471511a0e5135b878acf1775cd09bdd4f0552dd2c6b6c01b"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/004-code-refactor-medium-config_validation_errors/wire/00001",
+        "started_ns": 1795021082712507048,
+        "request_raw_sha256": "e61be2cfefeac38e4d9fc94429a421d1bd0c43202740f39a69ed6ab42187e3f9",
+        "request_sent_sha256": "df10cc81616817c70eed37ab27efe2b95ff7acfcd9eab97a3bbbb48f7c203897",
+        "response_sha256": "e1c0cf21f8e51a4481e12e8859845449587c6f45ccdf6f92ad5afa9739fac989"
+      }
+    },
+    {
+      "position": 5,
+      "domain": "web",
+      "task": "markdown-release-editor-L4-038",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_005",
+      "instruction_sha256": "29f14ad53c2502f3dc197bf5b62303c1d90d381e67fbe9703821a9271131811a",
+      "native_prompt_sha256": "94f73124c89c3687e98f2b95999abcb4fe7b805a52dcdef7db0dfe14ea8b341a",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1ef99-4f73-7bb1-be48-1dc463c5ebac",
+        "native_result_sha256": "eb490e4cbdf343c2a9a50da741e75cdc968a5aded41db02dff27602060dc4ba2",
+        "native_timeline_sha256": "bec76d7439854227c1deae8e47da73c64ee86e704bbda5c06c06c6e2fd2504e2"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/005-web-markdown-release-editor-L4-038/wire/00001",
+        "started_ns": 1795021164486623188,
+        "request_raw_sha256": "9550d0880f5ecac993a29c5f309d3b2fa57e2ac93f6e91613759779cf380dc2f",
+        "request_sent_sha256": "9550d0880f5ecac993a29c5f309d3b2fa57e2ac93f6e91613759779cf380dc2f",
+        "response_sha256": "52c194e508820bb902bdff69d680295adeed296bb666f0c2343affcf23e48099"
+      }
+    },
+    {
+      "position": 5,
+      "domain": "web",
+      "task": "markdown-release-editor-L4-038",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_005",
+      "instruction_sha256": "29f14ad53c2502f3dc197bf5b62303c1d90d381e67fbe9703821a9271131811a",
+      "native_prompt_sha256": "94f73124c89c3687e98f2b95999abcb4fe7b805a52dcdef7db0dfe14ea8b341a",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1efa5-c78e-71d3-9990-e7e369a5a2bb",
+        "native_result_sha256": "cdc4703a5053c9ebf2ec580ec8de5ebe2962e01457a6c5a37d0fe1feb0d2d518",
+        "native_timeline_sha256": "b936d063f6eb8d4e15ee18f3002097dacb81aba84c34fd548c7f9c273258596f"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/005-web-markdown-release-editor-L4-038/wire/00001",
+        "started_ns": 1795021981667520853,
+        "request_raw_sha256": "d7e1ce256d08afe7fd31564aacc17ec8b3ac1d5ce9cfeb3c86ba3cc8b351da06",
+        "request_sent_sha256": "6ca71d622b0ef7ad78d273009ab14426ea5e39b5f34cb15b18f60b6f5c417761",
+        "response_sha256": "3680f8256d98d987fa201466b2810c58d20f743b1ec560a8ec175758bfda89d6"
+      }
+    },
+    {
+      "position": 6,
+      "domain": "code",
+      "task": "feature-medium-envless_file_load",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_006",
+      "instruction_sha256": "a3069dbbb02b22e28ed29adeb9bf54bd5f9cf21faa78b2ba2b56f435382e4796",
+      "native_prompt_sha256": "ad3516cff34fc935a3d46fe53afebd1396f6982b1e67f4712c435931f1dfcbda",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1efc7-79b9-7251-9e24-a2264d946962",
+        "native_result_sha256": "e098b12743063ce2cfe4bca53265c2c32d1e49426e728458c85d05d05b19b607",
+        "native_timeline_sha256": "b781a1317061823e5788c0847d71b68cd19bdf7a8cdabe6e4476412323a4167d"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/006-code-feature-medium-envless_file_load/wire/00001",
+        "started_ns": 1795024189948343007,
+        "request_raw_sha256": "cc149ca1ed3900166a12ec4d97fa5e989ae374a11dc5f4ff695c4254defc13b3",
+        "request_sent_sha256": "cc149ca1ed3900166a12ec4d97fa5e989ae374a11dc5f4ff695c4254defc13b3",
+        "response_sha256": "c7008974e83bf97a2684bad995cbff50f9b92aa2fbbb25a6bc21e5785c097c33"
+      }
+    },
+    {
+      "position": 6,
+      "domain": "code",
+      "task": "feature-medium-envless_file_load",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_006",
+      "instruction_sha256": "a3069dbbb02b22e28ed29adeb9bf54bd5f9cf21faa78b2ba2b56f435382e4796",
+      "native_prompt_sha256": "ad3516cff34fc935a3d46fe53afebd1396f6982b1e67f4712c435931f1dfcbda",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1efc9-43ea-70f2-9eb5-32f67d963c62",
+        "native_result_sha256": "15de2eb5899888d25d38b346cd0339cad8e7b77d7f36b44aa6207befba757691",
+        "native_timeline_sha256": "8e86c7262ea749e28cd1b5d25be75c74065f36c563d374ae52f75fe4e8029c0f"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/006-code-feature-medium-envless_file_load/wire/00001",
+        "started_ns": 1795024307239524211,
+        "request_raw_sha256": "448a96213fc19c5b50156bea813594223b7617494127addda51f8af0c59f3d4e",
+        "request_sent_sha256": "25cf75ba2ee7b7c2606a25531dab853d0eee2375715bb5565fc6df1b1b3a5588",
+        "response_sha256": "b4b2103c73d7431fdb883fe4afc5bdd8c7e7efd2aefbedc6464a7185836c7292"
+      }
+    },
+    {
+      "position": 7,
+      "domain": "code",
+      "task": "reliability-hard-stream_release",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_007",
+      "instruction_sha256": "b72f7ba14745644eaa4acbf7d24d740256645d6810cdfc2607e3bc22a663f97c",
+      "native_prompt_sha256": "5e19a069a40be4912967a5364f0bf8b4a70663bd7346c622bdc39b007c219fbd",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1efcc-7786-78d0-9001-b727d4fae540",
+        "native_result_sha256": "1dd2d30a78f73175e8d280a9ddc6de5c54f2a701847c73a6879aee6eba1a89a7",
+        "native_timeline_sha256": "01c322e4a962d9516238d9e45d818326ff8db627a8241b771f08339027f98ef6"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/007-code-reliability-hard-stream_release/wire/00001",
+        "started_ns": 1795024517086514429,
+        "request_raw_sha256": "fff24a2b7f3f4aa4e1905c3dfe2367de736433c3a2c5e37bb1190297c4765edc",
+        "request_sent_sha256": "fff24a2b7f3f4aa4e1905c3dfe2367de736433c3a2c5e37bb1190297c4765edc",
+        "response_sha256": "176f025ebadb6c682df20ab16bedb2984bb24c9ad8a7379d9a7755481553cc53"
+      }
+    },
+    {
+      "position": 7,
+      "domain": "code",
+      "task": "reliability-hard-stream_release",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_007",
+      "instruction_sha256": "b72f7ba14745644eaa4acbf7d24d740256645d6810cdfc2607e3bc22a663f97c",
+      "native_prompt_sha256": "5e19a069a40be4912967a5364f0bf8b4a70663bd7346c622bdc39b007c219fbd",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1efce-5e6c-7793-9f8c-1519fe961162",
+        "native_result_sha256": "50a628326e66ed20bc4cca62629b8cc7e686ec105707f00dbad6ee1c8b951d6e",
+        "native_timeline_sha256": "895ddb970c7bf415f21618920a8a97bb91cdbf9dd6770cb38e26e239ef8e4db6"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/007-code-reliability-hard-stream_release/wire/00001",
+        "started_ns": 1795024641730870083,
+        "request_raw_sha256": "02cba44fde82621cb3ac7b9cda49cb7fc20ecbff8b968aab34246365f3f07d24",
+        "request_sent_sha256": "e076f9be805922c876bb28aa270c92d5ebf1371f8644db96ecd7068857323247",
+        "response_sha256": "6523494e1425b42b97ef99f89b756b891c4bea7ed6b2e2ca8964b4967b332e0b"
+      }
+    },
+    {
+      "position": 8,
+      "domain": "office",
+      "task": "warranty-recovery-allocation-L5-033",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_008",
+      "instruction_sha256": "700a5b01bc0fa316df4c7729ab5dadc15ad713b4db9a667fa0ea4a30ac6c3bde",
+      "native_prompt_sha256": "63bbf667e0064f5233f112312925c048223822387e3baf19de4f01d62e184d43",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1efd6-e19f-7c42-a1c6-d91f06f9dd31",
+        "native_result_sha256": "ce0961227ff9784f5c638d83b078b53bc2835659cee2101df9f47b49cfedbcbd",
+        "native_timeline_sha256": "7e4606c902fb89b742164bec9bc0770d21eb7f4ae15ac634e5272da572296d54"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/008-office-warranty-recovery-allocation-L5-033/wire/00001",
+        "started_ns": 1795025199587460223,
+        "request_raw_sha256": "b5743707c29cd503d0c69b75f9358c29a94a37c2b0e3d829120450fa7c869678",
+        "request_sent_sha256": "b5743707c29cd503d0c69b75f9358c29a94a37c2b0e3d829120450fa7c869678",
+        "response_sha256": "7a1371dc2c06cd27eddb5b47af814847cf50b3505c13f7c3448052e1625b0146"
+      }
+    },
+    {
+      "position": 8,
+      "domain": "office",
+      "task": "warranty-recovery-allocation-L5-033",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_008",
+      "instruction_sha256": "700a5b01bc0fa316df4c7729ab5dadc15ad713b4db9a667fa0ea4a30ac6c3bde",
+      "native_prompt_sha256": "63bbf667e0064f5233f112312925c048223822387e3baf19de4f01d62e184d43",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1efdd-90a0-7d40-9ca7-84697700ea35",
+        "native_result_sha256": "375510c8f4c83c8c156242fc434126bd5dadfe1ba3f8da5bd91ee604779f2fd5",
+        "native_timeline_sha256": "ee4b893039d69e91d7b64b097f9cc27ba4eb8e68676886938313e73e67d36a50"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/008-office-warranty-recovery-allocation-L5-033/wire/00001",
+        "started_ns": 1795025637622070776,
+        "request_raw_sha256": "19561ffa997cf6ae41258514b11735019373ec611d27ff146114dbfdf4dd400a",
+        "request_sent_sha256": "835e88899fbcaccf0ad9bf92166841f93cc33e48c41ef0fe6dce8a2169331aef",
+        "response_sha256": "cf094a6c16d35f57d9b90ac9d355831d110acfdd5a499e80b111b4a661eded22"
+      }
+    },
+    {
+      "position": 9,
+      "domain": "code",
+      "task": "schema_behavior-medium-datakey_errors",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_009",
+      "instruction_sha256": "c2c1d6e461c8c70767fdef943dcb8d71389566ffe78e76053103fbdbe034389a",
+      "native_prompt_sha256": "738b4cfe9212499e599b7ad106c4d951e9a356076ee26240d08b09a8e3f546ab",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1efe9-3bcf-7201-a708-520e44726ff7",
+        "native_result_sha256": "6fec8d7df567ac991b7396e7444a50f108a5fc21b415d7aec0075776a7ed6327",
+        "native_timeline_sha256": "ba078d174bb8f0b0a28297d779ffe8b0d805923e36a4e0e41e011cf7d4ec3b99"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/009-code-schema_behavior-medium-datakey_errors/wire/00001",
+        "started_ns": 1795026402332727480,
+        "request_raw_sha256": "efcd9c02291965716481253b1c07ded03a298f5a5b8ee948beacd2c399dcaaec",
+        "request_sent_sha256": "efcd9c02291965716481253b1c07ded03a298f5a5b8ee948beacd2c399dcaaec",
+        "response_sha256": "a9fa44a0675d66a0312a8c47c5379cbd147a396fd079a30c7272db694605d14e"
+      }
+    },
+    {
+      "position": 9,
+      "domain": "code",
+      "task": "schema_behavior-medium-datakey_errors",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_009",
+      "instruction_sha256": "c2c1d6e461c8c70767fdef943dcb8d71389566ffe78e76053103fbdbe034389a",
+      "native_prompt_sha256": "738b4cfe9212499e599b7ad106c4d951e9a356076ee26240d08b09a8e3f546ab",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1efe9-9d8b-79e0-b091-13ce2951d47a",
+        "native_result_sha256": "5906ad1f2058808268be3c02622f70bd2a0ba59329d5464bad1b244b1112ffa0",
+        "native_timeline_sha256": "61801b6cba5536ef68f5fa832ab3d2d780bbc94d63b0377f57ea9c7fe03cdc9e"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/009-code-schema_behavior-medium-datakey_errors/wire/00001",
+        "started_ns": 1795026427346087877,
+        "request_raw_sha256": "3e1574e2b22d08688d26c631ba3a32a5f2c08ba59d546ebae696c26fc8a0e904",
+        "request_sent_sha256": "370a4cf47887f921831bc3f79f648c3693a58b3c9c7efc39a243b6724673a596",
+        "response_sha256": "f5b59322a6e7ecf9e6e7b3fd1df326ce96657751c0ffcda617cadf21deafc109"
+      }
+    },
+    {
+      "position": 10,
+      "domain": "web",
+      "task": "root-cause-localization-L3-015",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_010",
+      "instruction_sha256": "3a8be4219b860e6d10e22313e61f5d2a34bd795f9485165066fdf21b9c2b891c",
+      "native_prompt_sha256": "2178605e07ec7e1a0f0256d44685ec4df43076a21ba21a90888ba084a9e0f06f",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1efea-b758-7b13-b77b-01adbe9544b5",
+        "native_result_sha256": "65bd72cdbcf7355193f0970c406437df9ae3cebf69d8a020adc8dbfe31f106c7",
+        "native_timeline_sha256": "48b11b450360a3dbec21992934d74a8b53f964b0771ed590daaaad1566a3c539"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/010-web-root-cause-localization-L3-015/wire/00001",
+        "started_ns": 1795026499485933310,
+        "request_raw_sha256": "a385292ad9bad93271cb3085370d76095951c1337b46ce87904d8b6dfe84eb46",
+        "request_sent_sha256": "a385292ad9bad93271cb3085370d76095951c1337b46ce87904d8b6dfe84eb46",
+        "response_sha256": "fb0c8dc272f2aa3533e1887933243b46f2140af70523df529c9d2fee5e315594"
+      }
+    },
+    {
+      "position": 10,
+      "domain": "web",
+      "task": "root-cause-localization-L3-015",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_010",
+      "instruction_sha256": "3a8be4219b860e6d10e22313e61f5d2a34bd795f9485165066fdf21b9c2b891c",
+      "native_prompt_sha256": "2178605e07ec7e1a0f0256d44685ec4df43076a21ba21a90888ba084a9e0f06f",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1efed-a09a-72d2-8b6f-789ae9be235a",
+        "native_result_sha256": "4b2103f888829620ce5e497f0911c7ecd539c17a8a955f5fcc1668aaf511df1b",
+        "native_timeline_sha256": "762f72621335cdad8358fb9ca1e88297e87671d3b90a166245bb557bb2fff7fb"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/010-web-root-cause-localization-L3-015/wire/00001",
+        "started_ns": 1795026690283782912,
+        "request_raw_sha256": "d9647d8c3f8b92bba6662bab8ce505a52a8774ce8fcd4e1ffd5b7a275f032e4d",
+        "request_sent_sha256": "19e97eefa87be6a4d954b47b6f57c33b05312f1b29e45a9e5747706f654a68ec",
+        "response_sha256": "479d961e4507c4561c089d6d4d794030eddceb65b57de47c49d078b0caf394c1"
+      }
+    },
+    {
+      "position": 11,
+      "domain": "code",
+      "task": "reliability-medium-pool_release",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_011",
+      "instruction_sha256": "b8a9734747163e1a48daddef8e7545345a3d39142cc1dd2143728e87877a2361",
+      "native_prompt_sha256": "909601270d526fd663989ae1d81bdda729aca1591efe47c7339fa21d3a752014",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1eff1-2aeb-7932-ad9a-dd8d5c2eb1d5",
+        "native_result_sha256": "41f1e585a89d0e35455ad412f08a3304f83abe4aec3ca23756a7f7590230c14e",
+        "native_timeline_sha256": "c7e538663960d25c14023e7f8894033dc14062da3eb6ec9b6077e05b2693bd15"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/011-code-reliability-medium-pool_release/wire/00001",
+        "started_ns": 1795026922285871496,
+        "request_raw_sha256": "3d3889a7484c9863fa3c8b0a362f3d30ae550f89de41c36d2913aca4bedb2341",
+        "request_sent_sha256": "3d3889a7484c9863fa3c8b0a362f3d30ae550f89de41c36d2913aca4bedb2341",
+        "response_sha256": "d34056465b816b0e850e99913b73cfef2106b5d2945bf002dc05721343a26833"
+      }
+    },
+    {
+      "position": 11,
+      "domain": "code",
+      "task": "reliability-medium-pool_release",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_011",
+      "instruction_sha256": "b8a9734747163e1a48daddef8e7545345a3d39142cc1dd2143728e87877a2361",
+      "native_prompt_sha256": "909601270d526fd663989ae1d81bdda729aca1591efe47c7339fa21d3a752014",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1eff2-7feb-76a0-8b37-5295a636bf75",
+        "native_result_sha256": "3a0540e09bd6861c732d64aca2fb71ede0f07f5789f7f57c31ce35841cf8c2b2",
+        "native_timeline_sha256": "7909c2c2ae0696f2b6ed95b32ebee3d64366d4e0c97baa7b6fbc1f3583c76469"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/011-code-reliability-medium-pool_release/wire/00001",
+        "started_ns": 1795027009584948997,
+        "request_raw_sha256": "933168d5fd98287e729f0a6a8be4df40271bca5bfa3459826e148ada0676f39d",
+        "request_sent_sha256": "8eb86b3f1d23863816d532b6eb6203cbc5661ac8701f07155c93a0c7e54b9981",
+        "response_sha256": "407018fa3ac6644814c37e2fabb519077e32745b8d639f692660e4795d36ec0c"
+      }
+    },
+    {
+      "position": 12,
+      "domain": "web",
+      "task": "root-cause-localization-L3-013",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_012",
+      "instruction_sha256": "f470f423738972243f103bf59d8dd62bf328bd33bf962d8cb5120caba5ed42f4",
+      "native_prompt_sha256": "ff05de39cb2a40fee61e2188cd467abc2f9f921eeb6793c405beaedc7cbb6004",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1eff3-e392-7623-adad-931d5e080524",
+        "native_result_sha256": "30ad86522ee0107ce191deb87a65084efa1b1c3344d9365f2a196003beba9e0a",
+        "native_timeline_sha256": "54a83ae5a39b07220d7edaa5277e3c6fff310f5125bd4e72c411dfbd5bc320dc"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/012-web-root-cause-localization-L3-013/wire/00001",
+        "started_ns": 1795027100630090700,
+        "request_raw_sha256": "9ebb3f7a8f993a6a48c20e4f405654c3ed2daeffb654424b3987d6040fe7354f",
+        "request_sent_sha256": "9ebb3f7a8f993a6a48c20e4f405654c3ed2daeffb654424b3987d6040fe7354f",
+        "response_sha256": "7de2a0baa8ae7d760c0358bc2c8609b60a4aad3995b24ce5e8020abd47395578"
+      }
+    },
+    {
+      "position": 12,
+      "domain": "web",
+      "task": "root-cause-localization-L3-013",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_012",
+      "instruction_sha256": "f470f423738972243f103bf59d8dd62bf328bd33bf962d8cb5120caba5ed42f4",
+      "native_prompt_sha256": "ff05de39cb2a40fee61e2188cd467abc2f9f921eeb6793c405beaedc7cbb6004",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1eff6-43b5-7240-9a69-3a38572ae4d0",
+        "native_result_sha256": "f6db62723485f53bf643b0dfc45b08c4cc2d3b71cf8496f5cb8de3ce2aab862c",
+        "native_timeline_sha256": "abae39d7dd1fe28dd2b7283e3bf8efb45ea35f6c902e6f45a854b3f27e21ac27"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/012-web-root-cause-localization-L3-013/wire/00001",
+        "started_ns": 1795027256320911750,
+        "request_raw_sha256": "d2b87b261b8986440071f32e99eefb0ac9c59eb867d165cde5c7fce38d5a95a1",
+        "request_sent_sha256": "ead00f879512fad94bb2a4ab173c64f3455dfdcfbdb1c727e615529afacec167",
+        "response_sha256": "ec09cf35f371b01b3ac9901f37d592378df015b58e5931fd7b98c002d675f7b2"
+      }
+    },
+    {
+      "position": 13,
+      "domain": "code",
+      "task": "bug_fix-medium-matching_absolute_paths",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_013",
+      "instruction_sha256": "455cec3578a386e3842dcecaa676cb50f7795c2667552e5e2b2c0627d115e92a",
+      "native_prompt_sha256": "a490c1a2fe28e660950853d6d061ff8c3de0b0a5b1c831f25e10094d6b4100d8",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1eff8-cca9-7362-8422-7d0ae63ab776",
+        "native_result_sha256": "1cb6121ba958db5374860de8a398668726b56e1a3d2df497ef2d9e2891d96ab9",
+        "native_timeline_sha256": "6fdcf0612ebe63aa928a210e8122c6dd8f8ebcf4945a616ba2bbce1e305e9eb3"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/013-code-bug_fix-medium-matching_absolute_paths/wire/00001",
+        "started_ns": 1795027422442087489,
+        "request_raw_sha256": "b501abb1e2e7c9d843a2b4f4cc4626c6cf7944cd857f0f4e69e11f2c4ce58955",
+        "request_sent_sha256": "b501abb1e2e7c9d843a2b4f4cc4626c6cf7944cd857f0f4e69e11f2c4ce58955",
+        "response_sha256": "3282f954d0ddb680421ca21cf2393c87af4eb3600ee210c637525c93900b8c59"
+      }
+    },
+    {
+      "position": 13,
+      "domain": "code",
+      "task": "bug_fix-medium-matching_absolute_paths",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_013",
+      "instruction_sha256": "455cec3578a386e3842dcecaa676cb50f7795c2667552e5e2b2c0627d115e92a",
+      "native_prompt_sha256": "a490c1a2fe28e660950853d6d061ff8c3de0b0a5b1c831f25e10094d6b4100d8",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1eff9-f0ec-7b60-978a-9266ce0e847d",
+        "native_result_sha256": "87cb8fac18d9eff3658d8894ca2d154c209fd9c796e7646f58798988d3c47450",
+        "native_timeline_sha256": "326b1f705a93f2de6145a2f2afb1df60edbab4901259f563b23d398ff419ec4c"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/013-code-bug_fix-medium-matching_absolute_paths/wire/00001",
+        "started_ns": 1795027497284121186,
+        "request_raw_sha256": "a24dd02c893125b9879157b1df746c62b8a6e599468e72bfa32ab98afdb68ecb",
+        "request_sent_sha256": "b43756bf4ea7847b747b0a92750053a6a339c64dd345a4ae83a7be5260b6fbe4",
+        "response_sha256": "04220ce75363a992fd55136e05f9e3c951d9bc91b7637988320fb00bba2db16f"
+      }
+    },
+    {
+      "position": 14,
+      "domain": "sec",
+      "task": "yara-detect-cryptominer",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_014",
+      "instruction_sha256": "e69d6bbbf841f72cad668cec4030c4637886665d41750709f8e04b6eb10601d3",
+      "native_prompt_sha256": "8e3cfe3604dac487835921fcf0352e51dfd485f2ef00d5dd21b8b781354546cf",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1effb-357c-7952-bf9f-de66c765bd90",
+        "native_result_sha256": "350c0f018123e30e9841c032a48c3e77b79aaa159474d3ce4088b091d85230cd",
+        "native_timeline_sha256": "26f0c5ba5884971bc3223ee41d967a24221d9a3c739289a215809b080cac009a"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/014-sec-yara-detect-cryptominer/wire/00001",
+        "started_ns": 1795027580384930637,
+        "request_raw_sha256": "08f106736dad93803c4eb4c72156abbb58e4a2be073ec05be2d397819e9d1c75",
+        "request_sent_sha256": "08f106736dad93803c4eb4c72156abbb58e4a2be073ec05be2d397819e9d1c75",
+        "response_sha256": "561e696e05c79911fed0b8853a7a1cc07e81acb5e145f8df3558c67a1dcd93a1"
+      }
+    },
+    {
+      "position": 14,
+      "domain": "sec",
+      "task": "yara-detect-cryptominer",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_014",
+      "instruction_sha256": "e69d6bbbf841f72cad668cec4030c4637886665d41750709f8e04b6eb10601d3",
+      "native_prompt_sha256": "8e3cfe3604dac487835921fcf0352e51dfd485f2ef00d5dd21b8b781354546cf",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1effe-e159-7622-9b14-a9bb81fecee2",
+        "native_result_sha256": "2cd34af48e804c5862261430e5ec767e0337b83ac7f10b4897064af9c2378e96",
+        "native_timeline_sha256": "2e54f6241877c760de67a7ce6d614d8868e1e6e1c1f1782544b156728af3acc8"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/014-sec-yara-detect-cryptominer/wire/00001",
+        "started_ns": 1795027820974039201,
+        "request_raw_sha256": "267ba1df55a0cc5eb2c0617047fb1d65fb1c6c9287cba29f8c292f4ae68cb87c",
+        "request_sent_sha256": "8a52482bddacde3be2eaef0e0ea453a10b0a608489b58b27cd4c5b686790d765",
+        "response_sha256": "9f9bbe18a19a8643934fc3a3e92955bdbac37f4c204f003e4f1197653583c2a7"
+      }
+    },
+    {
+      "position": 15,
+      "domain": "office",
+      "task": "wechat-tech-topic-package-hardened",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_015",
+      "instruction_sha256": "2e4b6d7f378b041d1e4f0249e6a7c7e67aea90bd340b5eed97713b04c25693d9",
+      "native_prompt_sha256": "2ed99784cbba853ff5064f3b1329b6677a138106be833d1ccbc9eff9b7fc5a2a",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f002-4159-79e0-a346-afb7ef570fcc",
+        "native_result_sha256": "dad56c94709b4d1c93ca556eda4d154dfe4e126ab2e47db689fe06e6d0b0b506",
+        "native_timeline_sha256": "f0930027a84b21b83f5f5236d1efef5fbf1591e4c1d4cd3680fcfe33d69cefc8"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/015-office-wechat-tech-topic-package-hardened/wire/00001",
+        "started_ns": 1795028042141965452,
+        "request_raw_sha256": "b0e759700bf2e1efef1cc2c2f753460be9a4d7c895b6f94760a487bad7b4f682",
+        "request_sent_sha256": "b0e759700bf2e1efef1cc2c2f753460be9a4d7c895b6f94760a487bad7b4f682",
+        "response_sha256": "f8d41203e62f72a794e5dc4c0599900f0898f209360d507209c551d5786c0d3f"
+      }
+    },
+    {
+      "position": 15,
+      "domain": "office",
+      "task": "wechat-tech-topic-package-hardened",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_015",
+      "instruction_sha256": "2e4b6d7f378b041d1e4f0249e6a7c7e67aea90bd340b5eed97713b04c25693d9",
+      "native_prompt_sha256": "2ed99784cbba853ff5064f3b1329b6677a138106be833d1ccbc9eff9b7fc5a2a",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f005-2f88-7702-8f3f-82a595b7e4c9",
+        "native_result_sha256": "c3848e1afe35f22e58ef6560625b2a37cd581285c7d781a37d111c9630ac2d46",
+        "native_timeline_sha256": "8d7bde89df693fbf5898de8e7413b55abe86dbd1a1ff99bd71bfb5c4812ae2cb"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/015-office-wechat-tech-topic-package-hardened/wire/00001",
+        "started_ns": 1795028234303235578,
+        "request_raw_sha256": "48d84783a03a9ac6430f1f272706bf30e31eba2888147b50f489d272fbe0fbbe",
+        "request_sent_sha256": "b50983d58d19c91d4053721f613b6b095e1db48e2ddeaf9d5216a624dfeb1edd",
+        "response_sha256": "722c04c8068e1d4e3cd73cc2808988309d242ae58046d6436f4cfc99fc747e37"
+      }
+    },
+    {
+      "position": 16,
+      "domain": "sec",
+      "task": "false-positive-trap-bind-hard-multistep",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_016",
+      "instruction_sha256": "dd0a64231e8d1a0472003a38a5ff04a48021719bf27d64e78128a9554308c761",
+      "native_prompt_sha256": "59c9335af28dbc387ade9e3eba78f3b0344b2819b3d030f77f04e66f335db3ee",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f00e-ca9b-79c1-b8a6-a5b61ce768e0",
+        "native_result_sha256": "7f9634c606103f5b1dae3648d89c191275bc5e599d848aec3c6746babce595ff",
+        "native_timeline_sha256": "71f729da48e61401be096225f1771f8a8ea9389136bbdaece99d61557b1b17fb"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/016-sec-false-positive-trap-bind-hard-multistep/wire/00001",
+        "started_ns": 1795028863714869377,
+        "request_raw_sha256": "a751625a20e786ad49fe3ed4a512ed8fd3bb65f780b240d0ab28930cdaf37c60",
+        "request_sent_sha256": "a751625a20e786ad49fe3ed4a512ed8fd3bb65f780b240d0ab28930cdaf37c60",
+        "response_sha256": "9fac26f520a19f5590a1a209f2805d629440164e9b7119870d8e7dcda4ebd089"
+      }
+    },
+    {
+      "position": 16,
+      "domain": "sec",
+      "task": "false-positive-trap-bind-hard-multistep",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_016",
+      "instruction_sha256": "dd0a64231e8d1a0472003a38a5ff04a48021719bf27d64e78128a9554308c761",
+      "native_prompt_sha256": "59c9335af28dbc387ade9e3eba78f3b0344b2819b3d030f77f04e66f335db3ee",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f010-4f05-7461-9d45-a03b61dc5005",
+        "native_result_sha256": "29a25b4b54b566f8bb97e70b6c12c1fa19e204f3c8dd47a81a1e914628b9423a",
+        "native_timeline_sha256": "d99fe60313e9ad6ec614d002995a2f115d76dc12f06616c8733d8381ba30ff40"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/016-sec-false-positive-trap-bind-hard-multistep/wire/00002",
+        "started_ns": 1795028963143969013,
+        "request_raw_sha256": "5338a61d5b49613206b7c63cd04a4b516d2e3fb2dedc5f2ac3896ebb10cc8839",
+        "request_sent_sha256": "49d70c6c30fc98c7242b0fafb3da99424bf4f0ca406fc3bed0060914be2c6de4",
+        "response_sha256": "58f1e387c4caa5095f521118b1b20a405f11cf26d14d8625caa964822b8650bf"
+      }
+    },
+    {
+      "position": 17,
+      "domain": "code",
+      "task": "api_contract-hard-openapi_params",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_017",
+      "instruction_sha256": "93c8ab45fe02ce06268304159d3daaefe136a73e0b41826365e38ef5e8eefbb5",
+      "native_prompt_sha256": "01735a89706218d23a930cf5e79c234fbf031a4f66d268c45a0d1a3f3e4aa182",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f010-fd5a-7d23-9aa6-af0c7a68beab",
+        "native_result_sha256": "bf4a2c01a68d57338ef501d71ca122d88c3a19aa59742a280bf8bfb3d1de846a",
+        "native_timeline_sha256": "22268f4720a7131763c3cd7434e5fa20d27ef7208acb444982fe2194bb8ceced"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/017-code-api_contract-hard-openapi_params/wire/00001",
+        "started_ns": 1795029007786884398,
+        "request_raw_sha256": "fcf47faa6662ef0694e532926ea1957cbaad19fb943d01782c2e85027902cf5b",
+        "request_sent_sha256": "fcf47faa6662ef0694e532926ea1957cbaad19fb943d01782c2e85027902cf5b",
+        "response_sha256": "87bd0ca1aed8dba8be19bb26356c1b1b9d75f173db2f192b03ee649e96dfb984"
+      }
+    },
+    {
+      "position": 17,
+      "domain": "code",
+      "task": "api_contract-hard-openapi_params",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_017",
+      "instruction_sha256": "93c8ab45fe02ce06268304159d3daaefe136a73e0b41826365e38ef5e8eefbb5",
+      "native_prompt_sha256": "01735a89706218d23a930cf5e79c234fbf031a4f66d268c45a0d1a3f3e4aa182",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f013-8cc3-71d2-94da-ee4fc6bdd06d",
+        "native_result_sha256": "f5cb525c28ab9ca29258557c0c0569192e9397013bb0ea24cd0714508dc38d5b",
+        "native_timeline_sha256": "10ca10e90a4a8a7194fa1a524b8789d6c957f995a858354eec3aceae03e2786f"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/017-code-api_contract-hard-openapi_params/wire/00001",
+        "started_ns": 1795029175574088035,
+        "request_raw_sha256": "6a4439c0f620ca25d6f95f349a06d98f8debe1b4a83de3834564982202162706",
+        "request_sent_sha256": "ebdb30bf0533a7c05a1777e5bbe5ace48e50c37de042c639b4fc2c16fbe95521",
+        "response_sha256": "d47f40b64b837c02c0207288733a74526bd6b40482dbfe5bae37e25b3b5d66cb"
+      }
+    },
+    {
+      "position": 18,
+      "domain": "sec",
+      "task": "apt-multi-source-correlation-hard-multistep",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_018",
+      "instruction_sha256": "9d30c40ce677e76483fcc669611c0034d84cc7de07b9f49a04878d6e5ac9365c",
+      "native_prompt_sha256": "0e59b2ac96e00315a3e2d4597b2099000f551914c54e97b6b920449971d9bffd",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f014-b772-7522-b8ab-1c32e40a3af8",
+        "native_result_sha256": "824c797fde50b9e0a2bf8a648e1a31032ec3e725f803d5692217c76a329f9c77",
+        "native_timeline_sha256": "0a5c7f4b0b4745002cb214aaeef769ce7c688fba7f791c6eeb4de2b883ecbfba"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/018-sec-apt-multi-source-correlation-hard-multistep/wire/00001",
+        "started_ns": 1795029252023365410,
+        "request_raw_sha256": "693ef7bf67f6bf441cf553acb5c1874c2fea93f5235a8304a9ec57af29d393a5",
+        "request_sent_sha256": "693ef7bf67f6bf441cf553acb5c1874c2fea93f5235a8304a9ec57af29d393a5",
+        "response_sha256": "10efc6877f022f6e9d3ff6cecd814b741e689df83154748dc0e4c00a8fc5906c"
+      }
+    },
+    {
+      "position": 18,
+      "domain": "sec",
+      "task": "apt-multi-source-correlation-hard-multistep",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_018",
+      "instruction_sha256": "9d30c40ce677e76483fcc669611c0034d84cc7de07b9f49a04878d6e5ac9365c",
+      "native_prompt_sha256": "0e59b2ac96e00315a3e2d4597b2099000f551914c54e97b6b920449971d9bffd",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f017-f9d4-7191-93be-b88ed7a65565",
+        "native_result_sha256": "c83777d1061a038bd3c5fe4dcf4436775d7c2ab803911ac3a0c99b682d63790e",
+        "native_timeline_sha256": "b984afdb3caddd32faf4e8b52a4b362994ba812df3ea994680b5919877a651c4"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/018-sec-apt-multi-source-correlation-hard-multistep/wire/00001",
+        "started_ns": 1795029465624524957,
+        "request_raw_sha256": "8846eeb0d0c5a7ed860f96134a4e687cc0ef196be74d322f367bfae1922e9d4b",
+        "request_sent_sha256": "d9e0d8f07a15dd104e6656afb43014d8fe0a385240b4ef2c4b15c5b4e8201250",
+        "response_sha256": "86b3aa07a334a36e88c5b133abc56b3e00770c7e5318573471a420061a3d2553"
+      }
+    },
+    {
+      "position": 19,
+      "domain": "code",
+      "task": "feature-medium-validation_to_eliminate_uriref",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_019",
+      "instruction_sha256": "5c1e845ac5be9c54d9ee8e08ae56cca34b1e8c69c46bc2b3df4d60b10e960a20",
+      "native_prompt_sha256": "9576a739761bbd8e4d3c477d8e2cc925acf9b0728e1b2ca6f024808385f3dd40",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f019-b992-7b40-9ae3-ee272f003ab3",
+        "native_result_sha256": "14b1c0a5106544102b92d4e9733773bbcb748c03fe9eae77ca9375a62529a64b",
+        "native_timeline_sha256": "3bfcdc480e0aa9e5f6b8f6a4219fed9cf5932e0ff60007c1a815bc6abdcd7e23"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/019-code-feature-medium-validation_to_eliminate_uriref/wire/00001",
+        "started_ns": 1795029580287979515,
+        "request_raw_sha256": "9108f2cb68d44a335d3e6b43748dd0e33fc3ebaf9d70da3c1dd405556ccf9199",
+        "request_sent_sha256": "9108f2cb68d44a335d3e6b43748dd0e33fc3ebaf9d70da3c1dd405556ccf9199",
+        "response_sha256": "3266f1c34419f0aa1e93ce7442c250782af113972d828c9ab0c72eb4d27737f5"
+      }
+    },
+    {
+      "position": 19,
+      "domain": "code",
+      "task": "feature-medium-validation_to_eliminate_uriref",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_019",
+      "instruction_sha256": "5c1e845ac5be9c54d9ee8e08ae56cca34b1e8c69c46bc2b3df4d60b10e960a20",
+      "native_prompt_sha256": "9576a739761bbd8e4d3c477d8e2cc925acf9b0728e1b2ca6f024808385f3dd40",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f01f-fdff-7532-9a52-da7f46621708",
+        "native_result_sha256": "45a628d1d55c0559d5a6f3bba1bbd0ae64caa8e9c72e6f5a58e5118fbe387d17",
+        "native_timeline_sha256": "43abb773b3f770cd2d8c2d8f74873f7d91ae43faef11fdd9bbce75ae754a84cb"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/019-code-feature-medium-validation_to_eliminate_uriref/wire/00001",
+        "started_ns": 1795029991033719546,
+        "request_raw_sha256": "b08ef59bf02f4c7c9429f5a08a34b9115c4beaca9d804e2803c8d37b1da199c9",
+        "request_sent_sha256": "65041be964dc1c3bc3f9e10575e05a11eb5200145de480b31f753c2cb2197c0a",
+        "response_sha256": "68bb0f423e45e500452930f2a05cfefd7fe8aedd694aa6fbb24bd67ee3aa0915"
+      }
+    },
+    {
+      "position": 20,
+      "domain": "office",
+      "task": "rank-ic-topn-L4-001",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_020",
+      "instruction_sha256": "0154c5c9c96e1a7f54173a868c79da7d846959622cb7d9760d3791a41151fb8f",
+      "native_prompt_sha256": "9bf22e84555118ba090216c3c76232ac4871a66b87049c1574fedba52c170ddc",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f024-08c6-7ca1-a437-e950b934568a",
+        "native_result_sha256": "821736641c2deedde08ef412b48bede966ff684366460468422ba078734213a6",
+        "native_timeline_sha256": "40fb1cdbc722b675e7a3ac6f23124ed92e103ad455766e0bdee51ac5103f1622"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/020-office-rank-ic-topn-L4-001/wire/00001",
+        "started_ns": 1795030255940493639,
+        "request_raw_sha256": "5b656002f6bc7f8250d14c9e0fb3b0bd31d7c99ef358a191cd75a2fec654196a",
+        "request_sent_sha256": "5b656002f6bc7f8250d14c9e0fb3b0bd31d7c99ef358a191cd75a2fec654196a",
+        "response_sha256": "8652afcca3d0ffe99db2b8e11a13da5c08d70b221c22232c9d9f5cade8cfd1dd"
+      }
+    },
+    {
+      "position": 20,
+      "domain": "office",
+      "task": "rank-ic-topn-L4-001",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_020",
+      "instruction_sha256": "0154c5c9c96e1a7f54173a868c79da7d846959622cb7d9760d3791a41151fb8f",
+      "native_prompt_sha256": "9bf22e84555118ba090216c3c76232ac4871a66b87049c1574fedba52c170ddc",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f029-af50-7281-adb7-b0634388f2df",
+        "native_result_sha256": "b4e091d9461535ec04ba40d8d2461a742a955f333d6ccc1f2457c0e824904023",
+        "native_timeline_sha256": "9ec0f1fa4a9994b9974a2cbc54e289647eecb0d0a044fa15a9a580e89e73ed2d"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/020-office-rank-ic-topn-L4-001/wire/00001",
+        "started_ns": 1795030626292500282,
+        "request_raw_sha256": "50ac852573c21ac04929a3d020655bd13a8e8f573468dadbf56655135118426c",
+        "request_sent_sha256": "917b4a361a7efd2c1aea9ab21919f634b43e19224e7c9c2fe571bff40d02935d",
+        "response_sha256": "5eac6f7bc08f4151719d3a46cdce0c97fd719c1ebceced9c393de0d89074ef4f"
+      }
+    },
+    {
+      "position": 21,
+      "domain": "code",
+      "task": "data_reporting-medium-customer_health_export",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_021",
+      "instruction_sha256": "9fcfa7ba4aecb24e4da4683d0c31d5a90e01bce2d04f285f81d754e30ced1792",
+      "native_prompt_sha256": "6c550a165fb67c963669f69c29ce5dfc087d31903d48f45697a667d4b256476c",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f02d-29ef-70c3-9e4f-9153d448644d",
+        "native_result_sha256": "543fc30ddab86f6478e0661f6f47d09d483210e18f4e559501a69838d1654d4e",
+        "native_timeline_sha256": "3ac86af084a74fc2634c4db86cab9865a0168e6d59566cb69d033e5de5e0c2e0"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/021-code-data_reporting-medium-customer_health_export/wire/00001",
+        "started_ns": 1795030854270426479,
+        "request_raw_sha256": "54661443bfbda3505679761bcc3fdb42d64dd716d6fab71029a9bd97b799298a",
+        "request_sent_sha256": "54661443bfbda3505679761bcc3fdb42d64dd716d6fab71029a9bd97b799298a",
+        "response_sha256": "d528b84d16e9a09ffecd39f59d2f951aa63e9159fb590d2e8b97fd8f66bdc2e8"
+      }
+    },
+    {
+      "position": 21,
+      "domain": "code",
+      "task": "data_reporting-medium-customer_health_export",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_021",
+      "instruction_sha256": "9fcfa7ba4aecb24e4da4683d0c31d5a90e01bce2d04f285f81d754e30ced1792",
+      "native_prompt_sha256": "6c550a165fb67c963669f69c29ce5dfc087d31903d48f45697a667d4b256476c",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f02f-c232-76e0-9209-5f6274ebbbdc",
+        "native_result_sha256": "b66734030ee74b2d8384ce3c5904934104af6e126aae24f419f6bc22f3c89528",
+        "native_timeline_sha256": "d92a1f15ea9c22c50055b4a18e620a6b229935ba161923c0e0e8bb278247d502"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/021-code-data_reporting-medium-customer_health_export/wire/00001",
+        "started_ns": 1795031024333331427,
+        "request_raw_sha256": "61eb5ebb8a6c4436de29a12b89a5d73f0a0df892e852f0eec25ae1bebc8d83e1",
+        "request_sent_sha256": "3e5ea08b96f301616dc7ebdbdca4ab886d155d620cc8de89c3746e7cef256ad9",
+        "response_sha256": "f15b538c5a0ea96cfa14677dae8b0de29c1816ab8037688539c3e3a5eae92286"
+      }
+    },
+    {
+      "position": 22,
+      "domain": "office",
+      "task": "drug-inventory-split-L2-006",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_022",
+      "instruction_sha256": "e3cea9e6a25f0dc0799171211e83986eb93b0d09bb31b3e568a7eb818a9c0fb0",
+      "native_prompt_sha256": "ff899fa09e48e993e8e265ec979f04badcd44b21db64282fedcf9eb7b684491d",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f031-ccf8-70a1-b441-42858ab1b4a1",
+        "native_result_sha256": "084c796527781677b95099db27b999e6217cbf5bc9a542d3b13d3367e3847f84",
+        "native_timeline_sha256": "e15193dfdf4302eee5ff994c622e02bf342e6848fdb98dd26767356180fd9e0c"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/022-office-drug-inventory-split-L2-006/wire/00001",
+        "started_ns": 1795031158161595544,
+        "request_raw_sha256": "81eeb24dc8753f35dd907f7023194bc1e5a14e26261f2167cfc2fa8fa9bfda65",
+        "request_sent_sha256": "81eeb24dc8753f35dd907f7023194bc1e5a14e26261f2167cfc2fa8fa9bfda65",
+        "response_sha256": "3ae21a3ca26a6e52e8cfc36e7228f343e1e2070cca3f414107aa19c4cc2b9227"
+      }
+    },
+    {
+      "position": 22,
+      "domain": "office",
+      "task": "drug-inventory-split-L2-006",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_022",
+      "instruction_sha256": "e3cea9e6a25f0dc0799171211e83986eb93b0d09bb31b3e568a7eb818a9c0fb0",
+      "native_prompt_sha256": "ff899fa09e48e993e8e265ec979f04badcd44b21db64282fedcf9eb7b684491d",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f033-f2eb-7300-85df-369008ee11d5",
+        "native_result_sha256": "12f777c3b048f86ee490c422104d0044ac5c8f77028b27e2b156c9d0a64c838a",
+        "native_timeline_sha256": "1a19a31a1b53fc1915c93d97213d526ba1d5ec1470434d70e90fb4a5c8ed9824"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/022-office-drug-inventory-split-L2-006/wire/00001",
+        "started_ns": 1795031298866397134,
+        "request_raw_sha256": "522cd286162df3ef22066423be088d51517b139db9074f6de18826a00e072384",
+        "request_sent_sha256": "6377e9f51ab31d7b37fe067da82e04cd4846dfbb5e6c68ffb8580939e3ed63dd",
+        "response_sha256": "4fd75ee5081c9db9738846749cd6f433f5b825254b6a43cdb7a1fb3c594294bc"
+      }
+    },
+    {
+      "position": 23,
+      "domain": "code",
+      "task": "python_port-medium-header_dimensions",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_023",
+      "instruction_sha256": "b6e1845c09443ac0decc0ee646aa2876423085fa3688ac1c7e6b0c476444518f",
+      "native_prompt_sha256": "4f9aed7517033f96148f7e721dbdbab317d3f80fa9a10fb50715181e4389c287",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f036-e277-7ac2-9ca1-a2edd73bc3e3",
+        "native_result_sha256": "31ca3d78b491f1c4257ff0691f1c69ae5e0c069de3ee88d1eef90c9072a6abe1",
+        "native_timeline_sha256": "42b03590660253df57220a9afbd3625056512e9dc72d6009ca5e37b6f0103a00"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/023-code-python_port-medium-header_dimensions/wire/00001",
+        "started_ns": 1795031491346996527,
+        "request_raw_sha256": "8701a978e09abd349177d1adc605c0378d4ae03414f9023172e85d8c7e69ff97",
+        "request_sent_sha256": "8701a978e09abd349177d1adc605c0378d4ae03414f9023172e85d8c7e69ff97",
+        "response_sha256": "d28a06f98279949f1951d14403653284774d9742e2555c53a212424283477539"
+      }
+    },
+    {
+      "position": 23,
+      "domain": "code",
+      "task": "python_port-medium-header_dimensions",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_023",
+      "instruction_sha256": "b6e1845c09443ac0decc0ee646aa2876423085fa3688ac1c7e6b0c476444518f",
+      "native_prompt_sha256": "4f9aed7517033f96148f7e721dbdbab317d3f80fa9a10fb50715181e4389c287",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f038-e11a-7590-90fe-549e7605925d",
+        "native_result_sha256": "71a94b5c1ca8a1c116390a498e3523e15c4b99dc399e9fc3f935cfd830091986",
+        "native_timeline_sha256": "d0abe728ecd2445e1ec6e7a2964fd52193383b3b2e0e2e2d8bd89efb78335dcc"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/023-code-python_port-medium-header_dimensions/wire/00001",
+        "started_ns": 1795031622043025332,
+        "request_raw_sha256": "1ea63bd823ccf5462a25817a62e64e72ec5ddb6408979f9f09a9d67ce24686c1",
+        "request_sent_sha256": "995963955999bb9fecf7d6d999d09bf6a9e0798dae4cd60a48fbb544d4db7f16",
+        "response_sha256": "c9d14ad4c39af6e09e882d34f644bcabebdf26bc20578e4a43b2e5668ce2c9d2"
+      }
+    },
+    {
+      "position": 24,
+      "domain": "sec",
+      "task": "windows-dll-proxy-investigation",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_024",
+      "instruction_sha256": "84192a4271105deb2dfea3e64f576284e66302785ad2e49791f63829a1a7c231",
+      "native_prompt_sha256": "6f4831e10595eef37d1a4a24917230f0db8622f3325b3f5f7b4e502e3c9a7b10",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f03c-5a66-78d2-a44b-e67d04521d80",
+        "native_result_sha256": "ead38d52d7968a0f36b1dc1be10ebdfde592cb245a5d9358d443dd924506f025",
+        "native_timeline_sha256": "aee9a496c4d2e7c55f20ab4158b006a0feb33bc0e94dfab50f1211c360a4427a"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/024-sec-windows-dll-proxy-investigation/wire/00001",
+        "started_ns": 1795031849753132134,
+        "request_raw_sha256": "ce8c77f29cbd6eb9733e54d090dd2f32addd22e97c8f35c1b20b986217503110",
+        "request_sent_sha256": "ce8c77f29cbd6eb9733e54d090dd2f32addd22e97c8f35c1b20b986217503110",
+        "response_sha256": "c5a68efa345c33a89482e48fb406d7a43874ed38b4bda2682abd5c93a9124363"
+      }
+    },
+    {
+      "position": 24,
+      "domain": "sec",
+      "task": "windows-dll-proxy-investigation",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_024",
+      "instruction_sha256": "84192a4271105deb2dfea3e64f576284e66302785ad2e49791f63829a1a7c231",
+      "native_prompt_sha256": "6f4831e10595eef37d1a4a24917230f0db8622f3325b3f5f7b4e502e3c9a7b10",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f03e-ad59-7883-9ff9-31257ee5ba43",
+        "native_result_sha256": "75cbc6bcab18b6aa3aa8a3dc440af9d8d0984459cb4d4f9e015581b9359ca006",
+        "native_timeline_sha256": "929af5878fb6cd031be417e498d1e9329e7c17034f944748411e939025329f70"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/024-sec-windows-dll-proxy-investigation/wire/00001",
+        "started_ns": 1795032002037894432,
+        "request_raw_sha256": "77e86865bc938b29c51351066c5a797883fbfac2e0878c2d250f53ee1c646b6b",
+        "request_sent_sha256": "4e49ba07396660393e77a98b0287f2c7818e546591091c0a6e07bdaf4ca2ae8d",
+        "response_sha256": "eaeb8c336a3e14ecad9bf9c565c8867caa421029bec078de3643080c0479f57b"
+      }
+    },
+    {
+      "position": 25,
+      "domain": "web",
+      "task": "workflow-backoffice-L4-002",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_025",
+      "instruction_sha256": "19e08c351b1893b7f069762114e09848fd957987526ec326b5ee89aabec28cb5",
+      "native_prompt_sha256": "c220c5e22a64083a0bdd558fac59bbc359f95f499fb696ad4d28ee03f0dec60d",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f045-d5a7-7c63-88bf-c808ad8ff89d",
+        "native_result_sha256": "915bf87bb28df255c2e58dcde072616fa507b8c2357c488ff75b8fd7124337ac",
+        "native_timeline_sha256": "04d840958ee808f98e4f35d8c1846bbed642ea819b6077e4f9bc67172402241b"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/025-web-workflow-backoffice-L4-002/wire/00001",
+        "started_ns": 1795032471104730267,
+        "request_raw_sha256": "718556c1fe32d29ff590896a8f40cbdb2687697fa76e07c8ecb6f63c5f92cda1",
+        "request_sent_sha256": "718556c1fe32d29ff590896a8f40cbdb2687697fa76e07c8ecb6f63c5f92cda1",
+        "response_sha256": "c213b2b0f0a883729a15a7d36b08ffe6f6f7cfeb0e73b9c48598201882f9799b"
+      }
+    },
+    {
+      "position": 25,
+      "domain": "web",
+      "task": "workflow-backoffice-L4-002",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_025",
+      "instruction_sha256": "19e08c351b1893b7f069762114e09848fd957987526ec326b5ee89aabec28cb5",
+      "native_prompt_sha256": "c220c5e22a64083a0bdd558fac59bbc359f95f499fb696ad4d28ee03f0dec60d",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f049-f6a3-78c2-9a39-d0ccab99e4b6",
+        "native_result_sha256": "0eb5b201489e1436bfa9593c95928851ccac02638e89ab86c5558a757764112f",
+        "native_timeline_sha256": "02d39749c457e878ac228e5540bf688e09a1b1131cc01018af146d23c80535ee"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/025-web-workflow-backoffice-L4-002/wire/00002",
+        "started_ns": 1795032741678668327,
+        "request_raw_sha256": "5a5c6ff56b1a5752e1abe4833233bcaaaf37414a6e42c32f6039412cbfb67cf5",
+        "request_sent_sha256": "7e63a148732b92067414f08a3c33168906f2fe66708a0841bf5fdbb1db8a23c2",
+        "response_sha256": "20c3be1513ef503215bb9a409ac6bf79d21537c07985fd56015323a587cbb8f2"
+      }
+    },
+    {
+      "position": 26,
+      "domain": "sec",
+      "task": "windows-dll-proxy-rule-gen",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_026",
+      "instruction_sha256": "cac589596d645a43832ad8e2af17a1067b75b5cfd0b01c0d73c8461b68c2410d",
+      "native_prompt_sha256": "24646922d2a041461ebbdb763740a43eaf2d61a4ee543a5327535bb7c525f40a",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f04f-09d6-7833-8640-87fe9afee19b",
+        "native_result_sha256": "39d98ab979f025c87ef1813ddc21a1ab46f58e1e1b61d3adeff61b9ad28019f4",
+        "native_timeline_sha256": "38d3cfa23655f2f3af954fb272a0ad19c383fbc7b5cf9588512fdb65bbe96908"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/026-sec-windows-dll-proxy-rule-gen/wire/00001",
+        "started_ns": 1795033074289734477,
+        "request_raw_sha256": "4820627a165b796a012ab62260239c3764fdcc33f84ee1694bd4bd32e3c19290",
+        "request_sent_sha256": "4820627a165b796a012ab62260239c3764fdcc33f84ee1694bd4bd32e3c19290",
+        "response_sha256": "5163cef20fc9ed4c9eb62bcbfb33104f9b126b3b0c7216e22b3daf1dfe4101c7"
+      }
+    },
+    {
+      "position": 26,
+      "domain": "sec",
+      "task": "windows-dll-proxy-rule-gen",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_026",
+      "instruction_sha256": "cac589596d645a43832ad8e2af17a1067b75b5cfd0b01c0d73c8461b68c2410d",
+      "native_prompt_sha256": "24646922d2a041461ebbdb763740a43eaf2d61a4ee543a5327535bb7c525f40a",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f051-fede-7622-8abf-01c37fa07e8c",
+        "native_result_sha256": "27834523457d9d9f75aebae19d2e8ad2f216fadb3b8d587a98a63b2f2abafbcb",
+        "native_timeline_sha256": "26b8d4b8952c9e805ce39a0ec07b0a91be9ab3e83e4dc7e49eda1748ff8561ca"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/026-sec-windows-dll-proxy-rule-gen/wire/00001",
+        "started_ns": 1795033268043538136,
+        "request_raw_sha256": "76089e916f46f31f7537c5143dd54680aa69fdf940ab92fc01585bd9e124ab81",
+        "request_sent_sha256": "d3ee79cc71f0ff7a67fe2f9b5eb697cdc589a6b07e357932d5e822ffe0182c35",
+        "response_sha256": "8eedb19b8c566299e591a965b96b8b2bf2fca3d0b1c677227a17b63aee044c85"
+      }
+    },
+    {
+      "position": 27,
+      "domain": "code",
+      "task": "data_quality-hard-label_conflicts",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_027",
+      "instruction_sha256": "dde2cc3ce71f4839d96330966145750470673c072bc0a657b4c174d883a18f7f",
+      "native_prompt_sha256": "7c19ce3eae496b1da164087c2c1590d9ca1edc50d9df12451f5a27c0da54a598",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f056-77ce-7141-b1bf-07ee9569b091",
+        "native_result_sha256": "c8fb82f342302bdec8e3787841f1488e1d95a483d6477650ad7933d0ca1e76e2",
+        "native_timeline_sha256": "c3db95a4c91c905985d6bcc4b1a4b5bcc0cb808777c36f6f808a0e584c23c301"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/027-code-data_quality-hard-label_conflicts/wire/00001",
+        "started_ns": 1795033561187114564,
+        "request_raw_sha256": "39ab09137b639122adb4e9d4a51d39a0c7a2c1c44d2bfed99434bb468bc2c1a5",
+        "request_sent_sha256": "39ab09137b639122adb4e9d4a51d39a0c7a2c1c44d2bfed99434bb468bc2c1a5",
+        "response_sha256": "44eb23bc8697a9500e25f06eaf429857d238b5b4d18d85363af2bd909834ffb0"
+      }
+    },
+    {
+      "position": 27,
+      "domain": "code",
+      "task": "data_quality-hard-label_conflicts",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_027",
+      "instruction_sha256": "dde2cc3ce71f4839d96330966145750470673c072bc0a657b4c174d883a18f7f",
+      "native_prompt_sha256": "7c19ce3eae496b1da164087c2c1590d9ca1edc50d9df12451f5a27c0da54a598",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f058-4eba-7082-8f30-e8219ec9e47f",
+        "native_result_sha256": "87ed44a05377b775e9edad38e7918cfd3baee061be5f861d66b418669e781e18",
+        "native_timeline_sha256": "a6e18e09c0373b27bdacffaa037664d344f28b9cb36331883779fe2f660beffe"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/027-code-data_quality-hard-label_conflicts/wire/00001",
+        "started_ns": 1795033681754060663,
+        "request_raw_sha256": "541a052203a02d3d92b26bf38e8d1f00ad3c62d2b87e1585a68a17ea6c85d1d5",
+        "request_sent_sha256": "fd3fc3f32f9bbbf686cc1a936d1fddbb2e01e77c92568926abfed07e6fe7f03e",
+        "response_sha256": "fe1befa1289de8efb4514614d60a95af6cd6064f1f2734072be8ca21fba2969e"
+      }
+    },
+    {
+      "position": 28,
+      "domain": "code",
+      "task": "feature-hard-fallback_signers_and_switch",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_028",
+      "instruction_sha256": "fd6272df41d9d2c4d17e387e8fc2b3409e124efd6f91b3f5e3ce8bbf000e1cf6",
+      "native_prompt_sha256": "3c2cf0bf52cee3aa8042bc743c7993e1a544bab1a68ab12c781166095853b4e9",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f05b-198a-74f2-93f8-870d1bdce780",
+        "native_result_sha256": "968cff8cceeb1072689ce17f18a14f666e3714ce7e49e1617dea3d7c1b2bf054",
+        "native_timeline_sha256": "67dc57575d96058cbea04bcdd1773ef6226021853621aad8cbb14b49bf634217"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/028-code-feature-hard-fallback_signers_and_switch/wire/00001",
+        "started_ns": 1795033864729879887,
+        "request_raw_sha256": "ff0e3509955b34c1a0449235e89f1bd27030ff0c6aedf18738d9c0a14a4d677a",
+        "request_sent_sha256": "ff0e3509955b34c1a0449235e89f1bd27030ff0c6aedf18738d9c0a14a4d677a",
+        "response_sha256": "aab412d6d62bc1586d11b58cd73e405361662bccb49edb44c575928256bb7391"
+      }
+    },
+    {
+      "position": 28,
+      "domain": "code",
+      "task": "feature-hard-fallback_signers_and_switch",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_028",
+      "instruction_sha256": "fd6272df41d9d2c4d17e387e8fc2b3409e124efd6f91b3f5e3ce8bbf000e1cf6",
+      "native_prompt_sha256": "3c2cf0bf52cee3aa8042bc743c7993e1a544bab1a68ab12c781166095853b4e9",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f05d-5008-7f22-852c-e9dca3934733",
+        "native_result_sha256": "d96bd5c2b8f67400ce81e9047a17fc72634406c73345359f7681b53dc07a7ef0",
+        "native_timeline_sha256": "d40dbb5c5c1a252ccec99803ccf7bb69f3addc0352a24f8bc27689d94a75ddd8"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/028-code-feature-hard-fallback_signers_and_switch/wire/00001",
+        "started_ns": 1795034009775853021,
+        "request_raw_sha256": "362f3b1930e9d2c3862ecc5c05143a942a881ecb795dc147008838a28cf3b2d9",
+        "request_sent_sha256": "36d1c64db3f60d08df2d311f1878a204fabbd027bd3df711a9fcba6cb3bc5e6d",
+        "response_sha256": "19865cae3717ebebcb5a7aea54b237a7dc0ee34b71af6f06d52c3a34248a1119"
+      }
+    },
+    {
+      "position": 29,
+      "domain": "code",
+      "task": "feature-medium-etag_header_for_static",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_029",
+      "instruction_sha256": "18e9166ed8fc87bf6788e5cbd45091021fea204b79f52f2a9070917638a1dfcf",
+      "native_prompt_sha256": "50120d9a7b1e174036a4a24fcb28755b1b76be1bb881f9985a90187e38c32af2",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f063-fec1-7b91-b8a5-dfc47c1a2b74",
+        "native_result_sha256": "9f0f6be6609562d5769d6d0d7f9333e4de6d72425882ed7d49dda13f25864bc3",
+        "native_timeline_sha256": "233bc8ddb65b87a85e2fe6aff9d5cdc362707ab6fe107fbcede70e81459a573b"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/029-code-feature-medium-etag_header_for_static/wire/00001",
+        "started_ns": 1795034447753061179,
+        "request_raw_sha256": "cd1de84f4f4d4e7c940d196a95f463f85dad4c3c42e9de9c7bae9860ec89f5f8",
+        "request_sent_sha256": "cd1de84f4f4d4e7c940d196a95f463f85dad4c3c42e9de9c7bae9860ec89f5f8",
+        "response_sha256": "5e7d09c741ab97b92783532b9fd379e6b8719ced927853fc1649dfff973da585"
+      }
+    },
+    {
+      "position": 29,
+      "domain": "code",
+      "task": "feature-medium-etag_header_for_static",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_029",
+      "instruction_sha256": "18e9166ed8fc87bf6788e5cbd45091021fea204b79f52f2a9070917638a1dfcf",
+      "native_prompt_sha256": "50120d9a7b1e174036a4a24fcb28755b1b76be1bb881f9985a90187e38c32af2",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f066-02a4-7912-b484-6a07875bcf28",
+        "native_result_sha256": "52f3d156900e2991ebea16259e99e9924b508869b0c320f3c4588130dfb7dfec",
+        "native_timeline_sha256": "32da13d41900354ebe5a2f99f2b8081311be717edede64dcaf57b0c3040efa13"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/029-code-feature-medium-etag_header_for_static/wire/00001",
+        "started_ns": 1795034579794701884,
+        "request_raw_sha256": "7e81a5f5a6ac64d7e8a75095bdc4f07a1be632333b104975db5ffd5db381fc0a",
+        "request_sent_sha256": "473a6c53c83b5833376a2bb74656f184dbbf764809eedfaec434ff0a2b541609",
+        "response_sha256": "047ec41030265f1290e1c5364cd904a7cebdd22e530f12092cb29ac0cb0dbdae"
+      }
+    },
+    {
+      "position": 30,
+      "domain": "web",
+      "task": "review-card-queue-persistence-L4-063",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_030",
+      "instruction_sha256": "fa88273447fb4eb7dd8e2050c823659b5dd43c67e6eb5ac9f7aea6cfd8499379",
+      "native_prompt_sha256": "04e040b7a44f621ffa448d2a4dfbcb402aace7ad16c8788e34380ba8ff761e65",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f06d-e099-7b00-b73e-b5b84b7b6e2b",
+        "native_result_sha256": "e41dfafa621058c9d308a8c4944c33def461def0b090323f6e9ef9872829e528",
+        "native_timeline_sha256": "0df68232ebfddf453c585a4d1367d57c47e0fbbebb239885285fbc47dfe25ab7"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/030-web-review-card-queue-persistence-L4-063/wire/00001",
+        "started_ns": 1795035095338676622,
+        "request_raw_sha256": "98d2bd7860b250547c0cb892276179ef5e3a52d5963420629809db311d2ee8fe",
+        "request_sent_sha256": "98d2bd7860b250547c0cb892276179ef5e3a52d5963420629809db311d2ee8fe",
+        "response_sha256": "c876b702f10ace8f8596ab54f3ce1d4e426f3c4771220b48b05b034794c30c3f"
+      }
+    },
+    {
+      "position": 30,
+      "domain": "web",
+      "task": "review-card-queue-persistence-L4-063",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_030",
+      "instruction_sha256": "fa88273447fb4eb7dd8e2050c823659b5dd43c67e6eb5ac9f7aea6cfd8499379",
+      "native_prompt_sha256": "04e040b7a44f621ffa448d2a4dfbcb402aace7ad16c8788e34380ba8ff761e65",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f073-b5f0-7491-95e1-8ff85e3e55c4",
+        "native_result_sha256": "d52d1012cea431ee3084878f66caedb475c55c29b330601c52bc5e778aac82f2",
+        "native_timeline_sha256": "31a0a6e7e7a96774958c2ca3e537c56db82e374c4b85b414ffe6f10d35e5bc01"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/030-web-review-card-queue-persistence-L4-063/wire/00002",
+        "started_ns": 1795035477610948901,
+        "request_raw_sha256": "a6c799be047d4531350bb2f7aa94dc298a996bba58fd4df29e51946790cfc5e7",
+        "request_sent_sha256": "0ba2862ae8512e9057b6a566a1ab49bf89feef70c16d9df5334c99ebe7e92603",
+        "response_sha256": "ecd7387ec63f7bbe9f8eb667844e2a873526ca9ef1991d5100f6c3573231e9b8"
+      }
+    },
+    {
+      "position": 31,
+      "domain": "office",
+      "task": "rule-based-stock-exclusion-L4-011",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_031",
+      "instruction_sha256": "db161c5f5fe329d922b1ea666b03dcec35f6cb49ce45e0f63c5a870022eeff7c",
+      "native_prompt_sha256": "da3bd6afd5b4624f16a000f24b58600fc49f2a548911635354388f941d6bc115",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f07a-44c1-7d43-bc45-5c367b2aa8f8",
+        "native_result_sha256": "7aabd6b59e311765b432a75b2e2c18831b21ae7acd557cddad16176f874e1bcc",
+        "native_timeline_sha256": "b309ed35d51210e196d87a29d67e0497bcdce19744ec50f16073fafc2ab5c7bf"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/031-office-rule-based-stock-exclusion-L4-011/wire/00001",
+        "started_ns": 1795035907402419494,
+        "request_raw_sha256": "d862150c0b624846150c9a7e0528aaf3d5f89cf69f306fd8f32e051c03b9a9fd",
+        "request_sent_sha256": "d862150c0b624846150c9a7e0528aaf3d5f89cf69f306fd8f32e051c03b9a9fd",
+        "response_sha256": "c4fd9e0a59c31fddcdd19bceb95d6d64430c5b9647bf05d3366212fa2e5eed4d"
+      }
+    },
+    {
+      "position": 31,
+      "domain": "office",
+      "task": "rule-based-stock-exclusion-L4-011",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_031",
+      "instruction_sha256": "db161c5f5fe329d922b1ea666b03dcec35f6cb49ce45e0f63c5a870022eeff7c",
+      "native_prompt_sha256": "da3bd6afd5b4624f16a000f24b58600fc49f2a548911635354388f941d6bc115",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f07d-3bfe-7263-b434-8d3f0f6c9a4f",
+        "native_result_sha256": "172cabe5387793710d38b02b10561800c1ec0e03cdbeec8e7bc651efdcb33b36",
+        "native_timeline_sha256": "48f10c67a4ff5c4c68ebad6bde418f2064287181a2839e875a596c3d9264047c"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/031-office-rule-based-stock-exclusion-L4-011/wire/00001",
+        "started_ns": 1795036101754742094,
+        "request_raw_sha256": "eaa871127c642495a43b59bfd6bea6d90df8a2a15422fd71baf89465adf4a075",
+        "request_sent_sha256": "a954183fa6e2a8dae5916f98764601fa9076d6834de57db7856eeb7a5a2e265f",
+        "response_sha256": "fadb01c26e88297e4ff6d5c8a83118f317b2047fe510c8d69017ae1a14f8cae5"
+      }
+    },
+    {
+      "position": 32,
+      "domain": "office",
+      "task": "procurement-reconcile-L3-015",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_032",
+      "instruction_sha256": "1e1d20b7b4e8af5297b7a230ef9cfb23e89aaea0fc0927dc36b7ecdbf6a1fb7c",
+      "native_prompt_sha256": "2cb99d4b2b3cf51fb27d66b083f5e50ce15ab413ae2becf04436644e7ebfc28c",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f080-6191-7fe3-8796-11f369bb2503",
+        "native_result_sha256": "78d262442e1973c7468bd9293cc071e3fa141f5921b9d63a62002f390ece3f56",
+        "native_timeline_sha256": "c0c62c35e977064aac7399a6160dff89e90306c71e4b311b6f9fe0a5a6e49313"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/032-office-procurement-reconcile-L3-015/wire/00001",
+        "started_ns": 1795036307987942053,
+        "request_raw_sha256": "d32309d54820326f6e5b9aa2a344949ce487b76dc08d09eee286284e7f1e3200",
+        "request_sent_sha256": "d32309d54820326f6e5b9aa2a344949ce487b76dc08d09eee286284e7f1e3200",
+        "response_sha256": "63fae2a713cb17d9658aede3eea903c009022dc9f528b9c3166752573eb919ba"
+      }
+    },
+    {
+      "position": 32,
+      "domain": "office",
+      "task": "procurement-reconcile-L3-015",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_032",
+      "instruction_sha256": "1e1d20b7b4e8af5297b7a230ef9cfb23e89aaea0fc0927dc36b7ecdbf6a1fb7c",
+      "native_prompt_sha256": "2cb99d4b2b3cf51fb27d66b083f5e50ce15ab413ae2becf04436644e7ebfc28c",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f081-bf41-7870-942d-dd450ba75722",
+        "native_result_sha256": "2a8cfe47b908cfb6b32390c87a0564134ccd7b26c0cd114c7ffca4e18c216064",
+        "native_timeline_sha256": "792c7ad89a8da2371cc9c1f66d48932d7b807dfd94affe8753f6c1f72dc69a82"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/032-office-procurement-reconcile-L3-015/wire/00001",
+        "started_ns": 1795036397498503469,
+        "request_raw_sha256": "03506de144fca575b7e0cc425994b61963336192b42961148119f6dd2b9775a4",
+        "request_sent_sha256": "415834ae1c0b211c22ea72299ab33d3f5121ae1d940f60105a6b982a3632a03c",
+        "response_sha256": "8d12e2dba2389e07e4f66c9493add606da5b392ca7ed993d6f66fc56cdfe5b9c"
+      }
+    },
+    {
+      "position": 33,
+      "domain": "sec",
+      "task": "windows-dll-sideload-investigation",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_033",
+      "instruction_sha256": "5452f1054b08bc7a9eeace5e95545425c070c3003038982888698206fe8ff099",
+      "native_prompt_sha256": "0aaf4b3357d27aac28230ae22be6792d20f33c94e476a1606b3dc1a654fb5428",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f083-93c8-7e02-b336-2cb320e626f1",
+        "native_result_sha256": "7c28a8546b8044f43b1b3f70b6b274530d5265b281c5583052980c560e6f2b42",
+        "native_timeline_sha256": "55ccad8f33754526df3eaab882a91f7904b2ebd7848b87533b1ac5856db4877b"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/033-sec-windows-dll-sideload-investigation/wire/00001",
+        "started_ns": 1795036517469767456,
+        "request_raw_sha256": "56d9d370cfa8280f8124be583acb8c466580f3878566d2e7cbda044ab02fe550",
+        "request_sent_sha256": "56d9d370cfa8280f8124be583acb8c466580f3878566d2e7cbda044ab02fe550",
+        "response_sha256": "0573eeb0cca712b3ece3b8ad515c255a2c8786dcfe9c90530be164fc059bddee"
+      }
+    },
+    {
+      "position": 33,
+      "domain": "sec",
+      "task": "windows-dll-sideload-investigation",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_033",
+      "instruction_sha256": "5452f1054b08bc7a9eeace5e95545425c070c3003038982888698206fe8ff099",
+      "native_prompt_sha256": "0aaf4b3357d27aac28230ae22be6792d20f33c94e476a1606b3dc1a654fb5428",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f085-e41d-72d0-826e-0a49c29de940",
+        "native_result_sha256": "13bb30d0d5ca42a2be83977c1af0f5f551fd5600328b634a8259bdad70f4ea1f",
+        "native_timeline_sha256": "aadd69da21e8fbc217f73c518d04faa622e570ad737379dd250c45855bb066a0"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/033-sec-windows-dll-sideload-investigation/wire/00001",
+        "started_ns": 1795036669116212685,
+        "request_raw_sha256": "c1e22e57ae70f82c1a0da8644f13aba4ff8c6085100a47dfed4ff5ef4e5ce33e",
+        "request_sent_sha256": "7f11fa8e41db5749554a6d96f28abe0999ce0f7eea162ec7d774f0cf018811bb",
+        "response_sha256": "684fbbe3abcd2c66e311fbd42e865c84952b223e48e9acca86f2e1c05ba34707"
+      }
+    },
+    {
+      "position": 34,
+      "domain": "code",
+      "task": "testing-medium-format_errors",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_034",
+      "instruction_sha256": "69b28ebe549490f314b3fc5959c5599c60a8e207c9a5490059987efd419e4be2",
+      "native_prompt_sha256": "c49359f78df7788f09016405179bdf792c9b38222a18678851c3364e19988bcf",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f08f-c286-7923-a771-1f3a8997a04b",
+        "native_result_sha256": "121efb5693f03a0171f3d13bb885ac61b424967f57fd23ee190411d88e1cc456",
+        "native_timeline_sha256": "e9271a90b829fefe151d87cae3307e50d6c924fb7c73f449b4f001505da8f912"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/034-code-testing-medium-format_errors/wire/00001",
+        "started_ns": 1795037316131747908,
+        "request_raw_sha256": "4b0622d7e4c15bf9f188d77c37a1df626846da8a6f79caa782ed1534d8201364",
+        "request_sent_sha256": "4b0622d7e4c15bf9f188d77c37a1df626846da8a6f79caa782ed1534d8201364",
+        "response_sha256": "d4423b56b0237f628e61ba8612fc7c5165fc5eb73a39a98dc499d827cbc97686"
+      }
+    },
+    {
+      "position": 34,
+      "domain": "code",
+      "task": "testing-medium-format_errors",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_034",
+      "instruction_sha256": "69b28ebe549490f314b3fc5959c5599c60a8e207c9a5490059987efd419e4be2",
+      "native_prompt_sha256": "c49359f78df7788f09016405179bdf792c9b38222a18678851c3364e19988bcf",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f091-5176-7530-8b0c-ef3de842e764",
+        "native_result_sha256": "4abb49af94c510ad22cbfce983ea341ba743a36ad943d788ff7697c5ac257e74",
+        "native_timeline_sha256": "b8154990ceabc76c4e71eed2d2f2d7ca7a7901268cabbdeddcd5b97d7c1ecb67"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/034-code-testing-medium-format_errors/wire/00001",
+        "started_ns": 1795037417998291878,
+        "request_raw_sha256": "a4194c4ea448bde2017dfa948b648f79731ce63a3043c9148a035b87a511551a",
+        "request_sent_sha256": "9117745e47f1a504ef5bd8a333703fcbcdb8fa00f2812d9013e31bcb42c364ac",
+        "response_sha256": "38b37d22aedc12c62fd867058cc2a5240c31c5b5bd23c4af50791b0cef0f30f4"
+      }
+    },
+    {
+      "position": 35,
+      "domain": "web",
+      "task": "release-readiness-review-L4-019",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_035",
+      "instruction_sha256": "8710ff6b9c88137b4c170fe833bb977a7dd6435c2c1b1367b016fa74a9bb025a",
+      "native_prompt_sha256": "3d7a39bfd49371aaab678914c7592ec915b6f6988acb62618785dbdbe2283568",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f095-b4ef-7a32-ad09-074c7409c891",
+        "native_result_sha256": "76be6411835e06beb87d4840a91bc7dd945b47f57e4eed4f13e6658db7a7af8c",
+        "native_timeline_sha256": "7bfe98a405ed0d6a55e3371566aea3792f9f52edc9d63918b4b07269c32593ef"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/035-web-release-readiness-review-L4-019/wire/00001",
+        "started_ns": 1795037705576220635,
+        "request_raw_sha256": "cc360badcac4210b706de56306197eb5dfd86c0859543ae8e20b54edccac974a",
+        "request_sent_sha256": "cc360badcac4210b706de56306197eb5dfd86c0859543ae8e20b54edccac974a",
+        "response_sha256": "9645b1c2b3912ba2fc33e919bea580cae5782654be6af333696b548976566239"
+      }
+    },
+    {
+      "position": 35,
+      "domain": "web",
+      "task": "release-readiness-review-L4-019",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_035",
+      "instruction_sha256": "8710ff6b9c88137b4c170fe833bb977a7dd6435c2c1b1367b016fa74a9bb025a",
+      "native_prompt_sha256": "3d7a39bfd49371aaab678914c7592ec915b6f6988acb62618785dbdbe2283568",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f099-4d95-75c3-9e93-d41d16c212b6",
+        "native_result_sha256": "b7449ba2065683550f72a776d9956d75d0c7c8d6e3459328363d770dfef04f9e",
+        "native_timeline_sha256": "00a1f4265fb343a773d515054675e1d917006ea4c2c8b2b7722e8e24bad49476"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/035-web-release-readiness-review-L4-019/wire/00001",
+        "started_ns": 1795037941274248322,
+        "request_raw_sha256": "c184710b265b50f03e56fa2f1a98ff74b761904d05ba4b104e59a694677c3b6f",
+        "request_sent_sha256": "537b7170d492da1e073d4df964cdd7ad08ae67aed5b789278b3e12e731578f97",
+        "response_sha256": "e08212f4af1a446b423c9782110af1e6428fef456b3f808aec9723b486f0b23e"
+      }
+    },
+    {
+      "position": 36,
+      "domain": "code",
+      "task": "python_port-medium-blog_tags",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_036",
+      "instruction_sha256": "8ab286e96f45a63edc15215664d216cfc76b9bb517273bcfccfd894fb48e6ac9",
+      "native_prompt_sha256": "eb0c46af325905afb3c28befd4506a60d251c80378e260fa915af47e70b19721",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f09f-9ac2-7d31-9af8-40596b7be0b2",
+        "native_result_sha256": "f10d0a0b1ea3c99fa9a17474a3a43c01e741192f3ad0c7f40c4b379b8d6dbd61",
+        "native_timeline_sha256": "45281a6dfa1eb0f47bae87bd8eaa718d9f2c0f6822ef7ff796f58451ccf8fa93"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/036-code-python_port-medium-blog_tags/wire/00001",
+        "started_ns": 1795038354267406120,
+        "request_raw_sha256": "0b00710df72bff004cad18d4ab1e97b193f236ae132464b03a345a858fbb7232",
+        "request_sent_sha256": "0b00710df72bff004cad18d4ab1e97b193f236ae132464b03a345a858fbb7232",
+        "response_sha256": "73943127d16e217bf4bd8d625f04431cd32cce98779bafff9ee0c9776268c773"
+      }
+    },
+    {
+      "position": 36,
+      "domain": "code",
+      "task": "python_port-medium-blog_tags",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_036",
+      "instruction_sha256": "8ab286e96f45a63edc15215664d216cfc76b9bb517273bcfccfd894fb48e6ac9",
+      "native_prompt_sha256": "eb0c46af325905afb3c28befd4506a60d251c80378e260fa915af47e70b19721",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f0a2-3379-74c3-8d96-1547e0f12857",
+        "native_result_sha256": "8dd058b871dc3e277d70d018f40834aeface4c93aadb9accdaa5b5b87a024813",
+        "native_timeline_sha256": "4d499d2c8e9c364c1d044c6f52c4de00a2c8631a588cc9019496aca343909694"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/036-code-python_port-medium-blog_tags/wire/00002",
+        "started_ns": 1795038524415375293,
+        "request_raw_sha256": "e6483572662f27bee73c175cbdb19d80c9ea44d1e800dd56382962f5726e8355",
+        "request_sent_sha256": "b17e988ccac1402eec29778c01851e6d44720260752558d615d952a9396f43f0",
+        "response_sha256": "44200c8fc5d879f747b25aacbc9806598719742eaada25d4913cf73d763451c1"
+      }
+    },
+    {
+      "position": 37,
+      "domain": "sec",
+      "task": "ntfs-ads-extractor",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_037",
+      "instruction_sha256": "47a534801f5ee468da4371c0b1a87d056af4e6780bd58c4cd80fe65bb2fbecb9",
+      "native_prompt_sha256": "8117d42af6f5000fd2d711a5557fb7b55d6a7e5db0cdb222d35a7ba7fb5dcaf1",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f0a5-6b37-7720-adf1-f77a29ccb411",
+        "native_result_sha256": "6cc7402376d1747538b8a2d08d0ddc08bd941fb7dc229e47fa7a58944aaaa2e7",
+        "native_timeline_sha256": "576d87e37db969be27bd2ddb6ddb89df6ba23b1a5b5ded6bd31de7ab2a2124a0"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/037-sec-ntfs-ads-extractor/wire/00001",
+        "started_ns": 1795038735303480227,
+        "request_raw_sha256": "df45e393d10933d098952558b8195881561033bc54e93af6d076f26eee7e21d4",
+        "request_sent_sha256": "df45e393d10933d098952558b8195881561033bc54e93af6d076f26eee7e21d4",
+        "response_sha256": "dd462c24cb94d95666be0d47c6a06842468e4398685a3936afed9e4269e13d38"
+      }
+    },
+    {
+      "position": 37,
+      "domain": "sec",
+      "task": "ntfs-ads-extractor",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_037",
+      "instruction_sha256": "47a534801f5ee468da4371c0b1a87d056af4e6780bd58c4cd80fe65bb2fbecb9",
+      "native_prompt_sha256": "8117d42af6f5000fd2d711a5557fb7b55d6a7e5db0cdb222d35a7ba7fb5dcaf1",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f0a6-df73-7261-8742-10ec13b6ac77",
+        "native_result_sha256": "b37ab2e7cb9144d4ee4227627acae0ce742c735f8eb5b8cfdeeed2570cd931af",
+        "native_timeline_sha256": "8979588a827668d06d68b7359cb79321e35ef9c84fcc1bd260ea8f4c06de7a5f"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/037-sec-ntfs-ads-extractor/wire/00001",
+        "started_ns": 1795038830630513614,
+        "request_raw_sha256": "69f976127ea6f64039baa245e1544052f6e4be77c75ca8d5cf652779b805bb57",
+        "request_sent_sha256": "7503b1a81553cc41daa2052f8762f4319b8481ab1008b981067b79cca91190fe",
+        "response_sha256": "cc40efa59281051107f394b4b77ea5b89d6738f3e868dcd9d2b4c31374daa410"
+      }
+    },
+    {
+      "position": 38,
+      "domain": "web",
+      "task": "firmware-card-interaction-tests-L3-074",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_038",
+      "instruction_sha256": "0d6ce3df7f67cd7792b6d52c14e5df34b101f8ba532270c8ef8007276bde6bef",
+      "native_prompt_sha256": "2669c454d0d6ea853c7f2363ff34a64c558cb92adfbfc0c09c5f0a3ca40abbdb",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f0ac-2852-70a0-9e01-a24122c0d675",
+        "native_result_sha256": "e118bb48db938f85c81267ecb2ccfef36446225a5eab6ab13743d60620a6b74c",
+        "native_timeline_sha256": "e491a615b2f8285639ededd9775c9fcc460bc3a58ea97931e67fe9c74d2983a7"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/038-web-firmware-card-interaction-tests-L3-074/wire/00001",
+        "started_ns": 1795039176979870647,
+        "request_raw_sha256": "267c8f518e959891ba64296409f6fa04c8001af3f64412218da600b1758f08b4",
+        "request_sent_sha256": "267c8f518e959891ba64296409f6fa04c8001af3f64412218da600b1758f08b4",
+        "response_sha256": "184df4f3cf381c6ed29337d030d3391e519f2b3908d274f64191ad483ee2c2b1"
+      }
+    },
+    {
+      "position": 38,
+      "domain": "web",
+      "task": "firmware-card-interaction-tests-L3-074",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_038",
+      "instruction_sha256": "0d6ce3df7f67cd7792b6d52c14e5df34b101f8ba532270c8ef8007276bde6bef",
+      "native_prompt_sha256": "2669c454d0d6ea853c7f2363ff34a64c558cb92adfbfc0c09c5f0a3ca40abbdb",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f0b0-b7e4-7871-955e-3f7e21f8baf7",
+        "native_result_sha256": "6a6eeaaffeb07d7eb6253aa22c7a656e865811a8fe0b31c337bf61e2648bc1fb",
+        "native_timeline_sha256": "ee511a5cfdd204e00c7a8a70952537caeea3c310391480ee9d678fdc8180d87f"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/038-web-firmware-card-interaction-tests-L3-074/wire/00001",
+        "started_ns": 1795039475856496966,
+        "request_raw_sha256": "116614dd661e50bc8c3e3f89a22b643ea9021deea044726f3b4506664cf305ca",
+        "request_sent_sha256": "29dd0f1016829a1670a7bcc436b1ad19db62deec49d43afc9a6758f4c2aaaa2d",
+        "response_sha256": "a1d15c4d638d271eb6d333f99d253bec58d6745e79b6c7b4cbdca0d3f742a6cd"
+      }
+    },
+    {
+      "position": 39,
+      "domain": "web",
+      "task": "file-manager-workflow-L3-044",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_039",
+      "instruction_sha256": "4b7cc8701b69cb96cccb925a69bc03f2cf703fa618db30876687530bc732abdc",
+      "native_prompt_sha256": "148644c3e07bfc06b4b5ae043d9230ff6cf1c18a66d6adec12f203b54ae726cc",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f0b4-1169-75d1-a147-1ad414218d14",
+        "native_result_sha256": "7ac2d666c6b9be5f80c1560f95a5cf8995378e4b7838a0a1ad1895a365762d49",
+        "native_timeline_sha256": "4e365d1b43e2e922578f8bf2b5edffbdb71ca5ad4ae21f1e953a58ee77bb533b"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/039-web-file-manager-workflow-L3-044/wire/00001",
+        "started_ns": 1795039695377476343,
+        "request_raw_sha256": "b64c88709070f7efaae3a737e8de486958df4e5c7ba459a8b95ea5239c416d94",
+        "request_sent_sha256": "b64c88709070f7efaae3a737e8de486958df4e5c7ba459a8b95ea5239c416d94",
+        "response_sha256": "79ec7aa475b0e3b0cc7e9193ff954de3d5bde10433362b70424df28cf7e66335"
+      }
+    },
+    {
+      "position": 39,
+      "domain": "web",
+      "task": "file-manager-workflow-L3-044",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_039",
+      "instruction_sha256": "4b7cc8701b69cb96cccb925a69bc03f2cf703fa618db30876687530bc732abdc",
+      "native_prompt_sha256": "148644c3e07bfc06b4b5ae043d9230ff6cf1c18a66d6adec12f203b54ae726cc",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f0b7-82e6-79b2-bcf8-67485b307295",
+        "native_result_sha256": "3f8cfe388b2af84b54bac13fc319ff303ea0cb2460b7f1fefb41a7b5dd4f78dd",
+        "native_timeline_sha256": "d817d567c72125a3cb8154dc276901ef0c63e19b53538da4eef91288a6df8b96"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/039-web-file-manager-workflow-L3-044/wire/00001",
+        "started_ns": 1795039921027752194,
+        "request_raw_sha256": "0cbb41cd201f96316243e2d1197f03f8f41297dccbdce5ba7dfc7b04d554b417",
+        "request_sent_sha256": "91e251ebac963491c1331eaa793f09c0b7e646feffa65e5c4375e7c28a654a93",
+        "response_sha256": "4b406eb9ce3ed1074148cd900fd8d210a92b14bd92d058fa391ab6f363a20d98"
+      }
+    },
+    {
+      "position": 40,
+      "domain": "web",
+      "task": "miniprogram-source-structure-L2-041",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_040",
+      "instruction_sha256": "c7c0d9e24d547b66c2a99ee64ac17f95b58e432ee65bbefe7973123b01320ebb",
+      "native_prompt_sha256": "003f1acbe6fbc66b059a764b6683b0a87a910bf9f9f377e2e18705a0c33a6f49",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f0ba-b291-7aa1-8db6-bff38426753f",
+        "native_result_sha256": "043dd95c37dc4200133f7abb610c0f8f4271bf552a230d87a6fe57fba87a01ca",
+        "native_timeline_sha256": "c6f9bea3320275c8ab52c0ce086d09be14e4371f800d1ff005e0aeda4dcdfa41"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/040-web-miniprogram-source-structure-L2-041/wire/00001",
+        "started_ns": 1795040129838635145,
+        "request_raw_sha256": "c4acef7ecf5762bd65cdcfd0d8356c0fc621969db36a5507a336dbdc443d5191",
+        "request_sent_sha256": "c4acef7ecf5762bd65cdcfd0d8356c0fc621969db36a5507a336dbdc443d5191",
+        "response_sha256": "8aa2f5377c2bda35ea88f1292c1b5cc83a88f545f379a2bb9a01ba8e4ae1c345"
+      }
+    },
+    {
+      "position": 40,
+      "domain": "web",
+      "task": "miniprogram-source-structure-L2-041",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_040",
+      "instruction_sha256": "c7c0d9e24d547b66c2a99ee64ac17f95b58e432ee65bbefe7973123b01320ebb",
+      "native_prompt_sha256": "003f1acbe6fbc66b059a764b6683b0a87a910bf9f9f377e2e18705a0c33a6f49",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f0be-17a2-79b2-bdd4-1497ac40eb7a",
+        "native_result_sha256": "a90d66c828bd679996915a5e87034582eb34db15f52f20c55208c35e4c518af6",
+        "native_timeline_sha256": "ff2cc1560326c7dbd672a9183cea5d37e75a9682819940f4760d3c50a8742290"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/040-web-miniprogram-source-structure-L2-041/wire/00001",
+        "started_ns": 1795040352338746995,
+        "request_raw_sha256": "4a158716d7a1d1b3c02175e36d6a0d31e8061eaaf1643f9c492a5e8f7c6eba25",
+        "request_sent_sha256": "ce1fc033be22f02394ab09394ff7661483d6aa2a5ae8d17b8ad2da4f3d7dcf13",
+        "response_sha256": "80f2fd3241a52bae9bce954367bded636cd25ea828d3a5810bd60fa5faeff38b"
+      }
+    },
+    {
+      "position": 41,
+      "domain": "office",
+      "task": "health-quote-L2-003",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_041",
+      "instruction_sha256": "5396de46ddef3e67d5d289e62136418394d87939fee591dc060d10f63b2ba21a",
+      "native_prompt_sha256": "b592eea54dec7d8ffa3f8db7dc48f5c5867abfcefb97972d3f35c144ec4c0737",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f0c1-b5ea-7130-b63d-42736e00d4ca",
+        "native_result_sha256": "033a6563d5df9024b008ceb46221a4ede0b69a374e472a09a33d071f9b01d6a6",
+        "native_timeline_sha256": "8df7dfb7eba0933d55682de240f2a8eb6bd03b4469df36cacb70cc96c4ec33cb"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/041-office-health-quote-L2-003/wire/00001",
+        "started_ns": 1795040589417131861,
+        "request_raw_sha256": "7b9546ff5579a0b179ff632a7db12d52848042604a0826f5c6fd01f4d9111242",
+        "request_sent_sha256": "7b9546ff5579a0b179ff632a7db12d52848042604a0826f5c6fd01f4d9111242",
+        "response_sha256": "a183fcca17a092e377b5fc6432d256808d794f6ca80738f1314f9117f3be1919"
+      }
+    },
+    {
+      "position": 41,
+      "domain": "office",
+      "task": "health-quote-L2-003",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_041",
+      "instruction_sha256": "5396de46ddef3e67d5d289e62136418394d87939fee591dc060d10f63b2ba21a",
+      "native_prompt_sha256": "b592eea54dec7d8ffa3f8db7dc48f5c5867abfcefb97972d3f35c144ec4c0737",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f0c2-ea35-7d73-b3a1-aa8db25191e5",
+        "native_result_sha256": "b8dcccb011e2c1fabab8cce44427175ecf7663505a77af85a4ea8844a8c4d5c5",
+        "native_timeline_sha256": "3de3f25c5a72e5d819f28c25b4063b40a4b3ac7aaff5c7e440a447c6f5e84df8"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/041-office-health-quote-L2-003/wire/00001",
+        "started_ns": 1795040668387665212,
+        "request_raw_sha256": "1570e42328c67ea70226074ae17ad949ad613db1fe75e101e7395c70dcdf80cd",
+        "request_sent_sha256": "71476871b2e12aff19a806c8b418f60cba33e9fc096685d8dea9699fe73f12aa",
+        "response_sha256": "72e273b5bd449dbdd882c18de2ece6fcad41b3495ae547cb146c8fc04bd583c9"
+      }
+    },
+    {
+      "position": 42,
+      "domain": "web",
+      "task": "ui-state-rebuild-L3-007",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_042",
+      "instruction_sha256": "3d4dd3d8a4a5d2ded1d10e165a8b2f35c67f0824d97ab5c8bc666c20a4f2766f",
+      "native_prompt_sha256": "0254fcf05c339a388bdd0882771f5869c4ac8a5084ed31749a3079cad94e60c6",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f0c4-bbf1-7922-9f6b-a3546a8594f2",
+        "native_result_sha256": "3b1e0d7f2f9e4ca9987aefd68996152d4edef58e210ee362d6ec334e1dfcfe66",
+        "native_timeline_sha256": "165e51eddc9ff42b59c9c83cb95d633c708ca2ae041522fc50cbecad3017413b"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/042-web-ui-state-rebuild-L3-007/wire/00001",
+        "started_ns": 1795040787569193425,
+        "request_raw_sha256": "3b2b705f36b5c009da65fd00db761969f1d0fffb82ec700efefdd632f8a30915",
+        "request_sent_sha256": "3b2b705f36b5c009da65fd00db761969f1d0fffb82ec700efefdd632f8a30915",
+        "response_sha256": "bf1b0ff79cbe130ea2dcf55ec1d8fc0dc2dcbdebdf8d79f58c7a90dafe6405e5"
+      }
+    },
+    {
+      "position": 42,
+      "domain": "web",
+      "task": "ui-state-rebuild-L3-007",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_042",
+      "instruction_sha256": "3d4dd3d8a4a5d2ded1d10e165a8b2f35c67f0824d97ab5c8bc666c20a4f2766f",
+      "native_prompt_sha256": "0254fcf05c339a388bdd0882771f5869c4ac8a5084ed31749a3079cad94e60c6",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f0c8-dbad-7603-8517-9620ef249fc8",
+        "native_result_sha256": "0425ef54364c179691ee84eaa3a6f02792bc7e57fece130e5ff258397b71a393",
+        "native_timeline_sha256": "3ee06ed53abefcb6eeb129ae903b0d8edfb56bb7db5a5718e3a19b6cd6ecd4a4"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/042-web-ui-state-rebuild-L3-007/wire/00001",
+        "started_ns": 1795041057880240916,
+        "request_raw_sha256": "0c5e9285d213e19900dd9196c9408f7ff93b23ff8bf1991e3f4c63ad6514500a",
+        "request_sent_sha256": "5ba35e6017888e5996d8c12a12e307d883232cd44074391951d6485cde73f77c",
+        "response_sha256": "f9082174bd31d550218b3c9cf3e12f5132e1032057193380c5cfe0cf9125ff9f"
+      }
+    },
+    {
+      "position": 43,
+      "domain": "web",
+      "task": "misleading-chart-repair-L3-055",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_043",
+      "instruction_sha256": "964c7c0c0f098c0c019c3b7ed9f356c2816cb7153b57d510552a9c9c32988f9a",
+      "native_prompt_sha256": "30c8c8bfa2726b28e3eb74d60ec97039389fe48b343aa5ba8d7f7cd0477a178b",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f0cd-68da-7113-a60a-55dcab02aade",
+        "native_result_sha256": "174c02f91f3586369fedd5d05de8398e01723cec8b5593d6bb8ddbd83c860b7e",
+        "native_timeline_sha256": "d134e00913099153ac0905159d782d40e2a2afc802cf124372536e1fdab114a5"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/043-web-misleading-chart-repair-L3-055/wire/00001",
+        "started_ns": 1795041356164822511,
+        "request_raw_sha256": "8ffc00821161f4db0ae4cd25de8d4df007494b5d4da587ee568d4fe0939ff7b4",
+        "request_sent_sha256": "8ffc00821161f4db0ae4cd25de8d4df007494b5d4da587ee568d4fe0939ff7b4",
+        "response_sha256": "738e72cb3d1e777a4ba82fee93110b57ead3641ec51d355364d03e5b047e52fb"
+      }
+    },
+    {
+      "position": 43,
+      "domain": "web",
+      "task": "misleading-chart-repair-L3-055",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_043",
+      "instruction_sha256": "964c7c0c0f098c0c019c3b7ed9f356c2816cb7153b57d510552a9c9c32988f9a",
+      "native_prompt_sha256": "30c8c8bfa2726b28e3eb74d60ec97039389fe48b343aa5ba8d7f7cd0477a178b",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f0d0-4a39-7832-82a4-5d2746674960",
+        "native_result_sha256": "7ccdadd358b5915fdd68c9911a5068d83b5c6775c537cfd930b561b931f79790",
+        "native_timeline_sha256": "2415a9200d7152986d15d3a0400753469d1728bb4cfc5cbdeb9499af40df5b16"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/043-web-misleading-chart-repair-L3-055/wire/00001",
+        "started_ns": 1795041544953864628,
+        "request_raw_sha256": "5436f2dae06d7a32b316a23c1a6097dc85d4223c5339332195963c5386b70d89",
+        "request_sent_sha256": "7739e426d8291943403f2f863f97d02a7d6d3a28767e0b04d6dad17528f531f0",
+        "response_sha256": "019261c93b5ccd7c3c49e4e6ce91d7c26292f3a78e98b2954cd4bb13b9fbc03c"
+      }
+    },
+    {
+      "position": 44,
+      "domain": "office",
+      "task": "effective-control-state-L5-036",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_044",
+      "instruction_sha256": "6ad8211361b4ff8d1057fb7608695604ab2f8434824b0e1bc6759573fa87c0df",
+      "native_prompt_sha256": "5178ac4baa9bb8d4501d2051298071713434325f4d1bfed287641ddd3a129dc6",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f0d3-8863-7101-bdde-556b9909d5be",
+        "native_result_sha256": "2726fe91b9ae4f9b64d2386d93bd028510da896b73fa7e6d5fbd27e501b306fe",
+        "native_timeline_sha256": "c4ab049c5a8e7decf6396afc57aca73528c4d5097daf416d64c6851af0d4324d"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/044-office-effective-control-state-L5-036/wire/00001",
+        "started_ns": 1795041757436390912,
+        "request_raw_sha256": "94d9552b65f60b792001afcf7f371b580a68eae8000431fb4dc0794cf064a43c",
+        "request_sent_sha256": "94d9552b65f60b792001afcf7f371b580a68eae8000431fb4dc0794cf064a43c",
+        "response_sha256": "e9078c3dca3f9adba5d9a14ef87b177c84edcf9335785b28d86a0d8f9044b33c"
+      }
+    },
+    {
+      "position": 44,
+      "domain": "office",
+      "task": "effective-control-state-L5-036",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_044",
+      "instruction_sha256": "6ad8211361b4ff8d1057fb7608695604ab2f8434824b0e1bc6759573fa87c0df",
+      "native_prompt_sha256": "5178ac4baa9bb8d4501d2051298071713434325f4d1bfed287641ddd3a129dc6",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f0d5-fcd5-78f2-98b8-d90db38f97e1",
+        "native_result_sha256": "f71b91e13abbaab127d37b07ab647767f656b77c496891bad34ab0008f243d49",
+        "native_timeline_sha256": "f759e8ef14402d26a3067531923e210cf7a3f6205755ebb26048375c204311b5"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/044-office-effective-control-state-L5-036/wire/00001",
+        "started_ns": 1795041918289312187,
+        "request_raw_sha256": "7551fb5ec5f053843706dae16f0c41cd3adcd27590a5468314e4056b99a667c8",
+        "request_sent_sha256": "4fcbb05a57290c901fd8fa254297d56c71f48a5f9f24d1f9af49a33f3f06425d",
+        "response_sha256": "dfda19fd2b7683879143245688b8aa8ec4365960f296035ef5e04385ff06ded2"
+      }
+    },
+    {
+      "position": 45,
+      "domain": "code",
+      "task": "feature-medium-humanize_metric_for_converting",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_045",
+      "instruction_sha256": "a5bf2a1cd46f956b003bf6f150e1cf7b50bbbaf5ca78c68b6964e735041c8237",
+      "native_prompt_sha256": "01ec6260290dcb61e2a3ce55127462a4423b237e323bf494b67807e9cd459b00",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f0d8-b704-7771-88b3-c855c00d3fc5",
+        "native_result_sha256": "367e45e8b0ba8bfc17bb2bd7c73b71b298ff540dbbbfbea083b781d21478866b",
+        "native_timeline_sha256": "73b53f281627d1da4f9655333b81b18f8010155a1172f42369f25dd371b0dfa8"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/045-code-feature-medium-humanize_metric_for_converting/wire/00001",
+        "started_ns": 1795042097069393739,
+        "request_raw_sha256": "b2e680314961d49b0f752af9485829c5eca7e880ee9b72c62c60cf37e0ad91c0",
+        "request_sent_sha256": "b2e680314961d49b0f752af9485829c5eca7e880ee9b72c62c60cf37e0ad91c0",
+        "response_sha256": "0cb42f8eb0e52c90753c87c64501bd8ecd5cfea5ade914abf6207d293641b674"
+      }
+    },
+    {
+      "position": 45,
+      "domain": "code",
+      "task": "feature-medium-humanize_metric_for_converting",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_045",
+      "instruction_sha256": "a5bf2a1cd46f956b003bf6f150e1cf7b50bbbaf5ca78c68b6964e735041c8237",
+      "native_prompt_sha256": "01ec6260290dcb61e2a3ce55127462a4423b237e323bf494b67807e9cd459b00",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f0db-0a24-7392-a1ed-29a426f8136a",
+        "native_result_sha256": "e3f36847b6fe3867c6e1e5d3396b3c2536ec1f7659aeed36c5ecbfe897d5090b",
+        "native_timeline_sha256": "7b8b5fb1803d52ca285c120ff861c72ad2435cb8a5d0b897c211508826d08ade"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/045-code-feature-medium-humanize_metric_for_converting/wire/00002",
+        "started_ns": 1795042249357476415,
+        "request_raw_sha256": "858a9908d1ced7044d6c32c8d042d5ef595ef3278a09c00ddacd6af3dc66b069",
+        "request_sent_sha256": "19c90a7f13fb168f1636accd82c8461a40553590bd94710d2ab93746d2346e91",
+        "response_sha256": "3f76d85d4482385976ac08daf3b48f5f44360e7e8f0a087b1f854ae8c573120c"
+      }
+    },
+    {
+      "position": 46,
+      "domain": "sec",
+      "task": "yara-rust-loader-family",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_046",
+      "instruction_sha256": "a58250dec3f77bbf8ae61c28f961202f4f92827cda4827b28410ea6c7b5bdfa6",
+      "native_prompt_sha256": "2608916704fc9aab5a0c8b81d0bf4308864fb8c954ed47bb125313abc824b9a1",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f0dd-1b61-7211-8ee9-f0d3d349d07f",
+        "native_result_sha256": "47ee103c631a0f6ab69bd1f426d2a96492fe195e40e546eafd8dd2a77da03073",
+        "native_timeline_sha256": "9d6200993349107ff590f930bdbbc3aecc444a32decd841aa16250e33b041646"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/046-sec-yara-rust-loader-family/wire/00001",
+        "started_ns": 1795042384864403196,
+        "request_raw_sha256": "120947dc96925ae89edb004eaf4575b6220ff00d35caf3db204995f704cfe5e0",
+        "request_sent_sha256": "120947dc96925ae89edb004eaf4575b6220ff00d35caf3db204995f704cfe5e0",
+        "response_sha256": "ec1fdb15421452f852963c001feeac9ebfe0946dac55d7b11966936aea699c12"
+      }
+    },
+    {
+      "position": 46,
+      "domain": "sec",
+      "task": "yara-rust-loader-family",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_046",
+      "instruction_sha256": "a58250dec3f77bbf8ae61c28f961202f4f92827cda4827b28410ea6c7b5bdfa6",
+      "native_prompt_sha256": "2608916704fc9aab5a0c8b81d0bf4308864fb8c954ed47bb125313abc824b9a1",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f0e0-0f9e-7b63-bc37-63a71f5abb98",
+        "native_result_sha256": "d71f1dd7397902a75c59d81f29b629e924d830a04f72f3ee03563bd93658622c",
+        "native_timeline_sha256": "705ed175c6243e276a932659a766d03b7476e6638c02853d459d39295701b487"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/046-sec-yara-rust-loader-family/wire/00001",
+        "started_ns": 1795042578433495416,
+        "request_raw_sha256": "a7a460e2389a91ec3e0fb0c1501ae6acd24878b17b1a16e21716dad6c0fb918d",
+        "request_sent_sha256": "c8550a65f5a2d9f05d9c920e9c32176b3d53a40d2ea49de673bdaa6f510690ce",
+        "response_sha256": "15bb92d2b6c6fe89eaec3ef5491387769de160238a9fabe4b0d7a29301abc97c"
+      }
+    },
+    {
+      "position": 47,
+      "domain": "code",
+      "task": "model_evaluation-hard-threshold_slices",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_047",
+      "instruction_sha256": "9b6de68dcce298a4eb6bae36feb4f800d0925e83c9a2db2ba104407a20ef9e40",
+      "native_prompt_sha256": "59bccf8c6043f2a4ef7bf45417be5bb1745aceed7658ee190ca38128ffa8fd5a",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f0e3-89a9-7012-9f33-84b76fc625ab",
+        "native_result_sha256": "f4bd0b64eda9ab610d37ba973017e88743f6bb34e5720569eec191a350d50c53",
+        "native_timeline_sha256": "a85b1af32ca99cb1a553277b525255ca31f797f5f702a33f0c48b09555bf516c"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/047-code-model_evaluation-hard-threshold_slices/wire/00001",
+        "started_ns": 1795042806307508431,
+        "request_raw_sha256": "a138938f7c0fed1ce5a83d5835df1e648bdd362a11a387a55c9443392249c320",
+        "request_sent_sha256": "a138938f7c0fed1ce5a83d5835df1e648bdd362a11a387a55c9443392249c320",
+        "response_sha256": "1a33f2f5fe2c6b248dba25ef1b0c2f18a5ef8f09295b7bb004cad17e9891a70a"
+      }
+    },
+    {
+      "position": 47,
+      "domain": "code",
+      "task": "model_evaluation-hard-threshold_slices",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_047",
+      "instruction_sha256": "9b6de68dcce298a4eb6bae36feb4f800d0925e83c9a2db2ba104407a20ef9e40",
+      "native_prompt_sha256": "59bccf8c6043f2a4ef7bf45417be5bb1745aceed7658ee190ca38128ffa8fd5a",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f0e5-5b44-7031-b2a1-a83b5821830d",
+        "native_result_sha256": "b327ec6549220cedda66538cbd0141d0f3265064fa42189afcf906b938f5467c",
+        "native_timeline_sha256": "d5710c2e83609040d3c1b9d76753c47bb1443708913f8c408ca8e84cd1dcd097"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/047-code-model_evaluation-hard-threshold_slices/wire/00001",
+        "started_ns": 1795042925472285112,
+        "request_raw_sha256": "eda46cc7b3d281acde513c837bf0eb17afd073d64129801c957b4ea3093932fa",
+        "request_sent_sha256": "34fb47fb53abd086ef3a2617e01dc5469e52f8c109a0ec7f0f43aaf101237397",
+        "response_sha256": "d00da0392453925294bbf879ebad8d146ce8d26e3dd5e572dde7a9b79a22b9eb"
+      }
+    },
+    {
+      "position": 48,
+      "domain": "sec",
+      "task": "windows-dll-sideload-rule-gen",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_048",
+      "instruction_sha256": "cd065964a67c621b5cb6afe8d1ce66e7f6179c95ec41ce0a917f660816cfd7e7",
+      "native_prompt_sha256": "4cc372f73a06eaf2f9d5e46a2b0b4a025dd55fb9b2690186a0b29c6da31e6fb8",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f0e6-fc52-7153-bb52-0a9de856f7ee",
+        "native_result_sha256": "ee67255dff3b2a523a02ee651893080d915847288a2e5f82cd67009706d01d13",
+        "native_timeline_sha256": "b88a5694e3f8eeae0cb474ad181a3786f84682729d1c616290a3b615e9a8e6ae"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/048-sec-windows-dll-sideload-rule-gen/wire/00001",
+        "started_ns": 1795043032282741052,
+        "request_raw_sha256": "83093cdc14f36029180bac29b977dbf7954e758ba503807de87eb24f8eb6baa1",
+        "request_sent_sha256": "83093cdc14f36029180bac29b977dbf7954e758ba503807de87eb24f8eb6baa1",
+        "response_sha256": "eb0b88ffb268f5eec2c8acd08caa603da51a34376839f165c05b181a7a1c7aaa"
+      }
+    },
+    {
+      "position": 48,
+      "domain": "sec",
+      "task": "windows-dll-sideload-rule-gen",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_048",
+      "instruction_sha256": "cd065964a67c621b5cb6afe8d1ce66e7f6179c95ec41ce0a917f660816cfd7e7",
+      "native_prompt_sha256": "4cc372f73a06eaf2f9d5e46a2b0b4a025dd55fb9b2690186a0b29c6da31e6fb8",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f0e8-f733-7d22-a500-55f2ac6eddf4",
+        "native_result_sha256": "411d31b103f283ac15e131aff308a579b38e52e28f0bbaa362de01b9b7b1938f",
+        "native_timeline_sha256": "a6dc40dae4a73ea5703b240ee0b75b2e78891d6f08a8dc35577f97fd88255e25"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/048-sec-windows-dll-sideload-rule-gen/wire/00001",
+        "started_ns": 1795043162037238805,
+        "request_raw_sha256": "80145b7e925276fcabde64703a6d4a257dbd3a83ce9683a3dd936343a0e2e36f",
+        "request_sent_sha256": "77b6fcab479af2d4834f29580d738da4621f63410cda7475a5404cd321803e00",
+        "response_sha256": "0425d0dd02dc96b1fce79f6fcfb9ec2c680e4084d1b88af7f954c792f109ce22"
+      }
+    },
+    {
+      "position": 49,
+      "domain": "office",
+      "task": "recruiting-search-skill-mock-mcp-hardened",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_049",
+      "instruction_sha256": "24f322c96c200fdf89a6f835e1f2df7d3e8b76746c34cf740684a041bed6786e",
+      "native_prompt_sha256": "8ee6f7123f71c9d2320833774c51c29c4c224b15d856b3ff9a1eea38ee6fa914",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f0ea-cb15-7900-a643-a5f11eabd11c",
+        "native_result_sha256": "53a992798d48c41f0773c6224bf0ce370871e676087ca309d064fbe359740ec8",
+        "native_timeline_sha256": "a2c742b8e8ee845130bcf944267a8ca3e31ce04048526cb7071e4109b33ff5a9"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/049-office-recruiting-search-skill-mock-mcp-hardened/wire/00001",
+        "started_ns": 1795043281818274599,
+        "request_raw_sha256": "2a44342140f19516ef13acb6f74dc8996f0b9e59bc210dab0d8a066a95d094b2",
+        "request_sent_sha256": "2a44342140f19516ef13acb6f74dc8996f0b9e59bc210dab0d8a066a95d094b2",
+        "response_sha256": "288368befbb164a91abc1ad2620ce55c9299ca4b6130e544e826d3a3688203a0"
+      }
+    },
+    {
+      "position": 49,
+      "domain": "office",
+      "task": "recruiting-search-skill-mock-mcp-hardened",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_049",
+      "instruction_sha256": "24f322c96c200fdf89a6f835e1f2df7d3e8b76746c34cf740684a041bed6786e",
+      "native_prompt_sha256": "8ee6f7123f71c9d2320833774c51c29c4c224b15d856b3ff9a1eea38ee6fa914",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f0ee-60c7-7a73-a15f-57a7f46b83a2",
+        "native_result_sha256": "87ac4a86bf98d04f59ec66fba0b82255481f2414c58d616d6087f6508e971980",
+        "native_timeline_sha256": "ce7bea92c5cc3bc67702064e4d48f53c872d734389f26a4a3fc9751ec5f4d59e"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/049-office-recruiting-search-skill-mock-mcp-hardened/wire/00001",
+        "started_ns": 1795043516738186808,
+        "request_raw_sha256": "047580fa2f6a98b13ea4e3816c06a8f3642cc6760c932ac1179a800111976f36",
+        "request_sent_sha256": "9e52ad214ac2a093d9fc94eb568a3ce4d566e5f7ea3813cb65e914a334c19399",
+        "response_sha256": "646096eab35fc5a6e5cfd10b1a980605edd3b0c8b35c4ebcf6bb591a72659735"
+      }
+    },
+    {
+      "position": 50,
+      "domain": "code",
+      "task": "tool_behavior-easy-diagnostics_and_observability",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_050",
+      "instruction_sha256": "e53be530f4eae60063ef9c7747ddb8031088dfb532ab041a44569613585d4871",
+      "native_prompt_sha256": "4bf19dd43458557e7ec0915643e5c8cac49ef3557ee05eb45e02e90e9a920703",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f0f1-8bfe-74b0-af72-06bcd4c1de73",
+        "native_result_sha256": "a5146a62a074b72052c55667dcebf17efb3fa45076922681ccd2d0206679e326",
+        "native_timeline_sha256": "ee6f46fe5b669945798d75d6c1805faba9aeb72000049a911f1b7c01de470165"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/050-code-tool_behavior-easy-diagnostics_and_observability/wire/00001",
+        "started_ns": 1795043724405906624,
+        "request_raw_sha256": "29eb9c3a309517d6ccf9e81e81f58d0435f4e1cff8ffe7cc472715d2fa1f7d9e",
+        "request_sent_sha256": "29eb9c3a309517d6ccf9e81e81f58d0435f4e1cff8ffe7cc472715d2fa1f7d9e",
+        "response_sha256": "d95742ff3b462da50de00d8985afe9a3f1b303574ba5a03e7d908eef3a042bd4"
+      }
+    },
+    {
+      "position": 50,
+      "domain": "code",
+      "task": "tool_behavior-easy-diagnostics_and_observability",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_050",
+      "instruction_sha256": "e53be530f4eae60063ef9c7747ddb8031088dfb532ab041a44569613585d4871",
+      "native_prompt_sha256": "4bf19dd43458557e7ec0915643e5c8cac49ef3557ee05eb45e02e90e9a920703",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f0f4-60dd-76c1-a614-7b166270faa2",
+        "native_result_sha256": "5646c6623355eaa1b68406903de3d1dfe1e1369e0e7d87c95a1307cd7227b536",
+        "native_timeline_sha256": "7811eb54e90563e34ebf715a2082bc5ca9b9d6677cf1a00658ba4eb2ba11419f"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/050-code-tool_behavior-easy-diagnostics_and_observability/wire/00002",
+        "started_ns": 1795043909987941198,
+        "request_raw_sha256": "6cc6bc1d5c51b161d80c4b89a361200725972398acc4a33a92c0e701c6c25343",
+        "request_sent_sha256": "042772c9df245139e58af2842900c93f6ba799a4f285d4393057a2e5f3ceb66f",
+        "response_sha256": "b6d6acae6b0a917c1bb66440d3b89d9500049e9561b97756ae4779eda56e28c1"
+      }
+    },
+    {
+      "position": 51,
+      "domain": "web",
+      "task": "cohort-retention-dashboard-L4-054",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_051",
+      "instruction_sha256": "c09fab3cd010f368c83d57da900276c086760fb9ec8b2dbbbb02cb3c67c259df",
+      "native_prompt_sha256": "ee11aba4444eafc058067253b43af40fbeee0ea4aba458610e662fe1d56ed268",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f0f7-bc2b-7e13-8a14-2038d4df724a",
+        "native_result_sha256": "ea484698f8eb6ffa71a4c7c3394ad92366f3a36fb3f93d38c62c3aa589ce54b2",
+        "native_timeline_sha256": "ffc5edc08c42df0fdc4b87093c7cfc4711d7f8ef9d7fccad2a9600ff4aefe3c7"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/051-web-cohort-retention-dashboard-L4-054/wire/00001",
+        "started_ns": 1795044129981474497,
+        "request_raw_sha256": "621e3c33d7f25eeee2bb5d921d785b5979635ed27c004fb6c89df81418510be6",
+        "request_sent_sha256": "621e3c33d7f25eeee2bb5d921d785b5979635ed27c004fb6c89df81418510be6",
+        "response_sha256": "380605b146955b56845f6cfe121b7bf4b6a28fd02116fb7cfef1898bb6d8cedf"
+      }
+    },
+    {
+      "position": 51,
+      "domain": "web",
+      "task": "cohort-retention-dashboard-L4-054",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_051",
+      "instruction_sha256": "c09fab3cd010f368c83d57da900276c086760fb9ec8b2dbbbb02cb3c67c259df",
+      "native_prompt_sha256": "ee11aba4444eafc058067253b43af40fbeee0ea4aba458610e662fe1d56ed268",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f0fb-264f-79a3-b8f2-9b5bbd8f74c4",
+        "native_result_sha256": "d4e9095fe6ee00133497e3816cd89889ac5763f837046bfebf4886fa2d2670c0",
+        "native_timeline_sha256": "3774f5eccc0d0b4ce8c606f7741c52d59526d06694bd8b0aeae3a066c230d468"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/051-web-cohort-retention-dashboard-L4-054/wire/00001",
+        "started_ns": 1795044353743933077,
+        "request_raw_sha256": "9ec89b0b41f7436bacfa8f3789ed599d779b2f8d59fbe43a45b68b062b6ff8a9",
+        "request_sent_sha256": "4fd5317371f5385f22a4d205423b0453210d9f73037038a03443436eb76608fb",
+        "response_sha256": "d00201b18d589dba7bc5b9999cd3e2f99f7a53f7e7f7b7021add7a85a2dd6a01"
+      }
+    },
+    {
+      "position": 52,
+      "domain": "web",
+      "task": "blog-editor-draft-recovery-L4-059",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_052",
+      "instruction_sha256": "06c680cb7f60563de46eb9a90cb72d1b06fb8cf7ab75caf4ab2f677bbf977606",
+      "native_prompt_sha256": "50a78c222d7279422c202aa29639a2123263b004cdc5b63f130c22fc96e9ee6c",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f0fe-f12b-7b91-bfb0-9dba3a946fd1",
+        "native_result_sha256": "8ab35ab4d6abb68d4b0360163f0228a1a2f68a0d02315152caf2be9549a7bf14",
+        "native_timeline_sha256": "92de23a83d3749be9fcb4f0510e806fd54de6140cab39bbfff3a41cbcccf9810"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/052-web-blog-editor-draft-recovery-L4-059/wire/00001",
+        "started_ns": 1795044602288553048,
+        "request_raw_sha256": "6013c744db0b498ba09ad3b2363d5802b843651544e75d9194607c5ac04e6e79",
+        "request_sent_sha256": "6013c744db0b498ba09ad3b2363d5802b843651544e75d9194607c5ac04e6e79",
+        "response_sha256": "b5970c8186b070ede2b4cab1c8f01563ade76f8ba34fdc20b5eac8204557e83f"
+      }
+    },
+    {
+      "position": 52,
+      "domain": "web",
+      "task": "blog-editor-draft-recovery-L4-059",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_052",
+      "instruction_sha256": "06c680cb7f60563de46eb9a90cb72d1b06fb8cf7ab75caf4ab2f677bbf977606",
+      "native_prompt_sha256": "50a78c222d7279422c202aa29639a2123263b004cdc5b63f130c22fc96e9ee6c",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f102-f93c-7161-9bda-45fe812513d3",
+        "native_result_sha256": "0cd6fc3b2be1b494483629bbb6e5a9be94e4382263939efe842a6ae86807b5e4",
+        "native_timeline_sha256": "c402551de2fe3a913415dedac6e2c052eec4dfc033a653664f1a95d00e8f79d5"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/052-web-blog-editor-draft-recovery-L4-059/wire/00001",
+        "started_ns": 1795044866516911889,
+        "request_raw_sha256": "edf592be4d9c62dfb12751975933d2f12f42aa6b5078f2382ccbb99875c85c26",
+        "request_sent_sha256": "b65b8ad4e63516816586aea8a173d0fc07456b3251b43290796c9a28598401eb",
+        "response_sha256": "12759352c6023fc943dd1f5c13b6e3ef8744ec619d58d2eaa595cf83bc7cb443"
+      }
+    },
+    {
+      "position": 53,
+      "domain": "web",
+      "task": "kanban-drag-state-L3-042",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_053",
+      "instruction_sha256": "d1d8836477efe88579d4638659544940a7329765dd722f2c351ba8f7ea87fcb7",
+      "native_prompt_sha256": "a96ee4a9e3725e889a78ac096d02b641843c906817a889b45213e31e2dce3c7a",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f106-d305-7a12-ab01-e5ef1b14673e",
+        "native_result_sha256": "d72b127dbee5728444d56d9391243a568ee450c4d0eb13b4408feb079f7c7c4a",
+        "native_timeline_sha256": "37762bd32ca9868f7c5fdc77489e8da0e50785d3719e5a51349fca23d0be20ac"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/053-web-kanban-drag-state-L3-042/wire/00001",
+        "started_ns": 1795045118827101805,
+        "request_raw_sha256": "0ac95d8893aa2beed406a2177d553de199442ae01ff75db01d364c5486dfe3d6",
+        "request_sent_sha256": "0ac95d8893aa2beed406a2177d553de199442ae01ff75db01d364c5486dfe3d6",
+        "response_sha256": "9e8f23229a91f110e9613bd89640d3c0f0bc33f9464914d5c40c5cc2f8e4f5ba"
+      }
+    },
+    {
+      "position": 53,
+      "domain": "web",
+      "task": "kanban-drag-state-L3-042",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_053",
+      "instruction_sha256": "d1d8836477efe88579d4638659544940a7329765dd722f2c351ba8f7ea87fcb7",
+      "native_prompt_sha256": "a96ee4a9e3725e889a78ac096d02b641843c906817a889b45213e31e2dce3c7a",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f10b-1931-72a3-854a-977884bc42d5",
+        "native_result_sha256": "092a62b31844597ff5a504a75b50f35699380f9c68a60bb0946667b2257a6bb6",
+        "native_timeline_sha256": "3074c5ab765f5c45e0f81167002890135ab2c24ea549bafc5158f042675ba116"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/053-web-kanban-drag-state-L3-042/wire/00001",
+        "started_ns": 1795045398975027776,
+        "request_raw_sha256": "42ed4edace938189ffc68e8eb0aae4726311a4b81985c739f1ac36a65f1fd52d",
+        "request_sent_sha256": "a24413042bc0ff30e5b588c17568e59b287115dab76e343b13c0ecf79dfa926f",
+        "response_sha256": "1c8aaf0c3d8652510de89aefe63ce66673f74e3a3b51b0b89e676004ebf4b5d8"
+      }
+    },
+    {
+      "position": 54,
+      "domain": "office",
+      "task": "crypto-backtest-chain-L4-002",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_054",
+      "instruction_sha256": "e17decf36943082e01a6c3a1e78dba0fd0e23bf925d00fdb517da22e5545f2cf",
+      "native_prompt_sha256": "12d9e5c4ded5b8667a2d692c178361d38a7ddfc8d7e945b2b973dd31ba3fb7bb",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f110-4279-7892-b47a-dfea445a8def",
+        "native_result_sha256": "25c9aef1c8206e84bf025e628e93d20d8eaaae09934b3d46bf9291649c04bd5f",
+        "native_timeline_sha256": "6e63d93ce211e7cbc9792631d3026d25747f572e8c3fe79d3bad3b08ff88ccc0"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/054-office-crypto-backtest-chain-L4-002/wire/00001",
+        "started_ns": 1795045737290445045,
+        "request_raw_sha256": "42fdc8b80e154a973966125e3effba93f9228300aadef01644cc9605b5cc2ccb",
+        "request_sent_sha256": "42fdc8b80e154a973966125e3effba93f9228300aadef01644cc9605b5cc2ccb",
+        "response_sha256": "6de718bc445865fa6abb1acfa1a41eda05c509d49ba440e60a0e5c47c2e57fbb"
+      }
+    },
+    {
+      "position": 54,
+      "domain": "office",
+      "task": "crypto-backtest-chain-L4-002",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_054",
+      "instruction_sha256": "e17decf36943082e01a6c3a1e78dba0fd0e23bf925d00fdb517da22e5545f2cf",
+      "native_prompt_sha256": "12d9e5c4ded5b8667a2d692c178361d38a7ddfc8d7e945b2b973dd31ba3fb7bb",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f114-64fb-7190-93f3-40742ddc9029",
+        "native_result_sha256": "438ecdb4050b828ef22d435fd628ec5fc0bdd328e495bb65e495401cf67c05d6",
+        "native_timeline_sha256": "c6a1511f6d36ba009ae91b59602727fd395f58300deb24ede085c58620c19fab"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/054-office-crypto-backtest-chain-L4-002/wire/00001",
+        "started_ns": 1795046008199229714,
+        "request_raw_sha256": "d6834f1ed2e9de364c3819bad2b203e640d923a0336f745bd4e79830c5688d08",
+        "request_sent_sha256": "e2e3caec73f2998ecfca337ec572698c45b335b4ad874ba6b1585a4f4925c1a8",
+        "response_sha256": "3cdc13941c7f284d83071af2ad4dfa1eab3a406c35d66c434262804f68b26f74"
+      }
+    },
+    {
+      "position": 55,
+      "domain": "office",
+      "task": "research-factor-table-extract-L3-016",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_055",
+      "instruction_sha256": "e739f4d8e21c2a8dfb7bf658cf93aefb2bf189c181bda342cd52c480ace25661",
+      "native_prompt_sha256": "0cf29e8b78ccd2a3560c7809ce6444e561777b03260430f0880961a507e77958",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f118-f68f-7f71-8890-bce1b298aff2",
+        "native_result_sha256": "8540be6da4e55a7b27dc91fe6c0ab0c613b1043811bf32c6b526378976a7a6eb",
+        "native_timeline_sha256": "e3392cb619e3168a8dc429e05c4f8c1667a8636241e946683ef565346f8757ce"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/055-office-research-factor-table-extract-L3-016/wire/00001",
+        "started_ns": 1795046307618050587,
+        "request_raw_sha256": "fe64e4bd650cac993b956063a47abe6ed5dcd8ce9084c3f891955492e4ebabae",
+        "request_sent_sha256": "fe64e4bd650cac993b956063a47abe6ed5dcd8ce9084c3f891955492e4ebabae",
+        "response_sha256": "270ed5566e49580e682122d1a22e7c2cf1f4db6bbaf7cd96900a5869b29cbdf2"
+      }
+    },
+    {
+      "position": 55,
+      "domain": "office",
+      "task": "research-factor-table-extract-L3-016",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_055",
+      "instruction_sha256": "e739f4d8e21c2a8dfb7bf658cf93aefb2bf189c181bda342cd52c480ace25661",
+      "native_prompt_sha256": "0cf29e8b78ccd2a3560c7809ce6444e561777b03260430f0880961a507e77958",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f11e-15bb-72c0-a86f-b60778dc3294",
+        "native_result_sha256": "5809939c80b163185a19ea7fd42092ab5b401335c1fcdf4a41d95a725e629c50",
+        "native_timeline_sha256": "7b59e0fecd241fc97c342d35d437f62e9a4e6bb0cf3860fa350fa8b5b18babe2"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/055-office-research-factor-table-extract-L3-016/wire/00001",
+        "started_ns": 1795046643299095120,
+        "request_raw_sha256": "3da86a8108bfc543849fc5d05007f1ecc50ed74f414547c274c9dd845e5bfce2",
+        "request_sent_sha256": "6e4efafb1ac076f50b55fc50f12bc248ecf70869deb4fc3470a5038007045d8e",
+        "response_sha256": "c84352a13b26d328f1988e741736a470ea122cdecd421868beb521a7f1ea07b9"
+      }
+    },
+    {
+      "position": 56,
+      "domain": "web",
+      "task": "svg-chart-diagram-refactor-L4-024",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_056",
+      "instruction_sha256": "477a393a6e5c013531910af4c645f62b0c1a5df4b7b9e4d7d3842923404a596f",
+      "native_prompt_sha256": "044dfc5f3771c57a086d0ab5ac82795ffa4d982902297ec1101ec4f0592bbb6f",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f121-cb1a-7453-9f5d-b99e41a457ff",
+        "native_result_sha256": "5171623dddb53309e9935e7f3a0b0f64e0957fd24e0570eafb4040d10792ab7f",
+        "native_timeline_sha256": "15214a2ea73de89a758fd4ba046b34ebb3925bb31338581a2efd2f527347bce3"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/056-web-svg-chart-diagram-refactor-L4-024/wire/00001",
+        "started_ns": 1795046886348795709,
+        "request_raw_sha256": "e1726ce2bbe10f5f2e0c64f4e1c3bf6eaf75cf5dc30838b5d6cdfc3d90ab3fc8",
+        "request_sent_sha256": "e1726ce2bbe10f5f2e0c64f4e1c3bf6eaf75cf5dc30838b5d6cdfc3d90ab3fc8",
+        "response_sha256": "492aeb2c3515ea05a88aebd478b15fd0248ed9df05d25d053faef61f8b0ac352"
+      }
+    },
+    {
+      "position": 56,
+      "domain": "web",
+      "task": "svg-chart-diagram-refactor-L4-024",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_056",
+      "instruction_sha256": "477a393a6e5c013531910af4c645f62b0c1a5df4b7b9e4d7d3842923404a596f",
+      "native_prompt_sha256": "044dfc5f3771c57a086d0ab5ac82795ffa4d982902297ec1101ec4f0592bbb6f",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f127-40d4-7fb2-9cfb-5697f009e767",
+        "native_result_sha256": "0a316cf659b23929bc5dd024353aa7d2502b55f55d5b6e4195c3722bb76f3254",
+        "native_timeline_sha256": "ae7b957cf28c61aa1a9575b83a02fedf4fa085c5fd503c311eb5dbe32fa6724e"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/056-web-svg-chart-diagram-refactor-L4-024/wire/00001",
+        "started_ns": 1795047244116698190,
+        "request_raw_sha256": "e5bfb7046b37ea039bc0e28673be3234965bf9dd25fa209cfa26d8d157d089c6",
+        "request_sent_sha256": "60ff56ce0eca243d829f402b8c10af8f73dfa5dfed621cd04d628ea954892153",
+        "response_sha256": "53fc5aaa833707025d32dfd6ce70dd4d510d8a8f6b97b79a20879911c31658d7"
+      }
+    },
+    {
+      "position": 57,
+      "domain": "code",
+      "task": "feature_pipeline-hard-text_hashing",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_057",
+      "instruction_sha256": "4202db8b832b3109ddbe4b18e04afa94f5d70c39d3ebb10f79af12f96d6edba0",
+      "native_prompt_sha256": "4c0adcc6279180fbd744caa4f893932cd7b91d0863d3444ff0084332c2cce438",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f12c-ac2d-7ef1-986c-ae592487d1d7",
+        "native_result_sha256": "552bf929d7cf06e46057dd880319fa8ca99208083c154a6306b2279c7de38dd8",
+        "native_timeline_sha256": "d9c8f165d807ec293b1da6dc8d0721b6ac4e6525cc96c91b8fadefd246302bb2"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/057-code-feature_pipeline-hard-text_hashing/wire/00001",
+        "started_ns": 1795047599293877672,
+        "request_raw_sha256": "7d3cfb269d5639751105ed544a3978e27a2d9b23cc6f5e755e9392b900dbb1e0",
+        "request_sent_sha256": "7d3cfb269d5639751105ed544a3978e27a2d9b23cc6f5e755e9392b900dbb1e0",
+        "response_sha256": "e4f9884a3471be2c680a306d4acea69942828cec86561271e87401ec5e45bf51"
+      }
+    },
+    {
+      "position": 57,
+      "domain": "code",
+      "task": "feature_pipeline-hard-text_hashing",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_057",
+      "instruction_sha256": "4202db8b832b3109ddbe4b18e04afa94f5d70c39d3ebb10f79af12f96d6edba0",
+      "native_prompt_sha256": "4c0adcc6279180fbd744caa4f893932cd7b91d0863d3444ff0084332c2cce438",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f12e-c658-7802-a131-8506d7748556",
+        "native_result_sha256": "74a8d3ea95073dbd903ad7e0c5ec3a69d221dfc16432a5c5ce4bc12e825a0136",
+        "native_timeline_sha256": "e1ae327b5a736d1b6cd6ee8b566131123d3c94cef5419f09bffb4c6815188765"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/057-code-feature_pipeline-hard-text_hashing/wire/00001",
+        "started_ns": 1795047737071115257,
+        "request_raw_sha256": "471cec58540760b8a9870bc71f853728fcfc267e7b5069b826e8524ba29325bf",
+        "request_sent_sha256": "a0ff4d2acfede86a1e7b3cef10999726849e1f23c1a1764047ce7f91a7edc297",
+        "response_sha256": "7e7a172ec04e4c7e719a8ea94d83e054b30ce018c75b1d34a604a5df80d482e0"
+      }
+    },
+    {
+      "position": 58,
+      "domain": "web",
+      "task": "research-homepage-visual-repair-L3-064",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_058",
+      "instruction_sha256": "d22bb3327e06940e5252c40a04861e30e7df2fcff1d079b7905cbe7dee4da562",
+      "native_prompt_sha256": "181c439dabc8e6e5e9fa14a305120df5b3fc92515be250b0c5a4a6517da342ea",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f130-0052-7a40-af05-395f44e34709",
+        "native_result_sha256": "78f666af4f6b46855c9b7dcb78ee6b17565c9a76a77a54629ac4ad0497e95bd4",
+        "native_timeline_sha256": "6193c18602ce3ef72a323d49a758423108d0d2e7190b2498607813970c63d492"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/058-web-research-homepage-visual-repair-L3-064/wire/00001",
+        "started_ns": 1795047817429229422,
+        "request_raw_sha256": "1619565c4398c76259678ae7dbde9338579c9780dfd5f49b1fd4ca5aa0c3ff19",
+        "request_sent_sha256": "1619565c4398c76259678ae7dbde9338579c9780dfd5f49b1fd4ca5aa0c3ff19",
+        "response_sha256": "73ca565a1a3051cad7e379f35b3a9f73e79d032199d83f68176dd1ecdc8370a9"
+      }
+    },
+    {
+      "position": 58,
+      "domain": "web",
+      "task": "research-homepage-visual-repair-L3-064",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_058",
+      "instruction_sha256": "d22bb3327e06940e5252c40a04861e30e7df2fcff1d079b7905cbe7dee4da562",
+      "native_prompt_sha256": "181c439dabc8e6e5e9fa14a305120df5b3fc92515be250b0c5a4a6517da342ea",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f133-f33b-73e1-b4e6-20f870e19eb2",
+        "native_result_sha256": "6dab368bc09aa6fcecdc4832b93df3aad4753e27e5aee1035a9a858e096aa725",
+        "native_timeline_sha256": "00b5e8e1850a60fb3be49236dbbfa255d9d72fb2ca5798ed25b23745d9221ef9"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/058-web-research-homepage-visual-repair-L3-064/wire/00001",
+        "started_ns": 1795048076250010416,
+        "request_raw_sha256": "4a7caea529f768609ba279a64fecb88116947038889bac476f5f341ed9a06b65",
+        "request_sent_sha256": "8c453857cdf165cd950626f77ad4b35ad4cef2f19258c616f9b463c3ce701d17",
+        "response_sha256": "2def6701c32d65a1333b68d4e2d9c9a56c3e68bebee82318a4c6cbec0ec72328"
+      }
+    },
+    {
+      "position": 59,
+      "domain": "code",
+      "task": "api_contract-hard-validation_errors",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_059",
+      "instruction_sha256": "5ef37b1874773dc66921f27daee274c7dc8268d5cab46a8d5b03febb6c7819af",
+      "native_prompt_sha256": "cf4298ae734ed9fd9e5022c94518b6ca9902876bf472af7fbabeaa8f976d826e",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f137-6d0e-7830-9f05-bd183bbaa5e4",
+        "native_result_sha256": "898e78dd84b1399b6af2897efc7797920717135feb46eb265de1c6784b5d1288",
+        "native_timeline_sha256": "5f8deccc8c285c783bfa6b6f4e75be51f6f75c87481570b66e4b8eb7c6c68576"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/059-code-api_contract-hard-validation_errors/wire/00001",
+        "started_ns": 1795048304053280050,
+        "request_raw_sha256": "438545e470c5890dfd5410b807542ef9791e31387a5efb83d8a682dedb75fd5d",
+        "request_sent_sha256": "438545e470c5890dfd5410b807542ef9791e31387a5efb83d8a682dedb75fd5d",
+        "response_sha256": "56fbbaf6a86a865d42da3b549ad29f3627fdafc9b877d919a3a2d4360d754e42"
+      }
+    },
+    {
+      "position": 59,
+      "domain": "code",
+      "task": "api_contract-hard-validation_errors",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_059",
+      "instruction_sha256": "5ef37b1874773dc66921f27daee274c7dc8268d5cab46a8d5b03febb6c7819af",
+      "native_prompt_sha256": "cf4298ae734ed9fd9e5022c94518b6ca9902876bf472af7fbabeaa8f976d826e",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f139-c048-73b0-acbb-a48aa5e5777d",
+        "native_result_sha256": "7eb95f2e26158ccca3548bb91249556044699869e897e969632b0a37df67bdb8",
+        "native_timeline_sha256": "e40133862be4bc263b03dc631c850223f91b2433f399f889f3e15ac6227115f0"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/059-code-api_contract-hard-validation_errors/wire/00001",
+        "started_ns": 1795048456402103771,
+        "request_raw_sha256": "2f67ae46826d401ae1a0635f4435be0ece9f7a678f68c1c11c84caeee56780fa",
+        "request_sent_sha256": "af83170107064763a9da3e27c9e5e35af30d049e58aae4c2d39c3099f9635d33",
+        "response_sha256": "d4fb4c4894b16979f0da31d07df8fa877ea2add519bd9e0af5e9ca6491240994"
+      }
+    },
+    {
+      "position": 60,
+      "domain": "office",
+      "task": "service-channel-ticket-daily",
+      "arm": "native",
+      "marker": "WB_CODEX_FORMAL_060",
+      "instruction_sha256": "d4d8ffb5049a6a77d37ec2a21cc0cbc0b2675bc3da303fe0662a4554d7513177",
+      "native_prompt_sha256": "e914cf1c3f1ab79cfc582e16a414cb7fc2264a162f3698b372f4914eb2a949b8",
+      "native_completion": {
+        "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+        "turn": "01a1f13b-83fc-78b2-b83b-a6d8a95af16e",
+        "native_result_sha256": "759a54203cc153d717ec89a1013fc48b47bd8483a2666129e4283a5a8c70a727",
+        "native_timeline_sha256": "69bf0b1726a4428f1639a7e941df4fa16392147b7b972a6a137d1f7edee0a3c4"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/060-office-service-channel-ticket-daily/wire/00001",
+        "started_ns": 1795048572042980496,
+        "request_raw_sha256": "a7cebd369456d3e2674c0bd1bd22f63b9f157e8d04a97479c01a8db72f791165",
+        "request_sent_sha256": "a7cebd369456d3e2674c0bd1bd22f63b9f157e8d04a97479c01a8db72f791165",
+        "response_sha256": "d5273bc69c2860905a7a61c46c851bb7487259e438ffb048960e4b7cb590b2b5"
+      }
+    },
+    {
+      "position": 60,
+      "domain": "office",
+      "task": "service-channel-ticket-daily",
+      "arm": "clm",
+      "marker": "WB_CODEX_FORMAL_060",
+      "instruction_sha256": "d4d8ffb5049a6a77d37ec2a21cc0cbc0b2675bc3da303fe0662a4554d7513177",
+      "native_prompt_sha256": "e914cf1c3f1ab79cfc582e16a414cb7fc2264a162f3698b372f4914eb2a949b8",
+      "native_completion": {
+        "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+        "turn": "01a1f13e-0ba1-79f3-b1aa-7523a2fc2fe6",
+        "native_result_sha256": "85bb62d9c934ef6dd2023459de53657b9a0454a71ecc51323e6524abcd9f392d",
+        "native_timeline_sha256": "8eeb4883c80f72f1fa231cc699e4e16c1c7c0ed79b9d50ee8c667fbdbc5311ba"
+      },
+      "model_binding": {
+        "wire": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/060-office-service-channel-ticket-daily/wire/00001",
+        "started_ns": 1795048737876483717,
+        "request_raw_sha256": "7e8263eefece1dd892c44615e381497a28d0111ea1a8eb64cdaa08bff71ff69b",
+        "request_sent_sha256": "a07429c75716a2b86622a2125d012c86b0c48b4aced7f2ddde22a1a5bf6032d0",
+        "response_sha256": "1770c6e7f74214842772565b4114b16e31b4f222d118d4b5ae172770cc069145"
+      }
+    }
+  ]
+}

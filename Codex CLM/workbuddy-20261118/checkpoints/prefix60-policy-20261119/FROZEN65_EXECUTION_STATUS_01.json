@@ -1,0 +1,918 @@
+{
+  "observed_at": "2026-11-19T08:54:35.621291+08:00",
+  "planned_trials": 130,
+  "successful_trials": 120,
+  "rows": [
+    {
+      "position": 1,
+      "domain": "sec",
+      "task": "linux-ld-preload-investigation",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 1,
+      "domain": "sec",
+      "task": "linux-ld-preload-investigation",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 2,
+      "domain": "web",
+      "task": "dense-saas-visual-refactor-L3-046",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 2,
+      "domain": "web",
+      "task": "dense-saas-visual-refactor-L3-046",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 3,
+      "domain": "web",
+      "task": "security-privacy-permission-review-L4-020",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 3,
+      "domain": "web",
+      "task": "security-privacy-permission-review-L4-020",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 4,
+      "domain": "code",
+      "task": "refactor-medium-config_validation_errors",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 4,
+      "domain": "code",
+      "task": "refactor-medium-config_validation_errors",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 5,
+      "domain": "web",
+      "task": "markdown-release-editor-L4-038",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 5,
+      "domain": "web",
+      "task": "markdown-release-editor-L4-038",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 6,
+      "domain": "code",
+      "task": "feature-medium-envless_file_load",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 6,
+      "domain": "code",
+      "task": "feature-medium-envless_file_load",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 7,
+      "domain": "code",
+      "task": "reliability-hard-stream_release",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 7,
+      "domain": "code",
+      "task": "reliability-hard-stream_release",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 8,
+      "domain": "office",
+      "task": "warranty-recovery-allocation-L5-033",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 8,
+      "domain": "office",
+      "task": "warranty-recovery-allocation-L5-033",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 9,
+      "domain": "code",
+      "task": "schema_behavior-medium-datakey_errors",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 9,
+      "domain": "code",
+      "task": "schema_behavior-medium-datakey_errors",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 10,
+      "domain": "web",
+      "task": "root-cause-localization-L3-015",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 10,
+      "domain": "web",
+      "task": "root-cause-localization-L3-015",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 11,
+      "domain": "code",
+      "task": "reliability-medium-pool_release",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 11,
+      "domain": "code",
+      "task": "reliability-medium-pool_release",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 12,
+      "domain": "web",
+      "task": "root-cause-localization-L3-013",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 12,
+      "domain": "web",
+      "task": "root-cause-localization-L3-013",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 13,
+      "domain": "code",
+      "task": "bug_fix-medium-matching_absolute_paths",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 13,
+      "domain": "code",
+      "task": "bug_fix-medium-matching_absolute_paths",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 14,
+      "domain": "sec",
+      "task": "yara-detect-cryptominer",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 14,
+      "domain": "sec",
+      "task": "yara-detect-cryptominer",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 15,
+      "domain": "office",
+      "task": "wechat-tech-topic-package-hardened",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 15,
+      "domain": "office",
+      "task": "wechat-tech-topic-package-hardened",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 16,
+      "domain": "sec",
+      "task": "false-positive-trap-bind-hard-multistep",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 16,
+      "domain": "sec",
+      "task": "false-positive-trap-bind-hard-multistep",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 17,
+      "domain": "code",
+      "task": "api_contract-hard-openapi_params",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 17,
+      "domain": "code",
+      "task": "api_contract-hard-openapi_params",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 18,
+      "domain": "sec",
+      "task": "apt-multi-source-correlation-hard-multistep",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 18,
+      "domain": "sec",
+      "task": "apt-multi-source-correlation-hard-multistep",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 19,
+      "domain": "code",
+      "task": "feature-medium-validation_to_eliminate_uriref",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 19,
+      "domain": "code",
+      "task": "feature-medium-validation_to_eliminate_uriref",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 20,
+      "domain": "office",
+      "task": "rank-ic-topn-L4-001",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 20,
+      "domain": "office",
+      "task": "rank-ic-topn-L4-001",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 21,
+      "domain": "code",
+      "task": "data_reporting-medium-customer_health_export",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 21,
+      "domain": "code",
+      "task": "data_reporting-medium-customer_health_export",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 22,
+      "domain": "office",
+      "task": "drug-inventory-split-L2-006",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 22,
+      "domain": "office",
+      "task": "drug-inventory-split-L2-006",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 23,
+      "domain": "code",
+      "task": "python_port-medium-header_dimensions",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 23,
+      "domain": "code",
+      "task": "python_port-medium-header_dimensions",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 24,
+      "domain": "sec",
+      "task": "windows-dll-proxy-investigation",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 24,
+      "domain": "sec",
+      "task": "windows-dll-proxy-investigation",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 25,
+      "domain": "web",
+      "task": "workflow-backoffice-L4-002",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 25,
+      "domain": "web",
+      "task": "workflow-backoffice-L4-002",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 26,
+      "domain": "sec",
+      "task": "windows-dll-proxy-rule-gen",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 26,
+      "domain": "sec",
+      "task": "windows-dll-proxy-rule-gen",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 27,
+      "domain": "code",
+      "task": "data_quality-hard-label_conflicts",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 27,
+      "domain": "code",
+      "task": "data_quality-hard-label_conflicts",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 28,
+      "domain": "code",
+      "task": "feature-hard-fallback_signers_and_switch",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 28,
+      "domain": "code",
+      "task": "feature-hard-fallback_signers_and_switch",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 29,
+      "domain": "code",
+      "task": "feature-medium-etag_header_for_static",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 29,
+      "domain": "code",
+      "task": "feature-medium-etag_header_for_static",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 30,
+      "domain": "web",
+      "task": "review-card-queue-persistence-L4-063",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 30,
+      "domain": "web",
+      "task": "review-card-queue-persistence-L4-063",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 31,
+      "domain": "office",
+      "task": "rule-based-stock-exclusion-L4-011",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 31,
+      "domain": "office",
+      "task": "rule-based-stock-exclusion-L4-011",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 32,
+      "domain": "office",
+      "task": "procurement-reconcile-L3-015",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 32,
+      "domain": "office",
+      "task": "procurement-reconcile-L3-015",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 33,
+      "domain": "sec",
+      "task": "windows-dll-sideload-investigation",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 33,
+      "domain": "sec",
+      "task": "windows-dll-sideload-investigation",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 34,
+      "domain": "code",
+      "task": "testing-medium-format_errors",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 34,
+      "domain": "code",
+      "task": "testing-medium-format_errors",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 35,
+      "domain": "web",
+      "task": "release-readiness-review-L4-019",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 35,
+      "domain": "web",
+      "task": "release-readiness-review-L4-019",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 36,
+      "domain": "code",
+      "task": "python_port-medium-blog_tags",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 36,
+      "domain": "code",
+      "task": "python_port-medium-blog_tags",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 37,
+      "domain": "sec",
+      "task": "ntfs-ads-extractor",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 37,
+      "domain": "sec",
+      "task": "ntfs-ads-extractor",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 38,
+      "domain": "web",
+      "task": "firmware-card-interaction-tests-L3-074",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 38,
+      "domain": "web",
+      "task": "firmware-card-interaction-tests-L3-074",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 39,
+      "domain": "web",
+      "task": "file-manager-workflow-L3-044",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 39,
+      "domain": "web",
+      "task": "file-manager-workflow-L3-044",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 40,
+      "domain": "web",
+      "task": "miniprogram-source-structure-L2-041",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 40,
+      "domain": "web",
+      "task": "miniprogram-source-structure-L2-041",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 41,
+      "domain": "office",
+      "task": "health-quote-L2-003",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 41,
+      "domain": "office",
+      "task": "health-quote-L2-003",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 42,
+      "domain": "web",
+      "task": "ui-state-rebuild-L3-007",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 42,
+      "domain": "web",
+      "task": "ui-state-rebuild-L3-007",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 43,
+      "domain": "web",
+      "task": "misleading-chart-repair-L3-055",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 43,
+      "domain": "web",
+      "task": "misleading-chart-repair-L3-055",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 44,
+      "domain": "office",
+      "task": "effective-control-state-L5-036",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 44,
+      "domain": "office",
+      "task": "effective-control-state-L5-036",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 45,
+      "domain": "code",
+      "task": "feature-medium-humanize_metric_for_converting",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 45,
+      "domain": "code",
+      "task": "feature-medium-humanize_metric_for_converting",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 46,
+      "domain": "sec",
+      "task": "yara-rust-loader-family",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 46,
+      "domain": "sec",
+      "task": "yara-rust-loader-family",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 47,
+      "domain": "code",
+      "task": "model_evaluation-hard-threshold_slices",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 47,
+      "domain": "code",
+      "task": "model_evaluation-hard-threshold_slices",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 48,
+      "domain": "sec",
+      "task": "windows-dll-sideload-rule-gen",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 48,
+      "domain": "sec",
+      "task": "windows-dll-sideload-rule-gen",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 49,
+      "domain": "office",
+      "task": "recruiting-search-skill-mock-mcp-hardened",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 49,
+      "domain": "office",
+      "task": "recruiting-search-skill-mock-mcp-hardened",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 50,
+      "domain": "code",
+      "task": "tool_behavior-easy-diagnostics_and_observability",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 50,
+      "domain": "code",
+      "task": "tool_behavior-easy-diagnostics_and_observability",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 51,
+      "domain": "web",
+      "task": "cohort-retention-dashboard-L4-054",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 51,
+      "domain": "web",
+      "task": "cohort-retention-dashboard-L4-054",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 52,
+      "domain": "web",
+      "task": "blog-editor-draft-recovery-L4-059",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 52,
+      "domain": "web",
+      "task": "blog-editor-draft-recovery-L4-059",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 53,
+      "domain": "web",
+      "task": "kanban-drag-state-L3-042",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 53,
+      "domain": "web",
+      "task": "kanban-drag-state-L3-042",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 54,
+      "domain": "office",
+      "task": "crypto-backtest-chain-L4-002",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 54,
+      "domain": "office",
+      "task": "crypto-backtest-chain-L4-002",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 55,
+      "domain": "office",
+      "task": "research-factor-table-extract-L3-016",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 55,
+      "domain": "office",
+      "task": "research-factor-table-extract-L3-016",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 56,
+      "domain": "web",
+      "task": "svg-chart-diagram-refactor-L4-024",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 56,
+      "domain": "web",
+      "task": "svg-chart-diagram-refactor-L4-024",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 57,
+      "domain": "code",
+      "task": "feature_pipeline-hard-text_hashing",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 57,
+      "domain": "code",
+      "task": "feature_pipeline-hard-text_hashing",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 58,
+      "domain": "web",
+      "task": "research-homepage-visual-repair-L3-064",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 58,
+      "domain": "web",
+      "task": "research-homepage-visual-repair-L3-064",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 59,
+      "domain": "code",
+      "task": "api_contract-hard-validation_errors",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 59,
+      "domain": "code",
+      "task": "api_contract-hard-validation_errors",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 60,
+      "domain": "office",
+      "task": "service-channel-ticket-daily",
+      "arm": "native",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 60,
+      "domain": "office",
+      "task": "service-channel-ticket-daily",
+      "arm": "clm",
+      "execution_status": "completed_and_graded"
+    },
+    {
+      "position": 61,
+      "domain": "sec",
+      "task": "bb-bin-int-length-005",
+      "arm": "native",
+      "execution_status": "provider_policy_rejected_ungraded"
+    },
+    {
+      "position": 61,
+      "domain": "sec",
+      "task": "bb-bin-int-length-005",
+      "arm": "clm",
+      "execution_status": "not_started_after_policy_stop"
+    },
+    {
+      "position": 62,
+      "domain": "sec",
+      "task": "bb-bin-media-parse-008",
+      "arm": "native",
+      "execution_status": "not_started_after_policy_stop"
+    },
+    {
+      "position": 62,
+      "domain": "sec",
+      "task": "bb-bin-media-parse-008",
+      "arm": "clm",
+      "execution_status": "not_started_after_policy_stop"
+    },
+    {
+      "position": 63,
+      "domain": "sec",
+      "task": "bb-bin-parse-crash-006",
+      "arm": "native",
+      "execution_status": "not_started_after_policy_stop"
+    },
+    {
+      "position": 63,
+      "domain": "sec",
+      "task": "bb-bin-parse-crash-006",
+      "arm": "clm",
+      "execution_status": "not_started_after_policy_stop"
+    },
+    {
+      "position": 64,
+      "domain": "sec",
+      "task": "bb-bin-pdf-parse-009",
+      "arm": "native",
+      "execution_status": "not_started_after_policy_stop"
+    },
+    {
+      "position": 64,
+      "domain": "sec",
+      "task": "bb-bin-pdf-parse-009",
+      "arm": "clm",
+      "execution_status": "not_started_after_policy_stop"
+    },
+    {
+      "position": 65,
+      "domain": "sec",
+      "task": "bb-bin-dns-parse-010",
+      "arm": "native",
+      "execution_status": "not_started_after_policy_stop"
+    },
+    {
+      "position": 65,
+      "domain": "sec",
+      "task": "bb-bin-dns-parse-010",
+      "arm": "clm",
+      "execution_status": "not_started_after_policy_stop"
+    }
+  ],
+  "model_calls_added_by_this_audit": 0
+}

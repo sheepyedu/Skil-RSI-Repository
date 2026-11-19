@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-11-19T01:02:53.794933+00:00",
+  "scope": "Incomplete prefix60 checkpoint, not final65 delivery",
+  "completed_pairs": 60,
+  "completed_trials": 120,
+  "policy_rejected_ungraded": 1,
+  "not_started": 9,
+  "planned_pairs": 65,
+  "planned_trials": 130,
+  "requires_judge_review": 0,
+  "files": {
+    "prefix60-audit/summary.json": {
+      "bytes": 7262,
+      "sha256": "ce017191bd7e74a54d7b6fd9b20f9f47060872384caa71e2b508c7f48c29d0b7"
+    },
+    "prefix60-audit/paired.json": {
+      "bytes": 192327,
+      "sha256": "70ea650f8aebd3ed217652ecaaf10eb64fe4b1cd4afaca425a9b5e998498502e"
+    },
+    "prefix60-audit/official-judge-quality.json": {
+      "bytes": 84008,
+      "sha256": "d65ffb429d8f0a8c6361125f349daea73904ce01e2ef6de2a9ac9c6f130ae167"
+    },
+    "PREFIX60_REPORT.md": {
+      "bytes": 5978,
+      "sha256": "7af62db371affc5e36aebae38801eb4046a9fb852507409fe35b966b6f12cadf"
+    },
+    "PREFIX60_CONTEXT.png": {
+      "bytes": 302684,
+      "sha256": "f3d8feb619c48b8719d8e520d2382da41bc93907772c01558a408c42b6d5b551"
+    },
+    "PREFIX60_CONTEXT.pdf": {
+      "bytes": 23382,
+      "sha256": "ec71ea8a8ee94126c06585d7d37c9fc206c6b822f266143b58efad2b6084d1ea"
+    },
+    "POLICY_REFUSAL_061_01.json": {
+      "bytes": 1845,
+      "sha256": "3598151d289825dbab967e7e399d90d7d2e6e747db6e0db54d889022cf6de6d4"
+    }
+  }
+}

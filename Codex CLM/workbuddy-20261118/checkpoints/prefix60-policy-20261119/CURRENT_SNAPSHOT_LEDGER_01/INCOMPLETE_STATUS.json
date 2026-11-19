@@ -1,0 +1,112 @@
+{
+  "scope": "Incomplete prefix60 full-current checkpoint, not final65 publication",
+  "completed_and_graded": 120,
+  "provider_policy_rejected_ungraded": 1,
+  "not_started": 9,
+  "planned_trials": 130,
+  "production_gates_unchanged": true,
+  "actor_api_calls_by_this_script": 0,
+  "all_original_failures_retained": true,
+  "policy_attempt_in_ledger_once": true,
+  "usage": {
+    "attempts": 1588,
+    "usage_known": 1529,
+    "usage_unknown": 59,
+    "known_input_tokens": 113336976,
+    "known_output_tokens": 548555,
+    "by_scope_arm_purpose": [
+      {
+        "scope": "auxiliary_or_unclassified",
+        "arm": "unassigned",
+        "purpose": "actor_and_context",
+        "attempts": 2,
+        "usage_known": 2,
+        "usage_unknown": 0,
+        "known_input_tokens": 95533,
+        "known_output_tokens": 446
+      },
+      {
+        "scope": "formal",
+        "arm": "clm",
+        "purpose": "actor_and_context",
+        "attempts": 472,
+        "usage_known": 467,
+        "usage_unknown": 5,
+        "known_input_tokens": 44625286,
+        "known_output_tokens": 270662
+      },
+      {
+        "scope": "formal",
+        "arm": "clm",
+        "purpose": "judge",
+        "attempts": 258,
+        "usage_known": 250,
+        "usage_unknown": 8,
+        "known_input_tokens": 4726831,
+        "known_output_tokens": 31339
+      },
+      {
+        "scope": "formal",
+        "arm": "native",
+        "purpose": "actor_and_context",
+        "attempts": 449,
+        "usage_known": 430,
+        "usage_unknown": 19,
+        "known_input_tokens": 54660347,
+        "known_output_tokens": 183931
+      },
+      {
+        "scope": "formal",
+        "arm": "native",
+        "purpose": "judge",
+        "attempts": 276,
+        "usage_known": 264,
+        "usage_unknown": 12,
+        "known_input_tokens": 5364302,
+        "known_output_tokens": 32328
+      },
+      {
+        "scope": "pilot",
+        "arm": "clm",
+        "purpose": "actor_and_context",
+        "attempts": 35,
+        "usage_known": 34,
+        "usage_unknown": 1,
+        "known_input_tokens": 1623958,
+        "known_output_tokens": 13820
+      },
+      {
+        "scope": "pilot",
+        "arm": "clm",
+        "purpose": "judge",
+        "attempts": 8,
+        "usage_known": 8,
+        "usage_unknown": 0,
+        "known_input_tokens": 156628,
+        "known_output_tokens": 541
+      },
+      {
+        "scope": "pilot",
+        "arm": "native",
+        "purpose": "actor_and_context",
+        "attempts": 37,
+        "usage_known": 37,
+        "usage_unknown": 0,
+        "known_input_tokens": 1315237,
+        "known_output_tokens": 12997
+      },
+      {
+        "scope": "pilot",
+        "arm": "native",
+        "purpose": "judge",
+        "attempts": 51,
+        "usage_known": 37,
+        "usage_unknown": 14,
+        "known_input_tokens": 768854,
+        "known_output_tokens": 2491
+      }
+    ],
+    "scope": "Accepted, failed, pilot, capacity and judge-repair attempts; copied attempts counted once. Unknown usage is not zero cost."
+  },
+  "clm_projections_verified": 505
+}

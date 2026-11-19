@@ -1,0 +1,39 @@
+{
+  "observed_at": "2026-11-19T08:54:35.621291+08:00",
+  "scope": "Permanent provider content-policy refusal on first supplementary task; not a context limit or transient transport failure",
+  "model": "gpt-6.1-sol",
+  "position": 61,
+  "arm": "native",
+  "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+  "instruction_sha256": "44e72ad5aaeadabd30d695c310ba8dba44f84e89a5e62ccaea016910f81c2dc6",
+  "raw_request_sha256": "7e003a5f1d69badbaba7a0ee008106941ad237caf0334367efbfd98997e6fe77",
+  "sent_request_sha256": "7e003a5f1d69badbaba7a0ee008106941ad237caf0334367efbfd98997e6fe77",
+  "response_sha256": "cc077cc3fc16229b61ade03460ccbcada07e1d1284207224a4639e6a4144ebb8",
+  "provider_status": 200,
+  "client_status": 502,
+  "terminal_sse": "response.failed",
+  "error": {
+    "code": "cyber_policy",
+    "message": "The request was rejected by a content policy.（请求参数错误，请检查后重试）",
+    "type": "invalid_request_error"
+  },
+  "physical_api_attempts": 1,
+  "usage": "unknown; response usage null",
+  "delivered_to_cli": false,
+  "native_started_item_types": {
+    "userMessage": 1
+  },
+  "tool_actions": 0,
+  "official_score": null,
+  "successful_trials": 120,
+  "attempted_policy_rejected_trials": 1,
+  "not_started_slots": 9,
+  "planned_trials": 130,
+  "prefix60_audit": "prefix60-audit",
+  "original_failure_preserved": true,
+  "checkpoint_receipt": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-65/native/evidence/061-sec-bb-bin-int-length-005/checkpoint/receipt.json",
+  "checkpoint_receipt_sha256": "d4340a67f045e9c81a9eee26f2e42ea592ca4608e18196b7f0b77630b443cf95",
+  "resolution": "Await official provider access clarification; no retry, alternate route, prompt rewrite, context reset or permanent-error reclassification performed",
+  "user_question_pending": true,
+  "user_response": null
+}

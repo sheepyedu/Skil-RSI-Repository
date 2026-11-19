@@ -33,3 +33,6 @@ zstd -dc NATIVE_CODEX_ROLLOUTS.tar.zst | tar -xf - -C native-codex
 zstd -dc CODEX_CLM_ROLLOUTS.tar.zst | tar -xf - -C codex-clm
 ```
 
+## WorkBuddy Bench（独立实验，目标尚未完成）
+
+[原生Codex与Codex CLM串行评测](workbuddy-20261118/README.md)：冻结65题/130条；当前前60对、120条完成并评分，第61题遭服务端策略拒绝、未评分，另9槽位未启动。[完整阶段轨迹检查点](workbuddy-20261118/checkpoints/prefix60-policy-20261119/README.md)保留全部输入输出、原生会话、工具、失败恢复及评分；3.29GB分卷已双端完整校验。原有CL-Bench 100题结果与轨迹保持。

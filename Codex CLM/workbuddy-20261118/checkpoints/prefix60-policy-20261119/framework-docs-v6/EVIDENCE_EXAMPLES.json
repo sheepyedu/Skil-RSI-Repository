@@ -1,0 +1,78 @@
+{
+  "clm_edit": {
+    "receipt": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/001-sec-linux-ld-preload-investigation/wire/00010/receipt.json",
+    "receipt_sha256": "d1642038c3d1d2d89dc15ce568ff2937005d59c245c1cc21d922933977cd45e4",
+    "event": {
+      "after_input_bytes": 102601,
+      "before_input_bytes": 144706,
+      "dropped_ids": [
+        "e2229301801b4d80bd1d99dd"
+      ],
+      "edit": "accepted",
+      "editable_count": 7,
+      "raw_input_sha256": "f61892a9eee90c393887c6f48c57df4f8731faaa5e789ee98a4d9f4959e44e20",
+      "removed_items": 3,
+      "revision": 10,
+      "upstream_input_sha256": "ee685667ee035bb163f715b746455a7bd9b443a7c9f415eaaacee44e401c8e87"
+    },
+    "injected_memory": [
+      "CLM memory written by the assistant:\nFor Linux SOC SQLite triage, use delimiter output and grouped launch queries; column output can explode with encoded commands. Preserve timestamp order when delivery telemetry arrives late."
+    ],
+    "request_raw_sha256": "9a69dbf129e87e1279f810a7da373aed460a4edb531d455c83509ca9f7f32385",
+    "request_sent_sha256": "ea479626631d5a5394c2cc5278ca299452939ce123cb06275c461129c159cda5"
+  },
+  "native_compaction": {
+    "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+    "trial": "wbc-270ff58613-native-008-r03",
+    "native_event": {
+      "direction": "from_codex",
+      "data": {
+        "method": "item/completed",
+        "params": {
+          "item": {
+            "type": "contextCompaction",
+            "id": "01a1efda-f9c5-72c1-8865-845cb74f7118",
+            "startedAtMs": 1795025467845,
+            "completedAtMs": 1795025524014
+          },
+          "threadId": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+          "turnId": "01a1efd6-e19f-7c42-a1c6-d91f06f9dd31",
+          "contentTokenCount": null,
+          "completedAtMs": 1795025524014
+        },
+        "emittedAtMs": 1795025524020
+      },
+      "time_ns": 1795025524020525152
+    },
+    "boundary": [
+      {
+        "label": "ordinary_before",
+        "receipt": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/008-office-warranty-recovery-allocation-L5-033/wire/00009/receipt.json",
+        "path": "/v1/responses",
+        "raw_input_array_bytes": 647082,
+        "reported_input_tokens": 247200,
+        "request_raw_sha256": "062c6275b844f0209dc2ebd856b2a56910350312ab5255cfdb8c490a15e12c14",
+        "response_sha256": "76c1fae217b9739fc17eaae118fc6caf245284bff92db096b7638197bf44d143"
+      },
+      {
+        "label": "compaction_request",
+        "receipt": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/008-office-warranty-recovery-allocation-L5-033/wire/00010/receipt.json",
+        "path": "/v1/responses",
+        "raw_input_array_bytes": 654084,
+        "reported_input_tokens": 165728,
+        "request_raw_sha256": "a9b21200d52a313d614ae2bd66023496d97b3674d703a06e73860833456ab5a3",
+        "response_sha256": "5e90219a6b115e57e776c59f597c417f692b72a26b8f8e8f40c9f2e76ed42ec6"
+      },
+      {
+        "label": "ordinary_after",
+        "receipt": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/008-office-warranty-recovery-allocation-L5-033/wire/00011/receipt.json",
+        "path": "/v1/responses",
+        "raw_input_array_bytes": 89429,
+        "reported_input_tokens": 29274,
+        "request_raw_sha256": "b8088f3d6466a432827e88acd9dceb48b793c2d159200fc8fed7fbf41c44af67",
+        "response_sha256": "c55a40bad423e604075c69992202b29e3fc4e7eaf9e0fc7c9cc92b307136284a"
+      }
+    ],
+    "scope": "One completed task-008 native trial, adjacent ordinary requests around the compaction request"
+  }
+}

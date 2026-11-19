@@ -1,0 +1,2190 @@
+[
+  {
+    "position": 1,
+    "domain": "sec",
+    "arm": "native",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 1,
+    "domain": "sec",
+    "arm": "clm",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 2,
+    "domain": "web",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-bbd86ae039-native-002/verifier/score.json",
+        "sha256": "cd2f42e919d7794e4d56fac1e66d11dc1751f9fabaa8c733d9db83a2e8c144b7"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-bbd86ae039-native-002/verifier/raw_reward.json",
+        "sha256": "653c9088b3f0e9bdc4055597159a0ce8b59982bc500b5dc3cb9cf5d9d7c2a324"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-bbd86ae039-native-002/verifier/evidence/eval-report.json",
+        "sha256": "37a27f95637ab70decdc9144e1170537470cd6d1aa51ecef49b1c55f35cf20ee"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 2,
+    "domain": "web",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-bbd86ae039-clm-002/verifier/score.json",
+        "sha256": "a9fbc198ca9348d29fae0de313798c1293f79f2df15813b3ae31521dff5890d3"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-bbd86ae039-clm-002/verifier/raw_reward.json",
+        "sha256": "f31ab3ac09fff558b8e50d1121693be15ac38971ceecca36df335cc40c5b21b0"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-bbd86ae039-clm-002/verifier/evidence/eval-report.json",
+        "sha256": "37f6728caa8e3ec8ea74040e763f6c4d11300e9441e6cbd1776a1090d4d014c0"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 3,
+    "domain": "web",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/judge-repairs/003-native-r01/verifier/score.json",
+        "sha256": "88f4ed6b87cbef513291622201f5a6d73947519e2fd2652779f142b81bb7c2b8"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/judge-repairs/003-native-r01/verifier/raw_reward.json",
+        "sha256": "4c6583da4b69efabe370412c3cca6ccd6ddc2e85f4c6214154d44e3726c1be70"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/judge-repairs/003-native-r01/verifier/evidence/eval-report.json",
+        "sha256": "41dbec415b19c2ad3c77548eb2f32b9533650d782499e8307da7c285c43680f3"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [
+      {
+        "location": "score.json.score.diagnostics.eval_report.dimensions._penalty.items[6]",
+        "item_id": "per_permission_walkthrough_complete",
+        "field": "llm_retry_error",
+        "value": "RemoteDisconnected: Remote end closed connection without response",
+        "resolution": "Complete final JSON verdict after retry"
+      }
+    ],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 3,
+    "domain": "web",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-2bc914c67b-clm-003/verifier/score.json",
+        "sha256": "895e84964570b85919fbeb508bdd417478dffbe1daf354ed53809368d72e09b4"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-2bc914c67b-clm-003/verifier/raw_reward.json",
+        "sha256": "5dbbb2cdfd3d9b9ab93a925de94dfa9af815830b273f56b61bcfbdf5fc2597fb"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-2bc914c67b-clm-003/verifier/evidence/eval-report.json",
+        "sha256": "ce57f739f07c2d692d2be376975cc0476fdd699d68c1e40679decb128765eedf"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 4,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/evidence/004-code-refactor-medium-config_validation_errors/regrade/verifier/score.json",
+        "sha256": "0490ba0bdbb0b8fb40dcd676c7e8a453ce5b7173b5a29167e6891b9ba4d136ae"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 4,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/evidence/004-code-refactor-medium-config_validation_errors/regrade/verifier/score.json",
+        "sha256": "99551f2e90f995d6f0fa4ddae1c731810a03d43b98ca3f2fece325b95d84feea"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 5,
+    "domain": "web",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-2bc914c67b-native-005/verifier/score.json",
+        "sha256": "eb73d80f8036beb8e9c6ce6503b91094dbe15553a40f96f72693b10c6e57e1de"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-2bc914c67b-native-005/verifier/raw_reward.json",
+        "sha256": "22fb561f4bc3bb91663db64157a6a6494827208fb433bddb811e162d3ff2df79"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-2bc914c67b-native-005/verifier/evidence/eval-report.json",
+        "sha256": "04ef27a1c4d0e433ae1e0c8da7569305250e23a92bc5d502f15804723ce1fc5e"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 5,
+    "domain": "web",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-072922d05d-clm-005/verifier/score.json",
+        "sha256": "d138cf88fbccafb3326593ad89678bd4ee0a00916c3793505bababdb8607615d"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-072922d05d-clm-005/verifier/raw_reward.json",
+        "sha256": "7e80dc1c29a7984e953d01e182f0531caee80be85e8a6181f33c88e5e8a564b2"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-072922d05d-clm-005/verifier/evidence/eval-report.json",
+        "sha256": "2fbc2e8f923ebe0937a54b548834c5e8c60de4a1c021be2546e859fe0951ffcc"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 6,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-270ff58613-native-006/verifier/score.json",
+        "sha256": "41c1771863b952fd8e096fa9c3820fbc8e10499e032349e4e2b9d329b1717378"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 6,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-270ff58613-clm-006/verifier/score.json",
+        "sha256": "9c28cf3b83e00117e4d2b15d2835cc5f31d935ef752af09dfe4f3b86cae2e981"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 7,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-270ff58613-native-007/verifier/score.json",
+        "sha256": "0d0204027b2a721368bcd663160d84e3f72781f8d222298b69f20467d8e76e51"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 7,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-270ff58613-clm-007/verifier/score.json",
+        "sha256": "d2e5f04eb0ac4384a307a58589f307ba9479e0068fc26a500a67efb4299c73e4"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 8,
+    "domain": "office",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-270ff58613-native-008-r03/verifier/score.json",
+        "sha256": "4405a654d9b190b72f8b9df3079cb282570251f651c133935346dcfe2032aee7"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 8,
+    "domain": "office",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-270ff58613-clm-008/verifier/score.json",
+        "sha256": "959e5cbbce69ffa6b4ff5734bb61679f176ce57d7a270f974b5b89b0fc478667"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 9,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-009/verifier/score.json",
+        "sha256": "d66da6ae2dc263880ee39103896fd8ec878069375772dd270627b55e9720e36a"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 9,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-009/verifier/score.json",
+        "sha256": "6256f8cb9907924b7617a84a33420d1662c68e26cc45d024414608f2b0647c2a"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 10,
+    "domain": "web",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-010/verifier/score.json",
+        "sha256": "9bee42fd489fa0fe6d2adc9177d3817d8ba601d9ecb51e6815efa1d52fd9223f"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-010/verifier/raw_reward.json",
+        "sha256": "cdac3b06eaa2b2ab0fe42e0d93541e51662b62c52ad6378f8e556d588057f16a"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-010/verifier/evidence/eval-report.json",
+        "sha256": "edf13b532ad55535027a4486ccb9cade5a4d60416c25f1d0f270aad67ce88621"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 10,
+    "domain": "web",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-010/verifier/score.json",
+        "sha256": "97ae635aae3527ee66288f4f09e6e46b834928fc3709695697ca08ad91196913"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-010/verifier/raw_reward.json",
+        "sha256": "a2743c7a0008de2cc2847aede2770d6584aa758ef565aaaf8035eba597c123ca"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-010/verifier/evidence/eval-report.json",
+        "sha256": "4c5aa375a51172fc1603c46fea58782659371253901e53fe017c3b159176635a"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 11,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-011/verifier/score.json",
+        "sha256": "2550d375abbd10c447ce4f5385df243014ba572c8ad92ea6a6886a35cf6c4220"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 11,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-011/verifier/score.json",
+        "sha256": "c0647c183ad525d2ca9d3d40ab5ad692747397e56e9681e2dceaf84e0382537f"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 12,
+    "domain": "web",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-012/verifier/score.json",
+        "sha256": "86d86bcab2288639236b9237a833441a79ef25593d2e53d2b8efd87b4fe0f65e"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-012/verifier/raw_reward.json",
+        "sha256": "30022cf0aa48ba2db37a68e0355c5d55f0219366e3709fffcba82c7959b1a4ba"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-012/verifier/evidence/eval-report.json",
+        "sha256": "91223470b15c78cfc24d7cd4d000f74bb6401c0aba40fd16b39c03780a1ad89c"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 12,
+    "domain": "web",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-012/verifier/score.json",
+        "sha256": "e9a456181cc43cbcc6fe3cdaf982b414df4001c14f1d0cfb44e10c4d089acd4e"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-012/verifier/raw_reward.json",
+        "sha256": "c8bb8f77e7b8a6fd911a22e36e2fdb87b28f7caa0d9fba279ecb9ec43d926bca"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-012/verifier/evidence/eval-report.json",
+        "sha256": "2deedfd24880d318d0e3ec7faf80453778f7b016c880f4352b79dc0805160653"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 13,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-013/verifier/score.json",
+        "sha256": "8fd9b1fd41b7ba32fa52168c960e5fba677239baf31898a88fc5477f35167b31"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 13,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-013/verifier/score.json",
+        "sha256": "ffcf1a83db3761f2502ecd40d598a80b71bd4a6146962298c074f54c54cde076"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 14,
+    "domain": "sec",
+    "arm": "native",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 14,
+    "domain": "sec",
+    "arm": "clm",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 15,
+    "domain": "office",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-015/verifier/score.json",
+        "sha256": "3dc0be71a0863b70d0179c115bd33040e2a81bfacee3e33f768d6e03e49bc817"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 15,
+    "domain": "office",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-015/verifier/score.json",
+        "sha256": "1e2282dd8ff16ade80b49a5cc8de9be063ded90dd57db2994cee8857b7669a4c"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 16,
+    "domain": "sec",
+    "arm": "native",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 16,
+    "domain": "sec",
+    "arm": "clm",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 17,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-017/verifier/score.json",
+        "sha256": "52fb86f2989edc18e518181669a8ebfa07c9255095f0bc55ca79f12d5449653c"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 17,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-017/verifier/score.json",
+        "sha256": "66d97d4c0a54e4c127b28491b92b728aa4d0ea9a705da030da73f9a040dc31f8"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 18,
+    "domain": "sec",
+    "arm": "native",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 18,
+    "domain": "sec",
+    "arm": "clm",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 19,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-019/verifier/score.json",
+        "sha256": "e7eef33263adc4dd20e867a7505fb9d46e2a7ecfbeaf69e90c01b42e31d7ee5e"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 19,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-019/verifier/score.json",
+        "sha256": "769a94a971ddcc234340dafc7423f3e4826b52d61a8bc3836254ac881339f497"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 20,
+    "domain": "office",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-020/verifier/score.json",
+        "sha256": "8b572934f0ab1bd4580ec12725233c1eb40c0a31e6d56aa5ae01aa5ee7520dc7"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 20,
+    "domain": "office",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-020/verifier/score.json",
+        "sha256": "809d29de2eba5a0d60ff789867a8fa8390f5ebc0f5759a5a9600237ee456885a"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 21,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/judge-repairs/021-native-csv-bom-01/verifier/score.json",
+        "sha256": "d064846447f1e57f731483a79bb8f4c9c6c97f795952dabdbf316a705aabda4b"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 21,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/judge-repairs/021-clm-csv-bom-01/verifier/score.json",
+        "sha256": "83427a2466c0bb94fea1fb5a3ebfc8f25c91a911cdbed16aaf1c07e32ffae2f6"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 22,
+    "domain": "office",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-022/verifier/score.json",
+        "sha256": "fae268348ba1f0ba47b84c8cd790ce7009fbca3412bdf680e2d433fae46ea017"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 22,
+    "domain": "office",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-022/verifier/score.json",
+        "sha256": "f28226caaa91d0ce8b45c89cdb0b0526d47f8ce87bce03cb5e0dbe5dbc51b61b"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 23,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-023/verifier/score.json",
+        "sha256": "9052cb4259eb776602f08c29a738de3884bf64e2633c886684616e2698146c6f"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 23,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-023/verifier/score.json",
+        "sha256": "e6fae92881afd72e82add5d1a5aa304bad43ac6f9f7c8523ecc0aaee431774fe"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 24,
+    "domain": "sec",
+    "arm": "native",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 24,
+    "domain": "sec",
+    "arm": "clm",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 25,
+    "domain": "web",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-025/verifier/score.json",
+        "sha256": "7e285b47d9e3eee80731f000a4bbb38cbbc6c6b1d90e063b68c9390c53872d8b"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-025/verifier/raw_reward.json",
+        "sha256": "83d2dd64e234c76025ca329c4c3b30a758e8ff84b0c5c97d8045ae921406a819"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-025/verifier/evidence/eval-report.json",
+        "sha256": "b63a7944dff8c15e7e88297f901e426421e3bcbde68326ea9538a61e58404087"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 25,
+    "domain": "web",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-025/verifier/score.json",
+        "sha256": "3535d1669fa3cd313f05875374d4e3e864327e8a758dd4cebd40532c1840232c"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-025/verifier/raw_reward.json",
+        "sha256": "750959f117b11199e42bd861429cf3fab2bcc0e31c0025cb71fdd20654ca412c"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-025/verifier/evidence/eval-report.json",
+        "sha256": "02f423602d386c9262f3474373d5661b051dcfad3175c829a7d38a4f156ba06f"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 26,
+    "domain": "sec",
+    "arm": "native",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 26,
+    "domain": "sec",
+    "arm": "clm",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 27,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-027/verifier/score.json",
+        "sha256": "1935862983174325b61b549e25d792c4155a14887702b9d4442919ca1fc8cad8"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 27,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-027/verifier/score.json",
+        "sha256": "f2e15b7514aee06a22fdb0560e5e3df1f949aaa6ef26067f42d41c8e860a2733"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 28,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-028/verifier/score.json",
+        "sha256": "e492348897243d613184bf843d5be60f25f0d0e7b6439b1b9b82ac2192d35db3"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 28,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-028/verifier/score.json",
+        "sha256": "51ac39788bbab624a25e0d19d57092f827bee959c186a3b84cc61cba949ddcb5"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 29,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-029/verifier/score.json",
+        "sha256": "38efc12bdd861dc11b85616d77e57abf7a4be4c62487861b8cd188dc14c7d92a"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 29,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-029/verifier/score.json",
+        "sha256": "653d7355fb700bf7cd6447fc1c7b652f41507517ec99291cd84028ac2abeb5cb"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 30,
+    "domain": "web",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/judge-repairs/030-native-cbc-03/verifier/score.json",
+        "sha256": "2ccd4fcfd86970339f5c8424bf4c69b398b5ca7de025675388f674772bfcb618"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/judge-repairs/030-native-cbc-03/verifier/raw_reward.json",
+        "sha256": "cf9765c509cb31f4c512ed1a9fa9e8e1c9fe68c24212ba943e9b24289bbb46cd"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/judge-repairs/030-native-cbc-03/verifier/evidence/eval-report.json",
+        "sha256": "87fc14d49fc9447b2902ea3a6eccef3d6d752aad77166876ac6a42cddaad9dbc"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 30,
+    "domain": "web",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/judge-repairs/030-clm-cbc-02/verifier/score.json",
+        "sha256": "74df720fca31b928eae1ae425872d487ebea47f7cc0b5ab87bb4434378442403"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/judge-repairs/030-clm-cbc-02/verifier/raw_reward.json",
+        "sha256": "a2a47c04f0a1f7fb462306b229e49e2890d410f0e4a5474f1389915e3a8df8ae"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/judge-repairs/030-clm-cbc-02/verifier/evidence/eval-report.json",
+        "sha256": "b511ade13250fa9e29fbcb6792f54eb7a046cb9a127f6c0b72ddcb12a75938ed"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 31,
+    "domain": "office",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-031/verifier/score.json",
+        "sha256": "75b2b5d71d7127ec765a30ab88491dad2511c9617861b93b8b7c30bc071e455f"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 31,
+    "domain": "office",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-031/verifier/score.json",
+        "sha256": "542ae0b6f5951a7d633713895a9ff8411c0a2117213a05e727061fa66682fe2b"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 32,
+    "domain": "office",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-032/verifier/score.json",
+        "sha256": "6611d3a44f47a8f4678a83d211684243785cfaa757d2c0e54708465fdb9d3470"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 32,
+    "domain": "office",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-032/verifier/score.json",
+        "sha256": "7f710300f6d5ae5d05e65f54276e8ef3d21a851663f2c2dfdbf78dfe14bedf5f"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 33,
+    "domain": "sec",
+    "arm": "native",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 33,
+    "domain": "sec",
+    "arm": "clm",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 34,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-034/verifier/score.json",
+        "sha256": "fece5634b7ce6d980f6e6ee89577270787ac0f3321d7cf6b33181a7770213e4a"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 34,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-034/verifier/score.json",
+        "sha256": "06f7a8da58a92e8041fc5a8c360989f4dedc70c5f96f4efea96c81575a056f45"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 35,
+    "domain": "web",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-035/verifier/score.json",
+        "sha256": "a3f13a2a1d09f52a3908f46d64b0a214b461e29ef14221f42c94b81db99c20f0"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-035/verifier/raw_reward.json",
+        "sha256": "c99867b57af9f9080c2fea688774bca52cc49797eac728d6317ea95c0d93fe38"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-035/verifier/evidence/eval-report.json",
+        "sha256": "4d6e0a24d15cb26aa40a83649cb7d68739ea40b32e09849b08b07a39c3b07d73"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 35,
+    "domain": "web",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-035/verifier/score.json",
+        "sha256": "81aff73a4a957afea243d135b972ad2566e6b8b35fd003eeba71ab8b3da41af8"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-035/verifier/raw_reward.json",
+        "sha256": "2dfecf162a64612f5fc7817ee974e9b145fb61ad7327276b741ab2577e086c9e"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-035/verifier/evidence/eval-report.json",
+        "sha256": "21a36977cd35a9462f6c6bb139f8f4ebc010b53c0c2e03983eec307891a10e74"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 36,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-036/verifier/score.json",
+        "sha256": "069019fe44467e9721b4fa0de6455255ecb628de3e18bf66b22d24488f7934d6"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 36,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-036/verifier/score.json",
+        "sha256": "6e084f782f03c95f4f51759d2dc05a84f920a336825ddc822676224bcca67d76"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 37,
+    "domain": "sec",
+    "arm": "native",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 37,
+    "domain": "sec",
+    "arm": "clm",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 38,
+    "domain": "web",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-038/verifier/score.json",
+        "sha256": "f50d2f0a4fadfe9c3396fe87148bcaa599a1afd0559d3cf7b4809f6fb149550b"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-038/verifier/raw_reward.json",
+        "sha256": "7b7dee93bc5134cb4e559bb2e4b9f208bfba18f3312714d3004c4fcee25151c4"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-038/verifier/evidence/eval-report.json",
+        "sha256": "6eb1d0acc4cb915f5e656504ca87259622fbdcb564330ced2c42e336b39d0e1f"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 38,
+    "domain": "web",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-038/verifier/score.json",
+        "sha256": "720226b50eabea875a51de6d8746aeadbd631abca05e9d8289b1339e0cea8f94"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-038/verifier/raw_reward.json",
+        "sha256": "1e8fec25aa415b65830b73c3adde0a89fa4d876cbee0a4ede452ef47cc2fb351"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-038/verifier/evidence/eval-report.json",
+        "sha256": "789f9a6c929bd5379b98ec4ec6a9287a9909d014bbef2496daf2f9a6169c48f7"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 39,
+    "domain": "web",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-039/verifier/score.json",
+        "sha256": "37216ef7be96df20ebc92cd14373a1c6eb745f17de14248ff7f95c79362707de"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-039/verifier/raw_reward.json",
+        "sha256": "552e063884168f126d695771ebc6871634e0dd01263e74f70005e52d7e5212f4"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-039/verifier/evidence/eval-report.json",
+        "sha256": "772473411ea4dc8c18bdfcb42fd879cff69280b14b891d5473d11e5898f77a8d"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 39,
+    "domain": "web",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-039/verifier/score.json",
+        "sha256": "ee4d209aee28088ac72b97f0d61905208b618839285b402646304f5dc3447c3e"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-039/verifier/raw_reward.json",
+        "sha256": "2cb29fc6727951c071f4404c616e566c5fb161b78e9ddc0b86fc72c34f49f640"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-039/verifier/evidence/eval-report.json",
+        "sha256": "902d72e32ece8b1fa39e91ba0382132ccd504035e4002cfccbe632ef13bb5597"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 40,
+    "domain": "web",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-040/verifier/score.json",
+        "sha256": "5a1f82302c928830a61ba1266290563fa230731aaedc0deccbcfc0c37306b4e4"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-040/verifier/raw_reward.json",
+        "sha256": "a0f62c56f24c794972da025fa902f30457d135441edff63367e0ae1119be0999"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-040/verifier/evidence/eval-report.json",
+        "sha256": "290b4aad2c759cc75bb3250bef7a40cd69c58c223502f2428c7ca02b90e84787"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 40,
+    "domain": "web",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-040/verifier/score.json",
+        "sha256": "dc569b583b4f527c1405269a6d85b5dcb65c8b4d9730bb539492202673d3deaa"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-040/verifier/raw_reward.json",
+        "sha256": "e8e1d8b430ee826faf9eea6dbc1472b253f79adff0d7d227c53d26536c7953c7"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-040/verifier/evidence/eval-report.json",
+        "sha256": "9629d2f0ff48ff049ec14831a321d2ccfe5bb787acafe64e6742f3347926d9af"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 41,
+    "domain": "office",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-041/verifier/score.json",
+        "sha256": "417e5141eba7fb27459f6d29b8ada69d00c0f564829d47e459d4944473b2ecd2"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 41,
+    "domain": "office",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-041/verifier/score.json",
+        "sha256": "52516b5ae335574af4257ef7a77f12ce1ac61ac29338bff6e875048ebd03c9f4"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 42,
+    "domain": "web",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-042/verifier/score.json",
+        "sha256": "0136750423e80e162c02a179ac4e5f2dc4b2d35941298f23beeb75026052179e"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-042/verifier/raw_reward.json",
+        "sha256": "74022bbd5f3a83de72b83fcb616ca37fad9c4b77f71de80e93128822f7c9fc8d"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-042/verifier/evidence/eval-report.json",
+        "sha256": "1d882f4f5594fb964d4c9c4e76756d9412a8c23d48353806202f09cc30b94562"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 42,
+    "domain": "web",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-042/verifier/score.json",
+        "sha256": "c198d90a7a1ee643d719c08a004a7e1dc7afdb59c2f9809cae62e4b226dc3aad"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-042/verifier/raw_reward.json",
+        "sha256": "8e6c81ef4adcfff3ed723fd997cb52092143c9c3ae3086f81e5a696f884e1cc6"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-042/verifier/evidence/eval-report.json",
+        "sha256": "ab2d9035d89153f62955312d1c0a4e26a65cdc3f328d3639d11cbe2d1e5efa02"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 43,
+    "domain": "web",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-043/verifier/score.json",
+        "sha256": "090bc16827da7bbd6072650a8cf272cf074a3a5cce9ae89deaa8eb6c73779a3d"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-043/verifier/raw_reward.json",
+        "sha256": "0a58012f457d5cd7947437276df0dfbc325cfd7f28176d138ff2615e7fad1a30"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-043/verifier/evidence/eval-report.json",
+        "sha256": "29125a496bfc4c59c8c5043230aa9a51aad716dbacf364368417e1a1907bb451"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 43,
+    "domain": "web",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-043/verifier/score.json",
+        "sha256": "5794ee082ad5d0fc35634e0a04c4874f45f521a25b1c06085e643775408611c0"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-043/verifier/raw_reward.json",
+        "sha256": "1374c070217feeefd2152c0d84c9785e29217f9fcb9c03547fdc60298fb7f325"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-043/verifier/evidence/eval-report.json",
+        "sha256": "45783da90af76bdb62d0a5b4ad16f667d759085c216094677a85f17fed354e4f"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 44,
+    "domain": "office",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-044/verifier/score.json",
+        "sha256": "e2d442e54e112b5f4ada1b541690ab0fb838202b037619ea28666c9dbc64f6a7"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 44,
+    "domain": "office",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-044/verifier/score.json",
+        "sha256": "2952099c39ac12904da003d9cc9a1e4ef329fe4664b11ff0b979750278d67424"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 45,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-045/verifier/score.json",
+        "sha256": "6cdd0f037ebc549fa2413d7719b85d0ecc3679c9007fd967be423a3afd853648"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 45,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-045/verifier/score.json",
+        "sha256": "a52acc3d04dbeb9188ba2573407bb56861bb6a55b6589b96857f773298cfa648"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 46,
+    "domain": "sec",
+    "arm": "native",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 46,
+    "domain": "sec",
+    "arm": "clm",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 47,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-047/verifier/score.json",
+        "sha256": "33282fa8b3709ed380be199b07b41addc1d13dddb0c4251154a74ffb5e8a1e7e"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 47,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-047/verifier/score.json",
+        "sha256": "b4df6459035483262d1289d09c11bb248955107222b3ce098537329176bb2faa"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 48,
+    "domain": "sec",
+    "arm": "native",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 48,
+    "domain": "sec",
+    "arm": "clm",
+    "metadata_files": [],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 49,
+    "domain": "office",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/judge-repairs/049-native-type-guard-01/verifier/score.json",
+        "sha256": "44c2a2d65a830b031470d877ea6ce9c2414c29ff20d27660db2038124292b572"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 49,
+    "domain": "office",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/judge-repairs/049-clm-type-guard-01/verifier/score.json",
+        "sha256": "2f97738826c58167c86ee414e79a82afe3f165cfea9b03faa8d6b35367acfaba"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 50,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-050/verifier/score.json",
+        "sha256": "031f82c72822d578d02b6ad0c51caef938e46416644c4755619c6a6d0b37552d"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 50,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-050/verifier/score.json",
+        "sha256": "5916349b6a90c4017db8c70192c7f04a1e45f66ddf8c776f3c2cc3f6d9e84c38"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 51,
+    "domain": "web",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-051/verifier/score.json",
+        "sha256": "ba374e0b7f0017dc533d15163c513cc2549a44ba6d529f09d154279452e8e755"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-051/verifier/raw_reward.json",
+        "sha256": "5b7312a9afbfdef211404c4e788bae328f86c2f2fdf8605c70a6e10c2d19674e"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-051/verifier/evidence/eval-report.json",
+        "sha256": "2756fc80c00552f97628bdd76f7fecb35dfbb8b8cd0714d95aa9a2f8073aed7e"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 51,
+    "domain": "web",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-051/verifier/score.json",
+        "sha256": "d6acec159c02f19958be687e570393904cdb47c5ba29f631f841c106f97452eb"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-051/verifier/raw_reward.json",
+        "sha256": "86af455880d3fd701aba79116623d67cb3735d800a9ffb19121561264f56e940"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-051/verifier/evidence/eval-report.json",
+        "sha256": "210c0ebb702a33a14a9bb78577ee8311116eb577063413c4d689679cc1a6470e"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 52,
+    "domain": "web",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-052/verifier/score.json",
+        "sha256": "84f3f7feb083c771150a2adbe58abc205124b23f2e7991d51b5d42f807d4a69b"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-052/verifier/raw_reward.json",
+        "sha256": "04dbc5bf11fcb897c824040bc447ad451aded688b6b30d79a54f16c817417e97"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-052/verifier/evidence/eval-report.json",
+        "sha256": "ebe9e322e7a0bf3b24f1fa52da7065b264fc28c0ad46bf67270ce93eba5f9192"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 52,
+    "domain": "web",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-052/verifier/score.json",
+        "sha256": "f2add193a040af91b42b441a16de24073e04dc56263dd13951b3d228c5dd6746"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-052/verifier/raw_reward.json",
+        "sha256": "1e5d9512263f2f7e87badb79fa718cd85452b760e8d4657f2f90f37bd02f28f7"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-052/verifier/evidence/eval-report.json",
+        "sha256": "e6975765fc3932c00a5a9db9c456ad5bb23696f597d09ae0840d20fd4ecd2e99"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 53,
+    "domain": "web",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-053/verifier/score.json",
+        "sha256": "3ba3b25d8a937fbdbf778c2b3c963a98ff465bca1501ef96ddc3d528fe752599"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-053/verifier/raw_reward.json",
+        "sha256": "67253d69f2bf76bfca60527be336d8511a78bdae892322a89464aec21d1a00c5"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-053/verifier/evidence/eval-report.json",
+        "sha256": "62e561b33ee1e9130ce9155364992f7eb2427a8a018ebcbbe3df45497138d236"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 53,
+    "domain": "web",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-053/verifier/score.json",
+        "sha256": "12b14af4175753f8ecae00e243d5b60adfb1cbbd11f540ee7c2314e8b3c9c530"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-053/verifier/raw_reward.json",
+        "sha256": "43e8d5e88dcb2d3cf788f8a573608035826dc98570da56f13f82951f886409d6"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-053/verifier/evidence/eval-report.json",
+        "sha256": "dfa1cd44baa528ec59bc6e3528cfafc986398876c40bfbe779c0090575fcaaa7"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 54,
+    "domain": "office",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-054/verifier/score.json",
+        "sha256": "9084fbe04b8efd028afa3593335606d496cbd3a2f08a366aabb1b7881ea4c0de"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 54,
+    "domain": "office",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-054/verifier/score.json",
+        "sha256": "a8f93c6e02516b5d8f97c3a0342734f9aba8aba1679a7556968d9194b65f5624"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 55,
+    "domain": "office",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-055/verifier/score.json",
+        "sha256": "6731e6cc8c786100a8bfac3104457da2017e7f8eb9a3476a135afe96b7553b69"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 55,
+    "domain": "office",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-055/verifier/score.json",
+        "sha256": "f51e9c7d102b5a4ba0b37bbf0fe4abb14b15292340e820dbde67dd40c8344998"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 56,
+    "domain": "web",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-056/verifier/score.json",
+        "sha256": "c41b7f4491f1237f8516858adf90ec7c321687686b28d48a703cd695350815a4"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-056/verifier/raw_reward.json",
+        "sha256": "5ef3fd2cf0ea9676987d1c38c5116ad34de81ba262d3629488f93618537099c8"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-056/verifier/evidence/eval-report.json",
+        "sha256": "c8bbc345d454ad67dc96b19df4ad84891e4d1c920b7c8094d90a546893be45fd"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 56,
+    "domain": "web",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-056/verifier/score.json",
+        "sha256": "e60c7cfe7adc01ed482012aa2cb92d5b34c02467dd834567b0bc05999193488f"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-056/verifier/raw_reward.json",
+        "sha256": "8179db0f453feda5e7ca070b4b44ccdf04e6c1cc02f371b604075fdb28dea0a7"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-056/verifier/evidence/eval-report.json",
+        "sha256": "31dc5e81a9fa771e9de9801b749800dc4f0801247b0557fb4253ef6ef0c79521"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 57,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-057/verifier/score.json",
+        "sha256": "2ba6e1f09ada356c96d6b5e5aa1b57b7eaa87a58bcf7ffa839d77ffede649534"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 57,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-057/verifier/score.json",
+        "sha256": "fcb01abea51dc13470168d651d989d24e7c9d5bf7fb3a5f5da865c16f008ff72"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 58,
+    "domain": "web",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-058/verifier/score.json",
+        "sha256": "b1265d6fbc88124191a5c34f9f4a616559cac0ca88b41fceb303b634a26f00f8"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-058/verifier/raw_reward.json",
+        "sha256": "4c8183a51c9c344a38998eb6e10d2c8c6e092dbde4643df49f27f905936bfda3"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-058/verifier/evidence/eval-report.json",
+        "sha256": "001d5b4daa6e46acb48b8ad6a120d913027be3a272dcc941c0618f25f4f1c431"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 58,
+    "domain": "web",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-058/verifier/score.json",
+        "sha256": "7c848e7933b0895e9ab4b640f83ea0e5334f6e8b5ad062e0891577e168e92065"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-058/verifier/raw_reward.json",
+        "sha256": "778adc386ce0e4e517dfbc90175edd4dbe0428d7f02ba643083b96395750640f"
+      },
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-058/verifier/evidence/eval-report.json",
+        "sha256": "f849b634655c5b0d83f6d336589e89b4f49b1c8fb87d08371bf43b07b79ea697"
+      }
+    ],
+    "reported_judge_models": [
+      "gpt-6.1-sol"
+    ],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 59,
+    "domain": "code",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-059/verifier/score.json",
+        "sha256": "f2ed5eab79d977b26e1667fc2c5d70c7b8e37f5097934ad2a9af22279c5c4ecd"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 59,
+    "domain": "code",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-059/verifier/score.json",
+        "sha256": "98e38f08aabbe3d34bc2772683e59141c8a5409194e2f6f88ac345b140cac869"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 60,
+    "domain": "office",
+    "arm": "native",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-060/verifier/score.json",
+        "sha256": "98af16e12c2c0f310825e0d625f501ef2afcd8e2020bca8c3e79610aad09bfcb"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  },
+  {
+    "position": 60,
+    "domain": "office",
+    "arm": "clm",
+    "metadata_files": [
+      {
+        "path": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-060/verifier/score.json",
+        "sha256": "ff0f79ff9dd116dfc1647a94031f476c9b243004b260ef275e3db90dfc52b08f"
+      }
+    ],
+    "reported_judge_models": [],
+    "technical_findings": [],
+    "recovered_retry_findings": [],
+    "requires_review": false,
+    "scope": "Official technical fields only; semantic failures and low scores remain model results."
+  }
+]

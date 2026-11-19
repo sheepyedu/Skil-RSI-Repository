@@ -1,0 +1,22 @@
+{
+  "kind": "incomplete_checkpoint",
+  "planned_pairs": 65,
+  "planned_trials": 130,
+  "completed_pairs": 60,
+  "completed_and_graded": 120,
+  "provider_policy_rejected_ungraded": 1,
+  "not_started": 9,
+  "model": "gpt-6.1-sol",
+  "cli": "0.169.0",
+  "reasoning_effort": "low",
+  "final65_complete": false,
+  "scope_change": false,
+  "production65_gates_unchanged": true,
+  "all_original_failures_retained": true,
+  "archive_sha256": "40667201f924a9306bd86053a70a1ad0b117d5e6e988b9d3500bd59fdcc502fe",
+  "source_local_commit": "0d25f1f58cf0195b2a023df844e40caaa7e33a4b",
+  "source_github_commit": "5ba71c1dba156bab19f7bcc4cbd802e0755ca7bb",
+  "source_tree": "0aa61b2e029dad62278c09cf4c17ced7a8cf066e",
+  "next_action": "Resolve official provider access restriction before any continuation of the frozen task61; no bypass",
+  "formal_full65_review_submitted": false
+}

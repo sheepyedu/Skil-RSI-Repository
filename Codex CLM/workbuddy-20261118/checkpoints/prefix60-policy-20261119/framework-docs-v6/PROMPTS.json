@@ -1,0 +1,33 @@
+{
+  "P1": {
+    "arms": [
+      "native",
+      "clm"
+    ],
+    "role": "user",
+    "source": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/source-transport-v4/benchmarks/workbuddy/native_turn.py",
+    "line": 187,
+    "source_sha256": "31d7855d946606be5592ce3b2dad629e136e2c4a8c1a4e10ef34bedd6c2e430e",
+    "text": "[{marker}] This turn is a new WorkBuddy Benchmark task. Use the fresh official task files in {cwd}, follow the task's output paths, and use earlier conversation and /serial-home/notes for applicable reusable knowledge.\n\n{official_instruction}"
+  },
+  "P2": {
+    "arms": [
+      "clm"
+    ],
+    "role": "developer_instructions",
+    "source": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/source-transport-v4/benchmarks/workbuddy/native_turn.py",
+    "line": 130,
+    "source_sha256": "31d7855d946606be5592ce3b2dad629e136e2c4a8c1a4e10ef34bedd6c2e430e",
+    "text": "You are in a continuing benchmark session. Use the clm-context tool to manage context. Run clm-context status to view editable completed tool exchanges and clm-context show ID to inspect one. Submit clm-context edit --drop ID [ID ...] --note 'short reusable memory' when old tool exchanges are no longer needed. Use clm-context status after applying an edit to check acceptance. Keep only reusable knowledge in /serial-home/notes and use exact source files as needed. The active task and its instructions remain authoritative."
+  },
+  "P3": {
+    "arms": [
+      "clm"
+    ],
+    "role": "first_user_additional_input_text",
+    "source": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/source-transport-v4/clm/context.py",
+    "line": 100,
+    "source_sha256": "1ce1762f6feac46d76c25aa505ca4ace392b63a42452e5e69e8bfe95af2a4d24",
+    "text": "CLM memory written by the assistant:\n{assistant_note}"
+  }
+}

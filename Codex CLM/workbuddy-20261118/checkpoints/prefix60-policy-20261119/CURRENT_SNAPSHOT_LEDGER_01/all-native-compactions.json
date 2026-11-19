@@ -1,0 +1,92 @@
+[
+  {
+    "thread": "01a1ef19-5c3f-7670-9c92-75fbe6f77b09",
+    "item_id": "01a1ef38-2c00-7711-9326-d822e19cc4a0",
+    "time_ns": 1795014819520246206,
+    "evidence": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/capacity-probe/logs/native.jsonl",
+    "marker": null,
+    "arm": null,
+    "protective": false
+  },
+  {
+    "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+    "item_id": "01a1efda-f9c5-72c1-8865-845cb74f7118",
+    "time_ns": 1795025524020525152,
+    "evidence": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-13/native/trials/wbc-270ff58613-native-008-r03/agent/native.jsonl",
+    "marker": "WB_CODEX_FORMAL_008",
+    "arm": "native",
+    "protective": false
+  },
+  {
+    "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+    "item_id": "01a1f00f-e0b9-79f1-9667-359e4612e1c6",
+    "time_ns": 1795028963061688163,
+    "evidence": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-016/agent/native.jsonl",
+    "marker": "WB_CODEX_FORMAL_016",
+    "arm": "clm",
+    "protective": true
+  },
+  {
+    "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+    "item_id": "01a1f049-9a17-7652-932a-064ca5652e1b",
+    "time_ns": 1795032741502946079,
+    "evidence": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-025/agent/native.jsonl",
+    "marker": "WB_CODEX_FORMAL_025",
+    "arm": "clm",
+    "protective": true
+  },
+  {
+    "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+    "item_id": "01a1f073-1726-7e50-812a-b6d510168ce5",
+    "time_ns": 1795035477453949661,
+    "evidence": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-030/agent/native.jsonl",
+    "marker": "WB_CODEX_FORMAL_030",
+    "arm": "clm",
+    "protective": true
+  },
+  {
+    "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+    "item_id": "01a1f07c-4cc9-7f92-b104-3a46c76dce5b",
+    "time_ns": 1795036058765731504,
+    "evidence": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-031/agent/native.jsonl",
+    "marker": "WB_CODEX_FORMAL_031",
+    "arm": "native",
+    "protective": false
+  },
+  {
+    "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+    "item_id": "01a1f0a1-cdf9-7db1-b635-c308c2f6f594",
+    "time_ns": 1795038524241007219,
+    "evidence": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-036/agent/native.jsonl",
+    "marker": "WB_CODEX_FORMAL_036",
+    "arm": "clm",
+    "protective": true
+  },
+  {
+    "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+    "item_id": "01a1f0da-b45e-7aa2-9f95-fbcc13a987c4",
+    "time_ns": 1795042249219196036,
+    "evidence": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-045/agent/native.jsonl",
+    "marker": "WB_CODEX_FORMAL_045",
+    "arm": "clm",
+    "protective": true
+  },
+  {
+    "thread": "01a1ef4f-5341-76e3-88d4-2bfc9655ff96",
+    "item_id": "01a1f0f4-1d6c-7c52-941e-d71b6d1d000a",
+    "time_ns": 1795043909818800291,
+    "evidence": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/clm/trials/wbc-000d5bfe0e-clm-050/agent/native.jsonl",
+    "marker": "WB_CODEX_FORMAL_050",
+    "arm": "clm",
+    "protective": true
+  },
+  {
+    "thread": "01a1ef4b-a2b1-7d60-9728-0039856c7099",
+    "item_id": "01a1f0ff-5999-7373-915b-bfdff3b39b9f",
+    "time_ns": 1795044651755753689,
+    "evidence": "/mount-data/Codex-CLM/experiments/workbuddy-codex-20261118/formal-14/native/trials/wbc-000d5bfe0e-native-052/agent/native.jsonl",
+    "marker": "WB_CODEX_FORMAL_052",
+    "arm": "native",
+    "protective": false
+  }
+]
