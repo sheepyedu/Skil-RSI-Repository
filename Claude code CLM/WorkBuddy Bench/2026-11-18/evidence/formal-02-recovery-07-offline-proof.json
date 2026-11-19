@@ -1,0 +1,32 @@
+{
+  "source": "formal-02-resume-06",
+  "position": 34,
+  "accepted_trials_retained": 67,
+  "plan_sha256": "514a0e3a17b59db24b3990bbff1f1fd202c0379ad8f5571880f3ddf84b4de316",
+  "archived_maintenance_request_sha256": "12b043b5eae904c7572fde7f2204cc30b1298b05ec3121e0431fed510d43b084",
+  "archived_maintenance_response_sha256": "bfb17310be70c2b639dc1ae4d14591f755f76cfc2be89c32161c630853c5c5eb",
+  "source_files_unchanged": true,
+  "next_task_dispatches": 0,
+  "new_model_requests": 0,
+  "hard_bound_rejection_verified": true,
+  "earlier_soft_budget_regression_passed": true,
+  "replay": {
+    "target_bytes": 165000,
+    "replay_limit_bytes": 285000,
+    "replay_exceeds_soft_target": true,
+    "projected_bytes": 166179,
+    "native_preview_message_bytes": 169046,
+    "preserved_benchmark_turns": 33,
+    "visible_assistant_text_verified": true,
+    "original_native_sha256": "6fe03ebfa2f8d53d1a0bab13ce4e616a03dd4d4b17943cd82c51ced4b9fec29c",
+    "projected_native_sha256": "7564868f90a38d10a55ad6972736e1b28f712ca3af738dcf1f12691299c3b785",
+    "trimmed_completed_tool_outputs": 1,
+    "additional_completed_tool_pairs": 8,
+    "archived_reasoning_blocks": 44
+  },
+  "runtime_sha256": {
+    "resume_projection.py": "83b957a9b2362dd5ee640e765fca57df5bff397ed75f64851d43eee6af0b91fd",
+    "resume_formal.py": "cf93e44fcb16d5a4a6f44c08589981bf6775df9282f75428f8e4bf68d2e94c60",
+    "launch_recovery.sh": "f47742d6047a85fae0bdb2265788db58b464ffc4f7b589c0fdf70c75ca455b26"
+  }
+}

@@ -4,6 +4,9 @@
     {"from_position": 1, "tokens": 8192},
     {"from_position": 15, "tokens": 16384}
   ],
+  "clm_replay_policy_changes": [
+    {"from_position": 34, "soft_target_bytes": 165000, "fallback_limit_bytes": 285000, "evidence": "../evidence/formal-02-recovery-07-offline-proof.json"}
+  ],
   "flags": [
     {"position": 4, "arm": "clm", "kind": "operator_cleanup", "evidence": "../evidence/task-004-background-cleanup.json"},
     {"position": 13, "arm": "native", "kind": "unclosed_final_agent_response", "evidence": "../evidence/task-013-native-transport.json"},
