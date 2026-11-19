@@ -112,3 +112,9 @@ CLM 在 17 次完整调用及成功终态后等待后台递归搜索。确认搜
 第八次恢复把触发值提前至 240,000 字节，原 165,000 字节目标及 285,000 字节保留上限继续适用。基于第 47 题真实会话的离线验证确认原生预览为 215,532 字节，且逐条保留此前 47 道题面和全部可见助手文本。恢复继续使用冻结题序和两组原会话，只重跑第 48 题 CLM。 [失败校验及离线证据](evidence/formal-02-recovery-08-offline-proof.json) · [恢复代码](src/serial-recovery-08/) · [原批次轨迹索引](evidence/retained-trajectory-inventories.json)
 
 18:50，配对前缀独立验收通过。第 48 题沿用原生 0.8532，CLM 重跑得 0.9478。重跑首个实际输入从 70,223 降至 53,848 token，全程最大输入为 141,363 token，46 次作答请求全部闭合。两组原会话、题序和 16,384 token 输出上限已核对，第 49 题已启动。 [首个真实请求与响应](evidence/task-048-resumed-clm-input.json) · [完成配对回执](evidence/task-048-recovered-pair.json)
+
+## 第 50 题两组残留后台搜索
+
+19:21，原生组发出成功终态并闭合 176 次模型请求后，仍等待容器内后台递归搜索。核对原会话、唯一试验容器及进程谱系后，只终止该搜索。随后的两次模型请求记录已出现，控制器进入原题官方评分。 [清理回执](evidence/task-050-native-background-cleanup.json)
+
+19:31，CLM 组在 48 次作答回复闭合和成功终态后出现同类等待。通过进程归属与两个管道的连接确认递归搜索、只读过滤和截取，随后仅向递归搜索发出 SIGTERM。其余管道进程自行完成，第 50 题 CLM 进入官方评分。 [清理回执](evidence/task-050-clm-background-cleanup.json) · [处理脚本](src/release_stale_search.py)

@@ -52,14 +52,30 @@ for pid, (name, parent, args) in processes.items():
             a.startswith(b'--in-place') or (re.fullmatch(rb'-[A-Za-z]+', a) and b'i' in a)
             for a in child_args[1:]
         )
+        filters = []
+        if not pipe_match and kind == 'head' and pipe.startswith('pipe:'):
+            for filter_pid, (filter_name, filter_parent, filter_args) in processes.items():
+                if (filter_name, filter_parent) != ('grep', parent) or filter_pid == pid:
+                    continue
+                if len(filter_args) != 4 or filter_args[1] != b'-vE':
+                    continue
+                base = Path(f'/proc/{filter_pid}')
+                next_pipe = os.readlink(base / 'fd/1')
+                if (
+                    base.stat().st_uid == os.getuid() and os.readlink(base / 'fd/0') == pipe
+                    and next_pipe.startswith('pipe:') and next_pipe == os.readlink(Path(f'/proc/{sibling}/fd/0'))
+                ):
+                    filters.append(filter_pid)
     except OSError:
         continue
-    if owned and pipe_match and not inplace and log.startswith('/tmp/claude-') and '/tasks/' in log and log.endswith('.output'):
-        candidates.append(pid)
+    if owned and (pipe_match or len(filters) == 1) and not inplace and log.startswith('/tmp/claude-') and '/tasks/' in log and log.endswith('.output'):
+        candidates.append((pid, 'grep|grep|head' if filters else 'grep|' + kind))
 
 if len(candidates) != 1:
     raise SystemExit('No uniquely verified stale recursive grep')
-os.kill(candidates[0], signal.SIGTERM)
+chosen, pipeline = candidates[0]
+os.kill(chosen, signal.SIGTERM)
+print(pipeline)
 """
 
 
@@ -101,10 +117,10 @@ def release(run, position, arm):
         raise ValueError("The expected benchmark environment is not unique")
     if output.read_bytes() != raw:
         raise ValueError("The CLI resumed work while checking the container")
-    subprocess.run(
+    pipeline = subprocess.check_output(
         ["docker", "exec", "-u", "dev", ids[0], "python3", "-c", CONTAINER_CHECK],
-        check=True, timeout=10,
-    )
+        text=True, timeout=10,
+    ).strip()
     record = {
         "observed_at": datetime.now(ZoneInfo("Asia/Shanghai")).isoformat(timespec="seconds"),
         "run": run.name, "position": position, "arm": arm, "project": label,
@@ -112,6 +128,7 @@ def release(run, position, arm):
         "cli_stream_sha256_at_intervention": hashlib.sha256(raw).hexdigest(),
         "ready_result_type": "success", "process_signal": "SIGTERM",
         "process_target": "one confirmed recursive grep under the trial Claude Code process",
+        "verified_pipeline": pipeline,
     }
     text = json.dumps(record, indent=2) + "\n"
     audit.write_text(text)

@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-11-19T19:31:37+08:00",
+  "run": "formal-02-resume-08",
+  "position": 50,
+  "arm": "clm",
+  "project": "050-code-tool_behavior-easy-diagnostics_and_observability__env",
+  "complete_model_requests_before_intervention": 48,
+  "cli_stream_sha256_at_intervention": "b1c484d4012e1b3dd5803f40ef2271ba6a47350fb1f4ec2d8e6626cd0bc295aa",
+  "ready_result_type": "success",
+  "process_signal": "SIGTERM",
+  "process_target": "one confirmed recursive grep under the trial Claude Code process",
+  "verified_pipeline": "grep|grep|head"
+}

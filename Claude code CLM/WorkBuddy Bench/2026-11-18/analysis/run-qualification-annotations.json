@@ -15,6 +15,8 @@
     {"position": 18, "arm": "clm", "kind": "operator_cleanup", "evidence": "../evidence/task-018-clm-background-cleanup.json"},
     {"position": 27, "arm": "clm", "kind": "operator_cleanup", "evidence": "../evidence/task-027-recovered-clm-background-cleanup.json"},
     {"position": 29, "arm": "native", "kind": "operator_cleanup", "evidence": "../evidence/task-029-native-background-cleanup.json"},
-    {"position": 48, "arm": "clm", "kind": "cli_capacity_replay", "evidence": "../evidence/formal-02-recovery-08-offline-proof.json"}
+    {"position": 48, "arm": "clm", "kind": "cli_capacity_replay", "evidence": "../evidence/formal-02-recovery-08-offline-proof.json"},
+    {"position": 50, "arm": "native", "kind": "operator_cleanup", "evidence": "../evidence/task-050-native-background-cleanup.json"},
+    {"position": 50, "arm": "clm", "kind": "operator_cleanup", "evidence": "../evidence/task-050-clm-background-cleanup.json"}
   ]
 }
