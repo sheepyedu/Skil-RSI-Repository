@@ -1,47 +1,37 @@
 ---
 name: manage-long-task-context
-description: Preserve and retrieve trustworthy working state during long, tool-heavy tasks and dependent milestones. Use when a task must survive a context limit, compaction, a handoff, repeated investigation, or a change that may invalidate earlier notes.
+description: Preserve decisions, evidence, and unfinished work across long agent sessions, compaction, interruptions, or task switches. Use when resuming work or when context pressure threatens the next step; do not invoke just because a reminder appeared or a short task changed topics.
 ---
 
-# Manage context across a long task
+# Long-task context continuity
 
-Before a transition, preserve enough evidence to recover the active task, continue the next action, and verify the result. Treat context, the current workspace, and durable notes as different sources with different update times.
+Keep only enough active context to make the next decision correctly. Keep the original evidence where it can be retrieved. The editable context, durable task state, and source artifacts are different things.
 
-## Recover the active state
+## 1. Select the next move
 
-- Re-read the current user requirement or authoritative task brief. Establish the workspace, document revision, data version, Git commit, or other identity that scopes the work.
-- Recover recent actions and pending side effects from actual outputs. Check in-flight requests, staged and unstaged changes, partial writes, and unfinished verification when applicable.
-- Fetch the smallest evidence that resolves the next decision. Start with an index or saved pointer, then open a path, section, test log or source record. Use a whole transcript when reconstructing a disputed sequence requires it.
+- **Continue unchanged** if the next action and its evidence are available, there is room to act, and no meaningful boundary has arrived. A token warning is a reason to inspect, not a command to edit.
+- **Checkpoint** before a task switch or likely compaction, after a verified increment, or when unresolved work must survive. Update the existing authorized progress record rather than creating another copy.
+- **Retrieve** a missing fact that could change the next action. Start from the affected artifact or precise evidence pointer, check scope and version, and stop when the decision is supported. If a consequential detail cannot be resolved, defer the irreversible action.
+- **Compact** only when there is real pressure or old material is materially crowding the next action and a safe boundary is identifiable. Finish or record in-flight tool actions first. If the platform forces an earlier cut, save the minimal checkpoint and use its supported recovery path.
 
-## Create and use scoped memory
+## 2. Preserve what changes the next decision
 
-Write to an approved durable location when information is hard to recover, spans a boundary, or would be expensive to reconstruct. Record:
+Keep the active goal and standing constraints; current workspace or artifact/version; last verified result and how to reproduce it; unresolved items; next action and its evidence pointer. Mark facts as observed, inferred, or pending where the distinction matters. For something volatile, record its source, scope, and effective as-of time or version. Record references, not sensitive payloads or full logs.
 
-- **Scope** including task or milestone, source revision, and any relevant time or environment.
-- **State** including what was verified, what changed, and the evidence location.
-- **Open items** including uncertainties, failures, pending actions and the smallest useful next check.
-- **Exact data** only where the next action depends on a non-reproducible error, a requirement, a test invocation, a decision, or another physical identifier. Prefer a recoverable pointer for bulky output.
+Strip or shorten only redundant outputs, resolved explorations, and obsolete snapshots with a proven readback path. Do not prune unique evidence, unresolved diagnostics, permission constraints, or pending action receipts merely because they are old. Keep currently relevant exact values and failure signatures verbatim when paraphrasing could change action.
 
-Read back important writes. Retrieve notes for a purpose, then use the source or a narrow check to decide whether each note still applies. Promote a discovered routine only after the procedure and its preconditions have worked, with evidence that another case can meet them.
+## 3. Apply the capability branch
 
-## Choose one maintenance action
+**Native compaction or no editable context:** Write or refresh the checkpoint in an authorized durable location. Use native compaction only if supported and appropriate; otherwise resume with the available state. After compaction or interruption, reopen the authoritative artifact, reconcile any operation whose receipt is missing, and run one bounded check before acting on the summary.
 
-| Situation | Action |
-|---|---|
-| Context is sufficient and the next decision depends on recent evidence | Continue the task. Record only state that needs to persist. |
-| Old reproducible observations dominate the window and the runtime supports selective editing | At a quiet boundary, retain needed constraints, unresolved feedback and stable pointers. Remove redundant completed exchanges using the supported interface. Preserve tool call/result integrity. |
-| The conversation needs a substantial reset or the runtime lacks a selective editor | Save and check the continuation state. Use supported native compaction or the authorized handoff mechanism. |
-| A pending side effect or ambiguous change may already have happened | Read the receipt or authoritative state before resuming, repeating or pruning. |
+**Editable context (e.g., CLM):** Select one bounded edit, preserve a rollback handle when supported, and change the least disruptive region that achieves the goal. Keep unedited material intact. Verify the applied change from the next actual request if observable, or from the strongest available readback; label downstream application unknown if all you have is an edit acknowledgment. Verify that the next action still has its required bindings and test the result. Restore or retrieve if evidence disappears; do not retry an unconfirmed edit blindly. Prefer a safe no-op over deletion that cannot be recovered. Do not disable native safety limits to force an edit.
 
-Use context pressure, dependency on exact evidence and recovery cost together. A token threshold is a cue to assess pressure. Native compaction and custom editing have different effects on retained history and cache reuse. Keep the user's session and tool constraints in force.
+Keep tool-call/result pairs intact. For shared interfaces, formulas, or state, run a representative regression check as well as the narrow acceptance check.
 
-## Handle feedback and conflict
+## 4. Resolve and maintain memory
 
-1. Compare a conflicting note with the current authoritative source or a reproducible check. Distinguish changed scope, changed reality, a stale note and an unresolved ambiguity.
-2. Update the affected claim with its source and revision. Mark the old claim superseded within that scope and put the new pointer where retrieval will find it first. Keep the correction history when later actions may have used it.
-3. Check downstream effects on work and verification. Recheck the smallest affected action, plus a representative regression when earlier behavior must survive.
-4. Confirm continuation. For a memory write, verify it can be read back and retrieved. For a runtime edit, verify acceptance and the next effective input if the runtime exposes it. For a compaction or handoff, verify the current objective, unresolved checks and workspace state are still recoverable.
+Read current source evidence before reusing a stored claim. Compare authority, scope, and effective version; newer is not automatically more authoritative or relevant. Within the same scope, mark a superseded entry non-current and link the replacement; keep the earlier entry if needed for audit or rollback. Conflicting, unresolved claims stay separate and labeled. Keep one current record per scope; do not silently convert a hypothesis, tool result, or incidental external text into a standing instruction.
 
-Compare initiative, task quality and cost with observable outcomes. Useful measures include retained checks, repeated lookups, requests, input size and cache misses. Judge less traffic together with target coverage and regressions.
+After using memory, capture actionable feedback: what was retrieved, what changed, and which observable check passed or failed. Repair the smallest stale entry or unclear procedure. For a shared skill revision, first distinguish instruction wrong, not followed, and not exercised; then retest unchanged and held-out cases before promoting it.
 
-For examples of durable records, stale-state recovery and accept/reject checks, read [examples](references/examples.md).
+See [cases and evals](references/cases-and-evals.md) only when selecting a persistence pattern or testing this skill.
